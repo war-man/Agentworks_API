@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by Elena Kuznetsov (MoneyGram International) -->
+<xs:schema 
+	xmlns="http://moneygram.com/common_v1" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:cmn="http://moneygram.com/common_v1"  
+	targetNamespace="http://moneygram.com/common_v1"  elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="mgi_error_v1.xsd"/>
+	<xs:include schemaLocation="mgi_request_metadata_v1.xsd"/>
+	
+	<xs:complexType name="BaseServiceRequestMessage">
+		<xs:sequence>
+			<xs:element name="header" type="Header" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="BaseServiceResponseMessage">
+		<xs:sequence>
+			<xs:element name="header" type="Header" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="error" type="cmn:ServiceError"
+				minOccurs="0" maxOccurs="1"/>
+			
+		</xs:sequence>
+	</xs:complexType>
+		
+	
+</xs:schema> 

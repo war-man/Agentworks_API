@@ -1,0 +1,60 @@
+STRKEY_ACCT_NUM	رقم الحساب
+STRKEY_AMOUNT	المبلغ
+STRKEY_ANOTHER_PERSON	شخص آخر
+STRKEY_CANCEL	إلغاء
+STRKEY_CITY	المدينة
+STRKEY_COMPLETE_TRAN	إكمال الحركة
+STRKEY_COUNTRY	البلد
+STRKEY_CUST_NOT_ON_RECORD	سجل العميل ليس على ملف. سنبدأ الآن جمع معلومات العميل.
+STRKEY_DEST_COUNTRY	البلد الوجهة
+STRKEY_DEST_STATE	الولاية/الإقليم الوجهة
+STRKEY_DESTINATION	الوجهة
+STRKEY_DISCOUNT	الخصم
+STRKEY_DOB	تاريخ الميلاد
+STRKEY_ESTIMATE_FEE	تقدير الرسوم
+STRKEY_FEE	الرسوم
+STRKEY_FIRST_NAME	الاسم الأول
+STRKEY_FX_RATE	سعر صرف العملات الأجنبية
+STRKEY_GOV_ID_NUM	رقم الهوية الصادرة من الحكومة
+STRKEY_GOV_ID_TYPE	نوع بطاقة الهوية الصادرة من الحكومة
+STRKEY_IS_CUST_RECEIVING	هل يتلقى العميل مالاً نيابة عن شخص آخر أو مؤسسة أخرى (طرف خارجي)؟
+STRKEY_ISSUING_COUNTRY	بلد الإصدار
+STRKEY_ISSUING_STATE	ولاية/إقليم الإصدار
+STRKEY_LAST_NAME	اسم العائلة/اللقب
+STRKEY_MIDDLE_NAME	الاسم الأوسط
+STRKEY_MSG	الرسالة
+STRKEY_NEW_CUSTOMER	عميل جديد
+STRKEY_NEXT	Next (التالي)
+STRKEY_NO_THIRD_PARTY	ليس طرفًا ثالثًا
+STRKEY_OCCUPATION	المهنة
+STRKEY_ORG	مؤسسة
+STRKEY_PAY_TO	ادفع لحساب
+STRKEY_PHONE	رقم الهاتف
+STRKEY_PHOTO_ID	رقم بطاقة هوية بها صورة
+STRKEY_PHOTO_ID_NUM	رقم بطاقة هوية بها صورة
+STRKEY_PHOTO_ID_TYPE	نوع بطاقة هوية بها صورة
+STRKEY_RECEIVER	اسم العائلة/اللقب للمستلم
+STRKEY_RECEIVER_COUNTRY	بلد المُستلم
+STRKEY_RECEIVER_INFO	معلومات المُستلِم
+STRKEY_RECV	استلام مال
+STRKEY_RECV_AMT	مبلغ الاستلام
+STRKEY_RECV_REVERSAL	تغيير اتجاه الاستلام
+STRKEY_REF_NUM	الرقم المرجعي
+STRKEY_REFUND	إعادة المال
+STRKEY_REGISTER_PLUS	التسجيل في برنامج المكافآت
+STRKEY_REPRINT_RECEIPTS	إعادة طباعة الإيصال
+STRKEY_SECOND_LAST_NAME	اسم العائلة/اللقب الثاني
+STRKEY_SELECT_ONE	حدد خيارًا
+STRKEY_SEND_AMT	المبلغ المُرسَل
+STRKEY_SEND_MONEY	إرسال المال
+STRKEY_SENDER	اسم العائلة/اللقب للمُرسِل
+STRKEY_SENDER_LOCATION	موقع المُرسِل
+STRKEY_SENT_FROM	جهة الإرسال
+STRKEY_STATE	الولاية/الإقليم
+STRKEY_STREET	عنوان الشارع
+STRKEY_THIRD_PARTY	طرف خارجي
+STRKEY_THIRD_PARTY_ORG	مؤسسة تابعة لطرف ثالث
+STRKEY_TOTAL	الإجمالي
+STRKEY_TRAN_DETAILS	تفاصيل الحركة
+STRKEY_TRAN_STATUS	حالة الحركة
+STRKEY_YES_CONTINUE	نعم، متابعة

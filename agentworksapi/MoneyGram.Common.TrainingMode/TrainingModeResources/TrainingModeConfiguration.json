@@ -1,0 +1,150 @@
+﻿{
+  "scenarios": [
+    {
+      "sessionType": "SEND",
+      "responses": {
+        "sendCompleteSession": "SendCompleteSession.json",
+        "sendCompleteSessionThermal": "SendCompleteSessionThermal.json",
+        "stagedSendSearchTransactions": "StagedSendSearchTransactions.json",
+        "sendCreateOrUpdateProfileSender": "SendCreateOrUpdateProfileSender.json"
+      }
+    },
+    {
+      "sessionType": "SEND",
+      "referenceNumber": "11111111",
+      "isStaged": true,
+      "responses": {
+        "stagedSendTransactionLookup": "StagedSendTransactionLookup.json",
+        "stagedSendValidationEmpty": "StagedSendValidationEmpty.json",
+        "stagedSendValidationNonempty": "StagedSendValidationNonempty.json",
+        "stagedSendValidationNonemptyThermal": "StagedSendValidationNonemptyThermal.json",
+        "sendCompleteSession": "StagedSendCompleteSession.json",
+        "sendCompleteSessionThermal": "StagedSendCompleteSessionThermal.json"
+      }
+    },
+    {
+      "sessionType": "BP",
+      "responses": {
+        "billPayCompleteSession": "BillPayCompleteSession.json",
+        "billPayCompleteSessionThermal": "BillPayCompleteSessionThermal.json",
+        "stagedBillPaySearchTransactions": "StagedBillPaySearchTransactions.json"
+      }
+    },
+    {
+      "sessionType": "BP",
+      "referenceNumber": "11111111",
+      "isStaged": true,
+      "responses": {
+        "stagedBillPayTransactionLookup": "StagedBillPayTransactionLookup.json",
+        "stagedBillPayValidationEmpty": "StagedBillPayValidationEmpty.json",
+        "stagedBillPayValidationNonempty": "StagedBillPayValidationNonempty.json",
+        "stagedBillPayValidationNonemptyThermal": "StagedBillPayValidationNonemptyThermal.json",
+        "billPayCompleteSession": "StagedBillPayCompleteSession.json",
+        "billPayCompleteSessionThermal": "StagedBillPayCompleteSessionThermal.json"
+      }
+    },
+    {
+      "sessionType": "RCV",
+      "referenceNumber": "11111111",
+      "responses": {
+        "receiveTransactionLookup": "ReceiveTransactionLookup.json",
+        "receiveValidationEmpty": "ReceiveValidationEmpty.json",
+        "receiveValidationNonEmpty": "ReceiveValidationNonempty.json",
+        "receiveCompleteSession": "ReceiveCompleteSession.json",
+        "receiveCompleteSessionThermal": "ReceiveCompleteSessionThermal.json",
+        "receiveSearchConsumerProfile": "ReceiveSearchConsumerProfile.json",
+        "receiveGetProfileReceiver": "ReceiveGetProfileReceiver.json",
+        "receiveCreateOrUpdateProfileReceiver": "ReceiveCreateOrUpdateProfileReceiver.json"
+      }
+    },
+    {
+      "sessionType": "RCV",
+      "referenceNumber": "22222222",
+      "responses": {
+        "receiveTransactionLookup": "ReceiveTransactionLookup.json",
+        "receiveValidationEmpty": "ReceiveValidationEmpty.json",
+        "receiveValidationNonEmpty": "ReceiveValidationNonempty.json",
+        "receiveCompleteSession": "ReceiveCompleteSession.json",
+        "receiveCompleteSessionThermal": "ReceiveCompleteSessionThermal.json",
+        "receiveSearchConsumerProfile": "ReceiveSearchConsumerProfile.json"
+      }
+    },
+    {
+      "sessionType": "RCV",
+      "referenceNumber": "33333333",
+      "responses": {
+        "receiveTransactionLookup": "ReceiveTransactionLookup.json",
+        "receiveValidationEmpty": "ReceiveValidationEmpty.json",
+        "receiveValidationNonEmpty": "ReceiveValidationNonempty.json",
+        "receiveCompleteSession": "ReceiveCompleteSession.json",
+        "receiveCompleteSessionThermal": "ReceiveCompleteSessionThermal.json",
+        "receiveSearchConsumerProfile": "ReceiveSearchConsumerProfile.json"
+      }
+    },
+    {
+      "sessionType": "RCV",
+      "referenceNumber": "44444444",
+      "isStaged": true,
+      "responses": {
+        "stagedReceiveTransactionLookup": "StagedReceiveTransactionLookup.json",
+        "stagedReceiveValidationEmpty": "StagedReceiveValidationEmpty.json",
+        "stagedReceiveValidationEmptyDt4": "StagedReceiveValidationEmptyDt4.json",
+        "stagedReceiveValidationNonEmpty": "StagedReceiveValidationNonempty.json",
+        "stagedReceiveCompleteSession": "StagedReceiveCompleteSession.json",
+        "stagedReceiveCompleteSessionThermal": "StagedReceiveCompleteSessionThermal.json"
+      }
+    },
+    {
+      "sessionType": "RCV",
+      "responses": {
+        "receiveSearchConsumerProfile": "ReceiveSearchConsumerProfileEmpty.json",
+        "receiveCreateOrUpdateProfileReceiver": "ReceiveCreateOrUpdateProfileReceiverEmpty.json"
+      }
+    },
+    {
+      "sessionType": "SREV",
+      "referenceNumber": "55555555",
+      "responses": {
+        "statusTransactionLookup": "SendReversalTransactionLookupStatus.json",
+        "sendReversalTransactionLookup": "SendReversalTransactionLookup.json",
+        "sendReversalValidationEmpty": "SendReversalValidationEmpty.json",
+        "sendReversalValidationNonEmpty": "SendReversalValidationNonempty.json",
+        "sendReversalCompleteSession": "SendReversalCompleteSession.json"
+      }
+    },
+    {
+      "sessionType": "SREV",
+      "referenceNumber": "66666666",
+      "responses": {
+        "statusTransactionLookup": "SendReversalTransactionLookupStatus.json",
+        "sendReversalTransactionLookup": "SendReversalTransactionLookup.json",
+        "sendReversalValidationEmpty": "SendReversalValidationEmpty.json",
+        "sendReversalValidationNonEmpty": "SendReversalValidationNonempty.json",
+        "sendReversalCompleteSession": "SendReversalCompleteSession.json"
+      }
+    },
+    {
+      "sessionType": "AMD",
+      "referenceNumber": "77777777",
+      "responses": {
+        "statusTransactionLookup": "AmendTransactionLookupStatus.json",
+        "amendTransactionLookup": "AmendTransactionLookup.json",
+        "amendValidationEmpty": "AmendValidationEmpty.json",
+        "amendValidationNonEmpty": "AmendValidationNonempty.json",
+        "amendCompleteSession": "AmendCompleteSession.json"
+      }
+    },
+    {
+      "sessionType": "REP",
+      "responses": {
+        "reportDailyTransactionActivityMtTransaction": "ReportDailyTransactionActivityMtTransaction.json",
+        "reportDailyTransactionActivityBillPayTransaction": "ReportDailyTransactionActivityBillPayTransaction.json"
+      }
+    },
+    {
+      "responses": {
+        "saveTransactionDocument": "SaveTransactionDocument.json"
+      }
+    }
+  ]
+}

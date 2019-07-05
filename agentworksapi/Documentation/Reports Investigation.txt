@@ -1,0 +1,245 @@
+//////////////////////////////////
+// Which Reports are Functional //
+//////////////////////////////////
+
+--------------------
+ Max Limit Exceeded 
+--------------------
+- Not accessable through the UI, must enter route manually
+- Not functional
+
+
+--------------------------
+ Daily Transaction Detail 
+--------------------------
+Cannot export or print the report (Can do this in legacy system)
+
+SEND
+- Does not properly limit the report to the selected pos
+- Results are not sorted in any discernable order
+- user id and computer name are not populated for sends
+- is fee working? -- need to test in environment with fees...
+
+RECEIVE
+- User ID and computer name are not populated
+
+BILL PAY
+- User ID and computer name are not populated
+- USD 1 appears at each row outside of the table
+
+
+---------------------------
+ Daily Transaction Summary
+---------------------------
+Appears to be functional
+
+
+-------------------------
+ Daily Transaction Sales 
+-------------------------
+- No wireframes
+- Employee number, serial number, and user name not populated
+- No discernable sorting
+
+
+/////////////////////////////////
+// Environmental Requirements: //
+/////////////////////////////////
+
+- Need active agent and pos set up in environment with transactional and reporting capabilities authorized
+
+
+////////////////////
+// Call Sequences //
+////////////////////
+
+------------------
+GetDailyTranDetail
+------------------
+--> GetReportContainer() [Internal]
+
+--> GetSendReceiveDailyTranDetail() [Internal]
+	--> DLS.MTTransactionDetailLookup()
+	--> GetUserId() [Internal]
+		--> PartnerService.getUserIdExists()
+	--> GetComputerName() [Internal]
+		--> PartnerService.GetAgentsDeviceNames()
+
+--> GetSendTotalReport() [Internal]
+
+--> GetReceiveTotalReport() [Internal]
+
+--> GetReceiveTotalReport() [Internal]
+
+--> GetBPDailyTranDetail() [Internal]
+	--> DLS.BPTransactionDetailLookup()
+	--> GetUserId() [Internal]
+		--> PartnerService.getUserIdExists()
+	--> GetComputerName() [Internal]
+		--> PartnerService.GetAgentsDeviceNames()
+
+--> GetBPDailyActivitySummary() [Internal]
+	--> DLS.BPTransactionDetailLookup()
+
+
+
+-----------------
+GetDailyTranSales
+-----------------
+--> GetReportContainer() [Internal]
+
+--> DLS.DailyTransactionDetailLookup()
+
+--> GetUserId() [Internal]
+		--> PartnerService.getUserIdExists()
+
+
+-------------------
+GetDailyTranSummary
+-------------------
+--> GetReportContainer() [Internal]
+
+--> GetBPDailyActivitySummary() [Internal]
+	--> DLS.BPTransactionDetailLookup()
+
+--> GetSendReceiveDailyTranDetail() [Internal]
+	--> DLS.MTTransactionDetailLookup()
+	--> GetUserId() [Internal]
+		--> PartnerService.getUserIdExists()
+	--> GetComputerName() [Internal]
+		--> PartnerService.GetAgentsDeviceNames()
+
+--> GetSendSummaryReport() [Internal]
+
+--> GetReceiveSummaryReport() [Internal]
+
+
+--------------
+GetUserDetails
+--------------
+--> GetReportContainer() [Internal]
+
+--> PartnerService.GetUserReportsInfo()
+
+
+---------------------------
+GetTransactionExceedDetails
+---------------------------
+--> GetReportContainer() [Internal]
+
+--> PartnerService.GetTransactionExceedInfo()
+
+
+
+//////////////////
+// Calls Needed //
+//////////////////
+DLS: 
+Calls Needed:
+ - MTTransactionDetailLookup()
+ - BPTransactionDetailLookup()
+ - DailyTransactionDetailLookup()
+
+
+Partner Services:
+Calls Needed:
+ - getUserIdExists()
+ - GetAgentsDeviceNames()
+ - GetUserReportsInfo()
+ - GetTransactionExceedInfo()
+
+
+
+//////////////////////
+// Code Quality API //
+//////////////////////
+
+----------------
+ DLS Repository
+----------------
+- Follow new architectural pattern developed for AC repo
+- MoneyGram.DLS.DomainModel.TestData should fall under test project
+- MoneyGram.DLS.Repository.DomainTransformExtensions should be converted to automapper
+
+
+---------------------------
+ PartnerService Repository
+---------------------------
+- Follow new architectural pattern developed for AC repo
+- MoneyGram.PartnerService.DomainModel.TestData should fall under test project
+- MoneyGram.PartnerService.Repository.DomainTransformExtensions should be converted to automapper
+
+
+-------------------
+ AwApi.Integration
+-------------------
+- PartnerServiceIntegration -- remove: AgentId, AgentName, MainOfficeId, and StoreName
+
+
+----------------
+ AwApi.Business
+----------------
+ReportsBusiness needs to be refactored...
+
+
+
+/////////////////////////////////
+// Code Quality Static Content //
+/////////////////////////////////
+
+---------------
+ reportsCommon
+---------------
+- reportsLookup needs to be removed...
+	- Keys need to be defined in the language files in AwApi
+	- Keys need to be moved into the templates in static content
+	- Enums need to be migrated to main application lookup.js
+- reportsService needs to be cleaned up, small refactors
+- reportsViewData needs to be converted to new format
+
+
+---------------
+ reportsModels
+---------------
+- locationDetail contains model for LocationsDetail and PosDetail...need to be split out
+- Models converted to new pattern
+
+
+------------------
+ reportsContainer 
+------------------
+- remove reference to reportsButtons and replace with poe-action-bar
+
+
+----------------
+ reportsButtons
+----------------
+- remove once ReportsContainer is refactored to use poe-action-bar
+
+
+---------------
+ reportsBinder
+---------------
+- rename to something that makes sense...this is supposed to be the report table directive
+
+
+------------------
+ dailyTransaction
+------------------
+- Convert to use view models
+- Fix function names to be camel case
+
+----------------------------------
+ dailyTransaction.dailyTranDetail
+----------------------------------
+- Don't set the localized strings in the controller
+
+---------------------------------
+ dailyTransaction.dailyTranSales
+---------------------------------
+- Don't set the localized strings in the controller
+
+-----------------------------------
+ dailyTransaction.dailyTranSummary
+-----------------------------------
+- Don't set the localized strings in the controller

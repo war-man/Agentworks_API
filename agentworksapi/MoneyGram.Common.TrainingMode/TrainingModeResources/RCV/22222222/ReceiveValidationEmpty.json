@@ -1,0 +1,1054 @@
+﻿{
+	"payload":
+	{
+		"mgiSessionID": "22222222",
+		"token": null,
+		"readyForCommit": false,
+		"gafVersionNumber": null,
+		"fieldsToCollect": [
+			{
+				"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.CategoryInfo, MoneyGram.AgentConnect.DomainModel",
+				"infos": [
+					{
+						"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+						"readOnly": false,
+						"required": true,
+						"childFieldsKnown": null,
+						"fieldMin": null,
+						"fieldMax": 3,
+						"defaultValue": null,
+						"validationRegEx": null,
+						"exampleFormat": null,
+						"childFields": [],
+						"lookupDataSource": "countryInfo",
+						"lookupKey": "okForAddress",
+						"display": true,
+						"dataType": 1,
+						"enumeration": null,
+						"infoKey": "receiver_Country",
+						"label": "Country",
+						"labelStandAlone": "Receiver Country",
+						"displayOrder": 1,
+						"helpTextShort": null,
+						"helpTextLong": null,
+						"documentation": null
+					},
+					{
+						"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+						"readOnly": false,
+						"required": true,
+						"childFieldsKnown": null,
+						"fieldMin": null,
+						"fieldMax": 30,
+						"defaultValue": null,
+						"validationRegEx": "^([a-zA-Z0-9 \\u00C0-\\u017F\\#\\/\\.\\\"\\'\\,\\(\\)\\-])*$",
+						"exampleFormat": null,
+						"childFields": [],
+						"lookupDataSource": null,
+						"lookupKey": null,
+						"display": true,
+						"dataType": 1,
+						"enumeration": null,
+						"infoKey": "receiver_Address",
+						"label": "Address",
+						"labelStandAlone": "Receiver Street Address",
+						"displayOrder": 2,
+						"helpTextShort": null,
+						"helpTextLong": "Only alpha, numeric and certain special characters (#./'-,()\") are allowed. Minimum 5 characters with at least one alpha character. No repeated special characters ( #### or ////). PO Box not allowed",
+						"documentation": null
+					},
+					{
+						"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+						"readOnly": false,
+						"required": true,
+						"childFieldsKnown": null,
+						"fieldMin": null,
+						"fieldMax": 40,
+						"defaultValue": null,
+						"validationRegEx": "^([a-zA-Z \\u00C0-\\u017F\\#\\/\\.\\\"\\'\\,\\(\\)\\-])*$",
+						"exampleFormat": null,
+						"childFields": [],
+						"lookupDataSource": null,
+						"lookupKey": null,
+						"display": true,
+						"dataType": 1,
+						"enumeration": null,
+						"infoKey": "receiver_City",
+						"label": "City",
+						"labelStandAlone": "Receiver City",
+						"displayOrder": 5,
+						"helpTextShort": null,
+						"helpTextLong": null,
+						"documentation": null
+					},
+					{
+						"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+						"readOnly": false,
+						"required": false,
+						"childFieldsKnown": null,
+						"fieldMin": null,
+						"fieldMax": null,
+						"defaultValue": null,
+						"validationRegEx": null,
+						"exampleFormat": null,
+						"childFields": [],
+						"lookupDataSource": "countrySubDivInfo",
+						"lookupKey": null,
+						"display": true,
+						"dataType": 1,
+						"enumeration": null,
+						"infoKey": "receiver_Country_SubdivisionCode",
+						"label": "State/Province",
+						"labelStandAlone": "Receiver State/Province",
+						"displayOrder": 6,
+						"helpTextShort": null,
+						"helpTextLong": null,
+						"documentation": null
+					},
+					{
+						"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+						"readOnly": false,
+						"required": false,
+						"childFieldsKnown": null,
+						"fieldMin": 2,
+						"fieldMax": 10,
+						"defaultValue": null,
+						"validationRegEx": "^([0-9a-zA-Z -])*$",
+						"exampleFormat": null,
+						"childFields": [],
+						"lookupDataSource": null,
+						"lookupKey": null,
+						"display": true,
+						"dataType": 1,
+						"enumeration": null,
+						"infoKey": "receiver_PostalCode",
+						"label": "Postal Code",
+						"labelStandAlone": "Receiver Postal Code",
+						"displayOrder": 7,
+						"helpTextShort": null,
+						"helpTextLong": null,
+						"documentation": null
+					},
+					{
+						"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+						"readOnly": false,
+						"required": true,
+						"childFieldsKnown": null,
+						"fieldMin": null,
+						"fieldMax": 5,
+						"defaultValue": null,
+						"validationRegEx": null,
+						"exampleFormat": null,
+						"childFields": [],
+						"lookupDataSource": "countryPhoneCodeInfo",
+						"lookupKey": null,
+						"display": true,
+						"dataType": 1,
+						"enumeration": null,
+						"infoKey": "receiver_PrimaryPhoneCountryCode",
+						"label": "Primary Phone Country Code",
+						"labelStandAlone": "Receiver Primary Phone Country Code",
+						"displayOrder": 8,
+						"helpTextShort": null,
+						"helpTextLong": null,
+						"documentation": null
+					},
+					{
+						"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+						"readOnly": false,
+						"required": true,
+						"childFieldsKnown": null,
+						"fieldMin": 5,
+						"fieldMax": 14,
+						"defaultValue": null,
+						"validationRegEx": "^([0-9\\.\\-])*$",
+						"exampleFormat": null,
+						"childFields": [],
+						"lookupDataSource": null,
+						"lookupKey": null,
+						"display": true,
+						"dataType": 1,
+						"enumeration": null,
+						"infoKey": "receiver_PrimaryPhone",
+						"label": "Primary Phone Number",
+						"labelStandAlone": "Receiver Primary Phone Number",
+						"displayOrder": 9,
+						"helpTextShort": null,
+						"helpTextLong": "Only numeric characters are allowed. Cannot contain a string of repeating numeric characters (example 8888888)",
+						"documentation": null
+					},
+					{
+						"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+						"readOnly": false,
+						"required": true,
+						"childFieldsKnown": null,
+						"fieldMin": null,
+						"fieldMax": 30,
+						"defaultValue": null,
+						"validationRegEx": null,
+						"exampleFormat": null,
+						"childFields": [
+							{
+								"fieldValue": "OTHER",
+								"infos": [
+									{
+										"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+										"readOnly": false,
+										"required": true,
+										"childFieldsKnown": null,
+										"fieldMin": 2,
+										"fieldMax": 30,
+										"defaultValue": null,
+										"validationRegEx": "^([a-zA-Z \\u00C0-\\u017F\\/\\,\\(\\)_])*$",
+										"exampleFormat": null,
+										"childFields": [],
+										"lookupDataSource": null,
+										"lookupKey": null,
+										"display": true,
+										"dataType": 1,
+										"enumeration": null,
+										"infoKey": "receiver_OccupationOther",
+										"label": "Other Occupation",
+										"labelStandAlone": "Receiver Other Occupation",
+										"displayOrder": 17,
+										"helpTextShort": null,
+										"helpTextLong": "Cannot start with special character. Only alpha characters and forward slash (/) are allowed when 'Other' is selected. No repeated special characters (////). At least two characters must be entered",
+										"documentation": null
+									}
+								]
+							}
+						],
+						"lookupDataSource": null,
+						"lookupKey": null,
+						"display": true,
+						"dataType": 10,
+						"enumeration":
+						{
+							"name": "OCCUPATION",
+							"enumeratedItems": [
+								{
+									"identifier": "ADMIN",
+									"labelShort": "Administrative",
+									"label": "Administrative (Secretary, Paralegal)"
+								},
+								{
+									"identifier": "AGRICULTURE",
+									"labelShort": "Agriculture",
+									"label": "Agriculture (Farmer, Forestry, Animal Care)"
+								},
+								{
+									"identifier": "AUTOMOTIVE_SALES",
+									"labelShort": "Automotive Sales/Repair",
+									"label": "Automotive Sales/Repair"
+								},
+								{
+									"identifier": "BANKING",
+									"labelShort": "Banking / Financial",
+									"label": "Banking / Financial Services"
+								},
+								{
+									"identifier": "CLEAN_SERVICES",
+									"labelShort": "Cleaning Services",
+									"label": "Cleaning Services (Maid, Janitorial)"
+								},
+								{
+									"identifier": "CLERGY",
+									"labelShort": "Clergy / Religious Leader",
+									"label": "Clergy / Religious Leader"
+								},
+								{
+									"identifier": "COMPUTER",
+									"labelShort": "Computer / IT Services",
+									"label": "Computer / IT Services"
+								},
+								{
+									"identifier": "CONSTRUCT_WORKER",
+									"labelShort": "Construction Worker",
+									"label": "Construction Worker (Residential/Commercial)"
+								},
+								{
+									"identifier": "CUSTOMER_CARE",
+									"labelShort": "Customer Care / Support",
+									"label": "Customer Care / Call Center Support"
+								},
+								{
+									"identifier": "EDUCATION",
+									"labelShort": "Education",
+									"label": "Education (Teacher, Administrator, Writer)"
+								},
+								{
+									"identifier": "ENGINEER",
+									"labelShort": "Engineer",
+									"label": "Engineer"
+								},
+								{
+									"identifier": "FACTORY",
+									"labelShort": "Factory / Manufacturing",
+									"label": "Factory / Manufacturing / Production"
+								},
+								{
+									"identifier": "GENERAL_LABOR",
+									"labelShort": "General Labor",
+									"label": "General Labor (Mason, Construction)"
+								},
+								{
+									"identifier": "GOV_EMPLOYEE",
+									"labelShort": "Government Employee",
+									"label": "Government Employee / Military / Police"
+								},
+								{
+									"identifier": "HEALTH_SERVICES",
+									"labelShort": "Healthcare Services",
+									"label": "Healthcare Services (Nurse/Lab/EMT)"
+								},
+								{
+									"identifier": "HOMEMAKER",
+									"labelShort": "Homemaker",
+									"label": "Homemaker"
+								},
+								{
+									"identifier": "PROF_DRIVER",
+									"labelShort": "Professional Driver",
+									"label": "Professional Driver (Taxi/Trucking/Delivery)"
+								},
+								{
+									"identifier": "PUBLIC_OFFICIAL",
+									"labelShort": "Public Official",
+									"label": "Public Official, Legislator, etc."
+								},
+								{
+									"identifier": "RESTAURANT",
+									"labelShort": "Restaurant",
+									"label": "Restaurant / Food Services (Cook, Servers)"
+								},
+								{
+									"identifier": "RETAIL",
+									"labelShort": "Retail / Clerk",
+									"label": "Retail (Store Manager, Cashier, Stocker)"
+								},
+								{
+									"identifier": "RETIRED",
+									"labelShort": "Retired",
+									"label": "Retired"
+								},
+								{
+									"identifier": "STUDENT",
+									"labelShort": "Student",
+									"label": "Student"
+								},
+								{
+									"identifier": "UNEMPLOYED",
+									"labelShort": "Unemployed",
+									"label": "Unemployed / Not in Labor Force"
+								},
+								{
+									"identifier": "OTHER",
+									"labelShort": "Other (please specify)",
+									"label": "Other (please specify)"
+								}
+							]
+						},
+						"infoKey": "receiver_Occupation",
+						"label": "Occupation",
+						"labelStandAlone": "Receiver Occupation",
+						"displayOrder": 16,
+						"helpTextShort": null,
+						"helpTextLong": null,
+						"documentation": null
+					},
+					{
+						"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+						"readOnly": false,
+						"required": true,
+						"childFieldsKnown": null,
+						"fieldMin": null,
+						"fieldMax": 10,
+						"defaultValue": null,
+						"validationRegEx": null,
+						"exampleFormat": null,
+						"childFields": [],
+						"lookupDataSource": null,
+						"lookupKey": null,
+						"display": true,
+						"dataType": 5,
+						"enumeration": null,
+						"infoKey": "receiver_DOB",
+						"label": "Date of Birth",
+						"labelStandAlone": "Receiver Date of Birth",
+						"displayOrder": 18,
+						"helpTextShort": null,
+						"helpTextLong": null,
+						"documentation": null
+					},
+					{
+						"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+						"readOnly": false,
+						"required": true,
+						"childFieldsKnown": null,
+						"fieldMin": null,
+						"fieldMax": 3,
+						"defaultValue": null,
+						"validationRegEx": null,
+						"exampleFormat": null,
+						"childFields": [],
+						"lookupDataSource": "countryInfo",
+						"lookupKey": "okForBirth",
+						"display": true,
+						"dataType": 1,
+						"enumeration": null,
+						"infoKey": "receiver_Birth_Country",
+						"label": "Birth Country",
+						"labelStandAlone": "Receiver Birth Country",
+						"displayOrder": 19,
+						"helpTextShort": null,
+						"helpTextLong": null,
+						"documentation": null
+					},
+					{
+						"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.CategoryInfo, MoneyGram.AgentConnect.DomainModel",
+						"infos": [
+							{
+								"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+								"readOnly": false,
+								"required": true,
+								"childFieldsKnown": null,
+								"fieldMin": null,
+								"fieldMax": null,
+								"defaultValue": null,
+								"validationRegEx": null,
+								"exampleFormat": null,
+								"childFields": [
+									{
+										"fieldValue": "ALN",
+										"infos": [
+											{
+												"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+												"readOnly": false,
+												"required": false,
+												"childFieldsKnown": null,
+												"fieldMin": null,
+												"fieldMax": null,
+												"defaultValue": null,
+												"validationRegEx": null,
+												"exampleFormat": null,
+												"childFields": [],
+												"lookupDataSource": "countrySubDivInfo",
+												"lookupKey": null,
+												"display": true,
+												"dataType": 1,
+												"enumeration": null,
+												"infoKey": "receiver_PersonalId1_Issue_Country_SubdivisionCode",
+												"label": "ID Issue State/Province",
+												"labelStandAlone": "Receiver Issue ID State/Province",
+												"displayOrder": 10,
+												"helpTextShort": null,
+												"helpTextLong": null,
+												"documentation": null
+											},
+											{
+												"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+												"readOnly": false,
+												"required": true,
+												"childFieldsKnown": null,
+												"fieldMin": null,
+												"fieldMax": 3,
+												"defaultValue": null,
+												"validationRegEx": null,
+												"exampleFormat": null,
+												"childFields": [],
+												"lookupDataSource": "countryInfo",
+												"lookupKey": "okForIdentification",
+												"display": true,
+												"dataType": 1,
+												"enumeration": null,
+												"infoKey": "receiver_PersonalId1_Issue_Country",
+												"label": "ID Issue Country",
+												"labelStandAlone": "Receiver ID Issue Country",
+												"displayOrder": 9,
+												"helpTextShort": null,
+												"helpTextLong": null,
+												"documentation": null
+											},
+											{
+												"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+												"readOnly": false,
+												"required": true,
+												"childFieldsKnown": null,
+												"fieldMin": null,
+												"fieldMax": 20,
+												"defaultValue": null,
+												"validationRegEx": "^(([0-9A-Za-z]\\-*\\**\\s*)*([0-9A-Za-z]*\\s*\\-*\\**))*$",
+												"exampleFormat": null,
+												"childFields": [],
+												"lookupDataSource": null,
+												"lookupKey": null,
+												"display": true,
+												"dataType": 1,
+												"enumeration": null,
+												"infoKey": "receiver_PersonalId1_Number",
+												"label": "ID Number",
+												"labelStandAlone": "Receiver ID Number",
+												"displayOrder": 2,
+												"helpTextShort": null,
+												"helpTextLong": null,
+												"documentation": null
+											}
+										]
+									},
+									{
+										"fieldValue": "DRV",
+										"infos": [
+											{
+												"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+												"readOnly": false,
+												"required": false,
+												"childFieldsKnown": null,
+												"fieldMin": null,
+												"fieldMax": null,
+												"defaultValue": null,
+												"validationRegEx": null,
+												"exampleFormat": null,
+												"childFields": [],
+												"lookupDataSource": "countrySubDivInfo",
+												"lookupKey": null,
+												"display": true,
+												"dataType": 1,
+												"enumeration": null,
+												"infoKey": "receiver_PersonalId1_Issue_Country_SubdivisionCode",
+												"label": "ID Issue State/Province",
+												"labelStandAlone": "Receiver Issue ID State/Province",
+												"displayOrder": 10,
+												"helpTextShort": null,
+												"helpTextLong": null,
+												"documentation": null
+											},
+											{
+												"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+												"readOnly": false,
+												"required": true,
+												"childFieldsKnown": null,
+												"fieldMin": null,
+												"fieldMax": 3,
+												"defaultValue": null,
+												"validationRegEx": null,
+												"exampleFormat": null,
+												"childFields": [],
+												"lookupDataSource": "countryInfo",
+												"lookupKey": "okForIdentification",
+												"display": true,
+												"dataType": 1,
+												"enumeration": null,
+												"infoKey": "receiver_PersonalId1_Issue_Country",
+												"label": "ID Issue Country",
+												"labelStandAlone": "Receiver ID Issue Country",
+												"displayOrder": 9,
+												"helpTextShort": null,
+												"helpTextLong": null,
+												"documentation": null
+											},
+											{
+												"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+												"readOnly": false,
+												"required": true,
+												"childFieldsKnown": null,
+												"fieldMin": null,
+												"fieldMax": 20,
+												"defaultValue": null,
+												"validationRegEx": "^(([0-9A-Za-z]\\-*\\**\\s*)*([0-9A-Za-z]*\\s*\\-*\\**))*$",
+												"exampleFormat": null,
+												"childFields": [],
+												"lookupDataSource": null,
+												"lookupKey": null,
+												"display": true,
+												"dataType": 1,
+												"enumeration": null,
+												"infoKey": "receiver_PersonalId1_Number",
+												"label": "ID Number",
+												"labelStandAlone": "Receiver ID Number",
+												"displayOrder": 2,
+												"helpTextShort": null,
+												"helpTextLong": null,
+												"documentation": null
+											}
+										]
+									},
+									{
+										"fieldValue": "GOV",
+										"infos": [
+											{
+												"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+												"readOnly": false,
+												"required": false,
+												"childFieldsKnown": null,
+												"fieldMin": null,
+												"fieldMax": null,
+												"defaultValue": null,
+												"validationRegEx": null,
+												"exampleFormat": null,
+												"childFields": [],
+												"lookupDataSource": "countrySubDivInfo",
+												"lookupKey": null,
+												"display": true,
+												"dataType": 1,
+												"enumeration": null,
+												"infoKey": "receiver_PersonalId1_Issue_Country_SubdivisionCode",
+												"label": "ID Issue State/Province",
+												"labelStandAlone": "Receiver Issue ID State/Province",
+												"displayOrder": 10,
+												"helpTextShort": null,
+												"helpTextLong": null,
+												"documentation": null
+											},
+											{
+												"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+												"readOnly": false,
+												"required": true,
+												"childFieldsKnown": null,
+												"fieldMin": null,
+												"fieldMax": 3,
+												"defaultValue": null,
+												"validationRegEx": null,
+												"exampleFormat": null,
+												"childFields": [],
+												"lookupDataSource": "countryInfo",
+												"lookupKey": "okForIdentification",
+												"display": true,
+												"dataType": 1,
+												"enumeration": null,
+												"infoKey": "receiver_PersonalId1_Issue_Country",
+												"label": "ID Issue Country",
+												"labelStandAlone": "Receiver ID Issue Country",
+												"displayOrder": 9,
+												"helpTextShort": null,
+												"helpTextLong": null,
+												"documentation": null
+											},
+											{
+												"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+												"readOnly": false,
+												"required": true,
+												"childFieldsKnown": null,
+												"fieldMin": null,
+												"fieldMax": 20,
+												"defaultValue": null,
+												"validationRegEx": "^(([0-9A-Za-z]\\-*\\**\\s*)*([0-9A-Za-z]*\\s*\\-*\\**))*$",
+												"exampleFormat": null,
+												"childFields": [],
+												"lookupDataSource": null,
+												"lookupKey": null,
+												"display": true,
+												"dataType": 1,
+												"enumeration": null,
+												"infoKey": "receiver_PersonalId1_Number",
+												"label": "ID Number",
+												"labelStandAlone": "Receiver ID Number",
+												"displayOrder": 2,
+												"helpTextShort": null,
+												"helpTextLong": null,
+												"documentation": null
+											}
+										]
+									},
+									{
+										"fieldValue": "PAS",
+										"infos": [
+											{
+												"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+												"readOnly": false,
+												"required": false,
+												"childFieldsKnown": null,
+												"fieldMin": null,
+												"fieldMax": null,
+												"defaultValue": null,
+												"validationRegEx": null,
+												"exampleFormat": null,
+												"childFields": [],
+												"lookupDataSource": "countrySubDivInfo",
+												"lookupKey": null,
+												"display": true,
+												"dataType": 1,
+												"enumeration": null,
+												"infoKey": "receiver_PersonalId1_Issue_Country_SubdivisionCode",
+												"label": "ID Issue State/Province",
+												"labelStandAlone": "Receiver Issue ID State/Province",
+												"displayOrder": 10,
+												"helpTextShort": null,
+												"helpTextLong": null,
+												"documentation": null
+											},
+											{
+												"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+												"readOnly": false,
+												"required": true,
+												"childFieldsKnown": null,
+												"fieldMin": null,
+												"fieldMax": 3,
+												"defaultValue": null,
+												"validationRegEx": null,
+												"exampleFormat": null,
+												"childFields": [],
+												"lookupDataSource": "countryInfo",
+												"lookupKey": "okForIdentification",
+												"display": true,
+												"dataType": 1,
+												"enumeration": null,
+												"infoKey": "receiver_PersonalId1_Issue_Country",
+												"label": "ID Issue Country",
+												"labelStandAlone": "Receiver ID Issue Country",
+												"displayOrder": 9,
+												"helpTextShort": null,
+												"helpTextLong": null,
+												"documentation": null
+											},
+											{
+												"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+												"readOnly": false,
+												"required": true,
+												"childFieldsKnown": null,
+												"fieldMin": null,
+												"fieldMax": 20,
+												"defaultValue": null,
+												"validationRegEx": "^(([0-9A-Za-z]\\-*\\**\\s*)*([0-9A-Za-z]*\\s*\\-*\\**))*$",
+												"exampleFormat": null,
+												"childFields": [],
+												"lookupDataSource": null,
+												"lookupKey": null,
+												"display": true,
+												"dataType": 1,
+												"enumeration": null,
+												"infoKey": "receiver_PersonalId1_Number",
+												"label": "ID Number",
+												"labelStandAlone": "Receiver ID Number",
+												"displayOrder": 2,
+												"helpTextShort": null,
+												"helpTextLong": null,
+												"documentation": null
+											}
+										]
+									},
+									{
+										"fieldValue": "STA",
+										"infos": [
+											{
+												"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+												"readOnly": false,
+												"required": false,
+												"childFieldsKnown": null,
+												"fieldMin": null,
+												"fieldMax": null,
+												"defaultValue": null,
+												"validationRegEx": null,
+												"exampleFormat": null,
+												"childFields": [],
+												"lookupDataSource": "countrySubDivInfo",
+												"lookupKey": null,
+												"display": true,
+												"dataType": 1,
+												"enumeration": null,
+												"infoKey": "receiver_PersonalId1_Issue_Country_SubdivisionCode",
+												"label": "ID Issue State/Province",
+												"labelStandAlone": "Receiver Issue ID State/Province",
+												"displayOrder": 10,
+												"helpTextShort": null,
+												"helpTextLong": null,
+												"documentation": null
+											},
+											{
+												"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+												"readOnly": false,
+												"required": true,
+												"childFieldsKnown": null,
+												"fieldMin": null,
+												"fieldMax": 3,
+												"defaultValue": null,
+												"validationRegEx": null,
+												"exampleFormat": null,
+												"childFields": [],
+												"lookupDataSource": "countryInfo",
+												"lookupKey": "okForIdentification",
+												"display": true,
+												"dataType": 1,
+												"enumeration": null,
+												"infoKey": "receiver_PersonalId1_Issue_Country",
+												"label": "ID Issue Country",
+												"labelStandAlone": "Receiver ID Issue Country",
+												"displayOrder": 9,
+												"helpTextShort": null,
+												"helpTextLong": null,
+												"documentation": null
+											},
+											{
+												"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+												"readOnly": false,
+												"required": true,
+												"childFieldsKnown": null,
+												"fieldMin": null,
+												"fieldMax": 20,
+												"defaultValue": null,
+												"validationRegEx": "^(([0-9A-Za-z]\\-*\\**\\s*)*([0-9A-Za-z]*\\s*\\-*\\**))*$",
+												"exampleFormat": null,
+												"childFields": [],
+												"lookupDataSource": null,
+												"lookupKey": null,
+												"display": true,
+												"dataType": 1,
+												"enumeration": null,
+												"infoKey": "receiver_PersonalId1_Number",
+												"label": "ID Number",
+												"labelStandAlone": "Receiver ID Number",
+												"displayOrder": 2,
+												"helpTextShort": null,
+												"helpTextLong": null,
+												"documentation": null
+											}
+										]
+									}
+								],
+								"lookupDataSource": null,
+								"lookupKey": null,
+								"display": true,
+								"dataType": 10,
+								"enumeration":
+								{
+									"name": "PERSONAL_ID1_TYPE",
+									"enumeratedItems": [
+										{
+											"identifier": "ALN",
+											"labelShort": "Alien ID",
+											"label": "Alien ID"
+										},
+										{
+											"identifier": "DRV",
+											"labelShort": "Drivers License",
+											"label": "Drivers License"
+										},
+										{
+											"identifier": "GOV",
+											"labelShort": "Government ID",
+											"label": "Government ID"
+										},
+										{
+											"identifier": "PAS",
+											"labelShort": "Passport",
+											"label": "Passport"
+										},
+										{
+											"identifier": "STA",
+											"labelShort": "State ID",
+											"label": "State ID"
+										}
+									]
+								},
+								"infoKey": "receiver_PersonalId1_Type",
+								"label": "ID Type",
+								"labelStandAlone": "Receiver ID Type",
+								"displayOrder": 1,
+								"helpTextShort": null,
+								"helpTextLong": null,
+								"documentation": null
+							}
+						],
+						"infoKey": "receiveReceiverIdentificationPrimarySet",
+						"label": "Primary Identification",
+						"labelStandAlone": "Receiver Primary Identification",
+						"displayOrder": 34,
+						"helpTextShort": null,
+						"helpTextLong": null,
+						"documentation": null
+					},
+					{
+						"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.CategoryInfo, MoneyGram.AgentConnect.DomainModel",
+						"infos": [
+							{
+								"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+								"readOnly": false,
+								"required": true,
+								"childFieldsKnown": null,
+								"fieldMin": null,
+								"fieldMax": null,
+								"defaultValue": null,
+								"validationRegEx": null,
+								"exampleFormat": null,
+								"childFields": [
+									{
+										"fieldValue": "ALN",
+										"infos": [
+											{
+												"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+												"readOnly": false,
+												"required": true,
+												"childFieldsKnown": null,
+												"fieldMin": null,
+												"fieldMax": 14,
+												"defaultValue": null,
+												"validationRegEx": "^(([0-9A-Za-z]\\-*\\**\\s*)*([0-9A-Za-z]*\\s*\\-*\\**))*$",
+												"exampleFormat": null,
+												"childFields": [],
+												"lookupDataSource": null,
+												"lookupKey": null,
+												"display": true,
+												"dataType": 1,
+												"enumeration": null,
+												"infoKey": "receiver_PersonalId2_Number",
+												"label": "Secondary ID Number",
+												"labelStandAlone": "Receiver Secondary ID Number",
+												"displayOrder": 2,
+												"helpTextShort": null,
+												"helpTextLong": null,
+												"documentation": null
+											}
+										]
+									},
+									{
+										"fieldValue": "INT",
+										"infos": [
+											{
+												"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+												"readOnly": false,
+												"required": true,
+												"childFieldsKnown": null,
+												"fieldMin": null,
+												"fieldMax": 14,
+												"defaultValue": null,
+												"validationRegEx": "^(([0-9A-Za-z]\\-*\\**\\s*)*([0-9A-Za-z]*\\s*\\-*\\**))*$",
+												"exampleFormat": null,
+												"childFields": [],
+												"lookupDataSource": null,
+												"lookupKey": null,
+												"display": true,
+												"dataType": 1,
+												"enumeration": null,
+												"infoKey": "receiver_PersonalId2_Number",
+												"label": "Secondary ID Number",
+												"labelStandAlone": "Receiver Secondary ID Number",
+												"displayOrder": 2,
+												"helpTextShort": null,
+												"helpTextLong": null,
+												"documentation": null
+											}
+										]
+									},
+									{
+										"fieldValue": "SSN",
+										"infos": [
+											{
+												"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+												"readOnly": false,
+												"required": true,
+												"childFieldsKnown": null,
+												"fieldMin": null,
+												"fieldMax": 14,
+												"defaultValue": null,
+												"validationRegEx": "^(([0-9A-Za-z]\\-*\\**\\s*)*([0-9A-Za-z]*\\s*\\-*\\**))*$",
+												"exampleFormat": null,
+												"childFields": [],
+												"lookupDataSource": null,
+												"lookupKey": null,
+												"display": true,
+												"dataType": 1,
+												"enumeration": null,
+												"infoKey": "receiver_PersonalId2_Number",
+												"label": "Secondary ID Number",
+												"labelStandAlone": "Receiver Secondary ID Number",
+												"displayOrder": 2,
+												"helpTextShort": null,
+												"helpTextLong": null,
+												"documentation": null
+											}
+										]
+									},
+									{
+										"fieldValue": "TAX",
+										"infos": [
+											{
+												"$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+												"readOnly": false,
+												"required": true,
+												"childFieldsKnown": null,
+												"fieldMin": null,
+												"fieldMax": 14,
+												"defaultValue": null,
+												"validationRegEx": "^(([0-9A-Za-z]\\-*\\**\\s*)*([0-9A-Za-z]*\\s*\\-*\\**))*$",
+												"exampleFormat": null,
+												"childFields": [],
+												"lookupDataSource": null,
+												"lookupKey": null,
+												"display": true,
+												"dataType": 1,
+												"enumeration": null,
+												"infoKey": "receiver_PersonalId2_Number",
+												"label": "Secondary ID Number",
+												"labelStandAlone": "Receiver Secondary ID Number",
+												"displayOrder": 2,
+												"helpTextShort": null,
+												"helpTextLong": null,
+												"documentation": null
+											}
+										]
+									}
+								],
+								"lookupDataSource": null,
+								"lookupKey": null,
+								"display": true,
+								"dataType": 10,
+								"enumeration":
+								{
+									"name": "PERSONAL_ID2_TYPE",
+									"enumeratedItems": [
+										{
+											"identifier": "ALN",
+											"labelShort": "Alien ID",
+											"label": "Alien ID"
+										},
+										{
+											"identifier": "INT",
+											"labelShort": "International ID",
+											"label": "International ID"
+										},
+										{
+											"identifier": "SSN",
+											"labelShort": "Social Security Number",
+											"label": "Social Security Number"
+										},
+										{
+											"identifier": "TAX",
+											"labelShort": "Tax ID",
+											"label": "Tax ID"
+										}
+									]
+								},
+								"infoKey": "receiver_PersonalId2_Type",
+								"label": "Secondary ID Type",
+								"labelStandAlone": "Receiver Secondary ID Type",
+								"displayOrder": 1,
+								"helpTextShort": null,
+								"helpTextLong": null,
+								"documentation": null
+							}
+						],
+						"infoKey": "receiveReceiverIdentificationSecondarySet",
+						"label": "Secondary Identification",
+						"labelStandAlone": "Receiver Secondary Identification",
+						"displayOrder": 35,
+						"helpTextShort": null,
+						"helpTextLong": null,
+						"documentation": null
+					}
+				],
+				"infoKey": "receiveReceiverInformationSet",
+				"label": "Receiver Information",
+				"labelStandAlone": "Receiver Information",
+				"displayOrder": 4,
+				"helpTextShort": null,
+				"helpTextLong": null,
+				"documentation": null
+			}
+		],
+		"receipts": null,
+		"receiptInfo": null,
+		"doCheckIn": false,
+		"timeStamp": "2018-04-20T12:21:45.724+02:00",
+		"flags": 0
+	},
+	"errors": []
+}

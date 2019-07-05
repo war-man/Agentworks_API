@@ -1,0 +1,412 @@
+﻿{
+  "payload": {
+    "mgiSessionID": "11111111",
+    "gafVersionNumber": "1.1.20180911",
+    "currentValues": [
+      {
+        "infoKey": "receiver_FirstName",
+        "value": "Jane"
+      },
+      {
+        "infoKey": "receiver_LastName",
+        "value": "Smith"
+      },
+      {
+        "infoKey": "receiver_Address",
+        "value": "Building# 1234"
+      },
+      {
+        "infoKey": "receiver_City",
+        "value": "Minneapolis"
+      },
+      {
+        "infoKey": "receiver_Country_SubdivisionCode",
+        "value": "US-MN"
+      },
+      {
+        "infoKey": "receiver_Country",
+        "value": "USA"
+      },
+      {
+        "infoKey": "receiver_PostalCode",
+        "value": "55426"
+      },
+      {
+        "infoKey": "receiver_PrimaryPhone",
+        "value": "1112224444"
+      },
+      {
+        "infoKey": "receiver_PrimaryPhoneSMSEnabled",
+        "value": "true"
+      },
+      {
+        "infoKey": "receiver_DOB",
+        "value": "1980-01-01"
+      },
+      {
+        "infoKey": "receiver_PreferredLanguage",
+        "value": "en-US"
+      },
+      {
+        "infoKey": "issueDate",
+        "value": "2017-07-31T05:41:14-05:00"
+      },
+      {
+        "infoKey": "lastModifiedDate",
+        "value": "2017-07-03T14:25:45-05:00"
+      },
+      {
+        "infoKey": "receiver_ProfileID",
+        "value": "11111111"
+      },
+      {
+        "infoKey": "receiver_Birth_Country",
+        "value": "USA"
+      },
+      {
+        "infoKey": "receiver_Email",
+        "value": "jsmith@test.com"
+      },
+      {
+        "infoKey": "receiver_Marketing_NotificationOptedCode",
+        "value": "EMAIL"
+      },
+      {
+        "infoKey": "receiver_Transaction_NotificationOptedCode",
+        "value": "EMAIL"
+      }
+    ],
+    "infos": [
+      {
+        "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.CategoryInfo, MoneyGram.AgentConnect.DomainModel",
+        "infos": [
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_FirstName",
+            "label": "First/Given Name",
+            "labelStandAlone": "Consumer First/Given Name",
+            "displayOrder": 2,
+            "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed"
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_LastName",
+            "label": "Last/Family Name",
+            "labelStandAlone": "Consumer Last/Family Name",
+            "displayOrder": 4,
+            "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed"
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_Address",
+            "label": "Address",
+            "labelStandAlone": "ConsumerAddress",
+            "displayOrder": 6,
+            "helpTextLong": "Only alpha, numeric and certain special characters (#./'-,()\") are allowed. Minimum 5 characters with at least one alpha character. No repeated special characters ( #### or ////). PO Box not allowed"
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_City",
+            "label": "City",
+            "labelStandAlone": "Consumer City",
+            "displayOrder": 9
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_Country_SubdivisionCode",
+            "label": "State/Province",
+            "labelStandAlone": "Consumer State/Province",
+            "displayOrder": 10
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_PostalCode",
+            "label": "Postal Code",
+            "labelStandAlone": "Consumer Postal Code",
+            "displayOrder": 11
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_Country",
+            "label": "Country",
+            "labelStandAlone": "Consumer Country",
+            "displayOrder": 12
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_PrimaryPhone",
+            "label": "Primary Phone Number",
+            "labelStandAlone": "Consumer Primary Phone Number",
+            "displayOrder": 14,
+            "helpTextLong": "Only numeric characters are allowed. Cannot contain a string of repeating numeric characters (example 8888888)"
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 0,
+            "infoKey": "receiver_PrimaryPhoneSMSEnabled",
+            "label": "Mobile Phone",
+            "labelStandAlone": "Mobile Phone",
+            "displayOrder": 15
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_Birth_Country",
+            "label": "Birth Country",
+            "labelStandAlone": "Consumer Birth Country",
+            "displayOrder": 18
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 5,
+            "infoKey": "receiver_DOB",
+            "label": "Date of birth",
+            "labelStandAlone": "Consumer Date of birth",
+            "displayOrder": 19
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_Email",
+            "label": "Email",
+            "labelStandAlone": "Consumer Email Address",
+            "displayOrder": 22
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_ProfileID",
+            "label": "Receiver Profile ID",
+            "labelStandAlone": "Consumer Profile ID",
+            "displayOrder": 39
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 0,
+            "infoKey": "receiver_PrimaryPhone_MarketingOptin",
+            "label": "Primary Phone Text/SMS promotional offers",
+            "labelStandAlone": "Consumer Primary Phone Text/SMS promotional offers",
+            "displayOrder": 43
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 0,
+            "infoKey": "receiver_PrimaryPhone_TransactionOptin",
+            "label": "Primary Phone Text/SMS transaction status",
+            "labelStandAlone": "Consumer Primary Phone Text/SMS transaction status",
+            "displayOrder": 44
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 0,
+            "infoKey": "receiver_Email_TransactionOptin",
+            "label": "Email transaction status",
+            "labelStandAlone": "Consumer Email transaction status",
+            "displayOrder": 45
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 0,
+            "infoKey": "receiver_Email_MarketingOptin",
+            "label": "Email promotional offers",
+            "labelStandAlone": "Consumer Email promotional offers",
+            "displayOrder": 46
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 8,
+            "enumeration": {
+              "name": "CNSMR_LANG",
+              "enumeratedItems": [
+                {
+                  "identifier": "ar-SA",
+                  "labelShort": "Arabic",
+                  "label": "Arabic"
+                },
+                {
+                  "identifier": "en-GB",
+                  "labelShort": "English(UK)",
+                  "label": "English(UK)"
+                },
+                {
+                  "identifier": "es-US",
+                  "labelShort": "Spanish",
+                  "label": "Spanish"
+                },
+                {
+                  "identifier": "en-US",
+                  "labelShort": "English",
+                  "label": "English"
+                },
+                {
+                  "identifier": "fr-FR",
+                  "labelShort": "French",
+                  "label": "French"
+                },
+                {
+                  "identifier": "de-DE",
+                  "labelShort": "German",
+                  "label": "German"
+                },
+                {
+                  "identifier": "nl-NL",
+                  "labelShort": "Dutch",
+                  "label": "Dutch"
+                },
+                {
+                  "identifier": "pt-BR",
+                  "labelShort": "Portuguese",
+                  "label": "Portuguese"
+                },
+                {
+                  "identifier": "fr-CA",
+                  "labelShort": "French (CA)",
+                  "label": "French (CA)"
+                },
+                {
+                  "identifier": "el-GR",
+                  "labelShort": "Greek",
+                  "label": "Greek"
+                },
+                {
+                  "identifier": "es-ES",
+                  "labelShort": "Spanish(Spain)",
+                  "label": "Spanish(Spain)"
+                },
+                {
+                  "identifier": "it-IT",
+                  "labelShort": "Italian",
+                  "label": "Italian"
+                },
+                {
+                  "identifier": "ja-JP",
+                  "labelShort": "Japanese",
+                  "label": "Japanese"
+                },
+                {
+                  "identifier": "ro-RO",
+                  "labelShort": "Romanian",
+                  "label": "Romanian"
+                }
+              ]
+            },
+            "infoKey": "receiver_PreferredLanguage",
+            "label": "Preferred Language",
+            "labelStandAlone": "Consumer Preferred Language",
+            "displayOrder": 48
+          }
+        ],
+        "infoKey": "receiverProfileGetInfoSet",
+        "label": "Receiver Consumer Profile Get",
+        "labelStandAlone": "Receiver Consumer Profile Get",
+        "displayOrder": 1
+      },
+      {
+        "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.CategoryInfo, MoneyGram.AgentConnect.DomainModel",
+        "infos": [
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 8,
+            "enumeration": {
+              "name": "CNSMR_OPTIN",
+              "enumeratedItems": [
+                {
+                  "identifier": "SMS",
+                  "labelShort": "Text",
+                  "label": "Text"
+                },
+                {
+                  "identifier": "BOTH",
+                  "labelShort": "Text & Email",
+                  "label": "Text & Email"
+                },
+                {
+                  "identifier": "EMAIL",
+                  "labelShort": "Email",
+                  "label": "Email"
+                },
+                {
+                  "identifier": "NONE",
+                  "labelShort": "None",
+                  "label": "None"
+                }
+              ]
+            },
+            "infoKey": "receiver_Transaction_NotificationOptedCode",
+            "label": "Receive Transaction Status",
+            "labelStandAlone": "Receive Transaction Status",
+            "displayOrder": 1
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 8,
+            "enumeration": {
+              "name": "CNSMR_OPTIN",
+              "enumeratedItems": [
+                {
+                  "identifier": "SMS",
+                  "labelShort": "Text",
+                  "label": "Text"
+                },
+                {
+                  "identifier": "BOTH",
+                  "labelShort": "Text & Email",
+                  "label": "Text & Email"
+                },
+                {
+                  "identifier": "EMAIL",
+                  "labelShort": "Email",
+                  "label": "Email"
+                },
+                {
+                  "identifier": "NONE",
+                  "labelShort": "None",
+                  "label": "None"
+                }
+              ]
+            },
+            "infoKey": "receiver_Marketing_NotificationOptedCode",
+            "label": "Receive Offers",
+            "labelStandAlone": "Receive Offers",
+            "displayOrder": 2
+          }
+        ],
+        "infoKey": "receiverNotificationGetinfoSet",
+        "label": "Receiver Notifications",
+        "labelStandAlone": "Receiver Notifications",
+        "displayOrder": 2
+      }
+    ],
+    "doCheckIn": false,
+    "timeStamp": "2018-10-17T11:15:53.615+02:00",
+    "flags": 0
+  }
+}

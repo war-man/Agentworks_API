@@ -1,0 +1,38 @@
+{
+  "4069880984": {
+    "agentId": "40698809",
+    "mainOfficeId": "40698786",
+    "password": "456",
+    "pos": "84"
+  },
+  "4030766619": {
+    "agentId": "40307666",
+    "mainOfficeId": "40307132",
+    "password": "456",
+    "pos": "19"
+  },
+  "7152964602": {
+    "agentId": "71529646",
+    "mainOfficeId": "71529633",
+    "password": "456",
+    "pos": "02"
+  },
+  "7121788002": {
+    "agentId": "71217880",
+    "mainOfficeId": "71217877",
+    "password": "456",
+    "pos": "02"
+  },
+  "6866988104": {
+    "agentId": "68669881",
+    "mainOfficeId": "68669878",
+    "password": "456",
+    "pos": "04"
+  },
+  "4418523705": {
+    "agentId": "44185237",
+    "mainOfficeId": "40610492",
+    "password": "456",
+    "pos": "05"
+  }
+}

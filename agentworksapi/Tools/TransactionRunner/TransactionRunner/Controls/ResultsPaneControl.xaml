@@ -1,0 +1,58 @@
+﻿<UserControl x:Class="TransactionRunner.Controls.ResultsPaneControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TransactionRunner.Controls"
+             xmlns:timer="clr-namespace:TransactionRunner.Timer"
+             Loaded="ResultsPaneControl_OnLoaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" x:Name="ResultsLabel" FontSize="16" Height="30" FontWeight="Bold"
+               Content="Results"/>
+
+        <Label Grid.Row="1" Grid.Column="0" x:Name="lblTimer" HorizontalAlignment="Stretch" Margin="15,0,0,0"
+               Content="Time Elapsed:" />
+        <timer:ElapsedTimer DataContext="{Binding ElapsedTimerViewModel}" Grid.Row="1" Grid.Column="1" x:Name="ctrlTimer" 
+                            HorizontalAlignment="Stretch" Margin="0,1,0,1"/>
+        
+        <Label Grid.Row="2" Grid.Column="0" x:Name="lblReferenceNumber" HorizontalAlignment="Stretch" Margin="15,0,0,0"
+               Content="Reference Number(s):"/>
+        <TextBox Grid.Row="2" Grid.Column="1" x:Name="referenceNumber" 
+                 Text="{Binding ReferenceNumber}" 
+                 HorizontalAlignment="Stretch" IsReadOnly="True" BorderThickness="1" FontFamily="Consolas" FontSize="16" Margin="0,1,0,1"/>
+        
+        <Label Grid.Row="3" x:Name="lblOutput" HorizontalAlignment="Stretch" Margin="15,0,0,0" Content="Output:"></Label>
+
+        <Grid Grid.Row="4" Grid.ColumnSpan="2" Grid.Column="0">
+            <ListBox x:Name="LstTransactionOutputList" SelectionChanged="LstTransactionOutputList_SelectionChanged" ItemsSource="{Binding TransactionOutputList}" DataContext="{Binding}" SelectedIndex="0" Grid.Row="3">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Padding="5,0,10,0" Text="{Binding PathForView}" MouseDown="TextBlock_MouseDown"/>
+                            <TextBlock Padding="5,0,0,0">Elapsed Time: </TextBlock>
+                            <TextBlock Text="{Binding ElapsedTime}" Padding="10,0,0,0"></TextBlock>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+        </Grid>
+        <Grid Grid.Row="5" Grid.ColumnSpan="2" Grid.Column="0">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Name="btnOpenDir" Click="btnOpenDir_Click"  Margin="0,0,5,0">Open Directory</Button>
+                <Button Name="btnOpenFile" Click="btnOpenFile_Click" Margin="5,0,0,0">Open File</Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

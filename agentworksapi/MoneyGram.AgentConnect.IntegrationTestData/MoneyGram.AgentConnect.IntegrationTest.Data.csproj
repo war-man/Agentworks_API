@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CA3A6363-CD55-4E5D-BA22-16302F93DAC0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MoneyGram.AgentConnect.IntegrationTest.Data</RootNamespace>
+    <AssemblyName>MoneyGram.AgentConnect.IntegrationTest.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <Optimize>true</Optimize>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\TransactionData.cs" />
+    <Compile Include="Common\TransactionDataPropertyType.cs" />
+    <Compile Include="Consumer\CreateOrUpdateProfileReceiverData.cs" />
+    <Compile Include="Consumer\CreateOrUpdateProfileReceiverRequestFactory.cs" />
+    <Compile Include="Consumer\CreateOrUpdateProfileSenderData.cs" />
+    <Compile Include="Consumer\CreateOrUpdateProfileConsumerData.cs" />
+    <Compile Include="Consumer\CreateOrUpdateProfileConsumerRequestFactory.cs" />
+    <Compile Include="Consumer\CreateOrUpdateProfileSenderRequestFactory.cs" />
+    <Compile Include="Consumer\GetProfileConsumerData.cs" />
+    <Compile Include="Consumer\GetProfileConsumerRequestFactory.cs" />
+    <Compile Include="Consumer\GetProfileReceiverData.cs" />
+    <Compile Include="Consumer\GetProfileReceiverRequestFactory.cs" />
+    <Compile Include="Consumer\GetProfileSenderData.cs" />
+    <Compile Include="Consumer\GetProfileSenderRequestFactory.cs" />
+    <Compile Include="Consumer\SearchConsumerProfilesData.cs" />
+    <Compile Include="Consumer\SearchConsumerProfilesRequestFactory.cs" />
+    <Compile Include="Extensions\AcOperationRequestExtensions.cs" />
+    <Compile Include="Models\AgentPos.cs" />
+    <Compile Include="Models\AmountRangeInfoList.cs" />
+    <Compile Include="Models\CountryInfoList.cs" />
+    <Compile Include="Models\CountrySubdivisionInfoList.cs" />
+    <Compile Include="Models\CurrencyInfoList.cs" />
+    <Compile Include="Models\EnvironmentAgentInfoList.cs" />
+    <Compile Include="Models\FeeTypeInfoList.cs" />
+    <Compile Include="Models\RefundReasonInfoList.cs" />
+    <Compile Include="Models\ServiceOptionInfoList.cs" />
+    <Compile Include="Repositories\CountryRepository.cs" />
+    <Compile Include="Repositories\CountrySubdivisionRepository.cs" />
+    <Compile Include="Repositories\CurrencyRepository.cs" />
+    <Compile Include="Repositories\ITestAgentSearchable.cs" />
+    <Compile Include="Repositories\ITestAgentRepository.cs" />
+    <Compile Include="Repositories\FeeTypeRepository.cs" />
+    <Compile Include="Repositories\RefundReasonRepository.cs" />
+    <Compile Include="Repositories\ServiceOptionRepository.cs" />
+    <Compile Include="Models\AmountRange.cs" />
+    <Compile Include="Models\EnvironmentAgent.cs" />
+    <Compile Include="Repositories\EnvironmentAgentRepository.cs" />
+    <Compile Include="Models\FeeType.cs" />
+    <Compile Include="Models\ServiceOption.cs" />
+    <Compile Include="Repositories\AmountRangeRepository.cs" />
+    <Compile Include="Models\AcEnvironment.cs" />
+    <Compile Include="Repositories\EnvironmentRepository.cs" />
+    <Compile Include="Requests\AcOperationRequest.cs" />
+    <Compile Include="Amend\AmendData.cs" />
+    <Compile Include="Amend\AmendValidationRequestFactory.cs" />
+    <Compile Include="BillPay\BillPayData.cs" />
+    <Compile Include="BillPay\BillPayBillerSearchRequestFactory.cs" />
+    <Compile Include="BillPay\BillPayFeeLookupRequestFactory.cs" />
+    <Compile Include="BillPay\BillPayValidationRequestFactory.cs" />
+    <Compile Include="IntegrationTestSettingsModel.cs" />
+    <Compile Include="Lookup\GetAllFieldsData.cs" />
+    <Compile Include="Lookup\GetAllFieldsRequestFactory.cs" />
+    <Compile Include="Lookup\GetBankDetailsRequestFactory.cs" />
+    <Compile Include="Lookup\GetBankDetailsData.cs" />
+    <Compile Include="Lookup\GetCountryInfoData.cs" />
+    <Compile Include="Common\ConsumerHistoryLookupData.cs" />
+    <Compile Include="Lookup\GetBankDetailsByLevelData.cs" />
+    <Compile Include="Lookup\GetCountrySubdivisionData.cs" />
+    <Compile Include="Lookup\GetCurrencyInfoData.cs" />
+    <Compile Include="Lookup\GetEnumerationsData.cs" />
+    <Compile Include="Lookup\GetBankDetailsByLevelRequestFactory.cs" />
+    <Compile Include="Lookup\GetEnumerationsRequestFactory.cs" />
+    <Compile Include="Lookup\IndustryData.cs" />
+    <Compile Include="Lookup\InfoKeysWithGroupType.cs" />
+    <Compile Include="Lookup\ProfileData.cs" />
+    <Compile Include="Lookup\ProfileRequestFactory.cs" />
+    <Compile Include="Lookup\TransactionLookupData.cs" />
+    <Compile Include="Lookup\TransactionLookupRequestFactory.cs" />
+    <Compile Include="ReceiveReversal\ReceiveReversalData.cs" />
+    <Compile Include="ReceiveReversal\ReceiveReversalValidationRequestFactory.cs" />
+    <Compile Include="Recv\ReceiveValidationRequestFactory.cs" />
+    <Compile Include="Common\FeeLookupData.cs" />
+    <Compile Include="Requests\AmendOperationRequest.cs" />
+    <Compile Include="Requests\BillPayOperationRequest.cs" />
+    <Compile Include="Requests\CreateOrUpdateProfileConsumerRequest.cs" />
+    <Compile Include="Requests\CreateOrUpdateProfileReceiverRequest.cs" />
+    <Compile Include="Requests\CreateOrUpdateProfileSenderRequest.cs" />
+    <Compile Include="Requests\FeeLookupOperationRequest.cs" />
+    <Compile Include="Requests\GetProfileConsumerRequest.cs" />
+    <Compile Include="Requests\GetProfileReceiverRequest.cs" />
+    <Compile Include="Requests\GetProfileSenderRequest.cs" />
+    <Compile Include="Requests\ReceiveReversalOperationRequest.cs" />
+    <Compile Include="Requests\ReceiveRequest.cs" />
+    <Compile Include="Requests\SearchConsumerProfileRequest.cs" />
+    <Compile Include="Requests\SendRequest.cs" />
+    <Compile Include="Requests\SendReversalRequest.cs" />
+    <Compile Include="SendReversal\SendReversalData.cs" />
+    <Compile Include="SendReversal\SendReversalValidationRequestFactory.cs" />
+    <Compile Include="Setup\AcEnv.cs" />
+    <Compile Include="AgentConnectConfigCoded.cs" />
+    <Compile Include="Setup\AgentExtensions.cs" />
+    <Compile Include="Setup\Agents.cs" />
+    <Compile Include="Setup\AgentLocation.cs" />
+    <Compile Include="Setup\AmountRange.cs" />
+    <Compile Include="Setup\BankCity.cs" />
+    <Compile Include="Setup\BankDetail.cs" />
+    <Compile Include="Setup\BankIdentifier.cs" />
+    <Compile Include="Setup\Banks.cs" />
+    <Compile Include="Setup\BankLevel.cs" />
+    <Compile Include="Setup\BankState.cs" />
+    <Compile Include="Setup\Billers.cs" />
+    <Compile Include="Setup\BusinessErrors.cs" />
+    <Compile Include="Setup\CityStateZip.cs" />
+    <Compile Include="Setup\CountryLookupKey.cs" />
+    <Compile Include="Setup\EnumerationNames.cs" />
+    <Compile Include="Setup\InfoKeyCategories.cs" />
+    <Compile Include="Setup\InfoKeyGroups.cs" />
+    <Compile Include="Setup\GetAllFieldsTransactionType.cs" />
+    <Compile Include="Recv\ReceiveData.cs" />
+    <Compile Include="Common\CompleteSessionRequestFactory.cs" />
+    <Compile Include="Common\ConsumerHistoryLookupRequestFactory.cs" />
+    <Compile Include="Setup\Country.cs" />
+    <Compile Include="Setup\Currency.cs" />
+    <Compile Include="DataGenerator.cs" />
+    <Compile Include="Common\FeeLookupRequestFactory.cs" />
+    <Compile Include="Setup\IdType.cs" />
+    <Compile Include="Setup\InfoKeyNames.cs" />
+    <Compile Include="Setup\InfoKeyWithValues.cs" />
+    <Compile Include="Setup\Language.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Send\SendData.cs" />
+    <Compile Include="Send\SendValidationRequestFactory.cs" />
+    <Compile Include="Setup\Occupation.cs" />
+    <Compile Include="Setup\PurposeOfLookup.cs" />
+    <Compile Include="Setup\ReceiveReversalReasons.cs" />
+    <Compile Include="Setup\SendReversalReasons.cs" />
+    <Compile Include="Setup\ServiceOptionType.cs" />
+    <Compile Include="Setup\State.cs" />
+    <Compile Include="Setup\TestThirdPartyType.cs" />
+    <Compile Include="TestConfig.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MoneyGram.AgentConnect.DomainModel\MoneyGram.AgentConnect.DomainModel.csproj">
+      <Project>{ecd9abbb-5222-47cb-abb2-62f2789509eb}</Project>
+      <Name>MoneyGram.AgentConnect.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.AgentConnect\MoneyGram.AgentConnect.csproj">
+      <Project>{1710b185-08d3-4c5b-99b7-e15b6bbc6809}</Project>
+      <Name>MoneyGram.AgentConnect</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.Common.Json\MoneyGram.Common.Json.csproj">
+      <Project>{71D1D50E-D5E7-47AB-B3F9-D0039543C1BE}</Project>
+      <Name>MoneyGram.Common.Json</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Data\AmountRanges.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Countries.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\CountrySubdivisions.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Currencies.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\EnvironmentAgents.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Environments.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\FeeTypes.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\RefundReasons.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\ServiceOptions.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

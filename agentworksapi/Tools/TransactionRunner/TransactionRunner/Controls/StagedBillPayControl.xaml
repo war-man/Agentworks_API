@@ -1,0 +1,74 @@
+﻿<UserControl x:Class="TransactionRunner.Controls.StagedBillPayControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:controls="clr-namespace:TransactionRunner.Helpers.Controls"
+             mc:Ignorable="d"
+             d:DesignWidth="300"
+             Initialized="StagedBillPayControl_Initialized" Visibility="{Binding Visibility}"
+			 >
+	<Grid>
+        <Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" x:Name="label" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="225" Height="30" FontSize="16" FontWeight="Bold"
+                   Content="Staged Bill Pay Parameters" />
+                <Label    Grid.Row="1" Grid.Column="0" x:Name="lblCountry" HorizontalAlignment="Stretch" Margin="15,0,0,0"
+                      Content="Country: " />
+                <ComboBox Grid.Row="1" Grid.Column="1" x:Name="CbxCountry" HorizontalAlignment="Stretch" Margin="0,1,0,1"
+                      DisplayMemberPath="CountryName" ItemsSource="{Binding CountryList}" SelectedItem="{Binding SelectedCountry}" IsEnabled="{Binding IsAgentValid}" />
+                <!--<Label    Grid.Row="2" Grid.Column="0" x:Name="lblState" HorizontalAlignment="Stretch" Margin="15,0,0,0"
+			          Content="State: "/>
+			<ComboBox Grid.Row="2" Grid.Column="1" x:Name="CbxState" HorizontalAlignment="Stretch" Margin="0,1,0,1"
+			          DisplayMemberPath="CountrySubdivisionName" ItemsSource="{Binding CountrySubdivisionList}" SelectedItem="{Binding SelectedCountrySubdivision}" IsEnabled="{Binding IsAgentValid}"/>-->
+
+                <Label    Grid.Row="2" Grid.Column="0" x:Name="lblCurrency" HorizontalAlignment="Stretch"  Margin="15,0,0,0"
+                      Content="Amount Range: " />
+                <ComboBox Grid.Row="2" Grid.Column="1" x:Name="CbxCurrency" HorizontalAlignment="Stretch" Margin="0,1,0,1"
+                      DisplayMemberPath="Display" ItemsSource="{Binding AmountRangeList}" SelectedItem="{Binding SelectedAmountRange}" />
+
+                <Label    Grid.Row="3" Grid.Column="0" x:Name="lblCustomAmount" HorizontalAlignment="Stretch" Margin="15,0,0,0"
+                          Content="Custom amount: "
+                          Visibility="{Binding IsCustomAmountRangeSelected, Converter={StaticResource booleanToVisibilityConverter}}" />
+                <controls:NumberTextBox Grid.Row="3" Grid.Column="1" x:Name="txtCustomAmount"
+                                       Text="{Binding CustomAmount, StringFormat=N2}" DecimalPlaces="2"
+                                       Visibility="{Binding IsCustomAmountRangeSelected, Converter={StaticResource booleanToVisibilityConverter}}" />
+
+                <Label    Grid.Row="4" Grid.Column="0" x:Name="lblThirdPartyType" HorizontalAlignment="Stretch"  Margin="15,0,0,0"
+                      Content="Third Party Type: "/>
+                <ComboBox Grid.Row="4" Grid.Column="1" x:Name="CbxThirdPartyType" HorizontalAlignment="Stretch" Margin="0,1,0,1"
+                       ItemsSource="{Binding ThirdPartyTypeList}" SelectedItem="{Binding SelectedThirdPartyType}" IsEnabled="{Binding IsAgentValid}">
+                </ComboBox>
+
+                <Label    Grid.Row="5" Grid.Column="0" x:Name="lblBiller" HorizontalAlignment="Stretch" Margin="15,0,0,0"
+                      Content="Biller: " />
+                <ComboBox Grid.Row="5" Grid.Column="1" x:Name="CbxBiller" HorizontalAlignment="Stretch" Margin="0,1,0,1"
+                      DisplayMemberPath="Name" ItemsSource="{Binding BillerList}" SelectedItem="{Binding SelectedBiller}" SelectionChanged="CbxBiller_SelectionChanged"/>
+                <Label    Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" x:Name="lblCustomBiller" FontWeight="Bold" HorizontalAlignment="Stretch"  Margin="15,0,0,0"
+                      Content="Manual Biller Entry"/>
+                <Label    Grid.Row="7" Grid.Column="0" x:Name="lblCustomBillerCode" HorizontalAlignment="Stretch"  Margin="15,0,0,0"
+                      Content="Biller Code: "/>
+                <TextBox Grid.Row="7" Grid.Column="1" x:Name="txtCustomBillerCode" Text="{Binding ManualBillerCode}" PreviewTextInput="NumberValidationTextBox"></TextBox>
+                <Label    Grid.Row="8" Grid.Column="0" x:Name="lblCustomBillerValidAccountNumber" HorizontalAlignment="Stretch"  Margin="15,0,0,0"
+                      Content="Valid Account #: "/>
+                <TextBox Grid.Row="8" Grid.Column="1" x:Name="txtCustomBillerValidAccountNumber" Text="{Binding ManualBillerAccountNumber}" PreviewTextInput="NumberValidationTextBox"></TextBox>
+            </Grid>
+            <Rectangle Fill="White" Opacity="0.7" Visibility="{Binding ModalVisibility}"></Rectangle>
+        </Grid>
+    </Grid>
+</UserControl>

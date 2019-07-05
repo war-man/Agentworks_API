@@ -1,0 +1,1042 @@
+﻿{
+		"payload":
+		{
+			"gafVersionNumber": "1.1.20180911",
+			"consumerProfileIDs": [],
+			"fieldsToCollect": [
+        {
+          "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.CategoryInfo, MoneyGram.AgentConnect.DomainModel",
+          "infos": [
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "fieldMin": 1,
+              "fieldMax": 30,
+              "display": true,
+              "dataType": 8,
+              "enumeration": {
+                "name": "NAME_TITLE",
+                "enumeratedItems": [
+                  {
+                    "identifier": "SIR",
+                    "labelShort": "Sir",
+                    "label": "Sir"
+                  },
+                  {
+                    "identifier": "DAME",
+                    "labelShort": "Dame",
+                    "label": "Dame"
+                  },
+                  {
+                    "identifier": "LORD",
+                    "labelShort": "Lord",
+                    "label": "Lord"
+                  },
+                  {
+                    "identifier": "LADY",
+                    "labelShort": "Lady",
+                    "label": "Lady"
+                  },
+                  {
+                    "identifier": "PROF",
+                    "labelShort": "Professor",
+                    "label": "Professor"
+                  },
+                  {
+                    "identifier": "DR",
+                    "labelShort": "Doctor",
+                    "label": "Doctor"
+                  },
+                  {
+                    "identifier": "MR",
+                    "labelShort": "Mister",
+                    "label": "Mister"
+                  },
+                  {
+                    "identifier": "MISS",
+                    "labelShort": "Miss",
+                    "label": "Miss"
+                  },
+                  {
+                    "identifier": "MRS",
+                    "labelShort": "Mrs",
+                    "label": "Mrs"
+                  },
+                  {
+                    "identifier": "MS",
+                    "labelShort": "Ms",
+                    "label": "Ms"
+                  },
+                  {
+                    "identifier": "M",
+                    "labelShort": "Monsieur",
+                    "label": "Monsieur"
+                  },
+                  {
+                    "identifier": "MLLE",
+                    "labelShort": "Mademoiselle",
+                    "label": "Mademoiselle"
+                  },
+                  {
+                    "identifier": "MME",
+                    "labelShort": "Madame",
+                    "label": "Madame"
+                  },
+                  {
+                    "identifier": "SIG",
+                    "labelShort": "Signor",
+                    "label": "Signor"
+                  },
+                  {
+                    "identifier": "SIG.NA",
+                    "labelShort": "Signorina",
+                    "label": "Signorina"
+                  },
+                  {
+                    "identifier": "SIG.RA",
+                    "labelShort": "Signora",
+                    "label": "Signora"
+                  },
+                  {
+                    "identifier": "SR",
+                    "labelShort": "Señor",
+                    "label": "Señor"
+                  },
+                  {
+                    "identifier": "SRTA",
+                    "labelShort": "Señorita",
+                    "label": "Señorita"
+                  },
+                  {
+                    "identifier": "SRA",
+                    "labelShort": "Señora",
+                    "label": "Señora"
+                  },
+                  {
+                    "identifier": "HERR",
+                    "labelShort": "Herr",
+                    "label": "Herr"
+                  },
+                  {
+                    "identifier": "FRAU",
+                    "labelShort": "Frau",
+                    "label": "Frau"
+                  },
+                  {
+                    "identifier": "PAN",
+                    "labelShort": "Pan",
+                    "label": "Pan"
+                  },
+                  {
+                    "identifier": "PANI",
+                    "labelShort": "Pani",
+                    "label": "Pani"
+                  }
+                ]
+              },
+              "infoKey": "sender_Title",
+              "label": "Title",
+              "labelStandAlone": "Consumer Title",
+              "displayOrder": 1
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": true,
+              "fieldMin": 2,
+              "fieldMax": 20,
+              "validationRegEx": "^([a-zA-Z \\u00C0-\\u017F\\-\\'\\/])*$",
+              "display": true,
+              "dataType": 1,
+              "infoKey": "sender_FirstName",
+              "label": "First/Given Name",
+              "labelStandAlone": "Consumer First/Given Name",
+              "displayOrder": 2,
+              "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed"
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "fieldMax": 20,
+              "validationRegEx": "^([a-zA-Z \\u00C0-\\u017F\\-\\'\\/])*$",
+              "display": true,
+              "dataType": 1,
+              "infoKey": "sender_MiddleName",
+              "label": "Middle Name",
+              "labelStandAlone": "Consumer Middle Name",
+              "displayOrder": 3,
+              "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed"
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": true,
+              "fieldMin": 2,
+              "fieldMax": 30,
+              "validationRegEx": "^([a-zA-Z \\u00C0-\\u017F\\-\\'\\/])*$",
+              "display": true,
+              "dataType": 1,
+              "infoKey": "sender_LastName",
+              "label": "Last/Family Name",
+              "labelStandAlone": "Consumer Last/Family Name",
+              "displayOrder": 4,
+              "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed"
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "fieldMin": 2,
+              "fieldMax": 30,
+              "validationRegEx": "^([a-zA-Z \\u00C0-\\u017F\\-\\'\\/])*$",
+              "display": true,
+              "dataType": 1,
+              "infoKey": "sender_LastName2",
+              "label": "Second Last/Family Name",
+              "labelStandAlone": "Second Last/Family Name",
+              "displayOrder": 5,
+              "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed"
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "fieldMin": 1,
+              "fieldMax": 30,
+              "childFields": [
+                {
+                  "fieldValue": "OTHER",
+                  "infos": [
+                    {
+                      "readOnly": false,
+                      "required": true,
+                      "fieldMin": 1,
+                      "fieldMax": 30,
+                      "validationRegEx": "^[a-zA-Z.\\u00C0-\\u017F]*$",
+                      "display": true,
+                      "dataType": 1,
+                      "infoKey": "sender_NameSuffixOther",
+                      "label": "Other Name Suffix",
+                      "labelStandAlone": "Consumer Name Other Suffix",
+                      "displayOrder": 7
+                    }
+                  ]
+                }
+              ],
+              "display": true,
+              "dataType": 8,
+              "enumeration": {
+                "name": "NAME_SUFFIX",
+                "enumeratedItems": [
+                  {
+                    "identifier": "--",
+                    "labelShort": "--",
+                    "label": "--"
+                  },
+                  {
+                    "identifier": "I",
+                    "labelShort": "I",
+                    "label": "I"
+                  },
+                  {
+                    "identifier": "II",
+                    "labelShort": "II",
+                    "label": "II"
+                  },
+                  {
+                    "identifier": "III",
+                    "labelShort": "III",
+                    "label": "III"
+                  },
+                  {
+                    "identifier": "IV",
+                    "labelShort": "IV",
+                    "label": "IV"
+                  },
+                  {
+                    "identifier": "V",
+                    "labelShort": "V",
+                    "label": "V"
+                  },
+                  {
+                    "identifier": "JR",
+                    "labelShort": "Jr.",
+                    "label": "Jr."
+                  },
+                  {
+                    "identifier": "SR",
+                    "labelShort": "Sr.",
+                    "label": "Sr."
+                  },
+                  {
+                    "identifier": "OTHER",
+                    "labelShort": "Other (please specify)",
+                    "label": "Other (please specify)"
+                  }
+                ]
+              },
+              "infoKey": "sender_NameSuffix",
+              "label": "Suffix",
+              "labelStandAlone": "Consumer Name Suffix",
+              "displayOrder": 6
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": true,
+              "fieldMin": 5,
+              "fieldMax": 30,
+              "validationRegEx": "^([a-zA-Z0-9 \\u00C0-\\u017F\\#\\/\\.\\\"\\'\\,\\(\\)\\-])*$",
+              "display": true,
+              "dataType": 1,
+              "infoKey": "sender_Address",
+              "label": "Address",
+              "labelStandAlone": "ConsumerAddress",
+              "displayOrder": 8,
+              "helpTextLong": "Only alpha, numeric and certain special characters (#./'-,()\") are allowed. Minimum 5 characters with at least one alpha character. No repeated special characters ( #### or ////). PO Box not allowed"
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "fieldMax": 80,
+              "validationRegEx": "^([a-zA-Z0-9 \\u00C0-\\u017F\\#\\/\\.\\\"\\'\\,\\(\\)\\-])*$",
+              "display": true,
+              "dataType": 1,
+              "infoKey": "sender_Address2",
+              "label": "Address Line 2",
+              "labelStandAlone": "Consumer Address Line 2",
+              "displayOrder": 9,
+              "helpTextLong": "Only alpha, numeric and certain special characters (#./'-,()\") are allowed"
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "fieldMax": 80,
+              "validationRegEx": "^([a-zA-Z0-9 \\u00C0-\\u017F\\#\\/\\.\\\"\\'\\,\\(\\)\\-])*$",
+              "display": true,
+              "dataType": 1,
+              "infoKey": "sender_Address3",
+              "label": "Address Line 3",
+              "labelStandAlone": "Consumer Address Line 3",
+              "displayOrder": 10,
+              "helpTextLong": "Only alpha, numeric and certain special characters (#./'-,()\") are allowed"
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": true,
+              "fieldMax": 20,
+              "validationRegEx": "^([a-zA-Z \\u00C0-\\u017F\\#\\/\\.\\\"\\'\\,\\(\\)\\-])*$",
+              "display": true,
+              "dataType": 1,
+              "infoKey": "sender_City",
+              "label": "City",
+              "labelStandAlone": "Consumer City",
+              "displayOrder": 11
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": true,
+              "fieldMax": 3,
+              "lookupDataSource": "countryInfo",
+              "lookupKey": "okForAddress",
+              "display": true,
+              "dataType": 1,
+              "infoKey": "sender_Country",
+              "label": "Country",
+              "labelStandAlone": "Consumer Country",
+              "displayOrder": 12
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "lookupDataSource": "countrySubDivInfo",
+              "display": true,
+              "dataType": 1,
+              "infoKey": "sender_Country_SubdivisionCode",
+              "label": "State/Province",
+              "labelStandAlone": "Consumer State/Province",
+              "displayOrder": 13
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "fieldMin": 2,
+              "fieldMax": 10,
+              "validationRegEx": "^([0-9a-zA-Z -])*$",
+              "display": true,
+              "dataType": 1,
+              "infoKey": "sender_PostalCode",
+              "label": "Postal Code",
+              "labelStandAlone": "Consumer Postal Code",
+              "displayOrder": 14
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": true,
+              "fieldMax": 10,
+              "display": true,
+              "dataType": 5,
+              "infoKey": "sender_DOB",
+              "label": "Date of birth",
+              "labelStandAlone": "Consumer Date of birth",
+              "displayOrder": 15
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": true,
+              "defaultValue": "1",
+              "lookupDataSource": "countryPhoneCodeInfo",
+              "display": true,
+              "dataType": 1,
+              "infoKey": "sender_PrimaryPhoneCountryCode",
+              "label": "Primary Phone Country Code",
+              "labelStandAlone": "Consumer Primary Phone Country Code",
+              "displayOrder": 16
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": true,
+              "fieldMin": 7,
+              "fieldMax": 14,
+              "validationRegEx": "^([0-9\\.\\-])*$",
+              "display": true,
+              "dataType": 1,
+              "infoKey": "sender_PrimaryPhone",
+              "label": "Primary Phone Number",
+              "labelStandAlone": "Consumer Primary Phone Number",
+              "displayOrder": 17,
+              "helpTextLong": "Only numeric characters are allowed. Cannot contain a string of repeating numeric characters (example 8888888)"
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": true,
+              "defaultValue": "TRUE",
+              "display": true,
+              "dataType": 0,
+              "infoKey": "sender_PrimaryPhoneSMSEnabled",
+              "label": "Mobile Phone",
+              "labelStandAlone": "Mobile Phone",
+              "displayOrder": 18
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "lookupDataSource": "countryPhoneCodeInfo",
+              "display": false,
+              "dataType": 1,
+              "infoKey": "sender_SecondaryPhoneCountryCode",
+              "label": "Secondary Phone Country Code",
+              "labelStandAlone": "Consumer Secondary Phone Country Code",
+              "displayOrder": 19
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "validationRegEx": "^([0-9\\.\\-])*$",
+              "display": false,
+              "dataType": 1,
+              "infoKey": "sender_SecondaryPhone",
+              "label": "Secondary Phone Number",
+              "labelStandAlone": "Consumer Secondary Phone Number",
+              "displayOrder": 20,
+              "helpTextLong": "Only numeric characters are allowed. Cannot contain a string of repeating numeric characters (example 8888888)"
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "display": false,
+              "dataType": 0,
+              "infoKey": "sender_SecondaryPhoneSMSEnabled",
+              "label": "Mobile",
+              "labelStandAlone": "Mobile",
+              "displayOrder": 21
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "fieldMax": 255,
+              "validationRegEx": "^(([\\\\.a-zA-Z0-9_\\\\-])+@([a-zA-Z0-9_\\\\-])+([a-zA-Z0-9_\\\\-])+[\\\\.]{1}([a-zA-Z0-9_\\\\-])+[\\\\.]?([a-zA-Z0-9_\\\\-])+)*$",
+              "display": true,
+              "dataType": 1,
+              "infoKey": "sender_Email",
+              "label": "Email",
+              "labelStandAlone": "Consumer Email Address",
+              "displayOrder": 22
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "display": false,
+              "dataType": 8,
+              "enumeration": {
+                "name": "GENDER",
+                "enumeratedItems": [
+                  {
+                    "identifier": "FEMALE",
+                    "labelShort": "Female",
+                    "label": "Female"
+                  },
+                  {
+                    "identifier": "MALE",
+                    "labelShort": "Male",
+                    "label": "Male"
+                  },
+                  {
+                    "identifier": "UNKNOWN",
+                    "labelShort": "Not Known / Not Given",
+                    "label": "Not Known / Not Given"
+                  }
+                ]
+              },
+              "infoKey": "sender_Gender",
+              "label": "Gender",
+              "labelStandAlone": "Consumer Gender",
+              "displayOrder": 23
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "fieldMax": 30,
+              "childFields": [
+                {
+                  "fieldValue": "OTHER",
+                  "infos": [
+                    {
+                      "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+                      "readOnly": false,
+                      "required": true,
+                      "fieldMin": 2,
+                      "fieldMax": 30,
+                      "validationRegEx": "^([a-zA-Z \\u00C0-\\u017F])*$",
+                      "display": false,
+                      "dataType": 1,
+                      "infoKey": "sender_OccupationOther",
+                      "label": "Other Occupation",
+                      "labelStandAlone": "Consumer Other Occupation",
+                      "displayOrder": 25,
+                      "helpTextLong": "Cannot start with special character. Only alpha characters and forward slash (/) are allowed when 'Other' is selected. No repeated special characters (////). At least two characters must be entered"
+                    }
+                  ]
+                }
+              ],
+              "display": false,
+              "dataType": 8,
+              "enumeration": {
+                "name": "OCCUPATION",
+                "enumeratedItems": [
+                  {
+                    "identifier": "ADMIN",
+                    "labelShort": "Administrative",
+                    "label": "Administrative (Secretary, Paralegal)"
+                  },
+                  {
+                    "identifier": "AGRICULTURE",
+                    "labelShort": "Agriculture",
+                    "label": "Agriculture (Farmer, Forestry, Animal Care)"
+                  },
+                  {
+                    "identifier": "AUTOMOTIVE_SALES",
+                    "labelShort": "Automotive Sales/Repair",
+                    "label": "Automotive Sales/Repair"
+                  },
+                  {
+                    "identifier": "BANKING",
+                    "labelShort": "Banking / Financial",
+                    "label": "Banking / Financial Services"
+                  },
+                  {
+                    "identifier": "CLEAN_SERVICES",
+                    "labelShort": "Cleaning Services",
+                    "label": "Cleaning Services (Maid, Janitorial)"
+                  },
+                  {
+                    "identifier": "CLERGY",
+                    "labelShort": "Clergy / Religious Leader",
+                    "label": "Clergy / Religious Leader"
+                  },
+                  {
+                    "identifier": "COMPUTER",
+                    "labelShort": "Computer / IT Services",
+                    "label": "Computer / IT Services"
+                  },
+                  {
+                    "identifier": "CONSTRUCT_WORKER",
+                    "labelShort": "Construction Worker",
+                    "label": "Construction Worker (Residential/Commercial)"
+                  },
+                  {
+                    "identifier": "CUSTOMER_CARE",
+                    "labelShort": "Customer Care / Support",
+                    "label": "Customer Care / Call Center Support"
+                  },
+                  {
+                    "identifier": "EDUCATION",
+                    "labelShort": "Education",
+                    "label": "Education (Teacher, Administrator, Writer)"
+                  },
+                  {
+                    "identifier": "ENGINEER",
+                    "labelShort": "Engineer",
+                    "label": "Engineer"
+                  },
+                  {
+                    "identifier": "FACTORY",
+                    "labelShort": "Factory / Manufacturing",
+                    "label": "Factory / Manufacturing / Production"
+                  },
+                  {
+                    "identifier": "GENERAL_LABOR",
+                    "labelShort": "General Labor",
+                    "label": "General Labor (Mason, Construction)"
+                  },
+                  {
+                    "identifier": "GOV_EMPLOYEE",
+                    "labelShort": "Government Employee",
+                    "label": "Government Employee / Military / Police"
+                  },
+                  {
+                    "identifier": "HEALTH_SERVICES",
+                    "labelShort": "Healthcare Services",
+                    "label": "Healthcare Services (Nurse/Lab/EMT)"
+                  },
+                  {
+                    "identifier": "HOMEMAKER",
+                    "labelShort": "Homemaker",
+                    "label": "Homemaker"
+                  },
+                  {
+                    "identifier": "PROF_DRIVER",
+                    "labelShort": "Professional Driver",
+                    "label": "Professional Driver (Taxi/Trucking/Delivery)"
+                  },
+                  {
+                    "identifier": "PUBLIC_OFFICIAL",
+                    "labelShort": "Public Official",
+                    "label": "Public Official, Legislator, etc."
+                  },
+                  {
+                    "identifier": "RESTAURANT",
+                    "labelShort": "Restaurant",
+                    "label": "Restaurant / Food Services (Cook, Servers)"
+                  },
+                  {
+                    "identifier": "RETAIL",
+                    "labelShort": "Retail / Clerk",
+                    "label": "Retail (Store Manager, Cashier, Stocker)"
+                  },
+                  {
+                    "identifier": "RETIRED",
+                    "labelShort": "Retired",
+                    "label": "Retired"
+                  },
+                  {
+                    "identifier": "STUDENT",
+                    "labelShort": "Student",
+                    "label": "Student"
+                  },
+                  {
+                    "identifier": "UNEMPLOYED",
+                    "labelShort": "Unemployed",
+                    "label": "Unemployed / Not in Labor Force"
+                  },
+                  {
+                    "identifier": "OTHER",
+                    "labelShort": "Other (please specify)",
+                    "label": "Other (please specify)"
+                  }
+                ]
+              },
+              "infoKey": "sender_Occupation",
+              "label": "Occupation",
+              "labelStandAlone": "Consumer Occupation",
+              "displayOrder": 24
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "lookupDataSource": "countryInfo",
+              "lookupKey": "okForBirth",
+              "display": false,
+              "dataType": 1,
+              "infoKey": "sender_Birth_Country",
+              "label": "Birth Country",
+              "labelStandAlone": "Consumer Birth Country",
+              "displayOrder": 31
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "fieldMax": 20,
+              "validationRegEx": "^(([0-9A-Za-z]\\-*\\**\\s*)*([0-9A-Za-z]*\\s*\\-*\\**))*$",
+              "display": false,
+              "dataType": 1,
+              "infoKey": "sender_PersonalId1_Number",
+              "label": "ID Number",
+              "labelStandAlone": "Consumer ID Number",
+              "displayOrder": 36
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "display": false,
+              "dataType": 8,
+              "enumeration": {
+                "name": "PERSONAL_ID1_TYPE",
+                "enumeratedItems": [
+                  {
+                    "identifier": "ALN",
+                    "labelShort": "Alien ID",
+                    "label": "Alien ID"
+                  },
+                  {
+                    "identifier": "DRV",
+                    "labelShort": "Drivers License",
+                    "label": "Drivers License"
+                  },
+                  {
+                    "identifier": "GOV",
+                    "labelShort": "Government ID",
+                    "label": "Government ID"
+                  },
+                  {
+                    "identifier": "PAS",
+                    "labelShort": "Passport",
+                    "label": "Passport"
+                  },
+                  {
+                    "identifier": "STA",
+                    "labelShort": "State ID",
+                    "label": "State ID"
+                  }
+                ]
+              },
+              "infoKey": "sender_PersonalId1_Type",
+              "label": "ID Type",
+              "labelStandAlone": "Consumer ID Type",
+              "displayOrder": 37
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "fieldMax": 20,
+              "validationRegEx": "^([a-zA-Z \\u00C0-\\u017F\\#\\/\\.\\\"\\'\\,\\(\\)\\-])*$",
+              "display": false,
+              "dataType": 1,
+              "infoKey": "sender_PersonalId1_Issue_City",
+              "label": "ID Issue City",
+              "labelStandAlone": "Consumer ID Issuing City",
+              "displayOrder": 38
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "lookupDataSource": "countrySubDivInfo",
+              "display": false,
+              "dataType": 1,
+              "infoKey": "sender_PersonalId1_Issue_Country_SubdivisionCode",
+              "label": "ID Issue State/Province",
+              "labelStandAlone": "Consumer ID Issue State/Province",
+              "displayOrder": 39
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "fieldMax": 3,
+              "lookupDataSource": "countryInfo",
+              "lookupKey": "okForIdentification",
+              "display": false,
+              "dataType": 1,
+              "infoKey": "sender_PersonalId1_Issue_Country",
+              "label": "ID Issue Country",
+              "labelStandAlone": "Consumer ID Issue Country",
+              "displayOrder": 40
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "display": false,
+              "dataType": 8,
+              "enumeration": {
+                "name": "PRSONL_ID_ISUR_TYPE",
+                "enumeratedItems": [
+                  {
+                    "identifier": "AB",
+                    "labelShort": "Agency or Bureau",
+                    "label": "Agency or Bureau"
+                  },
+                  {
+                    "identifier": "CO",
+                    "labelShort": "Commissioners Office",
+                    "label": "Commissioners Office"
+                  },
+                  {
+                    "identifier": "CON",
+                    "labelShort": "Consulate",
+                    "label": "Consulate"
+                  },
+                  {
+                    "identifier": "COR",
+                    "labelShort": "Corporation",
+                    "label": "Corporation"
+                  },
+                  {
+                    "identifier": "EMB",
+                    "labelShort": "Embassy",
+                    "label": "Embassy"
+                  }
+                ]
+              },
+              "infoKey": "sender_PersonalId1_Issue_Authority",
+              "label": "ID Issue Authority",
+              "labelStandAlone": "Consumer ID Issuing Authority",
+              "displayOrder": 41
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "exampleFormat": "dd",
+              "display": false,
+              "dataType": 11,
+              "infoKey": "sender_PersonalId1_Issue_Day",
+              "label": "ID Issue Day",
+              "labelStandAlone": "Consumer ID Issue Day",
+              "displayOrder": 42
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "exampleFormat": "mm",
+              "display": false,
+              "dataType": 9,
+              "infoKey": "sender_PersonalId1_Issue_Month",
+              "label": "ID Issue Month",
+              "labelStandAlone": "Consumer ID Issue Month",
+              "displayOrder": 43
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "exampleFormat": "yyyy",
+              "display": false,
+              "dataType": 10,
+              "infoKey": "sender_PersonalId1_Issue_Year",
+              "label": "ID Issue Year",
+              "labelStandAlone": "Consumer ID Issue Year",
+              "displayOrder": 44
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "exampleFormat": "dd",
+              "display": false,
+              "dataType": 11,
+              "infoKey": "sender_PersonalId1_Expiration_Day",
+              "label": "ID Expiry Day",
+              "labelStandAlone": "Consumer ID Expiry Day",
+              "displayOrder": 45
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "exampleFormat": "mm",
+              "display": false,
+              "dataType": 9,
+              "infoKey": "sender_PersonalId1_Expiration_Month",
+              "label": "ID Expiry Month",
+              "labelStandAlone": "Consumer ID Expiry Month",
+              "displayOrder": 46
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "exampleFormat": "yyyy",
+              "display": false,
+              "dataType": 10,
+              "infoKey": "sender_PersonalId1_Expiration_Year",
+              "label": "ID Expiry Year",
+              "labelStandAlone": "Consumer ID Expiry Year",
+              "displayOrder": 47
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "display": true,
+              "dataType": 8,
+              "enumeration": {
+                "name": "CNSMR_LANG",
+                "enumeratedItems": [
+                  {
+                    "identifier": "en-US",
+                    "labelShort": "English",
+                    "label": "English"
+                  },
+                  {
+                    "identifier": "es-US",
+                    "labelShort": "Spanish",
+                    "label": "Spanish"
+                  }
+                ]
+              },
+              "infoKey": "sender_PreferredLanguage",
+              "label": "Preferred Language",
+              "labelStandAlone": "Consumer Preferred Language",
+              "displayOrder": 64
+            }
+          ],
+          "infoKey": "senderProfileSaveOrUpdateInfoSet",
+          "label": "Create/Edit Sender Profile",
+          "labelStandAlone": "Create/Edit Sender Profile",
+          "displayOrder": 1
+        },
+        {
+          "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.CategoryInfo, MoneyGram.AgentConnect.DomainModel",
+          "infos": [
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": true,
+              "defaultValue": "SMS",
+              "display": true,
+              "dataType": 8,
+              "enumeration": {
+                "name": "CNSMR_OPTIN",
+                "enumeratedItems": [
+                  {
+                    "identifier": "SMS",
+                    "labelShort": "Text",
+                    "label": "Text"
+                  },
+                  {
+                    "identifier": "BOTH",
+                    "labelShort": "Text & Email",
+                    "label": "Text & Email"
+                  },
+                  {
+                    "identifier": "EMAIL",
+                    "labelShort": "Email",
+                    "label": "Email"
+                  },
+                  {
+                    "identifier": "NONE",
+                    "labelShort": "None",
+                    "label": "None"
+                  }
+                ]
+              },
+              "infoKey": "sender_Transaction_NotificationOptedCode",
+              "label": "Receive Transaction Status",
+              "labelStandAlone": "Receive Transaction Status",
+              "displayOrder": 1
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": true,
+              "display": true,
+              "dataType": 8,
+              "enumeration": {
+                "name": "CNSMR_OPTIN",
+                "enumeratedItems": [
+                  {
+                    "identifier": "SMS",
+                    "labelShort": "Text",
+                    "label": "Text"
+                  },
+                  {
+                    "identifier": "BOTH",
+                    "labelShort": "Text & Email",
+                    "label": "Text & Email"
+                  },
+                  {
+                    "identifier": "EMAIL",
+                    "labelShort": "Email",
+                    "label": "Email"
+                  },
+                  {
+                    "identifier": "NONE",
+                    "labelShort": "None",
+                    "label": "None"
+                  }
+                ]
+              },
+              "infoKey": "sender_Marketing_NotificationOptedCode",
+              "label": "Receive Offers",
+              "labelStandAlone": "Receive Offers",
+              "displayOrder": 2
+            }
+          ],
+          "infoKey": "senderNotificationUpdateinfoSet",
+          "label": "Sender Notifications",
+          "labelStandAlone": "Sender Notifications",
+          "displayOrder": 2
+        },
+        {
+          "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.CategoryInfo, MoneyGram.AgentConnect.DomainModel",
+          "infos": [
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "display": true,
+              "dataType": 0,
+              "infoKey": "sender_rewards_EnrollmentFlag",
+              "label": "Enroll in Plus Program?",
+              "labelStandAlone": "Enroll in Plus Program?",
+              "displayOrder": 1
+            },
+            {
+              "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+              "readOnly": false,
+              "required": false,
+              "fieldMax": 20,
+              "display": true,
+              "dataType": 1,
+              "infoKey": "mgiRewardsNumber",
+              "label": "MoneyGram Plus Number",
+              "labelStandAlone": "MoneyGram Plus Number",
+              "displayOrder": 2
+            }
+          ],
+          "infoKey": "senderNotificationPlusUpdateinfoSet",
+          "label": "Customer Benefits Program",
+          "labelStandAlone": "Customer Benefits Program",
+          "displayOrder": 3
+        }
+			],
+			"doCheckIn": false,
+			"timeStamp": "2018-10-29T03:18:29.317-05:00",
+			"flags": 16
+		}
+	}

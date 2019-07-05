@@ -1,0 +1,177 @@
+﻿{
+  "payload": {
+    "mgiSessionID": "77777777",
+    "readyForCommit": true,
+    "gafVersionNumber": "1.1.20171019",
+    "fieldsToCollect": [
+      {
+        "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.CategoryInfo, MoneyGram.AgentConnect.DomainModel",
+        "infos": [
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "readOnly": false,
+            "required": false,
+            "childFieldsKnown": null,
+            "fieldMin": null,
+            "fieldMax": null,
+            "defaultValue": null,
+            "validationRegEx": null,
+            "exampleFormat": null,
+            "childFields": [],
+            "lookupDataSource": null,
+            "lookupKey": null,
+            "display": null,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "receiver_MiddleName",
+            "label": null,
+            "labelStandAlone": null,
+            "displayOrder": null,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "readOnly": false,
+            "required": false,
+            "childFieldsKnown": null,
+            "fieldMin": null,
+            "fieldMax": null,
+            "defaultValue": null,
+            "validationRegEx": null,
+            "exampleFormat": null,
+            "childFields": [],
+            "lookupDataSource": null,
+            "lookupKey": null,
+            "display": null,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "receiver_LastName2",
+            "label": null,
+            "labelStandAlone": null,
+            "displayOrder": null,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "readOnly": false,
+            "required": false,
+            "childFieldsKnown": null,
+            "fieldMin": null,
+            "fieldMax": null,
+            "defaultValue": null,
+            "validationRegEx": null,
+            "exampleFormat": null,
+            "childFields": [
+              {
+                "fieldValue": "OTHER",
+                "infos": [
+                  {
+                    "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+                    "readOnly": false,
+                    "required": true,
+                    "childFieldsKnown": null,
+                    "fieldMin": null,
+                    "fieldMax": null,
+                    "defaultValue": null,
+                    "validationRegEx": null,
+                    "exampleFormat": null,
+                    "childFields": [],
+                    "lookupDataSource": null,
+                    "lookupKey": null,
+                    "display": null,
+                    "dataType": 1,
+                    "enumeration": null,
+                    "infoKey": "receiver_NameSuffixOther",
+                    "label": null,
+                    "labelStandAlone": null,
+                    "displayOrder": null,
+                    "helpTextShort": null,
+                    "helpTextLong": null,
+                    "documentation": null
+                  }
+                ]
+              }
+            ],
+            "lookupDataSource": null,
+            "lookupKey": null,
+            "display": null,
+            "dataType": 10,
+            "enumeration": {
+              "name": "NAME_SUFFIX",
+              "enumeratedItems": [
+                {
+                  "identifier": "--",
+                  "labelShort": "--",
+                  "label": "--"
+                },
+                {
+                  "identifier": "I",
+                  "labelShort": "I",
+                  "label": "I"
+                },
+                {
+                  "identifier": "II",
+                  "labelShort": "II",
+                  "label": "II"
+                },
+                {
+                  "identifier": "III",
+                  "labelShort": "III",
+                  "label": "III"
+                },
+                {
+                  "identifier": "IV",
+                  "labelShort": "IV",
+                  "label": "IV"
+                },
+                {
+                  "identifier": "V",
+                  "labelShort": "V",
+                  "label": "V"
+                },
+                {
+                  "identifier": "JR",
+                  "labelShort": "Jr.",
+                  "label": "Jr."
+                },
+                {
+                  "identifier": "SR",
+                  "labelShort": "Sr.",
+                  "label": "Sr."
+                },
+                {
+                  "identifier": "OTHER",
+                  "labelShort": "Other (please specify)",
+                  "label": "Other (please specify)"
+                }
+              ]
+            },
+            "infoKey": "receiver_NameSuffix",
+            "label": null,
+            "labelStandAlone": null,
+            "displayOrder": null,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          }
+        ],
+        "infoKey": "amendReceiveInfoSet",
+        "label": "Receiver Information",
+        "labelStandAlone": "Receiver Information",
+        "displayOrder": 2,
+        "helpTextShort": null,
+        "helpTextLong": null,
+        "documentation": null
+      }
+    ],
+    "receipts": null,
+    "receiptInfo": null,
+    "doCheckIn": false,
+    "timeStamp": "2018-05-14T10:48:46.616+02:00",
+    "flags": 0
+  }
+}

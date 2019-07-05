@@ -1,0 +1,2719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:prt="http://moneygram.com/webpoe/service/partner_v1"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cmn="http://moneygram.com/common_v1"
+	targetNamespace="http://moneygram.com/webpoe/service/partner_v1"
+	elementFormDefault="qualified" attributeFormDefault="unqualified"
+	xmlns:jxb="http://java.sun.com/xml/ns/jaxb" jxb:version="2.0">
+
+	<xs:import namespace="http://moneygram.com/common_v1"
+		schemaLocation="mgi_request_v1.xsd" />
+
+	<xs:element name="getTescoUserRequest" type="prt:GetTescoUserRequest" />
+	<xs:element name="getTescoUserResponse" type="prt:GetTescoUserResponse" />
+
+	<xs:element name="confirmMailUserRequest" type="prt:ConfirmMailUserRequest" />
+	<xs:element name="confirmMailUserResponse" type="prt:ConfirmMailUserResponse" />
+	
+	<xs:element name="getPendingMailValidationRequest" type="prt:GetPendingMailValidationRequest" />
+	<xs:element name="getPendingMailValidationResponse" type="prt:GetPendingMailValidationResponse" />
+	
+	<xs:element name="manageUserRequest" type="prt:ManageUserRequest" />
+	<xs:element name="manageUserResponse" type="prt:ManageUserResponse" />
+
+	<xs:element name="getUserRequest" type="prt:GetUserRequest" />
+	<xs:element name="getUserResponse" type="prt:GetUserResponse" />
+	
+	<xs:element name="getUsersRequest" type="prt:GetUsersRequest" />
+	<xs:element name="getUsersResponse" type="prt:GetUsersResponse" />
+
+	<xs:element name="getUsersByLocRequest" type="prt:GetUsersByLocRequest" />
+	<xs:element name="getUsersByLocResponse" type="prt:GetUsersByLocResponse" />
+
+	<xs:element name="getUserIdExistsRequest" type="prt:GetUserIdExistsRequest" />
+	<xs:element name="getUserIdExistsResponse" type="prt:GetUserIdExistsResponse" />
+		
+	<xs:element name="manageTabRequest" type="prt:ManageTabRequest" />
+	<xs:element name="manageTabResponse" type="prt:ManageTabResponse" />
+
+	<xs:element name="getTabsRequest" type="prt:GetTabsRequest" />
+	<xs:element name="getTabsResponse" type="prt:GetTabsResponse" />
+
+	<xs:element name="manageWidgetsRequest" type="prt:ManageWidgetsRequest" />
+	<xs:element name="manageWidgetsResponse" type="prt:ManageWidgetsResponse" />
+
+	<xs:element name="getWidgetsRequest" type="prt:GetWidgetsRequest" />
+	<xs:element name="getWidgetsResponse" type="prt:GetWidgetsResponse" />
+	
+	<xs:element name="registerTokenRequest" type="prt:RegisterTokenRequest" />
+	<xs:element name="registerTokenResponse" type="prt:RegisterTokenResponse" />
+	
+	<xs:element name="profileChangeRequest" type="prt:ProfileChangeRequest" />
+	<xs:element name="profileChangeResponse" type="prt:ProfileChangeResponse" />
+	
+	<xs:element name="clearTokenRequest" type="prt:ClearTokenRequest" />
+	<xs:element name="clearTokenResponse" type="prt:ClearTokenResponse" />
+	
+	<xs:element name="tokenValidationRequest" type="prt:TokenValidationRequest" />
+	<xs:element name="tokenValidationResponse" type="prt:TokenValidationResponse" />
+	
+	<xs:element name="checkUserExistsRequest" type="prt:CheckUserExistsRequest" />
+	<xs:element name="checkUserExistsResponse" type="prt:CheckUserExistsResponse" />
+	
+	<xs:element name="createLdapUserRequest" type="prt:CreateLdapUserRequest" />
+	<xs:element name="createLdapUserResponse" type="prt:CreateLdapUserResponse" />
+	
+	<xs:element name="removeLdapUserRequest" type="prt:RemoveLdapUserRequest" />
+	<xs:element name="removeLdapUserResponse" type="prt:RemoveLdapUserResponse" />
+	
+
+	<xs:element name="getTemplatesRequest" type="prt:GetTemplatesRequest" />
+	<xs:element name="getTemplatesResponse" type="prt:GetTemplatesResponse" />
+
+	<xs:element name="getRolesRequest" type="prt:GetRolesRequest" />
+	<xs:element name="getRolesResponse" type="prt:GetRolesResponse" />
+	
+	<xs:element name="getAlertsInfoRequest" type="prt:GetAlertsInfoRequest" />
+	<xs:element name="getAlertsInfoResponse" type="prt:GetAlertsInfoResponse" />
+	
+	<xs:element name="getUserAlertsRequest" type="prt:GetUserAlertsRequest" />
+	<xs:element name="getUserAlertsResponse" type="prt:GetUserAlertsResponse" />
+	
+	<xs:element name="insertAlertUserRequest" type="prt:InsertAlertUserRequest" />
+	<xs:element name="insertAlertUserResponse" type="prt:InsertAlertUserResponse" />
+	
+	<xs:element name="getAgentsRequest" type="prt:GetAgentsRequest" />
+	<xs:element name="getAgentsResponse" type="prt:GetAgentsResponse" />
+	
+	<xs:element name="getAgentsLocationsRequest" type="prt:GetAgentsLocationsRequest" />
+	<xs:element name="getAgentsLocationsResponse" type="prt:GetAgentsLocationsResponse" />
+
+	<xs:element name="getWebDeviceRequest" type="prt:GetWebDeviceRequest" />
+	<xs:element name="getWebDeviceResponse" type="prt:GetWebDeviceResponse" />
+	
+	<xs:element name="getNoFingerPrintMFARequest" type="prt:GetNoFingerPrintMFARequest" />
+	<xs:element name="getNoFingerPrintMFAResponse" type="prt:GetNoFingerPrintMFAResponse" />
+
+	<xs:element name="manageWebDeviceRequest" type="prt:ManageWebDeviceRequest" />
+	<xs:element name="manageWebDeviceResponse" type="prt:ManageWebDeviceResponse" />
+	
+	<xs:element name="massManageWebDeviceRequest" type="prt:MassManageWebDeviceRequest" />
+	<xs:element name="massManageWebDeviceResponse" type="prt:MassManageWebDeviceResponse" />
+
+	<xs:element name="getPOSDeviceRequest" type="prt:GetPOSDeviceRequest" />
+	<xs:element name="getPOSDeviceResponse" type="prt:GetPOSDeviceResponse" />
+
+	<xs:element name="authenticateUserRequest" type="prt:AuthenticateUserRequest" />
+	<xs:element name="authenticateUserResponse" type="prt:AuthenticateUserResponse" />
+	
+	<xs:element name="getAgentLocationMoRequest" type="prt:GetAgentLocationMoRequest" />
+	<xs:element name="getAgentLocationMoResponse" type="prt:GetAgentLocationMoResponse" />
+	
+	<xs:element name="getPOEAgentLocationMoRequest" type="prt:GetPOEAgentLocationMoRequest" />
+	<xs:element name="getPOEAgentLocationMoResponse" type="prt:GetPOEAgentLocationMoResponse" />
+
+	<xs:element name="managePartnerRequest" type="prt:ManagePartnerRequest" />
+	<xs:element name="managePartnerResponse" type="prt:ManagePartnerResponse" />
+	
+	<xs:element name="getAgentsNonWebPoeRequest" type="prt:GetAgentsNonWebPoeRequest" />
+	<xs:element name="getAgentsNonWebPoeResponse" type="prt:GetAgentsNonWebPoeResponse" />
+
+	<xs:element name="getTokenRequest" type="prt:GetTokenRequest" />
+	<xs:element name="getTokenResponse" type="prt:GetTokenResponse" />
+	
+	<xs:element name="manageTokenRequest" type="prt:ManageTokenRequest" />
+	<xs:element name="manageTokenResponse" type="prt:ManageTokenResponse" />
+	
+	<xs:element name="updateTokenRequest" type="prt:UpdateTokenRequest" />
+	<xs:element name="updateTokenResponse" type="prt:UpdateTokenResponse" />
+
+	<xs:element name="getTmsInstanceRequest" type="prt:GetTmsInstanceRequest" />
+	<xs:element name="getTmsInstanceResponse" type="prt:GetTmsInstanceResponse" />
+
+	<xs:element name="saveAgentTMSInstanceRequest" type="prt:SaveAgentTMSInstanceRequest" />
+	<xs:element name="saveAgentTMSInstanceResponse" type="prt:SaveAgentTMSInstanceResponse" />
+
+	<xs:element name="saveTMSInstanceRequest" type="prt:SaveTMSInstanceRequest" />
+	<xs:element name="saveTMSInstanceResponse" type="prt:SaveTMSInstanceResponse" />
+	
+	<xs:element name="saveUserDeviceTimeRequest" type="prt:SaveUserDeviceTimeRequest" />
+	<xs:element name="saveUserDeviceTimeResponse" type="prt:SaveUserDeviceTimeResponse" />
+	
+	<xs:element name="getMoEligibilityRequest" type="prt:GetMoEligibilityRequest" />
+	<xs:element name="getMoEligibilityResponse" type="prt:GetMoEligibilityResponse" />
+	
+	<xs:element name="getAgentPasswordRequest" type="prt:GetAgentPasswordRequest" />
+	<xs:element name="getAgentPasswordResponse" type="prt:GetAgentPasswordResponse" />	
+	
+	<xs:element name="getAgentsDeviceNamesRequest" type="prt:GetAgentsDeviceNamesRequest" />
+	<xs:element name="getAgentsDeviceNamesResponse" type="prt:GetAgentsDeviceNamesResponse" />
+	
+	<xs:element name="getLocationsForMoRequest" type="prt:GetLocationsForMoRequest" />
+	<xs:element name="getLocationsForMoResponse" type="prt:GetLocationsForMoResponse" />	
+	
+	<xs:element name="getPOELocationsForMoRequest" type="prt:GetPOELocationsForMoRequest" />
+	<xs:element name="getPOELocationsForMoResponse" type="prt:GetPOELocationsForMoResponse" />		
+	
+	<xs:element name="getLocationsForMoActivePosRequest" type="prt:GetLocationsForMoActivePosRequest" />
+	<xs:element name="getLocationsForMoActivePosResponse" type="prt:GetLocationsForMoActivePosResponse" />	
+	
+	<xs:element name="getLocationsForMoRgstdPosRequest" type="prt:GetLocationsForMoRgstdPosRequest" />
+	<xs:element name="getLocationsForMoRgstdPosResponse" type="prt:GetLocationsForMoRgstdPosResponse" />	
+
+	<xs:element name="ldapAccountLockedRequest" type="prt:LdapAccountLockedRequest" />
+	<xs:element name="ldapAccountLockedResponse" type="prt:LdapAccountLockedResponse" />
+	
+	<xs:element name="ldapChangePasswordRequest" type="prt:LdapChangePasswordRequest" />
+	<xs:element name="ldapChangePasswordResponse" type="prt:LdapChangePasswordResponse" />
+	
+	<xs:element name="ldapChangePasswordCheckRequest" type="prt:LdapChangePasswordCheckRequest" />
+	<xs:element name="ldapChangePasswordCheckResponse" type="prt:LdapChangePasswordCheckResponse" />
+
+	<xs:element name="ldapFindUserRequest" type="prt:LdapFindUserRequest" />
+	<xs:element name="ldapFindUserResponse" type="prt:LdapFindUserResponse" />
+	
+	<xs:element name="ldapGetUserAttributesRequest" type="prt:LdapGetUserAttributesRequest" />
+	<xs:element name="ldapGetUserAttributesResponse" type="prt:LdapGetUserAttributesResponse" />
+	
+	<xs:element name="ldapModifyUserRequest" type="prt:LdapModifyUserRequest" />
+	<xs:element name="ldapModifyUserResponse" type="prt:LdapModifyUserResponse" />
+	
+	<xs:element name="ldapPasswordExpiredRequest" type="prt:LdapPasswordExpiredRequest" />
+	<xs:element name="ldapPasswordExpiredResponse" type="prt:LdapPasswordExpiredResponse" />
+	
+	<xs:element name="ldapUpdatePasswordRequest" type="prt:LdapUpdatePasswordRequest" />
+	<xs:element name="ldapUpdatePasswordResponse" type="prt:LdapUpdatePasswordResponse" />
+
+	<xs:element name="ldapCreateUserRequest" type="prt:LdapCreateUserRequest" />
+	<xs:element name="ldapCreateUserResponse" type="prt:LdapCreateUserResponse" />
+	
+	<xs:element name="ldapAuthenticateUserRequest" type="prt:LdapAuthenticateUserRequest" />
+	<xs:element name="ldapAuthenticateUserResponse" type="prt:LdapAuthenticateUserResponse" />
+	
+	<xs:element name="createManagerApprovalRequest" type="prt:CreateManagerApprovalRequest" />
+	<xs:element name="createManagerApprovalResponse" type="prt:CreateManagerApprovalResponse" />
+	
+	<xs:element name="getPendingApprovalsRequest" type="prt:GetPendingApprovalsRequest" />
+	<xs:element name="getPendingApprovalsResponse" type="prt:GetPendingApprovalsResponse" />
+	
+	<xs:element name="getPendingApprovalUserRequest" type="prt:GetPendingApprovalUserRequest" />
+	<xs:element name="getPendingApprovalUserResponse" type="prt:GetPendingApprovalUserResponse" />
+	
+	<xs:element name="getArchivedApprovalsByRangeRequest" type="prt:GetArchivedApprovalsByRangeRequest" />
+	<xs:element name="getArchivedApprovalsByRangeResponse" type="prt:GetArchivedApprovalsByRangeResponse" />
+	
+	<xs:element name="approveManagerApprovalRequest" type="prt:ApproveManagerApprovalRequest" />
+	<xs:element name="approveManagerApprovalResponse" type="prt:ApproveManagerApprovalResponse" />
+	
+	<xs:element name="denyManagerApprovalRequest" type="prt:DenyManagerApprovalRequest" />
+	<xs:element name="denyManagerApprovalResponse" type="prt:DenyManagerApprovalResponse" />
+	
+	<xs:element name="getManagerApprovalReasonsRequest" type="prt:GetManagerApprovalReasonsRequest" />
+	<xs:element name="getManagerApprovalReasonsResponse" type="prt:GetManagerApprovalReasonsResponse" />
+	
+	<xs:element name="getUserReportsInfoRequest" type="prt:GetUserReportsInfoRequest" />
+	<xs:element name="getUserReportsInfoResponse" type="prt:GetUserReportsInfoResponse" />
+
+	<xs:element name="getTransactionExceedInfoRequest" type="prt:GetTransactionExceedInfoRequest" />
+	<xs:element name="getTransactionExceedInfoResponse" type="prt:GetTransactionExceedInfoResponse" />
+	
+	<xs:element name="createTransactionExceedInfoRequest" type="prt:CreateTransactionExceedInfoRequest" />
+	<xs:element name="createTransactionExceedInfoResponse" type="prt:CreateTransactionExceedInfoResponse" />
+	
+	<xs:element name="getCountriesRequest" type="prt:GetCountriesRequest" />
+	<xs:element name="getCountriesResponse" type="prt:GetCountriesResponse" />
+	
+	<xs:element name="getCountryLanguagesRequest" type="prt:GetCountryLanguagesRequest" />
+	<xs:element name="getCountryLanguagesResponse" type="prt:GetCountryLanguagesResponse" />
+
+
+	<xs:complexType name="GetTescoUserRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>					
+					<xs:element name="empId" type="xs:string" />
+					<xs:element name="storeNum" type="xs:string" />
+					<xs:element name="agentListStr" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetTescoUserResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="guid" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="ConfirmMailUserRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="ldapId" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="ConfirmMailUserResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage"/>				
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetPendingMailValidationRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="ldapId" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetPendingMailValidationResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="otpInfo" type="prt:OtpInfo" />
+				</xs:sequence>		
+			</xs:extension>		
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="CreateTransactionExceedInfoRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="transactionExceedInfo"
+						type="prt:CreateTransactionExceedReportsInfo" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="CreateTransactionExceedInfoResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetTransactionExceedInfoRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="agentId" type="prt:Identifier"
+						minOccurs="0" />
+					<xs:element name="transactionDate" type="xs:dateTime"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetTransactionExceedInfoResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="transactionExceedReportsInfoList"
+						type="prt:TransactionExceedReportsInfoList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetUserReportsInfoRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="mainOfficeId" type="prt:Identifier"
+						minOccurs="0" />
+					<xs:element name="fromDate" type="xs:dateTime"
+						minOccurs="0" />
+					<xs:element name="toDate" type="xs:dateTime" minOccurs="0"/>
+					<xs:element name="locations" type="prt:IdentifierList"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetUserReportsInfoResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="userReportsInfoRequestList" type="prt:UserReportsInfoList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetManagerApprovalReasonsRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetManagerApprovalReasonsResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="managerApprovalReasonList" type="prt:ManagerApprovalReasonList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="CreateManagerApprovalRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="userChangeRequest" type="prt:UserChangeRequest"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="CreateManagerApprovalResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="result" type="xs:boolean" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetPendingApprovalsRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="mainOfficeId" type="prt:Identifier"
+						minOccurs="0" />
+					<xs:element name="managerGuid" type="xs:string"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetPendingApprovalsResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="pendingRequestList" type="prt:UserChangeRequestList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetPendingApprovalUserRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="ldapUserId" type="xs:string"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetPendingApprovalUserResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="pendingUserChangeRequest" type="prt:UserChangeRequest"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetArchivedApprovalsByRangeRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="mainOfficeId" type="prt:Identifier"
+						minOccurs="0" />
+					<xs:element name="managerGuid" type="xs:string"
+						minOccurs="0" />
+					<xs:element name="fromDate" type="xs:dateTime"
+						minOccurs="0" />
+					<xs:element name="toDate" type="xs:dateTime" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetArchivedApprovalsByRangeResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="archiveRequestList" type="prt:UserChangeRequestList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="ApproveManagerApprovalRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="userChangeRequestId" type="xs:string"
+						minOccurs="0" />
+					<xs:element name="managerGuiId" type="xs:string"
+						minOccurs="0" />
+					<xs:element name="userGuiId" type="xs:string" minOccurs="0" />
+					<xs:element name="reasonCode" type="xs:int" minOccurs="0" />
+					<xs:element name="reasonDesc" type="xs:string" minOccurs="0" />
+					<xs:element name="tranOprId" type="xs:string" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="ApproveManagerApprovalResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="result" type="xs:boolean" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="DenyManagerApprovalRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="userChangeRequestId" type="xs:string"
+						minOccurs="0" />
+					<xs:element name="managerGuiId" type="xs:string"
+						minOccurs="0" />
+					<xs:element name="reasonCode" type="xs:int" minOccurs="0" />
+					<xs:element name="reasonDesc" type="xs:string" minOccurs="0" />
+					<xs:element name="tranOprId" type="xs:string" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="DenyManagerApprovalResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="result" type="xs:boolean" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:element name="ldapCreateAWUserRequest" type="prt:LdapCreateAWUserRequest" />
+	<xs:element name="ldapCreateAWUserResponse" type="prt:LdapCreateAWUserResponse" />
+
+	<xs:complexType name="LdapCreateAWUserRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="user" type="prt:User" minOccurs="0" />
+					<xs:element name="password" type="xs:string" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapCreateAWUserResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="ldapId" type="xs:string" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapAccountLockedRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="ldapId" type="xs:string" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapAccountLockedResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="accountLocked" type="xs:boolean"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="LdapChangePasswordCheckRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="ldapId" type="xs:string" minOccurs="0" />
+					<xs:element name="password" type="xs:string" minOccurs="0" />
+					<xs:element name="oldPassword" type="xs:string"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapChangePasswordCheckResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="passwordChanged" type="xs:boolean"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="LdapChangePasswordRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="ldapId" type="xs:string" minOccurs="0" />
+					<xs:element name="password" type="xs:string" minOccurs="0" />
+					<xs:element name="oldPassword" type="xs:string"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapChangePasswordResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="passwordChanged" type="xs:boolean"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapFindUserRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="ldapId" type="xs:string" minOccurs="0" />
+					<xs:element name="internal" type="xs:boolean" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapFindUserResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="ldapUser" type="prt:LdapUser"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapGetUserAttributesRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="ldapId" type="xs:string" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapGetUserAttributesResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="attributeList" type="prt:LdapAttributeList"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapModifyUserRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="ldapUser" type="prt:LdapUser"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapModifyUserResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapPasswordExpiredRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="ldapId" type="xs:string" minOccurs="0" />				
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapPasswordExpiredResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="passwordExpired" type="xs:boolean"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapUpdatePasswordRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="ldapId" type="xs:string" minOccurs="0" />
+					<xs:element name="password" type="xs:string" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapUpdatePasswordResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="passwordUpdated" type="xs:boolean"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapCreateUserRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="ldapUser" type="prt:LdapUser"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapCreateUserResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	
+	<xs:complexType name="LdapAuthenticateUserRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="ldapId" type="xs:string" minOccurs="0" />
+					<xs:element name="password" type="xs:string" minOccurs="0" />
+					<xs:element name="internal" type="xs:boolean" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapAuthenticateUserResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetLocationsForMoRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="storeNameNumberAgentId" type="xs:string"
+						minOccurs="0" />
+					<xs:element name="subLevelNameId" type="xs:string"
+						minOccurs="0" />
+					<xs:element name="city" type="prt:City" minOccurs="0"/>
+					<xs:element name="stateProvince" type="xs:string"
+						minOccurs="0" />
+					<xs:element name="country" type="prt:Country" minOccurs="0"/>
+					<xs:element name="zipCode" type="prt:Zip" minOccurs="0"/>
+					<xs:element name="mainOfficeId" type="prt:Identifier"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetLocationsForMoResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="agentList" type="prt:AgentList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetPOELocationsForMoRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="storeNameNumberAgentId" type="xs:string"
+						minOccurs="0" />
+					<xs:element name="subLevelNameId" type="xs:string"
+						minOccurs="0" />
+					<xs:element name="city" type="prt:City" minOccurs="0"/>
+					<xs:element name="stateProvince" type="xs:string"
+						minOccurs="0" />
+					<xs:element name="country" type="prt:Country" minOccurs="0"/>
+					<xs:element name="zipCode" type="prt:Zip" minOccurs="0"/>
+					<xs:element name="mainOfficeId" type="prt:Identifier"
+						minOccurs="0" />
+					<xs:element name="POECode" type="prt:Identifier"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetPOELocationsForMoResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="agentList" type="prt:AgentList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	
+	<xs:complexType name="GetLocationsForMoActivePosRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="storeNameNumberAgentId" type="xs:string"
+						minOccurs="0" />
+					<xs:element name="subLevelNameId" type="xs:string"
+						minOccurs="0" />
+					<xs:element name="city" type="prt:City" minOccurs="0"/>
+					<xs:element name="stateProvince" type="xs:string"
+						minOccurs="0" />
+					<xs:element name="country" type="prt:Country" minOccurs="0"/>
+					<xs:element name="zipCode" type="prt:Zip" minOccurs="0"/>
+					<xs:element name="mainOfficeId" type="prt:Identifier"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetLocationsForMoActivePosResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="agentList" type="prt:AgentList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetLocationsForMoRgstdPosRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="storeNameNumberAgentId" type="xs:string"
+						minOccurs="0" />
+					<xs:element name="subLevelNameId" type="xs:string"
+						minOccurs="0" />
+					<xs:element name="city" type="prt:City" minOccurs="0"/>
+					<xs:element name="stateProvince" type="xs:string"
+						minOccurs="0" />
+					<xs:element name="country" type="prt:Country" minOccurs="0"/>
+					<xs:element name="zipCode" type="prt:Zip" minOccurs="0"/>
+					<xs:element name="mainOfficeId" type="prt:Identifier"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetLocationsForMoRgstdPosResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="agentList" type="prt:AgentList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetAgentPasswordRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="agentId" type="prt:Identifier"
+						minOccurs="0" />
+					<xs:element name="posNumber" type="prt:Identifier"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetAgentPasswordResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="agentPassword" type="xs:string"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>	
+
+	<xs:complexType name="GetAgentsDeviceNamesRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="agentPosDeviceList" type="prt:AgentPosDeviceList"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetAgentsDeviceNamesResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="agentPosDeviceListResult" type="prt:AgentPosDeviceList"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	
+	<xs:complexType name="GetMoEligibilityRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="agentId" type="prt:Identifier"
+						minOccurs="0" />
+					<xs:element name="posNumber" type="prt:Identifier"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetMoEligibilityResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="moEligibility" type="xs:boolean"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetTmsInstanceRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="agentId" type="prt:Identifier"
+						minOccurs="0" />
+					<xs:element name="posNumber" type="prt:Identifier"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetTmsInstanceResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="tmsInstance" type="prt:TMSInstance"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="SaveAgentTMSInstanceRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="tmsInstance" type="prt:TMSInstance"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="SaveAgentTMSInstanceResponse">
+				<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="tmsInstanceId" type="prt:Identifier" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="SaveTMSInstanceRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="tmsInstanceId" type="prt:Identifier"
+						minOccurs="0" />
+					<xs:element name="machineName" type="prt:AgentName"
+						minOccurs="0" />
+					<xs:element name="port" type="prt:Identifier" minOccurs="0"/>
+					<xs:element name="tmsInstanceData" type="xs:string"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="SaveTMSInstanceResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage"/>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="SaveUserDeviceTimeRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="deviceId" type="prt:Identifier"
+						minOccurs="0" />
+					<xs:element name="userId" type="xs:string" minOccurs="0"/>
+					<xs:element name="time" type="xs:dateTime" minOccurs="0"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="SaveUserDeviceTimeResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage"/>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="UpdateTokenRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="ldapId" type="prt:LdapId" />
+					<xs:element name="token" type="prt:Token" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="UpdateTokenResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage"/>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetTokenRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="token" type="prt:Token" minOccurs="0"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetTokenResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="tokenInformation" type="prt:TokenInformation" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="ManageTokenRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="tokenInformation" type="prt:TokenInformation" />
+					<xs:element name="token" type="prt:Token" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="ManageTokenResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage"/>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	
+	<xs:complexType name="GetAgentsNonWebPoeRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="agentId" type="prt:Identifier"
+						minOccurs="0" />
+					<xs:element name="agentName" type="prt:AgentName"
+						minOccurs="0" />
+					<xs:element name="maxRecords" type="xs:int" minOccurs="0"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetAgentsNonWebPoeResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="agentList" type="prt:AgentList" />
+					<xs:element name="records" type="xs:double" minOccurs="0"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetAgentLocationMoRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="agentId" type="prt:Identifier" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetAgentLocationMoResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="agentList" type="prt:AgentList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetPOEAgentLocationMoRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="agentId" type="prt:Identifier" />
+					<xs:element name="POECode" type="prt:Identifier" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetPOEAgentLocationMoResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="agentList" type="prt:AgentList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetAgentsRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="agentId" type="prt:Identifier"
+						minOccurs="0" />
+					<xs:element name="agentName" type="prt:AgentName"
+						minOccurs="0" />
+					<xs:element name="city" type="prt:City" minOccurs="0"/>
+					<xs:element name="state" type="prt:State" minOccurs="0"/>
+					<xs:element name="stateCode" type="prt:StateCode"
+						minOccurs="0" />
+					<xs:element name="country" type="prt:Country" minOccurs="0"/>
+					<xs:element name="zipCode" type="prt:Zip" minOccurs="0"/>
+					<xs:element name="phone" type="prt:PhoneNumber"
+						minOccurs="0" />
+					<xs:element name="hierarchyLevel" type="prt:HierarchyLevel"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetAgentsResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="agentList" type="prt:AgentList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetAgentsLocationsRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="moId" type="prt:Identifier" minOccurs="0"/>				
+					<xs:element name="agentId" type="prt:Identifier"
+						minOccurs="0" />
+					<xs:element name="agentName" type="prt:AgentName"
+						minOccurs="0" />
+					<xs:element name="city" type="prt:City" minOccurs="0"/>
+					<xs:element name="state" type="prt:State" minOccurs="0"/>
+					<xs:element name="stateCode" type="prt:StateCode"
+						minOccurs="0" />
+					<xs:element name="zipCode" type="prt:Zip" minOccurs="0"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetAgentsLocationsResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="agentList" type="prt:AgentList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetRolesRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage"/>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetRolesResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="roles" type="prt:RoleList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetTemplatesRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage"/>
+			
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetTemplatesResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="templates" type="prt:TemplateList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+
+	<xs:complexType name="ManageUserRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="user" type="prt:User" />
+					<xs:element name="manageUserTask" type="prt:ManageUserTask"
+						minOccurs="0" maxOccurs="unbounded" />
+					<xs:element name="password" type="xs:string" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="ManageUserResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage"/>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetUserRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="ldapId" type="prt:LdapId" />
+					<xs:element name="getUserTask" type="prt:GetUserTask"
+						minOccurs="0" maxOccurs="unbounded" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetUserResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="user" type="prt:User" />
+					<xs:element name="tabList" type="prt:TabList" minOccurs="0"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+<!-- AW-3157 July User story-Changes - added selLocationIds element for GetUsersRequest -->
+	<xs:complexType name="GetUsersRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="searchValue" type="xs:string" />
+					<xs:element name="activeFlag" type="xs:string" />
+					<xs:element name="agentId" type="prt:Identifier" />
+					<xs:element name="roleId" type="prt:Identifier" />
+					<xs:element name="satc" type="xs:string" />
+					<xs:element name="selLocationIds" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetUsersResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="user" type="prt:UserList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	
+	<xs:complexType name="GetAlertsInfoRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage"/>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetAlertsInfoResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="alerts" type="prt:AlertList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetUserAlertsRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+						<xs:element name="userId" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetUserAlertsResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="alerts" type="prt:AlertList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="InsertAlertUserRequest">
+		<xs:complexContent>
+				<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="userId" type="xs:string" />
+					<xs:element name="typeCode" type="xs:int" />
+					<xs:element name="flag" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="InsertAlertUserResponse">
+		<xs:complexContent>	
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="alerts" type="prt:AlertList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetUsersByLocRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="activeFlag" type="xs:string" />
+					<xs:element name="agentId" type="prt:Identifier" />
+					<xs:element name="roleId" type="prt:Identifier" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetUsersByLocResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="user" type="prt:UserList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+<xs:complexType name="GetUserIdExistsRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="mainofficeId" type="prt:Identifier" />
+					<xs:element name="operatorId" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetUserIdExistsResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="userId" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="ManageTabRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="tab" type="prt:Tab" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="ManageTabResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage"/>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetTabsRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="agentId" type="prt:Identifier" />
+					<xs:element name="roleId" type="prt:Identifier"
+						minOccurs="0" />
+					<xs:element name="tabId" type="prt:Identifier"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetTabsResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="tabList" type="prt:TabList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="ManageWidgetsRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="agentId" type="prt:Identifier" />
+					<xs:element name="widgetList" type="prt:WidgetList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="ManageWidgetsResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetWidgetsRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="agentId" type="prt:Identifier"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetWidgetsResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="widgetList" type="prt:WidgetList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<!-- MFA -->
+	<xs:complexType name="RegisterTokenRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="unitProfileID" type="xs:string" minOccurs="0"/>
+					<xs:element name="agentID" type="xs:string" minOccurs="0"/>
+					<xs:element name="agentSequence" type="xs:string" minOccurs="0"/>
+					<xs:element name="token" type="xs:string" minOccurs="1"/>
+					<xs:element name="language" type="xs:string" />
+					<xs:element name="timeStamp" type="xs:dateTime" />
+					<xs:element name="apiVersion" type="xs:string" minOccurs="1"/>
+					<xs:element name="clientSoftwareVersion" type="xs:string" minOccurs="1"/>
+					<xs:element name="userID" type="xs:string" minOccurs="0"/>
+					<xs:element name="ldapUserId" type="xs:string" minOccurs="1"/>
+					<xs:element name="hardToken" type="xs:string" minOccurs="1" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="RegisterTokenResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="registrationSuccess" type="xs:boolean" />
+					<xs:element name="errorCode" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="ProfileChangeRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="unitProfileID" type="xs:string" minOccurs="0"/>
+					<xs:element name="agentID" type="xs:string" minOccurs="0"/>
+					<xs:element name="agentSequence" type="xs:string" minOccurs="0"/>
+					<xs:element name="token" type="xs:string" minOccurs="1"/>
+					<xs:element name="language" type="xs:string" />
+					<xs:element name="timeStamp" type="xs:dateTime" />
+					<xs:element name="apiVersion" type="xs:string" minOccurs="1"/>
+					<xs:element name="clientSoftwareVersion" type="xs:string" minOccurs="1"/>
+					<xs:element name="userID" type="xs:string" minOccurs="0"/>
+					<xs:element name="profile" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="ProfileChangeResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="profileChangeSuccess" type="xs:boolean" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="ClearTokenRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="unitProfileID" type="xs:string" minOccurs="0"/>
+					<xs:element name="agentID" type="xs:string" minOccurs="0"/>
+					<xs:element name="agentSequence" type="xs:string" minOccurs="0"/>
+					<xs:element name="token" type="xs:string" minOccurs="1"/>
+					<xs:element name="language" type="xs:string" />
+					<xs:element name="timeStamp" type="xs:dateTime" />
+					<xs:element name="apiVersion" type="xs:string" minOccurs="1"/>
+					<xs:element name="clientSoftwareVersion" type="xs:string" minOccurs="1"/>
+					<xs:element name="userID" type="xs:string" minOccurs="0"/>
+					<xs:element name="ldapUserId" type="xs:string" minOccurs="1"/>
+					<xs:element name="poe" type="xs:string" minOccurs="1"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="ClearTokenResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="clearTokenSuccessful" type="xs:boolean" />
+					<xs:element name="errorCode" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="TokenValidationRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="unitProfileID" type="xs:string" minOccurs="0"/>
+					<xs:element name="agentID" type="xs:string" minOccurs="0"/>
+					<xs:element name="agentSequence" type="xs:string" minOccurs="0"/>
+					<xs:element name="token" type="xs:string" minOccurs="1"/>
+					<xs:element name="language" type="xs:string" />
+					<xs:element name="timeStamp" type="xs:dateTime" />
+					<xs:element name="apiVersion" type="xs:string" minOccurs="1"/>
+					<xs:element name="clientSoftwareVersion" type="xs:string" minOccurs="1"/>
+					<xs:element name="userID" type="xs:string" minOccurs="0"/>
+					<xs:element name="ldapUserId" type="xs:string" minOccurs="1"/>
+					<xs:element name="hardToken" type="xs:string" minOccurs="1"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="TokenValidationResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="userTokenValid" type="xs:boolean" />
+					<xs:element name="errorCode" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="CheckUserExistsRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="unitProfileID" type="xs:string" minOccurs="0"/>
+					<xs:element name="agentID" type="xs:string" minOccurs="0"/>
+					<xs:element name="agentSequence" type="xs:string" minOccurs="0"/>
+					<xs:element name="token" type="xs:string" minOccurs="1"/>
+					<xs:element name="language" type="xs:string" />
+					<xs:element name="timeStamp" type="xs:dateTime" />
+					<xs:element name="apiVersion" type="xs:string" minOccurs="1"/>
+					<xs:element name="clientSoftwareVersion" type="xs:string" minOccurs="1"/>
+					<xs:element name="userID" type="xs:string" minOccurs="0"/>
+					<xs:element name="ldapUserId" type="xs:string" minOccurs="1"/>
+					<xs:element name="poe" type="xs:string" minOccurs="1"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="CheckUserExistsResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="userExists" type="xs:boolean" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	
+	<xs:complexType name="CreateLdapUserRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="unitProfileID" type="xs:string" minOccurs="0"/>
+					<xs:element name="agentID" type="xs:string" minOccurs="0"/>
+					<xs:element name="agentSequence" type="xs:string" minOccurs="0"/>
+					<xs:element name="token" type="xs:string" minOccurs="1"/>
+					<xs:element name="language" type="xs:string" />
+					<xs:element name="timeStamp" type="xs:dateTime" />
+					<xs:element name="apiVersion" type="xs:string" minOccurs="1"/>
+					<xs:element name="clientSoftwareVersion" type="xs:string" minOccurs="1"/>
+					<xs:element name="userID" type="xs:string" minOccurs="0"/>
+					<xs:element name="ldapUserId" type="xs:string" minOccurs="1"/>
+					<xs:element name="password" type="xs:string" minOccurs="1"/>
+					<xs:element name="poe" type="xs:string" minOccurs="1"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="CreateLdapUserResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="userCreationSuccessful" type="xs:boolean" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="RemoveLdapUserRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="unitProfileID" type="xs:string" minOccurs="0"/>
+					<xs:element name="agentID" type="xs:string" minOccurs="0"/>
+					<xs:element name="agentSequence" type="xs:string" minOccurs="0"/>
+					<xs:element name="token" type="xs:string" minOccurs="1"/>
+					<xs:element name="language" type="xs:string" />
+					<xs:element name="timeStamp" type="xs:dateTime" />
+					<xs:element name="apiVersion" type="xs:string" minOccurs="1"/>
+					<xs:element name="clientSoftwareVersion" type="xs:string" minOccurs="1"/>
+					<xs:element name="userID" type="xs:string" minOccurs="0"/>
+					<xs:element name="ldapUserId" type="xs:string" minOccurs="1"/>
+					<xs:element name="poe" type="xs:string" minOccurs="1"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="RemoveLdapUserResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="userRemovalSuccessful" type="xs:boolean" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetWebDeviceRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="agentId" type="prt:Identifier">
+						<xs:annotation>
+							<xs:documentation>
+								The agent id of the location if the list of the
+								finger prints is empty.
+								If the finger prints are specified then
+								it's a main office agent id.
+							</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="fingerprintList" type="prt:DeviceFingerprintList"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetWebDeviceResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="webDeviceList" type="prt:WebDeviceList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetNoFingerPrintMFARequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="agentId" type="prt:Identifier">
+						<xs:annotation>
+							<xs:documentation>
+								The agent id and POS of the location for No Finger print
+							</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="pos" type="prt:Identifier"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetNoFingerPrintMFAResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="webDevice" type="prt:WebDevice" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="ManageWebDeviceRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="webDevice" type="prt:WebDevice" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="ManageWebDeviceResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="MassManageWebDeviceRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="posAgentList" type="prt:PosAgentList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="MassManageWebDeviceResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetPOSDeviceRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="agentId" type="prt:Identifier"/>
+					<xs:element name="poeCode" type="xs:int"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="GetPOSDeviceResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="posDeviceList" type="prt:PointOfSaleDeviceList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="AuthenticateUserRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="userId" type="prt:UserId" />
+					<xs:element name="password" type="xs:string" />
+					<xs:element name="adminAccessRequired" type="xs:boolean"
+						minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Administrator role access required flag. If
+								true then the role check is performed.
+							</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="mainOfficeAgentId" type="prt:Identifier"
+						minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Agent main office id that user must belong to.
+								If specified then the main office access check is performed.
+							</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="locationAgentId" type="prt:Identifier"
+						minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Agent location id that user must have access
+								to. If specified then the location access check is performed.
+							</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="AuthenticateUserResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="user" type="prt:User" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="ManagePartnerRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="partner" type="prt:Partner" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="ManagePartnerResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage"/>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetCountriesRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage"/>			
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetCountriesResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+			<xs:sequence>
+				<xs:element name="countryInfoList" type="prt:CountryInfoList" />
+			</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetCountryLanguagesRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="isoCode" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="GetCountryLanguagesResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="countryInfoList" type="prt:CountryInfoList" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	
+	
+	<!-- Complex types -->
+	
+	<xs:complexType name="AgentPosDeviceList">
+		<xs:sequence>
+			<xs:element name="agentPosDevice" type="prt:AgentPosDevice"
+				maxOccurs="unbounded" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="AgentPosDevice">
+		<xs:sequence>
+			<xs:element name="agentId" type="prt:Identifier" />
+			<xs:element name="posNumber" type="prt:Identifier"
+				minOccurs="0" />
+			<xs:element name="name" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="User">
+		<xs:sequence>
+			<xs:element name="ldapId" type="prt:LdapId" />
+			<xs:element name="userId" type="prt:UserId" />
+			<xs:element name="firstName" type="xs:string" />
+			<xs:element name="lastName" type="xs:string" />
+			<xs:element name="active" type="xs:boolean" />
+			<xs:element name="authenticationRequired" type="xs:boolean" />
+			<xs:element name="pin" type="xs:string" minOccurs="0"/>
+			<xs:element name="pinExpirationDate" type="xs:dateTime"
+				minOccurs="0" />
+			<xs:element name="employeeId" type="prt:EmployeeId"
+				minOccurs="0" />
+			<xs:element name="agentList" type="prt:UserAgentList"
+				minOccurs="0" />
+			<xs:element name="roleList" type="prt:IdentifierList"
+				minOccurs="0" />
+			<xs:element name="sendLimit" type="xs:double" minOccurs="0"/>
+			<xs:element name="receiveLimit" type="xs:double"
+				minOccurs="0" />
+			<xs:element name="expressPayLimit" type="xs:double"
+				minOccurs="0" />
+			<xs:element name="amendLimit" type="xs:double" minOccurs="0"/>
+			<xs:element name="cancelLimit" type="xs:double" minOccurs="0"/>
+			<xs:element name="contact" type="prt:UserContact"
+				minOccurs="0" />
+			<xs:element name="mainOfficeAgentId" type="prt:Identifier"
+				minOccurs="0" />
+			<xs:element name="tranOperatorId" type="xs:string" />
+			<xs:element name="lastLogonTokenId" type="xs:string" />
+			<xs:element name="lastLogonTokenDate" type="xs:dateTime"
+				minOccurs="0" />
+			<xs:element name="defaultReceiptLanguage" type="xs:string" />
+			<xs:element name="recepitLanguagesAvailables" type="prt:LanguagesList"
+				minOccurs="0" />
+			<xs:element name="managerApprovalRequired" type="xs:boolean" />
+			<xs:element name="otpText" type="xs:string" minOccurs="0"/>
+			<xs:element name="otpDate" type="xs:dateTime" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="OtpInfo">
+		<xs:sequence>			
+			<xs:element name="otpText" type="xs:string" minOccurs="0"/>
+			<xs:element name="otpDate" type="xs:dateTime" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	
+	<xs:complexType name="TMSInstance">
+		<xs:sequence>
+			<xs:element name="agentId" type="prt:Identifier" />	
+			<xs:element name="posNumber" type="prt:Identifier" />
+  			<xs:element name="dvcFeeWavedFlag" type="xs:boolean" />
+			<xs:element name="tmsInstanceId" type="prt:Identifier"
+				minOccurs="0" />
+			<xs:element name="machineName" type="xs:string" />
+			<xs:element name="port" type="prt:Identifier" />
+			<xs:element name="tmsInstanceData" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<xs:complexType name="LanguagesList">
+		<xs:sequence>
+			<xs:element name="languages" type="xs:string" maxOccurs="unbounded"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="IdentifierList">
+		<xs:sequence>
+			<xs:element name="ids" type="prt:Identifier" maxOccurs="unbounded"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="UserContact">
+		<xs:sequence>
+			<xs:element name="preferredMethod" type="prt:ContactMethod"
+				minOccurs="0" />
+		
+			<xs:element name="email" type="prt:Email" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+						Email is stored in LDAP. 
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="work" type="prt:PhoneNumber" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+						Work phone number is stored in LDAP. 
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="mobile" type="prt:PhoneNumber"
+				minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+						Mobile phone number is stored in LDAP. 
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="UserList">
+		<xs:sequence>
+			<xs:element name="user" type="prt:User" maxOccurs="unbounded"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="WidgetList">
+		<xs:sequence>
+			<xs:element name="widget" type="prt:Widget" maxOccurs="unbounded"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="AgentList">
+		<xs:sequence>
+			<xs:element name="agent" type="prt:Agent" maxOccurs="unbounded"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="UserAgentList">
+		<xs:sequence>
+			<xs:element name="agent" type="prt:UserAgent" maxOccurs="unbounded"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="RoleList">
+		<xs:sequence>
+			<xs:element name="role" type="prt:Role" maxOccurs="unbounded"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="TabList">
+		<xs:sequence>
+			<xs:element name="tab" type="prt:Tab" maxOccurs="unbounded"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="TemplateList">
+		<xs:sequence>
+			<xs:element name="template" type="prt:Template" maxOccurs="unbounded"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="Tab">
+		<xs:complexContent>
+			<xs:extension base="prt:Component">
+				<xs:sequence>
+					<xs:element name="template" type="prt:Template" />
+					<xs:element name="panelList" type="prt:PanelList"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="PanelList">
+		<xs:sequence>
+			<xs:element name="panel" type="prt:Panel" maxOccurs="unbounded"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Template">
+		<xs:complexContent>
+			<xs:extension base="prt:Component">
+				<xs:sequence>
+					<xs:element name="code" type="xs:string" />
+					<xs:element name="descTemplate" type="xs:string" />
+					<xs:element name="numberOfPanels" type="xs:int" />
+					<xs:element name="displayOrderNumber" type="xs:int" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="Panel">
+		<xs:complexContent>
+			<xs:extension base="prt:Component">
+				<xs:sequence>
+					<xs:element name="widgetPlacementList" type="prt:WidgetPlacementList"
+						minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="WidgetPlacementList">
+		<xs:sequence>
+			<xs:element name="widgetPlacement" type="prt:WidgetPlacement"
+				maxOccurs="unbounded" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="WidgetPlacement">
+		<xs:sequence>
+			<xs:element name="widget" type="prt:Widget" />
+			<xs:element name="order" type="xs:int" />
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<xs:complexType name="UserAgent">
+		<xs:sequence>
+			<xs:element name="id" type="prt:Identifier" />
+			<xs:element name="activityType" type="xs:int" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Widget">
+		<xs:complexContent>
+			<xs:extension base="prt:Component">
+				<xs:sequence>
+					<xs:element name="roles" type="prt:Role" maxOccurs="unbounded" /><!-- 
+						TODO: remove once tab management is implemented -->
+					<xs:element name="location" type="xs:string" minOccurs="0" />
+					<xs:element name="label" type="xs:string" minOccurs="0" />
+					<xs:element name="type" type="prt:WidgetType" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="Role">
+		<xs:sequence>
+			<xs:element name="id" type="prt:Identifier" />
+			<xs:element name="name" type="xs:string" />
+			<xs:element name="description" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="Component">
+		<xs:sequence>
+			<xs:element name="id" type="prt:Identifier" />
+			<xs:element name="name" type="xs:string" />
+			<xs:element name="description" type="xs:string" />
+			<xs:element name="icon" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Partner">
+		<xs:sequence>
+			<xs:element name="id" type="prt:Identifier" />
+			<xs:element name="authenticationRequired" type="xs:boolean" />
+			<xs:element name="emailAsUserId" type="xs:boolean" />
+			<xs:element name="defaultWidget" type="prt:Widget" />
+			<xs:element name="active" type="xs:boolean" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Agent">
+		<xs:complexContent>
+			<xs:extension base="prt:Partner">
+				<xs:sequence>
+		              <xs:element name="name" type="xs:string" />
+		              <xs:element name="addressLine1" type="xs:string" />
+		              <xs:element name="addressLine2" type="xs:string" />
+		              <xs:element name="addressLine3" type="xs:string" />
+		              <xs:element name="city" type="xs:string" />
+		              <xs:element name="state" type="prt:State" />
+		              <xs:element name="stateCode" type="prt:StateCode" />
+		              <xs:element name="country" type="xs:string" />
+		              <xs:element name="postalCode" type="xs:string" />
+		              <xs:element name="phone" type="prt:PhoneNumber"/>
+		              <xs:element name="hierarchyLevel" type="xs:int" />
+		              <xs:element name="legacyAgentNum" type="xs:string" />
+		              <xs:element name="timeZoneName" type="xs:string" />
+		              <xs:element name="storeNumber" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="PosAgentList">
+		<xs:sequence>
+			<xs:element name="posAgent" type="prt:PosAgent" maxOccurs="unbounded"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="PosAgent">
+		<xs:sequence>
+			<xs:element name="agentId" type="prt:Identifier" />
+			<xs:element name="deviceList" type="prt:WebDeviceList"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="WebDeviceList">
+		<xs:sequence>
+			<xs:element name="webDevice" type="prt:WebDevice"
+				maxOccurs="unbounded" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="WebDevice">
+		<xs:sequence>
+			<xs:element name="id" type="prt:Identifier" minOccurs="0"/>
+			<xs:element name="name" type="xs:string" />
+			<xs:element name="agentId" type="prt:Identifier" />
+			<xs:element name="posDevice" type="prt:PointOfSaleDevice"
+				minOccurs="0" />
+			<xs:element name="transactionalUse" type="xs:boolean" />
+			<xs:element name="backOfficeUse" type="xs:boolean" />
+			<xs:element name="authorizedDate" type="xs:dateTime" />
+			<xs:element name="authorizedUser" type="xs:string" />
+			<xs:element name="registeredDate" type="xs:dateTime" />
+			<xs:element name="registeredUser" type="xs:string" />
+			<xs:element name="fingerprintList" type="prt:DeviceFingerprintList"
+				minOccurs="0" />
+			<xs:element name="mfaFlag" type="xs:boolean" />
+			<xs:element name="mfaToken" type="xs:string" />	
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="DeviceFingerprintList">
+		<xs:sequence>
+			<xs:element name="fingerprint" type="prt:DeviceFingerprint"
+				maxOccurs="unbounded" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="DeviceFingerprint">
+		<xs:sequence>
+			<xs:element name="id" type="prt:Identifier" />
+			<xs:element name="fingerprint" type="xs:string" />
+			<xs:element name="version" type="prt:Identifier" />
+			<xs:element name="active" type="xs:boolean" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="PointOfSaleDeviceList">
+		<xs:sequence>
+			<xs:element name="posDevice" type="prt:PointOfSaleDevice"
+				maxOccurs="unbounded" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="PointOfSaleDevice">
+		<xs:sequence>
+			<xs:element name="id" type="prt:Identifier" />
+			<xs:element name="posNumber" type="prt:Identifier" />
+			<xs:element name="status" type="xs:string" >
+				<xs:annotation>
+					<xs:documentation>
+						A - Authorized - Is operational to which all
+						security rules apply.
+						D - Deauthorized - Is deauthorized due to a
+						security rule violation. MoneyGram must be contacted to
+						reauthorize the device.
+						I - Initial - Is properly set up and saved,
+						but not used in a production manner. This changes to authorized
+						when this device contacts the host for the first time.
+						T - Setup
+						Incomplete - Has not been saved with all of the required
+						information. When the profile is saved for the first time, the
+						status is changed to Initial.
+						X - Deactivated - Is inactive and not
+						displayed to non-super users in an Agent Profile.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="statusDescription" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapAttributeList">
+		<xs:sequence>
+			<xs:element name="attribute" type="prt:LdapAttribute"
+				maxOccurs="unbounded" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapAttribute">
+		<xs:sequence>
+			<xs:element name="id" type="xs:string" />
+			<xs:element name="value" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="LdapUser">
+		<xs:sequence>
+			<xs:element name="userId" type="xs:string" />
+			<xs:element name="guid" type="prt:LdapId" />
+			<xs:element name="password" type="xs:string" />
+			<xs:element name="fullName" type="xs:string" />
+			<xs:element name="firstName" type="xs:string" />
+			<xs:element name="lastName" type="xs:string" />
+			<xs:element name="email" type="prt:Email" />
+			<xs:element name="mobilePhone" type="xs:string" />
+			<xs:element name="primaryPhone" type="xs:string" />
+			<xs:element name="internalGroup" type="xs:boolean" />
+		</xs:sequence>
+	</xs:complexType>	
+	
+	<xs:complexType name="UserChangeRequestList">
+		<xs:sequence>
+			<xs:element name="userChangeRequest" type="prt:UserChangeRequest"
+				maxOccurs="unbounded" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="UserChangeRequest">
+		<xs:sequence>
+			<xs:element name="stagingUser" type="prt:StagingUser"
+				minOccurs="0" />
+			<xs:element name="ldapUserId" type="xs:string" minOccurs="0" />
+			<xs:element name="firstName" type="xs:string" />
+            <xs:element name="lastName" type="xs:string" />
+            <xs:element name="city" type="xs:string" />
+            <xs:element name="country" type="xs:string" />
+            <xs:element name="requestedDate" type="xs:dateTime" />
+            <xs:element name="requestedByGuiId" type="xs:string" />
+            <xs:element name="requestedByFirstName" type="xs:string" />
+            <xs:element name="requestedByLastName" type="xs:string" />
+            <xs:element name="statusCode" type="prt:Identifier" />
+            <xs:element name="statusDesc" type="xs:string" />
+            <xs:element name="purposeCode" type="prt:Identifier" />
+            <xs:element name="purposeDesc" type="xs:string" />
+            <xs:element name="statusReasonCode" type="prt:Identifier" />
+            <xs:element name="statusReasonDesc" type="xs:string" />
+            <xs:element name="verifiedDate" type="xs:dateTime" />
+            <xs:element name="verifiedByGuiId" type="xs:string" />
+            <xs:element name="verifiedByFirstName" type="xs:string" />
+            <xs:element name="verifiedByLastName" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="StagingUser">
+		<xs:sequence>
+			<xs:element name="ldapId" type="prt:LdapId" />
+			<xs:element name="userId" type="prt:UserId" />
+			<xs:element name="firstName" type="xs:string" />
+			<xs:element name="lastName" type="xs:string" />
+			<xs:element name="password" type="xs:string" />
+			<xs:element name="active" type="xs:boolean" />
+			<xs:element name="authenticationRequired" type="xs:boolean" />
+			<xs:element name="pin" type="xs:string" minOccurs="0"/>
+			<xs:element name="pinExpirationDate" type="xs:dateTime"
+				minOccurs="0" />
+			<xs:element name="employeeId" type="prt:EmployeeId"
+				minOccurs="0" />
+			<xs:element name="agentList" type="prt:UserAgentList"
+				minOccurs="0" />
+			<xs:element name="roleList" type="prt:IdentifierList"
+				minOccurs="0" />
+			<xs:element name="sendLimit" type="xs:double" minOccurs="0"/>
+			<xs:element name="receiveLimit" type="xs:double"
+				minOccurs="0" />
+			<xs:element name="expressPayLimit" type="xs:double"
+				minOccurs="0" />
+			<xs:element name="amendLimit" type="xs:double" minOccurs="0"/>
+			<xs:element name="cancelLimit" type="xs:double" minOccurs="0"/>
+			<xs:element name="contact" type="prt:UserContact"
+				minOccurs="0" />
+			<xs:element name="mainOfficeAgentId" type="prt:Identifier"
+				minOccurs="0" />
+			<xs:element name="allLocationsAllowed" type="xs:boolean" />
+			<xs:element name="lastLogonTokenId" type="xs:string" />
+			<xs:element name="lastLogonTokenDate" type="xs:dateTime"
+				minOccurs="0" />
+			<xs:element name="defaultReceiptLanguage" type="xs:string" />
+			<xs:element name="recepitLanguagesAvailables" type="prt:LanguagesList"
+				minOccurs="0" />
+			<xs:element name="managerApprovalRequired" type="xs:boolean" />
+			<xs:element name="mainOfficePoeAuth" type="xs:boolean" />
+			<xs:element name="createdBy" type="xs:string" />
+			<xs:element name="createdDate" type="xs:dateTime"
+				minOccurs="0" />
+			<xs:element name="tranOprId" type="xs:string" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+		
+	<xs:complexType name="ManagerApprovalReasonList">
+		<xs:sequence>
+			<xs:element name="managerApprovalReasonList" type="prt:ManagerApprovalReason"
+				maxOccurs="unbounded" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>	
+	
+	<xs:complexType name="ManagerApprovalReason">
+		<xs:sequence>
+			<xs:element name="id" type="xs:int" />
+            <xs:element name="code" type="xs:string" />
+            <xs:element name="description" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="UserReportsInfoList">
+		<xs:sequence>
+			<xs:element name="userReportsInfoRequestList" type="prt:UserReportsInfo"
+				maxOccurs="unbounded" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>	
+	
+	<xs:complexType name="UserReportsInfo">
+		<xs:sequence>
+			<xs:element name="agentId" type="prt:Identifier" />
+			<xs:element name="agentName" type="xs:string" />
+			<xs:element name="edirGuId" type="xs:string" />
+			<xs:element name="firstName" type="xs:string" />
+			<xs:element name="lastName" type="xs:string" />
+			<xs:element name="ldapUserId" type="xs:string" />
+			<xs:element name="activeUserFlag" type="xs:string"
+				minOccurs="0" />
+			<xs:element name="deviceName" type="xs:string" minOccurs="0"/>
+			<xs:element name="activityType" type="xs:string"
+				minOccurs="0" />
+			<xs:element name="posNumber" type="xs:int" minOccurs="0"/>
+			<xs:element name="lastLogonLclDate" type="xs:dateTime"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="AlertList">
+		<xs:sequence>
+			<xs:element name="alerts" type="prt:Alert" maxOccurs="unbounded"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>	
+	
+	<xs:complexType name="Alert">
+		<xs:sequence>
+			<xs:element name="alertTypeCode" type="xs:int" />
+			<xs:element name="alertTypeBsnsCode" type="xs:string" />
+			<xs:element name="bsnsDesc" type="xs:string" />			
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="TransactionExceedReportsInfoList">
+		<xs:sequence>
+			<xs:element name="transactionExceedReportsInfo" type="prt:TransactionExceedReportsInfo"
+				maxOccurs="unbounded" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>	
+	
+	<xs:complexType name="TransactionExceedReportsInfo">
+		<xs:sequence>
+			<xs:element name="agentId" type="prt:Identifier" />
+			<xs:element name="agentName" type="xs:string" />
+			<xs:element name="city" type="xs:string" />
+			<xs:element name="posId" type="xs:string" />
+			<xs:element name="firstName" type="xs:string" />
+			<xs:element name="lastName" type="xs:string" />
+			<xs:element name="ldapUserId" type="xs:string" />
+			<xs:element name="eventTranCode" type="xs:string" />
+			<xs:element name="eventTranName" type="xs:string" /> 
+			<xs:element name="tranRefId" type="xs:string" />
+			<xs:element name="tranLimCode" type="xs:int" />
+			<xs:element name="tranLimBsnsDesc" type="xs:string" /> 
+			<xs:element name="eventFaceTranAmt" type="xs:decimal" />
+			<xs:element name="tranLimUsdAmt" type="xs:decimal" />
+			<xs:element name="mgrFirstName" type="xs:string" />
+			<xs:element name="mgrLastName" type="xs:string" />
+			<xs:element name="mgrLdapUserId" type="xs:string" />
+			<xs:element name="eventTranEvntDate" type="xs:dateTime"
+				minOccurs="0" />
+			<xs:element name="eventTranEvntLclDate" type="xs:dateTime"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	
+	<xs:complexType name="CreateTransactionExceedReportsInfo">
+		<xs:sequence>
+			<xs:element name="transactionReferenceId" type="xs:string" /> 
+			<xs:element name="transactionEventDate" type="xs:dateTime" /> 
+			<xs:element name="transactionEventLocalDate" type="xs:dateTime" /> 
+			<xs:element name="transactionEventCode" type="xs:string" /> 
+			<xs:element name="eventAgentId" type="prt:Identifier" /> 
+			<xs:element name="eventPosTrmlId" type="xs:string" /> 
+			<xs:element name="eventFaceTranAmt" type="xs:decimal" /> 
+			<xs:element name="tranLimCode" type="xs:int" /> 
+			<xs:element name="tranLimUsrEdirGuid" type="xs:string" /> 
+			<xs:element name="tranLimUsrMainofficeId" type="prt:Identifier" /> 
+			<xs:element name="tranLimAuthrEdirGuid" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="CountryInfoList">
+		<xs:sequence>
+			<xs:element name="countryInfoList" type="prt:CountryInfo"
+				maxOccurs="unbounded" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>	
+	
+	<xs:complexType name="CountryInfo">
+		<xs:sequence>
+			<xs:element name="isoCountryCode" type="xs:string" /> 
+			<xs:element name="countryName" type="xs:string" /> 
+			<xs:element name="isoLanguageShort" type="xs:string" /> 
+			<xs:element name="isoLanguageMnemonicCode" type="xs:string" /> 
+			<xs:element name="languageName" type="xs:string" /> 
+			<xs:element name="languageDefault" type="xs:string" /> 
+		</xs:sequence>
+	</xs:complexType>
+	
+	<!-- simple types  -->
+
+	<xs:simpleType name="GetUserTask">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="GetTabs" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="ManageUserTask">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="CreateLdapAccount" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="WidgetType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="LINK" />
+			<xs:enumeration value="FRAGMENT" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="Identifier">
+		<xs:annotation>
+			<xs:documentation>
+				Identifier of the component. 
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:decimal"/>
+	</xs:simpleType>
+
+	<xs:simpleType name="LdapId">
+		<xs:annotation>
+			<xs:documentation>
+				User LDAP identifier. 
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+
+	<xs:simpleType name="UserId">
+		<xs:annotation>
+			<xs:documentation>
+				User account identifier. 
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+
+	<xs:simpleType name="EmployeeId">
+		<xs:annotation>
+			<xs:documentation>
+				Employee external identifier. 
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+
+	<xs:simpleType name="ContactMethod">
+		<xs:annotation>
+			<xs:documentation>
+				User contact method. 
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="EMAIL" />
+			<xs:enumeration value="WORK" />
+			<xs:enumeration value="MOBILE" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="Email">
+		<xs:annotation>
+			<xs:documentation>
+				Email. 
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+
+	<xs:simpleType name="PhoneNumber">
+		<xs:annotation>
+			<xs:documentation>
+				Phone number. 
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="AgentName">
+		<xs:annotation>
+			<xs:documentation>
+				Agent Name. 
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="City">
+		<xs:annotation>
+			<xs:documentation>
+				City. 
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+
+	<xs:simpleType name="State">
+		<xs:annotation>
+			<xs:documentation>
+				State. 
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>		
+
+	<xs:simpleType name="StateCode">
+		<xs:annotation>
+			<xs:documentation>
+				State Code. 
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>		
+	
+	<xs:simpleType name="Country">
+		<xs:annotation>
+			<xs:documentation>
+				Country. 
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="Zip">
+		<xs:annotation>
+			<xs:documentation>
+				Zip / Postal code. 
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:simpleType name="HierarchyLevel">
+		<xs:annotation>
+			<xs:documentation>
+				Hierarchy Level Agent. 
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:int"/>
+	</xs:simpleType>
+	<xs:simpleType name="Token">
+		<xs:annotation>
+			<xs:documentation>
+				One time token. 
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+	<xs:complexType name="TokenInformation">
+		<xs:sequence>
+			<xs:element name="actionName" type="xs:string" />
+			<xs:element name="actionInformation" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>	
+	
+</xs:schema>

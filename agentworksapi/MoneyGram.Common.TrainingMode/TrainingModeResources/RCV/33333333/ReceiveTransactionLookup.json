@@ -1,0 +1,740 @@
+﻿{
+  "payload": {
+    "gafVersionNumber": "1.1.20180223",
+    "mgiSessionID": "33333333",
+    "transactionStatus": 0,
+    "sendAmounts": {
+      "sendAmount": 500.00,
+      "sendCurrency": "GBP",
+      "totalSendFees": 57.50,
+      "totalDiscountAmount": 0.00,
+      "totalSendTaxes": 0.00,
+      "totalAmountToCollect": 557.50,
+      "detailSendAmounts": [
+        {
+          "amountType": "nonMgiSendFee",
+          "amount": 0.00,
+          "amountCurrency": "GBP"
+        },
+        {
+          "amountType": "totalMgiCollectedFeesAndTaxes",
+          "amount": 57.50,
+          "amountCurrency": "GBP"
+        },
+        {
+          "amountType": "discountedMgiSendFee",
+          "amount": 57.50,
+          "amountCurrency": "GBP"
+        },
+        {
+          "amountType": "nonMgiSendTax",
+          "amount": 0.00,
+          "amountCurrency": "GBP"
+        },
+        {
+          "amountType": "mgiNonDiscountedSendFee",
+          "amount": 57.50,
+          "amountCurrency": "GBP"
+        },
+        {
+          "amountType": "mgiSendTax",
+          "amount": 0.00,
+          "amountCurrency": "GBP"
+        },
+        {
+          "amountType": "totalAmountToMgi",
+          "amount": 557.50,
+          "amountCurrency": "GBP"
+        },
+        {
+          "amountType": "totalNonDiscountedFees",
+          "amount": 57.50,
+          "amountCurrency": "GBP"
+        },
+        {
+          "amountType": " totalNonMgiSendFeesAndTaxes",
+          "amount": 0.00,
+          "amountCurrency": "GBP"
+        },
+        {
+          "amountType": "totalSendFeesAndTaxes",
+          "amount": 57.50,
+          "amountCurrency": "GBP"
+        }
+      ]
+    },
+    "receiveAmounts": {
+      "receiveAmount": 500.00,
+      "receiveCurrency": "GBP",
+      "validCurrencyIndicator": false,
+      "payoutCurrency": "GBP",
+      "totalReceiveFees": 0.00,
+      "totalReceiveTaxes": 0.00,
+      "totalReceiveAmount": 500.00,
+      "receiveFeesAreEstimated": false,
+      "receiveTaxesAreEstimated": false,
+      "detailReceiveAmounts": [
+        {
+          "amountType": "nonMgiReceiveTax",
+          "amount": 0.00,
+          "amountCurrency": "GBP"
+        },
+        {
+          "amountType": "nonMgiReceiveFee",
+          "amount": 0.00,
+          "amountCurrency": "GBP"
+        },
+        {
+          "amountType": "mgiReceiveFee",
+          "amount": 0.00,
+          "amountCurrency": "GBP"
+        },
+        {
+          "amountType": "mgiReceiveTax",
+          "amount": 0.00,
+          "amountCurrency": "GBP"
+        }
+      ]
+    },
+    "promotionInfos": [],
+    "disclosureTexts": [],
+    "receiveFeeDisclosureTexts": [],
+    "receiveTaxDisclosureTexts": [],
+    "currentValues": [
+      {
+        "infoKey": "mgiTransactionSessionID",
+        "value": "33333333"
+      },
+      {
+        "infoKey": "dateTimeSent",
+        "value": "-1"
+      },
+      {
+        "infoKey": "serviceOption",
+        "value": "WILL_CALL"
+      },
+      {
+        "infoKey": "serviceOptionDisplayName",
+        "value": "10 Minute Service"
+      },
+      {
+        "infoKey": "originatingCountry",
+        "value": "GBR"
+      },
+      {
+        "infoKey": "exchangeRateApplied",
+        "value": "1.000000"
+      },
+      {
+        "infoKey": "feeAmount",
+        "value": "57.50"
+      },
+      {
+        "infoKey": "destinationCountry",
+        "value": "USA"
+      },
+      {
+        "infoKey": "expectedDateOfDelivery",
+        "value": "2018-04-12-05:00"
+      },
+      {
+        "infoKey": "receiver_FirstName",
+        "value": "BILL"
+      },
+      {
+        "infoKey": "receiver_LastName",
+        "value": "MORRIS"
+      },
+      {
+        "infoKey": "sender_FirstName",
+        "value": "MARY"
+      },
+      {
+        "infoKey": "sender_LastName",
+        "value": "SMYTHE"
+      },
+      {
+        "infoKey": "originalSendAmount",
+        "value": "500.00"
+      },
+      {
+        "infoKey": "originalSendCurrency",
+        "value": "GBP"
+      },
+      {
+        "infoKey": "originalSendFee",
+        "value": "57.50"
+      },
+      {
+        "infoKey": "originalExchangeRate",
+        "value": "1.000000"
+      },
+      {
+        "infoKey": "okForPickupFlag",
+        "value": "true"
+      },
+      {
+        "infoKey": "notOkForPickupReasonCode",
+        "value": "0"
+      },
+      {
+        "infoKey": "minutesUntilOkForPickup",
+        "value": "0"
+      },
+      {
+        "infoKey": "sender_PrimaryPhone",
+        "value": "999938888"
+      },
+      {
+        "infoKey": "indicativeReceiveAmount",
+        "value": "0"
+      },
+      {
+        "infoKey": "indicativeExchangeRate",
+        "value": "0.000000"
+      },
+      {
+        "infoKey": "referenceNumber",
+        "value": "33333333"
+      },
+      {
+        "infoKey": "validFlag",
+        "value": "false"
+      },
+      {
+        "infoKey": "redirectFlag",
+        "value": "false"
+      },
+      {
+        "infoKey": "destinationState",
+        "value": "NE"
+      }
+    ],
+    "infos": [
+      {
+        "infos": [
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receive_AgentName",
+            "label": "Receive Agent Name",
+            "labelStandAlone": "Receive Agent Name",
+            "displayOrder": 6
+          }
+        ],
+        "infoKey": "lookupSendAgentSet",
+        "label": "Agent Fields",
+        "labelStandAlone": "Agent Fields",
+        "displayOrder": 1
+      },
+      {
+        "infos": [
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "transactionStatus",
+            "label": "Transaction Status",
+            "labelStandAlone": "Transaction Status",
+            "displayOrder": 1
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "referenceNumber",
+            "label": "Reference Number",
+            "labelStandAlone": "Reference Number",
+            "displayOrder": 2
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "serviceOption",
+            "label": "Service Option",
+            "labelStandAlone": "Service Option",
+            "displayOrder": 3
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "serviceOptionDisplayName",
+            "label": "Service Option Name",
+            "labelStandAlone": "Service Option Name",
+            "displayOrder": 4
+          },
+          {
+            "display": true,
+            "dataType": 6,
+            "infoKey": "dateTimeSent",
+            "label": "Date-Time Transaction Sent",
+            "labelStandAlone": "Date-Time Transaction Sent",
+            "displayOrder": 7
+          },
+          {
+            "display": true,
+            "dataType": 4,
+            "infoKey": "feeAmount",
+            "label": "Fee Amount",
+            "labelStandAlone": "Fee Amount",
+            "displayOrder": 10
+          },
+          {
+            "display": true,
+            "dataType": 4,
+            "infoKey": "originalSendAmount",
+            "label": "Original Send Amount",
+            "labelStandAlone": "Original Send Amount",
+            "displayOrder": 11
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "originalSendCurrency",
+            "label": "Original Send Currency",
+            "labelStandAlone": "Original Send Currency",
+            "displayOrder": 12
+          },
+          {
+            "display": true,
+            "dataType": 4,
+            "infoKey": "originalSendFee",
+            "label": "Original Send Fee",
+            "labelStandAlone": "Original Send Fee",
+            "displayOrder": 13
+          },
+          {
+            "display": true,
+            "dataType": 4,
+            "infoKey": "originalExchangeRate",
+            "label": "Original Exchange Rate",
+            "labelStandAlone": "Original Exchange Rate",
+            "displayOrder": 14
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "originatingCountry",
+            "label": "Originating Country",
+            "labelStandAlone": "Originating Country",
+            "displayOrder": 15
+          },
+          {
+            "display": true,
+            "dataType": 4,
+            "infoKey": "indicativeReceiveAmount",
+            "label": "Indicative Receive Amount",
+            "labelStandAlone": "Indicative Receive Amount",
+            "displayOrder": 16
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "indicativeReceiveCurrency",
+            "label": "Indicative Receive Currency",
+            "labelStandAlone": "Indicative Receive Currency",
+            "displayOrder": 17
+          },
+          {
+            "display": true,
+            "dataType": 4,
+            "infoKey": "indicativeExchangeRate",
+            "label": "Indicative Exchange Rate",
+            "labelStandAlone": "Indicative Exchange Rate",
+            "displayOrder": 18
+          },
+          {
+            "display": true,
+            "dataType": 0,
+            "infoKey": "redirectFlag",
+            "label": "Redirect",
+            "labelStandAlone": "Currency Redirect Indicator",
+            "displayOrder": 20
+          },
+          {
+            "display": true,
+            "dataType": 0,
+            "infoKey": "validFlag",
+            "label": "FX Rate Valid",
+            "labelStandAlone": "FX Rate Valid Indicator",
+            "displayOrder": 23
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "exchangeRateApplied",
+            "label": "Exchange Rate Applied",
+            "labelStandAlone": "Exchange Rate Applied",
+            "displayOrder": 24
+          },
+          {
+            "display": true,
+            "dataType": 6,
+            "infoKey": "expectedDateOfDelivery",
+            "label": "Expected Date of Delivery",
+            "labelStandAlone": "Expected Date of Delivery",
+            "displayOrder": 25
+          },
+          {
+            "display": true,
+            "dataType": 10,
+            "enumeration": {
+              "name": "PURPSE_OF_TRNSCTION",
+              "enumeratedItems": [
+                {
+                  "identifier": "BUSINESS_EXPENSE",
+                  "labelShort": "Business Expense",
+                  "label": "Business Expense / Employee Remittance"
+                },
+                {
+                  "identifier": "DONATION",
+                  "labelShort": "Donation or Fin Aid",
+                  "label": "Donation or Financial Aids"
+                },
+                {
+                  "identifier": "EDUCATION_TRAIN",
+                  "labelShort": "Education and Training",
+                  "label": "Education and Training"
+                },
+                {
+                  "identifier": "FAMILY_SUPPORT",
+                  "labelShort": "Family Support",
+                  "label": "Family Support"
+                },
+                {
+                  "identifier": "GIFT",
+                  "labelShort": "Gift",
+                  "label": "Gift"
+                },
+                {
+                  "identifier": "INVEST_SAVING",
+                  "labelShort": "Investment/Savings",
+                  "label": "Investment/Savings"
+                },
+                {
+                  "identifier": "LEGAL_OBLIGATION",
+                  "labelShort": "Legal Obligation",
+                  "label": "Legal Obligation (alimony, court fee, etc.)"
+                },
+                {
+                  "identifier": "LOAN",
+                  "labelShort": "Loan",
+                  "label": "Loan"
+                },
+                {
+                  "identifier": "PURCHASE_GOODS",
+                  "labelShort": "Purchase of Goods",
+                  "label": "Purchase of Goods"
+                },
+                {
+                  "identifier": "TRAVEL_EXPENSES",
+                  "labelShort": "Travel Expenses",
+                  "label": "Travel Expenses"
+                },
+                {
+                  "identifier": "OTHER",
+                  "labelShort": "Other (please specify)",
+                  "label": "Other (please specify)"
+                }
+              ]
+            },
+            "infoKey": "send_PurposeOfTransaction",
+            "label": "Sender Purpose of Transaction",
+            "labelStandAlone": "Purpose of Transaction",
+            "displayOrder": 28
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "send_PurposeOfTransactionOther",
+            "label": "Sender Other Purpose of Transaction",
+            "labelStandAlone": "Other Purpose of Transaction",
+            "displayOrder": 29,
+            "helpTextLong": "Only alpha characters are allowed when 'Other' is selected. At least two characters must be entered"
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "notOkForPickupReasonCode",
+            "label": "Pickup Not Allowed Reason Code",
+            "labelStandAlone": "Not Ready for Pickup Reason Code",
+            "displayOrder": 35
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "notOkForPickupReasonDescription",
+            "label": "Pickup Not Allowed Reason Description",
+            "labelStandAlone": "Not Ready for Pickup Reason Description",
+            "displayOrder": 36
+          },
+          {
+            "display": true,
+            "dataType": 2,
+            "infoKey": "minutesUntilOkForPickup",
+            "label": "Time Until Transaction Can Be Received",
+            "labelStandAlone": "Time Until Transaction Can Be Received",
+            "displayOrder": 65
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receive_AgentAbbreviation",
+            "label": "Receive Agent Name Abbreviation",
+            "labelStandAlone": "Receive Agent Name Abbreviation",
+            "displayOrder": 73
+          },
+          {
+            "display": true,
+            "dataType": 4,
+            "infoKey": "sendAmount",
+            "label": "Amount",
+            "labelStandAlone": "Send Amount",
+            "displayOrder": 78
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "sendCurrency",
+            "label": "Send Currency",
+            "labelStandAlone": "Send Currency",
+            "displayOrder": 79
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "destinationCountry",
+            "label": "Destination Country",
+            "labelStandAlone": "Destination Country",
+            "displayOrder": 80
+          },
+          {
+            "infos": [
+              {
+                "display": true,
+                "dataType": 1,
+                "infoKey": "customerReceiveNumber",
+                "label": "Receiver Registration Number (RRN)",
+                "labelStandAlone": "Receiver Registration Number (RRN)",
+                "displayOrder": 1
+              }
+            ],
+            "infoKey": "lookupTransactionInfoAccountDepositSet",
+            "label": "Account Deposit",
+            "labelStandAlone": "Transaction Account Deposit",
+            "displayOrder": 96
+          },
+          {
+            "infos": [
+              {
+                "display": true,
+                "dataType": 1,
+                "infoKey": "messageField1",
+                "label": "Message Field 1",
+                "labelStandAlone": "Message Field 1",
+                "displayOrder": 1
+              },
+              {
+                "display": true,
+                "dataType": 1,
+                "infoKey": "messageField2",
+                "label": "Message Field 2",
+                "labelStandAlone": "Message Field 2",
+                "displayOrder": 2
+              },
+              {
+                "display": true,
+                "dataType": 1,
+                "infoKey": "testQuestion",
+                "label": "Test Question",
+                "labelStandAlone": "Receiver Test Question",
+                "displayOrder": 3
+              },
+              {
+                "display": true,
+                "dataType": 1,
+                "infoKey": "testAnswer",
+                "label": "Test Answer",
+                "labelStandAlone": "Receiver Test Answer",
+                "displayOrder": 4
+              }
+            ],
+            "infoKey": "lookupTransactionInfoGeneralSet",
+            "label": "General Details",
+            "labelStandAlone": "Transaction General Details",
+            "displayOrder": 98
+          }
+        ],
+        "infoKey": "lookupTransactionInfoSet",
+        "label": "Transaction Information",
+        "labelStandAlone": "Transaction Information",
+        "displayOrder": 2
+      },
+      {
+        "infos": [
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "sender_FirstName",
+            "label": "First/Given Name",
+            "labelStandAlone": "Sender First/Given Name",
+            "displayOrder": 1,
+            "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed"
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "sender_MiddleName",
+            "label": "Middle Name",
+            "labelStandAlone": "Sender Middle Name",
+            "displayOrder": 2,
+            "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed"
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "sender_LastName",
+            "label": "Last/Family Name",
+            "labelStandAlone": "Sender Last/Family Name",
+            "displayOrder": 3,
+            "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed"
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "sender_LastName2",
+            "label": "Second Last/Family Name",
+            "labelStandAlone": "Sender Second Last/Family Name",
+            "displayOrder": 4,
+            "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed"
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "sender_PrimaryPhone",
+            "label": "Primary Phone Number",
+            "labelStandAlone": "Sender Primary Phone Number",
+            "displayOrder": 15,
+            "helpTextLong": "Only numeric characters are allowed. Cannot contain a string of repeating numeric characters (example 8888888)"
+          }
+        ],
+        "infoKey": "lookupSenderInformationSet",
+        "label": "Sender Information",
+        "labelStandAlone": "Sender Information",
+        "displayOrder": 4
+      },
+      {
+        "infos": [
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_FirstName",
+            "label": "First/Given Name",
+            "labelStandAlone": "Receiver First/Given Name",
+            "displayOrder": 1,
+            "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed"
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_MiddleName",
+            "label": "Middle Name",
+            "labelStandAlone": "Receiver Middle Name",
+            "displayOrder": 2,
+            "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed"
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_LastName",
+            "label": "Last/Family Name",
+            "labelStandAlone": "Receiver Last/Family Name",
+            "displayOrder": 3,
+            "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed"
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_LastName2",
+            "label": "Second Last/Family Name",
+            "labelStandAlone": "Receiver Second Last/Family Name",
+            "displayOrder": 4,
+            "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed"
+          },
+          {
+            "display": true,
+            "dataType": 10,
+            "enumeration": {
+              "name": "NAME_SUFFIX",
+              "enumeratedItems": [
+                {
+                  "identifier": "--",
+                  "labelShort": "--",
+                  "label": "--"
+                },
+                {
+                  "identifier": "I",
+                  "labelShort": "I",
+                  "label": "I"
+                },
+                {
+                  "identifier": "II",
+                  "labelShort": "II",
+                  "label": "II"
+                },
+                {
+                  "identifier": "III",
+                  "labelShort": "III",
+                  "label": "III"
+                },
+                {
+                  "identifier": "IV",
+                  "labelShort": "IV",
+                  "label": "IV"
+                },
+                {
+                  "identifier": "V",
+                  "labelShort": "V",
+                  "label": "V"
+                },
+                {
+                  "identifier": "JR",
+                  "labelShort": "Jr.",
+                  "label": "Jr."
+                },
+                {
+                  "identifier": "SR",
+                  "labelShort": "Sr.",
+                  "label": "Sr."
+                },
+                {
+                  "identifier": "OTHER",
+                  "labelShort": "Other (please specify)",
+                  "label": "Other (please specify)"
+                }
+              ]
+            },
+            "infoKey": "receiver_NameSuffix",
+            "label": "Suffix",
+            "labelStandAlone": "Receiver Name Suffix",
+            "displayOrder": 5
+          },
+          {
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_NameSuffixOther",
+            "label": "Other Name Suffix",
+            "labelStandAlone": "Receiver Name Other Suffix",
+            "displayOrder": 6
+          }
+        ],
+        "infoKey": "lookupReceiverInformationSet",
+        "label": "Receiver Information",
+        "labelStandAlone": "Receiver Information",
+        "displayOrder": 6
+      }
+    ],
+    "doCheckIn": false,
+    "timeStamp": "2018-04-12T13:56:43.347+02:00",
+    "flags": 0
+  },
+  "errors": []
+}

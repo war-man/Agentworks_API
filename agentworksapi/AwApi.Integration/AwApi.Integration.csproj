@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{727025F0-7908-4103-B86C-1054987E8526}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AwApi.Integration</RootNamespace>
+    <AssemblyName>AwApi.Integration</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\AwApi.Integration.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <Optimize>true</Optimize>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.6.3\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp, Version=1.32.3057.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.1.32.3057.0\lib\net20\PdfSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PdfSharp.Charting, Version=1.32.3057.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.1.32.3057.0\lib\net20\PdfSharp.Charting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.4.5.0\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security.AccessControl, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.4.5.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Permissions.4.5.0\lib\net461\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.4.5.1\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AgentConnectCache.cs" />
+    <Compile Include="AgentConnectIntegration.cs" />
+    <Compile Include="AgentConnectTraining.cs" />
+    <Compile Include="AuthIntegration.cs" />
+    <Compile Include="CacheIntegration.cs" />
+    <Compile Include="Event\EventIntegration.cs" />
+    <Compile Include="ICacheIntegration.cs" />
+    <Compile Include="Event\IEventIntegration.cs" />
+    <Compile Include="ILanguageIntegration.cs" />
+    <Compile Include="IOpenAmIntegration.cs" />
+    <Compile Include="IOpenIdmIntegration.cs" />
+    <Compile Include="IPartnerHierarchyIntegration.cs" />
+    <Compile Include="IReceiptIntegration.cs" />
+    <Compile Include="LanguageIntegration.cs" />
+    <Compile Include="Models\ProductAuthorizations.cs" />
+    <Compile Include="OpenAmIntegration.cs" />
+    <Compile Include="OpenIdmIntegration.cs" />
+    <Compile Include="PartnerHierarchyCache.cs" />
+    <Compile Include="PartnerHierarchyDecorator.cs" />
+    <Compile Include="PartnerServiceCache.cs" />
+    <Compile Include="PartnerHierarchyIntegration.cs" />
+    <Compile Include="ReceiptIntegration.cs" />
+    <Compile Include="Reports\DlsIntegration.cs" />
+    <Compile Include="IAgentConnectIntegration.cs" />
+    <Compile Include="Reports\IDlsIntegration.cs" />
+    <Compile Include="Reports\IPartnerServiceIntegration.cs" />
+    <Compile Include="Reports\PartnerServiceIntegration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AwApi.Cache\AwApi.Cache.csproj">
+      <Project>{015db950-54a6-47c7-a6df-ad54ee97d1b8}</Project>
+      <Name>AwApi.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AwApi.ViewModels\AwApi.ViewModels.csproj">
+      <Project>{22AAF2BB-70D0-43A3-B231-265C6C79BAEA}</Project>
+      <Name>AwApi.ViewModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.AgentConnect.DomainModel\MoneyGram.AgentConnect.DomainModel.csproj">
+      <Project>{ecd9abbb-5222-47cb-abb2-62f2789509eb}</Project>
+      <Name>MoneyGram.AgentConnect.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.AgentConnect\MoneyGram.AgentConnect.csproj">
+      <Project>{1710B185-08D3-4C5B-99B7-E15B6BBC6809}</Project>
+      <Name>MoneyGram.AgentConnect</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.Common.Cache\MoneyGram.Common.Cache.csproj">
+      <Project>{8C88858F-248F-4B7A-AA51-8FA9503A5F62}</Project>
+      <Name>MoneyGram.Common.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.Common.Json\MoneyGram.Common.Json.csproj">
+      <Project>{71D1D50E-D5E7-47AB-B3F9-D0039543C1BE}</Project>
+      <Name>MoneyGram.Common.Json</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.Common.Localization\MoneyGram.Common.Localization.csproj">
+      <Project>{ff84cbb7-295e-4c36-8c8c-433ab309b08b}</Project>
+      <Name>MoneyGram.Common.Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.Common\MoneyGram.Common.csproj">
+      <Project>{7645bf39-6ad8-43f2-b2fc-7b599deeddb3}</Project>
+      <Name>MoneyGram.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.DLS.DomainModel\MoneyGram.DLS.DomainModel.csproj">
+      <Project>{5f0369d5-374a-4103-bc6e-d070ae54222f}</Project>
+      <Name>MoneyGram.DLS.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.DLS\MoneyGram.DLS.csproj">
+      <Project>{d5ada9d5-6d94-4896-a7b2-f04d89aaa352}</Project>
+      <Name>MoneyGram.DLS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.OpenAM\MoneyGram.OpenAM.csproj">
+      <Project>{141C57D0-115C-47D2-8DA5-1E8DC1F9ECEA}</Project>
+      <Name>MoneyGram.OpenAM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.OpenIDM\MoneyGram.OpenIDM.csproj">
+      <Project>{023014E7-952E-45C5-91DC-54367275C940}</Project>
+      <Name>MoneyGram.OpenIDM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.PartnerHierarchy.DomainModel\MoneyGram.PartnerHierarchy.DomainModel.csproj">
+      <Project>{F2B0FACB-C70E-4948-B23D-B3D058931622}</Project>
+      <Name>MoneyGram.PartnerHierarchy.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.PartnerHierarchy\MoneyGram.PartnerHierarchy.csproj">
+      <Project>{C236D590-BCDF-41A8-B2E5-1DC9AF1881F9}</Project>
+      <Name>MoneyGram.PartnerHierarchy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.PartnerService.DomainModel\MoneyGram.PartnerService.DomainModel.csproj">
+      <Project>{1fc229f6-8d93-4f36-883e-fe491a102051}</Project>
+      <Name>MoneyGram.PartnerService.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.PartnerService\MoneyGram.PartnerService.csproj">
+      <Project>{31d312ea-76dd-4bc8-8994-7c05b1139030}</Project>
+      <Name>MoneyGram.PartnerService</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

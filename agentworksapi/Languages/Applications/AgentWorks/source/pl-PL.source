@@ -1,0 +1,53 @@
+STRKEY_AMOUNT	Wyslana kwota
+STRKEY_ANOTHER_PERSON	Inna osoba
+STRKEY_CANCEL	Anuluj
+STRKEY_CITY	Miejscowość
+STRKEY_COMPLETE_TRAN	Zakończ transakcję
+STRKEY_COUNTRY	Kraj
+STRKEY_CUST_NOT_ON_RECORD	W rejestrze brak danych o kliencie.Zaczniemy teraz zbierać informacje o kliencie.
+STRKEY_DEST_STATE	Stan lub region docelowy
+STRKEY_DESTINATION	Lokalizacja
+STRKEY_DISCOUNT	Zniżka
+STRKEY_DOB	Data urodzenia
+STRKEY_ESTIMATE_FEE	Szacowana opłata
+STRKEY_FEE	Opłata
+STRKEY_FIRST_NAME	Imię
+STRKEY_FX_RATE	Kurs wymiany
+STRKEY_GOV_ID_NUM	Numer dowodu tożsamości
+STRKEY_GOV_ID_TYPE	Typ dowodu tożsamości
+STRKEY_IS_CUST_RECEIVING	Czy klient odbiera pieniądze w imieniu innej osoby lub organizacji (strony trzeciej)?
+STRKEY_ISSUING_COUNTRY	Kraj wystawiający
+STRKEY_ISSUING_STATE	Organ wystawiający
+STRKEY_LAST_NAME	Nazwisko
+STRKEY_MIDDLE_NAME	Drugie imię
+STRKEY_MSG	Wiadomość
+STRKEY_NEW_CUSTOMER	Nowy klient
+STRKEY_NO_THIRD_PARTY	Brak strony trzeciej
+STRKEY_OCCUPATION	Zawód
+STRKEY_ORG	Organizacja
+STRKEY_PAY_TO	Odbiorca
+STRKEY_PHONE	Numer telefonu
+STRKEY_PHOTO_ID	Dokument tożsamości ze zdjęciem
+STRKEY_PHOTO_ID_NUM	Numer dokumentu tożsamości ze zdjęciem
+STRKEY_PHOTO_ID_TYPE	Typ dokumentu tożsamości ze zdjęciem
+STRKEY_RECEIVER	Odbiorca
+STRKEY_RECEIVER_INFO	Informacje o odbiorcy
+STRKEY_RECV	Odbiór pieniędzy
+STRKEY_RECV_AMT	Kwota do otrzymania
+STRKEY_RECV_REVERSAL	Otrzymanie unieważnienia
+STRKEY_REF_NUM	Numer referencyjny
+STRKEY_REGISTER_PLUS	Zarejestruj się w programie Rewards
+STRKEY_REPRINT_RECEIPTS	Ponownie wydrukuj potwierdzenie transakcji
+STRKEY_SECOND_LAST_NAME	Nazwisko
+STRKEY_SELECT_ONE	Wybierz jedną wartość
+STRKEY_SEND_AMT	Kwota do wysłania
+STRKEY_SEND_MONEY	Wyślij pieniądze
+STRKEY_SENDER	Nadawca
+STRKEY_SENT_FROM	Nadawca
+STRKEY_STATE	Stan/województwo
+STRKEY_STREET	Adres
+STRKEY_THIRD_PARTY	Strona trzecia
+STRKEY_THIRD_PARTY_ORG	Organizacja będąca stroną trzecią
+STRKEY_TRAN_DETAILS	Szczegóły transakcji
+STRKEY_TRAN_STATUS	Status transakcji
+STRKEY_YES_CONTINUE	Tak, kontynuuj

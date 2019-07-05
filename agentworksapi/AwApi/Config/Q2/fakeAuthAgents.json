@@ -1,0 +1,128 @@
+﻿{
+  "7143767302": {
+    "agentId": "71437673",
+    "mainOfficeId": "71437660",
+    "password": "456",
+    "pos": "02"
+  },
+  "7143767303": {
+    "agentId": "71437673",
+    "mainOfficeId": "71437660",
+    "password": "456",
+    "pos": "03"
+  },
+  "7143767304": {
+    "agentId": "71437673",
+    "mainOfficeId": "71437660",
+    "password": "456",
+    "pos": "04"
+  },
+  "7143767305": {
+    "agentId": "71437673",
+    "mainOfficeId": "71437660",
+    "password": "456",
+    "pos": "05"
+  },
+  "4069880984": {
+    "agentId": "40698809",
+    "mainOfficeId": "40698786",
+    "password": "456",
+    "pos": "84"
+  },
+  "4069880988": {
+    "agentId": "40698809",
+    "mainOfficeId": "40698786",
+    "password": "456",
+    "pos": "88"
+  },
+  "4069880989": {
+    "agentId": "40698809",
+    "mainOfficeId": "40698786",
+    "password": "456",
+    "pos": "89"
+  },
+  "6764217117": {
+    "agentId": "67642171",
+    "mainOfficeId": "67642168",
+    "password": "456",
+    "pos": "17"
+  },
+  "6764217118": {
+    "agentId": "67642171",
+    "mainOfficeId": "67642168",
+    "password": "456",
+    "pos": "18"
+  },
+  "7154195403": {
+    "agentId": "71541954",
+    "mainOfficeId": "71541941",
+    "password": "456",
+    "pos": "03"
+  },
+  "7154195404": {
+    "agentId": "71541954",
+    "mainOfficeId": "71541941",
+    "password": "456",
+    "pos": "04"
+  },
+  "7159717302": {
+    "agentId": "71597173",
+    "mainOfficeId": "69977145",
+    "password": "456",
+    "pos": "02"
+  },
+  "7159717303": {
+    "agentId": "71597173",
+    "mainOfficeId": "69977145",
+    "password": "456",
+    "pos": "03"
+  },
+  "7159717304": {
+    "agentId": "71597173",
+    "mainOfficeId": "69977145",
+    "password": "456",
+    "pos": "04"
+  },
+  "7159717305": {
+    "agentId": "71597173",
+    "mainOfficeId": "69977145",
+    "password": "456",
+    "pos": "05"
+  },
+  "7159717306": {
+    "agentId": "71597173",
+    "mainOfficeId": "69977145",
+    "password": "456",
+    "pos": "06"
+  },
+  "7074039003": {
+    "agentId": "70740390",
+    "mainOfficeId": "40363888",
+    "password": "456",
+    "pos": "03"
+  },
+  "7074039004": {
+    "agentId": "70740390",
+    "mainOfficeId": "40363888",
+    "password": "456",
+    "pos": "04"
+  },
+  "7074039005": {
+    "agentId": "70740390",
+    "mainOfficeId": "40363888",
+    "password": "456",
+    "pos": "05"
+  },
+  "7074039006": {
+    "agentId": "70740390",
+    "mainOfficeId": "40363888",
+    "password": "456",
+    "pos": "06"
+  },
+  "7074039007": {
+    "agentId": "70740390",
+    "mainOfficeId": "40363888",
+    "password": "456",
+    "pos": "07"
+  }
+}

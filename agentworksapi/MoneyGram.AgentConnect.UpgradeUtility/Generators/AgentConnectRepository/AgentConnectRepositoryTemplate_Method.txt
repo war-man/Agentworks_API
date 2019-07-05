@@ -1,0 +1,21 @@
+﻿public DOMAIN.{ResponseTypePascal} {MethodNamePascal}(Agent agent, DOMAIN.{RequestTypePascal} {RequestTypeCamel})
+{
+    Task<DOMAIN.{ResponseTypePascal}> callTask = Task.Run(() => this.{MethodNamePascal}Async(agent, {RequestTypeCamel}));
+    callTask.Wait();
+    return callTask.Result;
+}
+
+public async Task<DOMAIN.{ResponseTypePascal}> {MethodNamePascal}Async(Agent agent, DOMAIN.{RequestTypePascal} {RequestTypeCamel})
+{
+    agent.ThrowIfNull(nameof(agent));
+    {RequestTypeCamel}.ThrowIfNull(nameof({RequestTypeCamel}));
+
+    var request = DomainToServiceExtensions.ToService({RequestTypeCamel}, agent);
+
+    PopulateRequestWithConfig(request, agent);
+
+    var response = await AgentConnectProxyFactory.UseService(
+        serviceCall => serviceCall.{MethodNameCamel}Async(new SERVICE.{RequestTypeCamel}1(request)), agent);
+
+    return ServiceToDomainExtensions.ToDomain(response.{ResponseTypeCamel});
+}

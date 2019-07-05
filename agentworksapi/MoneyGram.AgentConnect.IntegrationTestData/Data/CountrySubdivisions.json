@@ -1,0 +1,5352 @@
+﻿{
+  "countrySubdivisionInfos": [
+    {
+      "countryCode": "DZA",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "DZ-1",
+          "countrySubdivisionName": "Adrar"
+        },
+        {
+          "countrySubdivisionCode": "DZ-10",
+          "countrySubdivisionName": "Bouira"
+        },
+        {
+          "countrySubdivisionCode": "DZ-11",
+          "countrySubdivisionName": "Tamanrasset"
+        },
+        {
+          "countrySubdivisionCode": "DZ-12",
+          "countrySubdivisionName": "Tébessa"
+        },
+        {
+          "countrySubdivisionCode": "DZ-13",
+          "countrySubdivisionName": "Tlemcen"
+        },
+        {
+          "countrySubdivisionCode": "DZ-14",
+          "countrySubdivisionName": "Tiaret"
+        },
+        {
+          "countrySubdivisionCode": "DZ-15",
+          "countrySubdivisionName": "Tizi Ouzou"
+        },
+        {
+          "countrySubdivisionCode": "DZ-16",
+          "countrySubdivisionName": "Alger"
+        },
+        {
+          "countrySubdivisionCode": "DZ-17",
+          "countrySubdivisionName": "Djelfa"
+        },
+        {
+          "countrySubdivisionCode": "DZ-18",
+          "countrySubdivisionName": "Jijel"
+        },
+        {
+          "countrySubdivisionCode": "DZ-19",
+          "countrySubdivisionName": "Sétif"
+        },
+        {
+          "countrySubdivisionCode": "DZ-2",
+          "countrySubdivisionName": "Chlef"
+        },
+        {
+          "countrySubdivisionCode": "DZ-20",
+          "countrySubdivisionName": "Saïda"
+        },
+        {
+          "countrySubdivisionCode": "DZ-21",
+          "countrySubdivisionName": "Skikda"
+        },
+        {
+          "countrySubdivisionCode": "DZ-22",
+          "countrySubdivisionName": "Sidi Bel Abbès"
+        },
+        {
+          "countrySubdivisionCode": "DZ-23",
+          "countrySubdivisionName": "Annaba"
+        },
+        {
+          "countrySubdivisionCode": "DZ-24",
+          "countrySubdivisionName": "Guelma"
+        },
+        {
+          "countrySubdivisionCode": "DZ-25",
+          "countrySubdivisionName": "Constantine"
+        },
+        {
+          "countrySubdivisionCode": "DZ-26",
+          "countrySubdivisionName": "Médéa"
+        },
+        {
+          "countrySubdivisionCode": "DZ-27",
+          "countrySubdivisionName": "Mostaganem"
+        },
+        {
+          "countrySubdivisionCode": "DZ-28",
+          "countrySubdivisionName": "Msila"
+        },
+        {
+          "countrySubdivisionCode": "DZ-29",
+          "countrySubdivisionName": "Mascara"
+        },
+        {
+          "countrySubdivisionCode": "DZ-3",
+          "countrySubdivisionName": "Laghouat"
+        },
+        {
+          "countrySubdivisionCode": "DZ-30",
+          "countrySubdivisionName": "Ouargla"
+        },
+        {
+          "countrySubdivisionCode": "DZ-31",
+          "countrySubdivisionName": "Oran"
+        },
+        {
+          "countrySubdivisionCode": "DZ-32",
+          "countrySubdivisionName": "El Bayadh"
+        },
+        {
+          "countrySubdivisionCode": "DZ-33",
+          "countrySubdivisionName": "Illizi"
+        },
+        {
+          "countrySubdivisionCode": "DZ-34",
+          "countrySubdivisionName": "Bordj Bou Arréridj"
+        },
+        {
+          "countrySubdivisionCode": "DZ-35",
+          "countrySubdivisionName": "Boumerdès"
+        },
+        {
+          "countrySubdivisionCode": "DZ-36",
+          "countrySubdivisionName": "El Tarf"
+        },
+        {
+          "countrySubdivisionCode": "DZ-37",
+          "countrySubdivisionName": "Tindouf"
+        },
+        {
+          "countrySubdivisionCode": "DZ-38",
+          "countrySubdivisionName": "Tissemsilt"
+        },
+        {
+          "countrySubdivisionCode": "DZ-39",
+          "countrySubdivisionName": "El Oued"
+        },
+        {
+          "countrySubdivisionCode": "DZ-4",
+          "countrySubdivisionName": "Oum el Bouaghi"
+        },
+        {
+          "countrySubdivisionCode": "DZ-40",
+          "countrySubdivisionName": "Khenchela"
+        },
+        {
+          "countrySubdivisionCode": "DZ-41",
+          "countrySubdivisionName": "Souk Ahras"
+        },
+        {
+          "countrySubdivisionCode": "DZ-42",
+          "countrySubdivisionName": "Tipaza"
+        },
+        {
+          "countrySubdivisionCode": "DZ-43",
+          "countrySubdivisionName": "Mila"
+        },
+        {
+          "countrySubdivisionCode": "DZ-44",
+          "countrySubdivisionName": "Aïn Defla"
+        },
+        {
+          "countrySubdivisionCode": "DZ-45",
+          "countrySubdivisionName": "Naama"
+        },
+        {
+          "countrySubdivisionCode": "DZ-46",
+          "countrySubdivisionName": "Aïn Témouchent"
+        },
+        {
+          "countrySubdivisionCode": "DZ-47",
+          "countrySubdivisionName": "Ghardaïa"
+        },
+        {
+          "countrySubdivisionCode": "DZ-48",
+          "countrySubdivisionName": "Relizane"
+        },
+        {
+          "countrySubdivisionCode": "DZ-5",
+          "countrySubdivisionName": "Batna"
+        },
+        {
+          "countrySubdivisionCode": "DZ-6",
+          "countrySubdivisionName": "Béjaïa"
+        },
+        {
+          "countrySubdivisionCode": "DZ-7",
+          "countrySubdivisionName": "Biskra"
+        },
+        {
+          "countrySubdivisionCode": "DZ-8",
+          "countrySubdivisionName": "Béchar"
+        },
+        {
+          "countrySubdivisionCode": "DZ-9",
+          "countrySubdivisionName": "Blida"
+        }
+      ]
+    },
+    {
+      "countryCode": "AND",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "AD-2",
+          "countrySubdivisionName": "Canillo"
+        },
+        {
+          "countrySubdivisionCode": "AD-3",
+          "countrySubdivisionName": "Encamp"
+        },
+        {
+          "countrySubdivisionCode": "AD-4",
+          "countrySubdivisionName": "La Massana"
+        },
+        {
+          "countrySubdivisionCode": "AD-5",
+          "countrySubdivisionName": "Ordino"
+        },
+        {
+          "countrySubdivisionCode": "AD-6",
+          "countrySubdivisionName": "Sant Julià de Lòria"
+        },
+        {
+          "countrySubdivisionCode": "AD-7",
+          "countrySubdivisionName": "Andorra la Vella"
+        },
+        {
+          "countrySubdivisionCode": "AD-8",
+          "countrySubdivisionName": "Escaldes-Engordany"
+        }
+      ]
+    },
+    {
+      "countryCode": "AGO",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "AO-BGO",
+          "countrySubdivisionName": "Bengo"
+        },
+        {
+          "countrySubdivisionCode": "AO-BGU",
+          "countrySubdivisionName": "Benguela"
+        },
+        {
+          "countrySubdivisionCode": "AO-BIE",
+          "countrySubdivisionName": "Bié"
+        },
+        {
+          "countrySubdivisionCode": "AO-CAB",
+          "countrySubdivisionName": "Cabinda"
+        },
+        {
+          "countrySubdivisionCode": "AO-CCU",
+          "countrySubdivisionName": "Kuando Kubango"
+        },
+        {
+          "countrySubdivisionCode": "AO-CNN",
+          "countrySubdivisionName": "Cunene"
+        },
+        {
+          "countrySubdivisionCode": "AO-CNO",
+          "countrySubdivisionName": "Kwanza Norte"
+        },
+        {
+          "countrySubdivisionCode": "AO-CUS",
+          "countrySubdivisionName": "Kwanza Sul"
+        },
+        {
+          "countrySubdivisionCode": "AO-HUA",
+          "countrySubdivisionName": "Huambo"
+        },
+        {
+          "countrySubdivisionCode": "AO-HUI",
+          "countrySubdivisionName": "Huíla"
+        },
+        {
+          "countrySubdivisionCode": "AO-LNO",
+          "countrySubdivisionName": "Lunda Norte"
+        },
+        {
+          "countrySubdivisionCode": "AO-LSU",
+          "countrySubdivisionName": "Lunda Sul"
+        },
+        {
+          "countrySubdivisionCode": "AO-LUA",
+          "countrySubdivisionName": "Luanda"
+        },
+        {
+          "countrySubdivisionCode": "AO-MAL",
+          "countrySubdivisionName": "Malange"
+        },
+        {
+          "countrySubdivisionCode": "AO-MOX",
+          "countrySubdivisionName": "Moxico"
+        },
+        {
+          "countrySubdivisionCode": "AO-NAM",
+          "countrySubdivisionName": "Namibe"
+        },
+        {
+          "countrySubdivisionCode": "AO-UIG",
+          "countrySubdivisionName": "Uíge"
+        },
+        {
+          "countrySubdivisionCode": "AO-ZAI",
+          "countrySubdivisionName": "Zaire"
+        }
+      ]
+    },
+    {
+      "countryCode": "AUT",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "AT-1",
+          "countrySubdivisionName": "Burgenland"
+        },
+        {
+          "countrySubdivisionCode": "AT-2",
+          "countrySubdivisionName": "Kärnten"
+        },
+        {
+          "countrySubdivisionCode": "AT-3",
+          "countrySubdivisionName": "Niederösterreich"
+        },
+        {
+          "countrySubdivisionCode": "AT-4",
+          "countrySubdivisionName": "Oberösterreich"
+        },
+        {
+          "countrySubdivisionCode": "AT-5",
+          "countrySubdivisionName": "Salzburg"
+        },
+        {
+          "countrySubdivisionCode": "AT-6",
+          "countrySubdivisionName": "Steiermark"
+        },
+        {
+          "countrySubdivisionCode": "AT-7",
+          "countrySubdivisionName": "Tirol"
+        },
+        {
+          "countrySubdivisionCode": "AT-8",
+          "countrySubdivisionName": "Vorarlberg"
+        },
+        {
+          "countrySubdivisionCode": "AT-9",
+          "countrySubdivisionName": "Wien"
+        }
+      ]
+    },
+    {
+      "countryCode": "BHS",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "BS-AK",
+          "countrySubdivisionName": "Acklins"
+        },
+        {
+          "countrySubdivisionCode": "BS-BI",
+          "countrySubdivisionName": "Bimini"
+        },
+        {
+          "countrySubdivisionCode": "BS-BP",
+          "countrySubdivisionName": "Black Point"
+        },
+        {
+          "countrySubdivisionCode": "BS-BY",
+          "countrySubdivisionName": "Berry Islands"
+        },
+        {
+          "countrySubdivisionCode": "BS-CE",
+          "countrySubdivisionName": "Central Eleuthera"
+        },
+        {
+          "countrySubdivisionCode": "BS-CI",
+          "countrySubdivisionName": "Cat Island"
+        },
+        {
+          "countrySubdivisionCode": "BS-CK",
+          "countrySubdivisionName": "Crooked Island and Long Cay"
+        },
+        {
+          "countrySubdivisionCode": "BS-CO",
+          "countrySubdivisionName": "Central Abaco"
+        },
+        {
+          "countrySubdivisionCode": "BS-CS",
+          "countrySubdivisionName": "Central Andros"
+        },
+        {
+          "countrySubdivisionCode": "BS-EG",
+          "countrySubdivisionName": "East Grand Bahama"
+        },
+        {
+          "countrySubdivisionCode": "BS-EX",
+          "countrySubdivisionName": "Exuma"
+        },
+        {
+          "countrySubdivisionCode": "BS-FP",
+          "countrySubdivisionName": "City of Freeport"
+        },
+        {
+          "countrySubdivisionCode": "BS-GC",
+          "countrySubdivisionName": "Grand Cay"
+        },
+        {
+          "countrySubdivisionCode": "BS-HI",
+          "countrySubdivisionName": "Harbour Island"
+        },
+        {
+          "countrySubdivisionCode": "BS-HT",
+          "countrySubdivisionName": "Hope Town"
+        },
+        {
+          "countrySubdivisionCode": "BS-IN",
+          "countrySubdivisionName": "Inagua"
+        },
+        {
+          "countrySubdivisionCode": "BS-LI",
+          "countrySubdivisionName": "Long Island"
+        },
+        {
+          "countrySubdivisionCode": "BS-MC",
+          "countrySubdivisionName": "Mangrove Cay"
+        },
+        {
+          "countrySubdivisionCode": "BS-MG",
+          "countrySubdivisionName": "Mayaguana"
+        },
+        {
+          "countrySubdivisionCode": "BS-MI",
+          "countrySubdivisionName": "Moore's Island"
+        },
+        {
+          "countrySubdivisionCode": "BS-NE",
+          "countrySubdivisionName": "North Eleuthera"
+        },
+        {
+          "countrySubdivisionCode": "BS-NO",
+          "countrySubdivisionName": "North Abaco"
+        },
+        {
+          "countrySubdivisionCode": "BS-NS",
+          "countrySubdivisionName": "North Andros"
+        },
+        {
+          "countrySubdivisionCode": "BS-RC",
+          "countrySubdivisionName": "Rum Cay"
+        },
+        {
+          "countrySubdivisionCode": "BS-RI",
+          "countrySubdivisionName": "Ragged Island"
+        },
+        {
+          "countrySubdivisionCode": "BS-SA",
+          "countrySubdivisionName": "South Andros"
+        },
+        {
+          "countrySubdivisionCode": "BS-SE",
+          "countrySubdivisionName": "South Eleuthera"
+        },
+        {
+          "countrySubdivisionCode": "BS-SO",
+          "countrySubdivisionName": "South Abaco"
+        },
+        {
+          "countrySubdivisionCode": "BS-SS",
+          "countrySubdivisionName": "San Salvador"
+        },
+        {
+          "countrySubdivisionCode": "BS-SW",
+          "countrySubdivisionName": "Spanish Wells"
+        },
+        {
+          "countrySubdivisionCode": "BS-WG",
+          "countrySubdivisionName": "West Grand Bahama"
+        }
+      ]
+    },
+    {
+      "countryCode": "BRB",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "BB-1",
+          "countrySubdivisionName": "Christ Church"
+        },
+        {
+          "countrySubdivisionCode": "BB-10",
+          "countrySubdivisionName": "Saint Philip"
+        },
+        {
+          "countrySubdivisionCode": "BB-11",
+          "countrySubdivisionName": "Saint Thomas"
+        },
+        {
+          "countrySubdivisionCode": "BB-2",
+          "countrySubdivisionName": "Saint Andrew"
+        },
+        {
+          "countrySubdivisionCode": "BB-3",
+          "countrySubdivisionName": "Saint George"
+        },
+        {
+          "countrySubdivisionCode": "BB-4",
+          "countrySubdivisionName": "Saint James"
+        },
+        {
+          "countrySubdivisionCode": "BB-5",
+          "countrySubdivisionName": "Saint John"
+        },
+        {
+          "countrySubdivisionCode": "BB-6",
+          "countrySubdivisionName": "Saint Joseph"
+        },
+        {
+          "countrySubdivisionCode": "BB-7",
+          "countrySubdivisionName": "Saint Lucy"
+        },
+        {
+          "countrySubdivisionCode": "BB-8",
+          "countrySubdivisionName": "Saint Michael"
+        },
+        {
+          "countrySubdivisionCode": "BB-9",
+          "countrySubdivisionName": "Saint Peter"
+        }
+      ]
+    },
+    {
+      "countryCode": "BLZ",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "BZ-BZ",
+          "countrySubdivisionName": "Belize"
+        },
+        {
+          "countrySubdivisionCode": "BZ-CY",
+          "countrySubdivisionName": "Cayo"
+        },
+        {
+          "countrySubdivisionCode": "BZ-CZL",
+          "countrySubdivisionName": "Corozal"
+        },
+        {
+          "countrySubdivisionCode": "BZ-OW",
+          "countrySubdivisionName": "Orange Walk"
+        },
+        {
+          "countrySubdivisionCode": "BZ-SC",
+          "countrySubdivisionName": "Stann Creek"
+        },
+        {
+          "countrySubdivisionCode": "BZ-TOL",
+          "countrySubdivisionName": "Toledo"
+        }
+      ]
+    },
+    {
+      "countryCode": "BEN",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "BJ-AK",
+          "countrySubdivisionName": "Atacora"
+        },
+        {
+          "countrySubdivisionCode": "BJ-AL",
+          "countrySubdivisionName": "Alibori"
+        },
+        {
+          "countrySubdivisionCode": "BJ-AQ",
+          "countrySubdivisionName": "Atlantique"
+        },
+        {
+          "countrySubdivisionCode": "BJ-BO",
+          "countrySubdivisionName": "Borgou"
+        },
+        {
+          "countrySubdivisionCode": "BJ-CO",
+          "countrySubdivisionName": "Collines"
+        },
+        {
+          "countrySubdivisionCode": "BJ-DO",
+          "countrySubdivisionName": "Donga"
+        },
+        {
+          "countrySubdivisionCode": "BJ-KO",
+          "countrySubdivisionName": "Couffo"
+        },
+        {
+          "countrySubdivisionCode": "BJ-LI",
+          "countrySubdivisionName": "Littoral"
+        },
+        {
+          "countrySubdivisionCode": "BJ-MO",
+          "countrySubdivisionName": "Mono"
+        },
+        {
+          "countrySubdivisionCode": "BJ-OU",
+          "countrySubdivisionName": "Ouémé"
+        },
+        {
+          "countrySubdivisionCode": "BJ-PL",
+          "countrySubdivisionName": "Plateau"
+        },
+        {
+          "countrySubdivisionCode": "BJ-ZO",
+          "countrySubdivisionName": "Zou"
+        }
+      ]
+    },
+    {
+      "countryCode": "BTN",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "BT-11",
+          "countrySubdivisionName": "Paro"
+        },
+        {
+          "countrySubdivisionCode": "BT-12",
+          "countrySubdivisionName": "Chhukha"
+        },
+        {
+          "countrySubdivisionCode": "BT-13",
+          "countrySubdivisionName": "Ha"
+        },
+        {
+          "countrySubdivisionCode": "BT-14",
+          "countrySubdivisionName": "Samtse"
+        },
+        {
+          "countrySubdivisionCode": "BT-15",
+          "countrySubdivisionName": "Thimphu"
+        },
+        {
+          "countrySubdivisionCode": "BT-21",
+          "countrySubdivisionName": "Tsirang"
+        },
+        {
+          "countrySubdivisionCode": "BT-22",
+          "countrySubdivisionName": "Dagana"
+        },
+        {
+          "countrySubdivisionCode": "BT-23",
+          "countrySubdivisionName": "Punakha"
+        },
+        {
+          "countrySubdivisionCode": "BT-24",
+          "countrySubdivisionName": "Wangdue Phodrang"
+        },
+        {
+          "countrySubdivisionCode": "BT-31",
+          "countrySubdivisionName": "Sarpang"
+        },
+        {
+          "countrySubdivisionCode": "BT-32",
+          "countrySubdivisionName": "Trongsa"
+        },
+        {
+          "countrySubdivisionCode": "BT-33",
+          "countrySubdivisionName": "Bumthang"
+        },
+        {
+          "countrySubdivisionCode": "BT-34",
+          "countrySubdivisionName": "Zhemgang"
+        },
+        {
+          "countrySubdivisionCode": "BT-41",
+          "countrySubdivisionName": "Trashigang"
+        },
+        {
+          "countrySubdivisionCode": "BT-42",
+          "countrySubdivisionName": "Monggar"
+        },
+        {
+          "countrySubdivisionCode": "BT-43",
+          "countrySubdivisionName": "Pemagatshel"
+        },
+        {
+          "countrySubdivisionCode": "BT-44",
+          "countrySubdivisionName": "Lhuentse"
+        },
+        {
+          "countrySubdivisionCode": "BT-45",
+          "countrySubdivisionName": "Samdrup Jongkha"
+        },
+        {
+          "countrySubdivisionCode": "BT-GA",
+          "countrySubdivisionName": "Gasa"
+        },
+        {
+          "countrySubdivisionCode": "BT-TY",
+          "countrySubdivisionName": "Trashi Yangtse"
+        }
+      ]
+    },
+    {
+      "countryCode": "BOL",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "BO-B",
+          "countrySubdivisionName": "El Beni"
+        },
+        {
+          "countrySubdivisionCode": "BO-C",
+          "countrySubdivisionName": "Cochabamba"
+        },
+        {
+          "countrySubdivisionCode": "BO-H",
+          "countrySubdivisionName": "Chuquisaca"
+        },
+        {
+          "countrySubdivisionCode": "BO-L",
+          "countrySubdivisionName": "La Paz"
+        },
+        {
+          "countrySubdivisionCode": "BO-N",
+          "countrySubdivisionName": "Pando"
+        },
+        {
+          "countrySubdivisionCode": "BO-O",
+          "countrySubdivisionName": "Oruro"
+        },
+        {
+          "countrySubdivisionCode": "BO-P",
+          "countrySubdivisionName": "Potosí"
+        },
+        {
+          "countrySubdivisionCode": "BO-S",
+          "countrySubdivisionName": "Santa Cruz"
+        },
+        {
+          "countrySubdivisionCode": "BO-T",
+          "countrySubdivisionName": "Tarija"
+        }
+      ]
+    },
+    {
+      "countryCode": "BRA",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "BR-AC",
+          "countrySubdivisionName": "Acre"
+        },
+        {
+          "countrySubdivisionCode": "BR-AL",
+          "countrySubdivisionName": "Alagoas"
+        },
+        {
+          "countrySubdivisionCode": "BR-AM",
+          "countrySubdivisionName": "Amazonas"
+        },
+        {
+          "countrySubdivisionCode": "BR-AP",
+          "countrySubdivisionName": "Amapá"
+        },
+        {
+          "countrySubdivisionCode": "BR-BA",
+          "countrySubdivisionName": "Bahia"
+        },
+        {
+          "countrySubdivisionCode": "BR-CE",
+          "countrySubdivisionName": "Ceará"
+        },
+        {
+          "countrySubdivisionCode": "BR-DF",
+          "countrySubdivisionName": "Distrito Federal"
+        },
+        {
+          "countrySubdivisionCode": "BR-ES",
+          "countrySubdivisionName": "Espírito Santo"
+        },
+        {
+          "countrySubdivisionCode": "BR-GO",
+          "countrySubdivisionName": "Goiás"
+        },
+        {
+          "countrySubdivisionCode": "BR-MA",
+          "countrySubdivisionName": "Maranhão"
+        },
+        {
+          "countrySubdivisionCode": "BR-MG",
+          "countrySubdivisionName": "Minas Gerais"
+        },
+        {
+          "countrySubdivisionCode": "BR-MS",
+          "countrySubdivisionName": "Mato Grosso do Sul"
+        },
+        {
+          "countrySubdivisionCode": "BR-MT",
+          "countrySubdivisionName": "Mato Grosso"
+        },
+        {
+          "countrySubdivisionCode": "BR-PA",
+          "countrySubdivisionName": "Pará"
+        },
+        {
+          "countrySubdivisionCode": "BR-PB",
+          "countrySubdivisionName": "Paraíba"
+        },
+        {
+          "countrySubdivisionCode": "BR-PE",
+          "countrySubdivisionName": "Pernambuco"
+        },
+        {
+          "countrySubdivisionCode": "BR-PI",
+          "countrySubdivisionName": "Piauí"
+        },
+        {
+          "countrySubdivisionCode": "BR-PR",
+          "countrySubdivisionName": "Paraná"
+        },
+        {
+          "countrySubdivisionCode": "BR-RJ",
+          "countrySubdivisionName": "Rio de Janeiro"
+        },
+        {
+          "countrySubdivisionCode": "BR-RN",
+          "countrySubdivisionName": "Rio Grande do Norte"
+        },
+        {
+          "countrySubdivisionCode": "BR-RO",
+          "countrySubdivisionName": "Rondônia"
+        },
+        {
+          "countrySubdivisionCode": "BR-RR",
+          "countrySubdivisionName": "Roraima"
+        },
+        {
+          "countrySubdivisionCode": "BR-RS",
+          "countrySubdivisionName": "Rio Grande do Sul"
+        },
+        {
+          "countrySubdivisionCode": "BR-SC",
+          "countrySubdivisionName": "Santa Catarina"
+        },
+        {
+          "countrySubdivisionCode": "BR-SE",
+          "countrySubdivisionName": "Sergipe"
+        },
+        {
+          "countrySubdivisionCode": "BR-SP",
+          "countrySubdivisionName": "São Paulo"
+        },
+        {
+          "countrySubdivisionCode": "BR-TO",
+          "countrySubdivisionName": "Tocantins"
+        }
+      ]
+    },
+    {
+      "countryCode": "BRN",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "BN-BE",
+          "countrySubdivisionName": "Belait"
+        },
+        {
+          "countrySubdivisionCode": "BN-BM",
+          "countrySubdivisionName": "Brunei-Muara"
+        },
+        {
+          "countrySubdivisionCode": "BN-TE",
+          "countrySubdivisionName": "Temburong"
+        },
+        {
+          "countrySubdivisionCode": "BN-TU",
+          "countrySubdivisionName": "Tutong"
+        }
+      ]
+    },
+    {
+      "countryCode": "BGR",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "BG-1",
+          "countrySubdivisionName": "Blagoevgrad"
+        },
+        {
+          "countrySubdivisionCode": "BG-10",
+          "countrySubdivisionName": "Kyustendil"
+        },
+        {
+          "countrySubdivisionCode": "BG-11",
+          "countrySubdivisionName": "Lovech"
+        },
+        {
+          "countrySubdivisionCode": "BG-12",
+          "countrySubdivisionName": "Montana"
+        },
+        {
+          "countrySubdivisionCode": "BG-13",
+          "countrySubdivisionName": "Pazardzhik"
+        },
+        {
+          "countrySubdivisionCode": "BG-14",
+          "countrySubdivisionName": "Pernik"
+        },
+        {
+          "countrySubdivisionCode": "BG-15",
+          "countrySubdivisionName": "Pleven"
+        },
+        {
+          "countrySubdivisionCode": "BG-16",
+          "countrySubdivisionName": "Plovdiv"
+        },
+        {
+          "countrySubdivisionCode": "BG-17",
+          "countrySubdivisionName": "Razgrad"
+        },
+        {
+          "countrySubdivisionCode": "BG-18",
+          "countrySubdivisionName": "Ruse"
+        },
+        {
+          "countrySubdivisionCode": "BG-19",
+          "countrySubdivisionName": "Silistra"
+        },
+        {
+          "countrySubdivisionCode": "BG-2",
+          "countrySubdivisionName": "Burgas"
+        },
+        {
+          "countrySubdivisionCode": "BG-20",
+          "countrySubdivisionName": "Sliven"
+        },
+        {
+          "countrySubdivisionCode": "BG-21",
+          "countrySubdivisionName": "Smolyan"
+        },
+        {
+          "countrySubdivisionCode": "BG-22",
+          "countrySubdivisionName": "Sofia (stolitsa)"
+        },
+        {
+          "countrySubdivisionCode": "BG-23",
+          "countrySubdivisionName": "Sofia"
+        },
+        {
+          "countrySubdivisionCode": "BG-24",
+          "countrySubdivisionName": "Stara Zagora"
+        },
+        {
+          "countrySubdivisionCode": "BG-25",
+          "countrySubdivisionName": "Targovishte"
+        },
+        {
+          "countrySubdivisionCode": "BG-26",
+          "countrySubdivisionName": "Haskovo"
+        },
+        {
+          "countrySubdivisionCode": "BG-27",
+          "countrySubdivisionName": "Shumen"
+        },
+        {
+          "countrySubdivisionCode": "BG-28",
+          "countrySubdivisionName": "Yambol"
+        },
+        {
+          "countrySubdivisionCode": "BG-3",
+          "countrySubdivisionName": "Varna"
+        },
+        {
+          "countrySubdivisionCode": "BG-4",
+          "countrySubdivisionName": "Veliko Tarnovo"
+        },
+        {
+          "countrySubdivisionCode": "BG-5",
+          "countrySubdivisionName": "Vidin"
+        },
+        {
+          "countrySubdivisionCode": "BG-6",
+          "countrySubdivisionName": "Vratsa"
+        },
+        {
+          "countrySubdivisionCode": "BG-7",
+          "countrySubdivisionName": "Gabrovo"
+        },
+        {
+          "countrySubdivisionCode": "BG-8",
+          "countrySubdivisionName": "Dobrich"
+        },
+        {
+          "countrySubdivisionCode": "BG-9",
+          "countrySubdivisionName": "Kardzhali"
+        }
+      ]
+    },
+    {
+      "countryCode": "CMR",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "CM-AD",
+          "countrySubdivisionName": "Adamaoua"
+        },
+        {
+          "countrySubdivisionCode": "CM-CE",
+          "countrySubdivisionName": "Centre"
+        },
+        {
+          "countrySubdivisionCode": "CM-EN",
+          "countrySubdivisionName": "Far North"
+        },
+        {
+          "countrySubdivisionCode": "CM-ES",
+          "countrySubdivisionName": "East"
+        },
+        {
+          "countrySubdivisionCode": "CM-LT",
+          "countrySubdivisionName": "Littoral"
+        },
+        {
+          "countrySubdivisionCode": "CM-NO",
+          "countrySubdivisionName": "North"
+        },
+        {
+          "countrySubdivisionCode": "CM-NW",
+          "countrySubdivisionName": "North-West"
+        },
+        {
+          "countrySubdivisionCode": "CM-OU",
+          "countrySubdivisionName": "West"
+        },
+        {
+          "countrySubdivisionCode": "CM-SU",
+          "countrySubdivisionName": "South"
+        },
+        {
+          "countrySubdivisionCode": "CM-SW",
+          "countrySubdivisionName": "South-West"
+        }
+      ]
+    },
+    {
+      "countryCode": "CAN",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "CA-AB",
+          "countrySubdivisionName": "Alberta"
+        },
+        {
+          "countrySubdivisionCode": "CA-BC",
+          "countrySubdivisionName": "British Columbia"
+        },
+        {
+          "countrySubdivisionCode": "CA-MB",
+          "countrySubdivisionName": "Manitoba"
+        },
+        {
+          "countrySubdivisionCode": "CA-NB",
+          "countrySubdivisionName": "New Brunswick"
+        },
+        {
+          "countrySubdivisionCode": "CA-NL",
+          "countrySubdivisionName": "Newfoundland and Labrador"
+        },
+        {
+          "countrySubdivisionCode": "CA-NS",
+          "countrySubdivisionName": "Nova Scotia"
+        },
+        {
+          "countrySubdivisionCode": "CA-NT",
+          "countrySubdivisionName": "Northwest Territories"
+        },
+        {
+          "countrySubdivisionCode": "CA-NU",
+          "countrySubdivisionName": "Nunavut"
+        },
+        {
+          "countrySubdivisionCode": "CA-ON",
+          "countrySubdivisionName": "Ontario"
+        },
+        {
+          "countrySubdivisionCode": "CA-PE",
+          "countrySubdivisionName": "Prince Edward Island"
+        },
+        {
+          "countrySubdivisionCode": "CA-QC",
+          "countrySubdivisionName": "Quebec"
+        },
+        {
+          "countrySubdivisionCode": "CA-SK",
+          "countrySubdivisionName": "Saskatchewan"
+        },
+        {
+          "countrySubdivisionCode": "CA-YT",
+          "countrySubdivisionName": "Yukon Territory"
+        }
+      ]
+    },
+    {
+      "countryCode": "CHL",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "CL-AI",
+          "countrySubdivisionName": "Aysén"
+        },
+        {
+          "countrySubdivisionCode": "CL-AN",
+          "countrySubdivisionName": "Antofagasta"
+        },
+        {
+          "countrySubdivisionCode": "CL-AP",
+          "countrySubdivisionName": "Arica y Parinacota"
+        },
+        {
+          "countrySubdivisionCode": "CL-AR",
+          "countrySubdivisionName": "Araucanía"
+        },
+        {
+          "countrySubdivisionCode": "CL-AT",
+          "countrySubdivisionName": "Atacama"
+        },
+        {
+          "countrySubdivisionCode": "CL-BI",
+          "countrySubdivisionName": "Biobío"
+        },
+        {
+          "countrySubdivisionCode": "CL-CO",
+          "countrySubdivisionName": "Coquimbo"
+        },
+        {
+          "countrySubdivisionCode": "CL-LI",
+          "countrySubdivisionName": "Libertador General Bernardo O'Higgins"
+        },
+        {
+          "countrySubdivisionCode": "CL-LL",
+          "countrySubdivisionName": "Los Lagos"
+        },
+        {
+          "countrySubdivisionCode": "CL-LR",
+          "countrySubdivisionName": "Los Ríos"
+        },
+        {
+          "countrySubdivisionCode": "CL-MA",
+          "countrySubdivisionName": "Magallanes"
+        },
+        {
+          "countrySubdivisionCode": "CL-ML",
+          "countrySubdivisionName": "Maule"
+        },
+        {
+          "countrySubdivisionCode": "CL-RM",
+          "countrySubdivisionName": "Región Metropolitana de Santiago"
+        },
+        {
+          "countrySubdivisionCode": "CL-TA",
+          "countrySubdivisionName": "Tarapacá"
+        },
+        {
+          "countrySubdivisionCode": "CL-VS",
+          "countrySubdivisionName": "Valparaíso"
+        }
+      ]
+    },
+    {
+      "countryCode": "CHN",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "CN-11",
+          "countrySubdivisionName": "Beijing"
+        },
+        {
+          "countrySubdivisionCode": "CN-12",
+          "countrySubdivisionName": "Tianjin"
+        },
+        {
+          "countrySubdivisionCode": "CN-13",
+          "countrySubdivisionName": "Hebei"
+        },
+        {
+          "countrySubdivisionCode": "CN-14",
+          "countrySubdivisionName": "Shanxi"
+        },
+        {
+          "countrySubdivisionCode": "CN-15",
+          "countrySubdivisionName": "Nei Mongol"
+        },
+        {
+          "countrySubdivisionCode": "CN-21",
+          "countrySubdivisionName": "Liaoning"
+        },
+        {
+          "countrySubdivisionCode": "CN-22",
+          "countrySubdivisionName": "Jilin"
+        },
+        {
+          "countrySubdivisionCode": "CN-23",
+          "countrySubdivisionName": "Heilongjiang"
+        },
+        {
+          "countrySubdivisionCode": "CN-31",
+          "countrySubdivisionName": "Shanghai"
+        },
+        {
+          "countrySubdivisionCode": "CN-32",
+          "countrySubdivisionName": "Jiangsu"
+        },
+        {
+          "countrySubdivisionCode": "CN-33",
+          "countrySubdivisionName": "Zhejiang"
+        },
+        {
+          "countrySubdivisionCode": "CN-34",
+          "countrySubdivisionName": "Anhui"
+        },
+        {
+          "countrySubdivisionCode": "CN-35",
+          "countrySubdivisionName": "Fujian"
+        },
+        {
+          "countrySubdivisionCode": "CN-36",
+          "countrySubdivisionName": "Jiangxi"
+        },
+        {
+          "countrySubdivisionCode": "CN-37",
+          "countrySubdivisionName": "Shandong"
+        },
+        {
+          "countrySubdivisionCode": "CN-41",
+          "countrySubdivisionName": "Henan"
+        },
+        {
+          "countrySubdivisionCode": "CN-42",
+          "countrySubdivisionName": "Hubei"
+        },
+        {
+          "countrySubdivisionCode": "CN-43",
+          "countrySubdivisionName": "Hunan"
+        },
+        {
+          "countrySubdivisionCode": "CN-44",
+          "countrySubdivisionName": "Guangdong"
+        },
+        {
+          "countrySubdivisionCode": "CN-45",
+          "countrySubdivisionName": "Guangxi"
+        },
+        {
+          "countrySubdivisionCode": "CN-46",
+          "countrySubdivisionName": "Hainan"
+        },
+        {
+          "countrySubdivisionCode": "CN-50",
+          "countrySubdivisionName": "Chongqing"
+        },
+        {
+          "countrySubdivisionCode": "CN-51",
+          "countrySubdivisionName": "Sichuan"
+        },
+        {
+          "countrySubdivisionCode": "CN-52",
+          "countrySubdivisionName": "Guizhou"
+        },
+        {
+          "countrySubdivisionCode": "CN-53",
+          "countrySubdivisionName": "Yunnan"
+        },
+        {
+          "countrySubdivisionCode": "CN-54",
+          "countrySubdivisionName": "Xizang"
+        },
+        {
+          "countrySubdivisionCode": "CN-61",
+          "countrySubdivisionName": "Shaanxi"
+        },
+        {
+          "countrySubdivisionCode": "CN-62",
+          "countrySubdivisionName": "Gansu"
+        },
+        {
+          "countrySubdivisionCode": "CN-63",
+          "countrySubdivisionName": "Qinghai"
+        },
+        {
+          "countrySubdivisionCode": "CN-64",
+          "countrySubdivisionName": "Ningxia"
+        },
+        {
+          "countrySubdivisionCode": "CN-65",
+          "countrySubdivisionName": "Xinjiang"
+        },
+        {
+          "countrySubdivisionCode": "CN-71",
+          "countrySubdivisionName": "Taiwan"
+        },
+        {
+          "countrySubdivisionCode": "CN-91",
+          "countrySubdivisionName": "Xianggang"
+        },
+        {
+          "countrySubdivisionCode": "CN-92",
+          "countrySubdivisionName": "Aomen"
+        }
+      ]
+    },
+    {
+      "countryCode": "CRI",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "CR-A",
+          "countrySubdivisionName": "Alajuela"
+        },
+        {
+          "countrySubdivisionCode": "CR-C",
+          "countrySubdivisionName": "Cartago"
+        },
+        {
+          "countrySubdivisionCode": "CR-G",
+          "countrySubdivisionName": "Guanacaste"
+        },
+        {
+          "countrySubdivisionCode": "CR-H",
+          "countrySubdivisionName": "Heredia"
+        },
+        {
+          "countrySubdivisionCode": "CR-L",
+          "countrySubdivisionName": "Limón"
+        },
+        {
+          "countrySubdivisionCode": "CR-P",
+          "countrySubdivisionName": "Puntarenas"
+        },
+        {
+          "countrySubdivisionCode": "CR-SJ",
+          "countrySubdivisionName": "San José"
+        }
+      ]
+    },
+    {
+      "countryCode": "DNK",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "DK-81",
+          "countrySubdivisionName": "Nordjylland"
+        },
+        {
+          "countrySubdivisionCode": "DK-82",
+          "countrySubdivisionName": "Midtjylland"
+        },
+        {
+          "countrySubdivisionCode": "DK-83",
+          "countrySubdivisionName": "Syddanmark"
+        },
+        {
+          "countrySubdivisionCode": "DK-84",
+          "countrySubdivisionName": "Hovedstaden"
+        },
+        {
+          "countrySubdivisionCode": "DK-85",
+          "countrySubdivisionName": "Sjælland"
+        }
+      ]
+    },
+    {
+      "countryCode": "DMA",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "DM-10",
+          "countrySubdivisionName": "Saint Paul"
+        },
+        {
+          "countrySubdivisionCode": "DM-11",
+          "countrySubdivisionName": "Saint Peter"
+        },
+        {
+          "countrySubdivisionCode": "DM-2",
+          "countrySubdivisionName": "Saint Andrew"
+        },
+        {
+          "countrySubdivisionCode": "DM-3",
+          "countrySubdivisionName": "Saint David"
+        },
+        {
+          "countrySubdivisionCode": "DM-4",
+          "countrySubdivisionName": "Saint George"
+        },
+        {
+          "countrySubdivisionCode": "DM-5",
+          "countrySubdivisionName": "Saint John"
+        },
+        {
+          "countrySubdivisionCode": "DM-6",
+          "countrySubdivisionName": "Saint Joseph"
+        },
+        {
+          "countrySubdivisionCode": "DM-7",
+          "countrySubdivisionName": "Saint Luke"
+        },
+        {
+          "countrySubdivisionCode": "DM-8",
+          "countrySubdivisionName": "Saint Mark"
+        },
+        {
+          "countrySubdivisionCode": "DM-9",
+          "countrySubdivisionName": "Saint Patrick"
+        }
+      ]
+    },
+    {
+      "countryCode": "ECU",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "EC-A",
+          "countrySubdivisionName": "Azuay"
+        },
+        {
+          "countrySubdivisionCode": "EC-B",
+          "countrySubdivisionName": "Bolívar"
+        },
+        {
+          "countrySubdivisionCode": "EC-C",
+          "countrySubdivisionName": "Carchi"
+        },
+        {
+          "countrySubdivisionCode": "EC-D",
+          "countrySubdivisionName": "Orellana"
+        },
+        {
+          "countrySubdivisionCode": "EC-E",
+          "countrySubdivisionName": "Esmeraldas"
+        },
+        {
+          "countrySubdivisionCode": "EC-F",
+          "countrySubdivisionName": "Cañar"
+        },
+        {
+          "countrySubdivisionCode": "EC-G",
+          "countrySubdivisionName": "Guayas"
+        },
+        {
+          "countrySubdivisionCode": "EC-H",
+          "countrySubdivisionName": "Chimborazo"
+        },
+        {
+          "countrySubdivisionCode": "EC-I",
+          "countrySubdivisionName": "Imbabura"
+        },
+        {
+          "countrySubdivisionCode": "EC-L",
+          "countrySubdivisionName": "Loja"
+        },
+        {
+          "countrySubdivisionCode": "EC-M",
+          "countrySubdivisionName": "Manabí"
+        },
+        {
+          "countrySubdivisionCode": "EC-N",
+          "countrySubdivisionName": "Napo"
+        },
+        {
+          "countrySubdivisionCode": "EC-O",
+          "countrySubdivisionName": "El Oro"
+        },
+        {
+          "countrySubdivisionCode": "EC-P",
+          "countrySubdivisionName": "Pichincha"
+        },
+        {
+          "countrySubdivisionCode": "EC-R",
+          "countrySubdivisionName": "Los Ríos"
+        },
+        {
+          "countrySubdivisionCode": "EC-S",
+          "countrySubdivisionName": "Morona-Santiago"
+        },
+        {
+          "countrySubdivisionCode": "EC-SD",
+          "countrySubdivisionName": "Santo Domingo de los Tsáchilas"
+        },
+        {
+          "countrySubdivisionCode": "EC-SE",
+          "countrySubdivisionName": "Santa Elena"
+        },
+        {
+          "countrySubdivisionCode": "EC-T",
+          "countrySubdivisionName": "Tungurahua"
+        },
+        {
+          "countrySubdivisionCode": "EC-U",
+          "countrySubdivisionName": "Sucumbíos"
+        },
+        {
+          "countrySubdivisionCode": "EC-W",
+          "countrySubdivisionName": "Galápagos"
+        },
+        {
+          "countrySubdivisionCode": "EC-X",
+          "countrySubdivisionName": "Cotopaxi"
+        },
+        {
+          "countrySubdivisionCode": "EC-Y",
+          "countrySubdivisionName": "Pastaza"
+        },
+        {
+          "countrySubdivisionCode": "EC-Z",
+          "countrySubdivisionName": "Zamora-Chinchipe"
+        }
+      ]
+    },
+    {
+      "countryCode": "SLV",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "SV-AH",
+          "countrySubdivisionName": "Ahuachapán"
+        },
+        {
+          "countrySubdivisionCode": "SV-CA",
+          "countrySubdivisionName": "Cabañas"
+        },
+        {
+          "countrySubdivisionCode": "SV-CH",
+          "countrySubdivisionName": "Chalatenango"
+        },
+        {
+          "countrySubdivisionCode": "SV-CU",
+          "countrySubdivisionName": "Cuscatlán"
+        },
+        {
+          "countrySubdivisionCode": "SV-LI",
+          "countrySubdivisionName": "La Libertad"
+        },
+        {
+          "countrySubdivisionCode": "SV-MO",
+          "countrySubdivisionName": "Morazán"
+        },
+        {
+          "countrySubdivisionCode": "SV-PA",
+          "countrySubdivisionName": "La Paz"
+        },
+        {
+          "countrySubdivisionCode": "SV-SA",
+          "countrySubdivisionName": "Santa Ana"
+        },
+        {
+          "countrySubdivisionCode": "SV-SM",
+          "countrySubdivisionName": "San Miguel"
+        },
+        {
+          "countrySubdivisionCode": "SV-SO",
+          "countrySubdivisionName": "Sonsonate"
+        },
+        {
+          "countrySubdivisionCode": "SV-SS",
+          "countrySubdivisionName": "San Salvador"
+        },
+        {
+          "countrySubdivisionCode": "SV-SV",
+          "countrySubdivisionName": "San Vicente"
+        },
+        {
+          "countrySubdivisionCode": "SV-UN",
+          "countrySubdivisionName": "La Unión"
+        },
+        {
+          "countrySubdivisionCode": "SV-US",
+          "countrySubdivisionName": "Usulután"
+        }
+      ]
+    },
+    {
+      "countryCode": "EST",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "EE-37",
+          "countrySubdivisionName": "Harjumaa"
+        },
+        {
+          "countrySubdivisionCode": "EE-39",
+          "countrySubdivisionName": "Hiiumaa"
+        },
+        {
+          "countrySubdivisionCode": "EE-44",
+          "countrySubdivisionName": "Ida-Virumaa"
+        },
+        {
+          "countrySubdivisionCode": "EE-49",
+          "countrySubdivisionName": "Jõgevamaa"
+        },
+        {
+          "countrySubdivisionCode": "EE-51",
+          "countrySubdivisionName": "Järvamaa"
+        },
+        {
+          "countrySubdivisionCode": "EE-57",
+          "countrySubdivisionName": "Läänemaa"
+        },
+        {
+          "countrySubdivisionCode": "EE-59",
+          "countrySubdivisionName": "Lääne-Virumaa"
+        },
+        {
+          "countrySubdivisionCode": "EE-65",
+          "countrySubdivisionName": "Põlvamaa"
+        },
+        {
+          "countrySubdivisionCode": "EE-67",
+          "countrySubdivisionName": "Pärnumaa"
+        },
+        {
+          "countrySubdivisionCode": "EE-70",
+          "countrySubdivisionName": "Raplamaa"
+        },
+        {
+          "countrySubdivisionCode": "EE-74",
+          "countrySubdivisionName": "Saaremaa"
+        },
+        {
+          "countrySubdivisionCode": "EE-78",
+          "countrySubdivisionName": "Tartumaa"
+        },
+        {
+          "countrySubdivisionCode": "EE-82",
+          "countrySubdivisionName": "Valgamaa"
+        },
+        {
+          "countrySubdivisionCode": "EE-84",
+          "countrySubdivisionName": "Viljandimaa"
+        },
+        {
+          "countrySubdivisionCode": "EE-86",
+          "countrySubdivisionName": "Võrumaa"
+        }
+      ]
+    },
+    {
+      "countryCode": "GAB",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "GA-1",
+          "countrySubdivisionName": "Estuaire"
+        },
+        {
+          "countrySubdivisionCode": "GA-2",
+          "countrySubdivisionName": "Haut-Ogooué"
+        },
+        {
+          "countrySubdivisionCode": "GA-3",
+          "countrySubdivisionName": "Moyen-Ogooué"
+        },
+        {
+          "countrySubdivisionCode": "GA-4",
+          "countrySubdivisionName": "Ngounié"
+        },
+        {
+          "countrySubdivisionCode": "GA-5",
+          "countrySubdivisionName": "Nyanga"
+        },
+        {
+          "countrySubdivisionCode": "GA-6",
+          "countrySubdivisionName": "Ogooué-Ivindo"
+        },
+        {
+          "countrySubdivisionCode": "GA-7",
+          "countrySubdivisionName": "Ogooué-Lolo"
+        },
+        {
+          "countrySubdivisionCode": "GA-8",
+          "countrySubdivisionName": "Ogooué-Maritime"
+        },
+        {
+          "countrySubdivisionCode": "GA-9",
+          "countrySubdivisionName": "Woleu-Ntem"
+        }
+      ]
+    },
+    {
+      "countryCode": "DEU",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "DE-BB",
+          "countrySubdivisionName": "Brandenburg"
+        },
+        {
+          "countrySubdivisionCode": "DE-BE",
+          "countrySubdivisionName": "Berlin"
+        },
+        {
+          "countrySubdivisionCode": "DE-BW",
+          "countrySubdivisionName": "Baden-Württemberg"
+        },
+        {
+          "countrySubdivisionCode": "DE-BY",
+          "countrySubdivisionName": "Bayern"
+        },
+        {
+          "countrySubdivisionCode": "DE-HB",
+          "countrySubdivisionName": "Bremen"
+        },
+        {
+          "countrySubdivisionCode": "DE-HE",
+          "countrySubdivisionName": "Hessen"
+        },
+        {
+          "countrySubdivisionCode": "DE-HH",
+          "countrySubdivisionName": "Hamburg"
+        },
+        {
+          "countrySubdivisionCode": "DE-MV",
+          "countrySubdivisionName": "Mecklenburg-Vorpommern"
+        },
+        {
+          "countrySubdivisionCode": "DE-NI",
+          "countrySubdivisionName": "Niedersachsen"
+        },
+        {
+          "countrySubdivisionCode": "DE-NW",
+          "countrySubdivisionName": "Nordrhein-Westfalen"
+        },
+        {
+          "countrySubdivisionCode": "DE-RP",
+          "countrySubdivisionName": "Rheinland-Pfalz"
+        },
+        {
+          "countrySubdivisionCode": "DE-SH",
+          "countrySubdivisionName": "Schleswig-Holstein"
+        },
+        {
+          "countrySubdivisionCode": "DE-SL",
+          "countrySubdivisionName": "Saarland"
+        },
+        {
+          "countrySubdivisionCode": "DE-SN",
+          "countrySubdivisionName": "Sachsen"
+        },
+        {
+          "countrySubdivisionCode": "DE-ST",
+          "countrySubdivisionName": "Sachsen-Anhalt"
+        },
+        {
+          "countrySubdivisionCode": "DE-TH",
+          "countrySubdivisionName": "Thüringen"
+        }
+      ]
+    },
+    {
+      "countryCode": "GHA",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "GH-AA",
+          "countrySubdivisionName": "Greater Accra"
+        },
+        {
+          "countrySubdivisionCode": "GH-AH",
+          "countrySubdivisionName": "Ashanti"
+        },
+        {
+          "countrySubdivisionCode": "GH-BA",
+          "countrySubdivisionName": "Brong-Ahafo"
+        },
+        {
+          "countrySubdivisionCode": "GH-CP",
+          "countrySubdivisionName": "Central"
+        },
+        {
+          "countrySubdivisionCode": "GH-EP",
+          "countrySubdivisionName": "Eastern"
+        },
+        {
+          "countrySubdivisionCode": "GH-NP",
+          "countrySubdivisionName": "Northern"
+        },
+        {
+          "countrySubdivisionCode": "GH-TV",
+          "countrySubdivisionName": "Volta"
+        },
+        {
+          "countrySubdivisionCode": "GH-UE",
+          "countrySubdivisionName": "Upper East"
+        },
+        {
+          "countrySubdivisionCode": "GH-UW",
+          "countrySubdivisionName": "Upper West"
+        },
+        {
+          "countrySubdivisionCode": "GH-WP",
+          "countrySubdivisionName": "Western"
+        }
+      ]
+    },
+    {
+      "countryCode": "GRL",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "GL-KU",
+          "countrySubdivisionName": "Kommune Kujalleq"
+        },
+        {
+          "countrySubdivisionCode": "GL-QA",
+          "countrySubdivisionName": "Qaasuitsup Kommunia"
+        },
+        {
+          "countrySubdivisionCode": "GL-QE",
+          "countrySubdivisionName": "Qeqqata Kommunia"
+        },
+        {
+          "countrySubdivisionCode": "GL-SM",
+          "countrySubdivisionName": "Kommuneqarfik Sermersooq"
+        }
+      ]
+    },
+    {
+      "countryCode": "GTM",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "GT-AV",
+          "countrySubdivisionName": "Alta Verapaz"
+        },
+        {
+          "countrySubdivisionCode": "GT-BV",
+          "countrySubdivisionName": "Baja Verapaz"
+        },
+        {
+          "countrySubdivisionCode": "GT-CM",
+          "countrySubdivisionName": "Chimaltenango"
+        },
+        {
+          "countrySubdivisionCode": "GT-CQ",
+          "countrySubdivisionName": "Chiquimula"
+        },
+        {
+          "countrySubdivisionCode": "GT-ES",
+          "countrySubdivisionName": "Escuintla"
+        },
+        {
+          "countrySubdivisionCode": "GT-GU",
+          "countrySubdivisionName": "Guatemala"
+        },
+        {
+          "countrySubdivisionCode": "GT-HU",
+          "countrySubdivisionName": "Huehuetenango"
+        },
+        {
+          "countrySubdivisionCode": "GT-IZ",
+          "countrySubdivisionName": "Izabal"
+        },
+        {
+          "countrySubdivisionCode": "GT-JA",
+          "countrySubdivisionName": "Jalapa"
+        },
+        {
+          "countrySubdivisionCode": "GT-JU",
+          "countrySubdivisionName": "Jutiapa"
+        },
+        {
+          "countrySubdivisionCode": "GT-PE",
+          "countrySubdivisionName": "Petén"
+        },
+        {
+          "countrySubdivisionCode": "GT-PR",
+          "countrySubdivisionName": "El Progreso"
+        },
+        {
+          "countrySubdivisionCode": "GT-QC",
+          "countrySubdivisionName": "Quiché"
+        },
+        {
+          "countrySubdivisionCode": "GT-QZ",
+          "countrySubdivisionName": "Quetzaltenango"
+        },
+        {
+          "countrySubdivisionCode": "GT-RE",
+          "countrySubdivisionName": "Retalhuleu"
+        },
+        {
+          "countrySubdivisionCode": "GT-SA",
+          "countrySubdivisionName": "Sacatepéquez"
+        },
+        {
+          "countrySubdivisionCode": "GT-SM",
+          "countrySubdivisionName": "San Marcos"
+        },
+        {
+          "countrySubdivisionCode": "GT-SO",
+          "countrySubdivisionName": "Sololá"
+        },
+        {
+          "countrySubdivisionCode": "GT-SR",
+          "countrySubdivisionName": "Santa Rosa"
+        },
+        {
+          "countrySubdivisionCode": "GT-SU",
+          "countrySubdivisionName": "Suchitepéquez"
+        },
+        {
+          "countrySubdivisionCode": "GT-TO",
+          "countrySubdivisionName": "Totonicapán"
+        },
+        {
+          "countrySubdivisionCode": "GT-ZA",
+          "countrySubdivisionName": "Zacapa"
+        }
+      ]
+    },
+    {
+      "countryCode": "GUY",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "GY-BA",
+          "countrySubdivisionName": "Barima-Waini"
+        },
+        {
+          "countrySubdivisionCode": "GY-CU",
+          "countrySubdivisionName": "Cuyuni-Mazaruni"
+        },
+        {
+          "countrySubdivisionCode": "GY-DE",
+          "countrySubdivisionName": "Demerara-Mahaica"
+        },
+        {
+          "countrySubdivisionCode": "GY-EB",
+          "countrySubdivisionName": "East Berbice-Corentyne"
+        },
+        {
+          "countrySubdivisionCode": "GY-ES",
+          "countrySubdivisionName": "Essequibo Islands-West Demerara"
+        },
+        {
+          "countrySubdivisionCode": "GY-MA",
+          "countrySubdivisionName": "Mahaica-Berbice"
+        },
+        {
+          "countrySubdivisionCode": "GY-PM",
+          "countrySubdivisionName": "Pomeroon-Supenaam"
+        },
+        {
+          "countrySubdivisionCode": "GY-PT",
+          "countrySubdivisionName": "Potaro-Siparuni"
+        },
+        {
+          "countrySubdivisionCode": "GY-UD",
+          "countrySubdivisionName": "Upper Demerara-Berbice"
+        },
+        {
+          "countrySubdivisionCode": "GY-UT",
+          "countrySubdivisionName": "Upper Takutu-Upper Essequibo"
+        }
+      ]
+    },
+    {
+      "countryCode": "HND",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "HN-AT",
+          "countrySubdivisionName": "Atlántida"
+        },
+        {
+          "countrySubdivisionCode": "HN-CH",
+          "countrySubdivisionName": "Choluteca"
+        },
+        {
+          "countrySubdivisionCode": "HN-CL",
+          "countrySubdivisionName": "Colón"
+        },
+        {
+          "countrySubdivisionCode": "HN-CM",
+          "countrySubdivisionName": "Comayagua"
+        },
+        {
+          "countrySubdivisionCode": "HN-CP",
+          "countrySubdivisionName": "Copán"
+        },
+        {
+          "countrySubdivisionCode": "HN-CR",
+          "countrySubdivisionName": "Cortés"
+        },
+        {
+          "countrySubdivisionCode": "HN-EP",
+          "countrySubdivisionName": "El Paraíso"
+        },
+        {
+          "countrySubdivisionCode": "HN-FM",
+          "countrySubdivisionName": "Francisco Morazán"
+        },
+        {
+          "countrySubdivisionCode": "HN-GD",
+          "countrySubdivisionName": "Gracias a Dios"
+        },
+        {
+          "countrySubdivisionCode": "HN-IB",
+          "countrySubdivisionName": "Islas de la Bahía"
+        },
+        {
+          "countrySubdivisionCode": "HN-IN",
+          "countrySubdivisionName": "Intibucá"
+        },
+        {
+          "countrySubdivisionCode": "HN-LE",
+          "countrySubdivisionName": "Lempira"
+        },
+        {
+          "countrySubdivisionCode": "HN-LP",
+          "countrySubdivisionName": "La Paz"
+        },
+        {
+          "countrySubdivisionCode": "HN-OC",
+          "countrySubdivisionName": "Ocotepeque"
+        },
+        {
+          "countrySubdivisionCode": "HN-OL",
+          "countrySubdivisionName": "Olancho"
+        },
+        {
+          "countrySubdivisionCode": "HN-SB",
+          "countrySubdivisionName": "Santa Bárbara"
+        },
+        {
+          "countrySubdivisionCode": "HN-VA",
+          "countrySubdivisionName": "Valle"
+        },
+        {
+          "countrySubdivisionCode": "HN-YO",
+          "countrySubdivisionName": "Yoro"
+        }
+      ]
+    },
+    {
+      "countryCode": "ISL",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "IS-1",
+          "countrySubdivisionName": "Höfuðborgarsvæði utan Reykjavíkur"
+        },
+        {
+          "countrySubdivisionCode": "IS-2",
+          "countrySubdivisionName": "Suðurnes"
+        },
+        {
+          "countrySubdivisionCode": "IS-3",
+          "countrySubdivisionName": "Vesturland"
+        },
+        {
+          "countrySubdivisionCode": "IS-4",
+          "countrySubdivisionName": "Vestfirðir"
+        },
+        {
+          "countrySubdivisionCode": "IS-5",
+          "countrySubdivisionName": "Norðurland vestra"
+        },
+        {
+          "countrySubdivisionCode": "IS-6",
+          "countrySubdivisionName": "Norðurland eystra"
+        },
+        {
+          "countrySubdivisionCode": "IS-7",
+          "countrySubdivisionName": "Austurland"
+        },
+        {
+          "countrySubdivisionCode": "IS-8",
+          "countrySubdivisionName": "Suðurland"
+        }
+      ]
+    },
+    {
+      "countryCode": "JAM",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "JM-1",
+          "countrySubdivisionName": "Kingston"
+        },
+        {
+          "countrySubdivisionCode": "JM-10",
+          "countrySubdivisionName": "Westmoreland"
+        },
+        {
+          "countrySubdivisionCode": "JM-11",
+          "countrySubdivisionName": "Saint Elizabeth"
+        },
+        {
+          "countrySubdivisionCode": "JM-12",
+          "countrySubdivisionName": "Manchester"
+        },
+        {
+          "countrySubdivisionCode": "JM-13",
+          "countrySubdivisionName": "Clarendon"
+        },
+        {
+          "countrySubdivisionCode": "JM-14",
+          "countrySubdivisionName": "Saint Catherine"
+        },
+        {
+          "countrySubdivisionCode": "JM-2",
+          "countrySubdivisionName": "Saint Andrew"
+        },
+        {
+          "countrySubdivisionCode": "JM-3",
+          "countrySubdivisionName": "Saint Thomas"
+        },
+        {
+          "countrySubdivisionCode": "JM-4",
+          "countrySubdivisionName": "Portland"
+        },
+        {
+          "countrySubdivisionCode": "JM-5",
+          "countrySubdivisionName": "Saint Mary"
+        },
+        {
+          "countrySubdivisionCode": "JM-6",
+          "countrySubdivisionName": "Saint Ann"
+        },
+        {
+          "countrySubdivisionCode": "JM-7",
+          "countrySubdivisionName": "Trelawny"
+        },
+        {
+          "countrySubdivisionCode": "JM-8",
+          "countrySubdivisionName": "Saint James"
+        },
+        {
+          "countrySubdivisionCode": "JM-9",
+          "countrySubdivisionName": "Hanover"
+        }
+      ]
+    },
+    {
+      "countryCode": "KEN",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "KE-1",
+          "countrySubdivisionName": "Baringo"
+        },
+        {
+          "countrySubdivisionCode": "KE-10",
+          "countrySubdivisionName": "Kajiado"
+        },
+        {
+          "countrySubdivisionCode": "KE-11",
+          "countrySubdivisionName": "Kakamega"
+        },
+        {
+          "countrySubdivisionCode": "KE-12",
+          "countrySubdivisionName": "Kericho"
+        },
+        {
+          "countrySubdivisionCode": "KE-13",
+          "countrySubdivisionName": "Kiambu"
+        },
+        {
+          "countrySubdivisionCode": "KE-14",
+          "countrySubdivisionName": "Kilifi"
+        },
+        {
+          "countrySubdivisionCode": "KE-15",
+          "countrySubdivisionName": "Kirinyaga"
+        },
+        {
+          "countrySubdivisionCode": "KE-16",
+          "countrySubdivisionName": "Kisii"
+        },
+        {
+          "countrySubdivisionCode": "KE-17",
+          "countrySubdivisionName": "Kisumu"
+        },
+        {
+          "countrySubdivisionCode": "KE-18",
+          "countrySubdivisionName": "Kitui"
+        },
+        {
+          "countrySubdivisionCode": "KE-19",
+          "countrySubdivisionName": "Kwale"
+        },
+        {
+          "countrySubdivisionCode": "KE-2",
+          "countrySubdivisionName": "Bomet"
+        },
+        {
+          "countrySubdivisionCode": "KE-20",
+          "countrySubdivisionName": "Laikipia"
+        },
+        {
+          "countrySubdivisionCode": "KE-21",
+          "countrySubdivisionName": "Lamu"
+        },
+        {
+          "countrySubdivisionCode": "KE-22",
+          "countrySubdivisionName": "Machakos"
+        },
+        {
+          "countrySubdivisionCode": "KE-23",
+          "countrySubdivisionName": "Makueni"
+        },
+        {
+          "countrySubdivisionCode": "KE-24",
+          "countrySubdivisionName": "Mandera"
+        },
+        {
+          "countrySubdivisionCode": "KE-25",
+          "countrySubdivisionName": "Marsabit"
+        },
+        {
+          "countrySubdivisionCode": "KE-26",
+          "countrySubdivisionName": "Meru"
+        },
+        {
+          "countrySubdivisionCode": "KE-27",
+          "countrySubdivisionName": "Migori"
+        },
+        {
+          "countrySubdivisionCode": "KE-28",
+          "countrySubdivisionName": "Mombasa"
+        },
+        {
+          "countrySubdivisionCode": "KE-29",
+          "countrySubdivisionName": "Murang'a"
+        },
+        {
+          "countrySubdivisionCode": "KE-3",
+          "countrySubdivisionName": "Bungoma"
+        },
+        {
+          "countrySubdivisionCode": "KE-30",
+          "countrySubdivisionName": "Nairobi City"
+        },
+        {
+          "countrySubdivisionCode": "KE-31",
+          "countrySubdivisionName": "Nakuru"
+        },
+        {
+          "countrySubdivisionCode": "KE-32",
+          "countrySubdivisionName": "Nandi"
+        },
+        {
+          "countrySubdivisionCode": "KE-33",
+          "countrySubdivisionName": "Narok"
+        },
+        {
+          "countrySubdivisionCode": "KE-34",
+          "countrySubdivisionName": "Nyamira"
+        },
+        {
+          "countrySubdivisionCode": "KE-35",
+          "countrySubdivisionName": "Nyandarua"
+        },
+        {
+          "countrySubdivisionCode": "KE-36",
+          "countrySubdivisionName": "Nyeri"
+        },
+        {
+          "countrySubdivisionCode": "KE-37",
+          "countrySubdivisionName": "Samburu"
+        },
+        {
+          "countrySubdivisionCode": "KE-38",
+          "countrySubdivisionName": "Siaya"
+        },
+        {
+          "countrySubdivisionCode": "KE-39",
+          "countrySubdivisionName": "Taita/Taveta"
+        },
+        {
+          "countrySubdivisionCode": "KE-4",
+          "countrySubdivisionName": "Busia"
+        },
+        {
+          "countrySubdivisionCode": "KE-40",
+          "countrySubdivisionName": "Tana River"
+        },
+        {
+          "countrySubdivisionCode": "KE-41",
+          "countrySubdivisionName": "Tharaka-Nithi"
+        },
+        {
+          "countrySubdivisionCode": "KE-42",
+          "countrySubdivisionName": "Trans Nzoia"
+        },
+        {
+          "countrySubdivisionCode": "KE-43",
+          "countrySubdivisionName": "Turkana"
+        },
+        {
+          "countrySubdivisionCode": "KE-44",
+          "countrySubdivisionName": "Uasin Gishu"
+        },
+        {
+          "countrySubdivisionCode": "KE-45",
+          "countrySubdivisionName": "Vihiga"
+        },
+        {
+          "countrySubdivisionCode": "KE-46",
+          "countrySubdivisionName": "Wajir"
+        },
+        {
+          "countrySubdivisionCode": "KE-47",
+          "countrySubdivisionName": "West Pokot"
+        },
+        {
+          "countrySubdivisionCode": "KE-5",
+          "countrySubdivisionName": "Elgeyo/Marakwet"
+        },
+        {
+          "countrySubdivisionCode": "KE-6",
+          "countrySubdivisionName": "Embu"
+        },
+        {
+          "countrySubdivisionCode": "KE-7",
+          "countrySubdivisionName": "Garissa"
+        },
+        {
+          "countrySubdivisionCode": "KE-8",
+          "countrySubdivisionName": "Homa Bay"
+        },
+        {
+          "countrySubdivisionCode": "KE-9",
+          "countrySubdivisionName": "Isiolo"
+        }
+      ]
+    },
+    {
+      "countryCode": "KIR",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "KI-G",
+          "countrySubdivisionName": "Gilbert Islands"
+        },
+        {
+          "countrySubdivisionCode": "KI-L",
+          "countrySubdivisionName": "Line Islands"
+        },
+        {
+          "countrySubdivisionCode": "KI-P",
+          "countrySubdivisionName": "Phoenix Islands"
+        }
+      ]
+    },
+    {
+      "countryCode": "LSO",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "LS-A",
+          "countrySubdivisionName": "Maseru"
+        },
+        {
+          "countrySubdivisionCode": "LS-B",
+          "countrySubdivisionName": "Butha-Buthe"
+        },
+        {
+          "countrySubdivisionCode": "LS-C",
+          "countrySubdivisionName": "Leribe"
+        },
+        {
+          "countrySubdivisionCode": "LS-D",
+          "countrySubdivisionName": "Berea"
+        },
+        {
+          "countrySubdivisionCode": "LS-E",
+          "countrySubdivisionName": "Mafeteng"
+        },
+        {
+          "countrySubdivisionCode": "LS-F",
+          "countrySubdivisionName": "Mohale's Hoek"
+        },
+        {
+          "countrySubdivisionCode": "LS-G",
+          "countrySubdivisionName": "Quthing"
+        },
+        {
+          "countrySubdivisionCode": "LS-H",
+          "countrySubdivisionName": "Qacha's Nek"
+        },
+        {
+          "countrySubdivisionCode": "LS-J",
+          "countrySubdivisionName": "Mokhotlong"
+        },
+        {
+          "countrySubdivisionCode": "LS-K",
+          "countrySubdivisionName": "Thaba-Tseka"
+        }
+      ]
+    },
+    {
+      "countryCode": "LBR",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "LR-BG",
+          "countrySubdivisionName": "Bong"
+        },
+        {
+          "countrySubdivisionCode": "LR-BM",
+          "countrySubdivisionName": "Bomi"
+        },
+        {
+          "countrySubdivisionCode": "LR-CM",
+          "countrySubdivisionName": "Grand Cape Mount"
+        },
+        {
+          "countrySubdivisionCode": "LR-GB",
+          "countrySubdivisionName": "Grand Bassa"
+        },
+        {
+          "countrySubdivisionCode": "LR-GG",
+          "countrySubdivisionName": "Grand Gedeh"
+        },
+        {
+          "countrySubdivisionCode": "LR-GK",
+          "countrySubdivisionName": "Grand Kru"
+        },
+        {
+          "countrySubdivisionCode": "LR-GP",
+          "countrySubdivisionName": "Gbarpolu"
+        },
+        {
+          "countrySubdivisionCode": "LR-LO",
+          "countrySubdivisionName": "Lofa"
+        },
+        {
+          "countrySubdivisionCode": "LR-MG",
+          "countrySubdivisionName": "Margibi"
+        },
+        {
+          "countrySubdivisionCode": "LR-MO",
+          "countrySubdivisionName": "Montserrado"
+        },
+        {
+          "countrySubdivisionCode": "LR-MY",
+          "countrySubdivisionName": "Maryland"
+        },
+        {
+          "countrySubdivisionCode": "LR-NI",
+          "countrySubdivisionName": "Nimba"
+        },
+        {
+          "countrySubdivisionCode": "LR-RG",
+          "countrySubdivisionName": "River Gee"
+        },
+        {
+          "countrySubdivisionCode": "LR-RI",
+          "countrySubdivisionName": "River Cess"
+        },
+        {
+          "countrySubdivisionCode": "LR-SI",
+          "countrySubdivisionName": "Sinoe"
+        }
+      ]
+    },
+    {
+      "countryCode": "LIE",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "LI-1",
+          "countrySubdivisionName": "Balzers"
+        },
+        {
+          "countrySubdivisionCode": "LI-10",
+          "countrySubdivisionName": "Triesenberg"
+        },
+        {
+          "countrySubdivisionCode": "LI-11",
+          "countrySubdivisionName": "Vaduz"
+        },
+        {
+          "countrySubdivisionCode": "LI-2",
+          "countrySubdivisionName": "Eschen"
+        },
+        {
+          "countrySubdivisionCode": "LI-3",
+          "countrySubdivisionName": "Gamprin"
+        },
+        {
+          "countrySubdivisionCode": "LI-4",
+          "countrySubdivisionName": "Mauren"
+        },
+        {
+          "countrySubdivisionCode": "LI-5",
+          "countrySubdivisionName": "Planken"
+        },
+        {
+          "countrySubdivisionCode": "LI-6",
+          "countrySubdivisionName": "Ruggell"
+        },
+        {
+          "countrySubdivisionCode": "LI-7",
+          "countrySubdivisionName": "Schaan"
+        },
+        {
+          "countrySubdivisionCode": "LI-8",
+          "countrySubdivisionName": "Schellenberg"
+        },
+        {
+          "countrySubdivisionCode": "LI-9",
+          "countrySubdivisionName": "Triesen"
+        }
+      ]
+    },
+    {
+      "countryCode": "MDG",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "MG-A",
+          "countrySubdivisionName": "Toamasina"
+        },
+        {
+          "countrySubdivisionCode": "MG-D",
+          "countrySubdivisionName": "Antsiranana"
+        },
+        {
+          "countrySubdivisionCode": "MG-F",
+          "countrySubdivisionName": "Fianarantsoa"
+        },
+        {
+          "countrySubdivisionCode": "MG-M",
+          "countrySubdivisionName": "Mahajanga"
+        },
+        {
+          "countrySubdivisionCode": "MG-T",
+          "countrySubdivisionName": "Antananarivo"
+        },
+        {
+          "countrySubdivisionCode": "MG-U",
+          "countrySubdivisionName": "Toliara"
+        }
+      ]
+    },
+    {
+      "countryCode": "MEX",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "MX-AGU",
+          "countrySubdivisionName": "Aguascalientes"
+        },
+        {
+          "countrySubdivisionCode": "MX-BCN",
+          "countrySubdivisionName": "Baja California"
+        },
+        {
+          "countrySubdivisionCode": "MX-BCS",
+          "countrySubdivisionName": "Baja California Sur"
+        },
+        {
+          "countrySubdivisionCode": "MX-CAM",
+          "countrySubdivisionName": "Campeche"
+        },
+        {
+          "countrySubdivisionCode": "MX-CHH",
+          "countrySubdivisionName": "Chihuahua"
+        },
+        {
+          "countrySubdivisionCode": "MX-CHP",
+          "countrySubdivisionName": "Chiapas"
+        },
+        {
+          "countrySubdivisionCode": "MX-COA",
+          "countrySubdivisionName": "Coahuila"
+        },
+        {
+          "countrySubdivisionCode": "MX-COL",
+          "countrySubdivisionName": "Colima"
+        },
+        {
+          "countrySubdivisionCode": "MX-DIF",
+          "countrySubdivisionName": "Distrito Federal"
+        },
+        {
+          "countrySubdivisionCode": "MX-DUR",
+          "countrySubdivisionName": "Durango"
+        },
+        {
+          "countrySubdivisionCode": "MX-GRO",
+          "countrySubdivisionName": "Guerrero"
+        },
+        {
+          "countrySubdivisionCode": "MX-GUA",
+          "countrySubdivisionName": "Guanajuato"
+        },
+        {
+          "countrySubdivisionCode": "MX-HID",
+          "countrySubdivisionName": "Hidalgo"
+        },
+        {
+          "countrySubdivisionCode": "MX-JAL",
+          "countrySubdivisionName": "Jalisco"
+        },
+        {
+          "countrySubdivisionCode": "MX-MEX",
+          "countrySubdivisionName": "México"
+        },
+        {
+          "countrySubdivisionCode": "MX-MIC",
+          "countrySubdivisionName": "Michoacán"
+        },
+        {
+          "countrySubdivisionCode": "MX-MOR",
+          "countrySubdivisionName": "Morelos"
+        },
+        {
+          "countrySubdivisionCode": "MX-NAY",
+          "countrySubdivisionName": "Nayarit"
+        },
+        {
+          "countrySubdivisionCode": "MX-NLE",
+          "countrySubdivisionName": "Nuevo León"
+        },
+        {
+          "countrySubdivisionCode": "MX-OAX",
+          "countrySubdivisionName": "Oaxaca"
+        },
+        {
+          "countrySubdivisionCode": "MX-PUE",
+          "countrySubdivisionName": "Puebla"
+        },
+        {
+          "countrySubdivisionCode": "MX-QUE",
+          "countrySubdivisionName": "Querétaro"
+        },
+        {
+          "countrySubdivisionCode": "MX-ROO",
+          "countrySubdivisionName": "Quintana Roo"
+        },
+        {
+          "countrySubdivisionCode": "MX-SIN",
+          "countrySubdivisionName": "Sinaloa"
+        },
+        {
+          "countrySubdivisionCode": "MX-SLP",
+          "countrySubdivisionName": "San Luis Potosí"
+        },
+        {
+          "countrySubdivisionCode": "MX-SON",
+          "countrySubdivisionName": "Sonora"
+        },
+        {
+          "countrySubdivisionCode": "MX-TAB",
+          "countrySubdivisionName": "Tabasco"
+        },
+        {
+          "countrySubdivisionCode": "MX-TAM",
+          "countrySubdivisionName": "Tamaulipas"
+        },
+        {
+          "countrySubdivisionCode": "MX-TLA",
+          "countrySubdivisionName": "Tlaxcala"
+        },
+        {
+          "countrySubdivisionCode": "MX-VER",
+          "countrySubdivisionName": "Veracruz"
+        },
+        {
+          "countrySubdivisionCode": "MX-YUC",
+          "countrySubdivisionName": "Yucatán"
+        },
+        {
+          "countrySubdivisionCode": "MX-ZAC",
+          "countrySubdivisionName": "Zacatecas"
+        }
+      ]
+    },
+    {
+      "countryCode": "FSM",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "FM-KSA",
+          "countrySubdivisionName": "Kosrae"
+        },
+        {
+          "countrySubdivisionCode": "FM-PNI",
+          "countrySubdivisionName": "Pohnpei"
+        },
+        {
+          "countrySubdivisionCode": "FM-TRK",
+          "countrySubdivisionName": "Chuuk"
+        },
+        {
+          "countrySubdivisionCode": "FM-YAP",
+          "countrySubdivisionName": "Yap"
+        }
+      ]
+    },
+    {
+      "countryCode": "NAM",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "NA-CA",
+          "countrySubdivisionName": "Zambezi"
+        },
+        {
+          "countrySubdivisionCode": "NA-ER",
+          "countrySubdivisionName": "Erongo"
+        },
+        {
+          "countrySubdivisionCode": "NA-HA",
+          "countrySubdivisionName": "Hardap"
+        },
+        {
+          "countrySubdivisionCode": "NA-KA",
+          "countrySubdivisionName": "Karas"
+        },
+        {
+          "countrySubdivisionCode": "NA-KE",
+          "countrySubdivisionName": "Kavango East"
+        },
+        {
+          "countrySubdivisionCode": "NA-KH",
+          "countrySubdivisionName": "Khomas"
+        },
+        {
+          "countrySubdivisionCode": "NA-KU",
+          "countrySubdivisionName": "Kunene"
+        },
+        {
+          "countrySubdivisionCode": "NA-KW",
+          "countrySubdivisionName": "Kavango West"
+        },
+        {
+          "countrySubdivisionCode": "NA-OD",
+          "countrySubdivisionName": "Otjozondjupa"
+        },
+        {
+          "countrySubdivisionCode": "NA-OH",
+          "countrySubdivisionName": "Omaheke"
+        },
+        {
+          "countrySubdivisionCode": "NA-ON",
+          "countrySubdivisionName": "Oshana"
+        },
+        {
+          "countrySubdivisionCode": "NA-OS",
+          "countrySubdivisionName": "Omusati"
+        },
+        {
+          "countrySubdivisionCode": "NA-OT",
+          "countrySubdivisionName": "Oshikoto"
+        },
+        {
+          "countrySubdivisionCode": "NA-OW",
+          "countrySubdivisionName": "Ohangwena"
+        }
+      ]
+    },
+    {
+      "countryCode": "NRU",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "NR-1",
+          "countrySubdivisionName": "Aiwo"
+        },
+        {
+          "countrySubdivisionCode": "NR-10",
+          "countrySubdivisionName": "Ijuw"
+        },
+        {
+          "countrySubdivisionCode": "NR-11",
+          "countrySubdivisionName": "Meneng"
+        },
+        {
+          "countrySubdivisionCode": "NR-12",
+          "countrySubdivisionName": "Nibok"
+        },
+        {
+          "countrySubdivisionCode": "NR-13",
+          "countrySubdivisionName": "Uaboe"
+        },
+        {
+          "countrySubdivisionCode": "NR-14",
+          "countrySubdivisionName": "Yaren"
+        },
+        {
+          "countrySubdivisionCode": "NR-2",
+          "countrySubdivisionName": "Anabar"
+        },
+        {
+          "countrySubdivisionCode": "NR-3",
+          "countrySubdivisionName": "Anetan"
+        },
+        {
+          "countrySubdivisionCode": "NR-4",
+          "countrySubdivisionName": "Anibare"
+        },
+        {
+          "countrySubdivisionCode": "NR-5",
+          "countrySubdivisionName": "Baiti"
+        },
+        {
+          "countrySubdivisionCode": "NR-6",
+          "countrySubdivisionName": "Boe"
+        },
+        {
+          "countrySubdivisionCode": "NR-7",
+          "countrySubdivisionName": "Buada"
+        },
+        {
+          "countrySubdivisionCode": "NR-8",
+          "countrySubdivisionName": "Denigomodu"
+        },
+        {
+          "countrySubdivisionCode": "NR-9",
+          "countrySubdivisionName": "Ewa"
+        }
+      ]
+    },
+    {
+      "countryCode": "PLW",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "PW-10",
+          "countrySubdivisionName": "Angaur"
+        },
+        {
+          "countrySubdivisionCode": "PW-100",
+          "countrySubdivisionName": "Kayangel"
+        },
+        {
+          "countrySubdivisionCode": "PW-150",
+          "countrySubdivisionName": "Koror"
+        },
+        {
+          "countrySubdivisionCode": "PW-2",
+          "countrySubdivisionName": "Aimeliik"
+        },
+        {
+          "countrySubdivisionCode": "PW-212",
+          "countrySubdivisionName": "Melekeok"
+        },
+        {
+          "countrySubdivisionCode": "PW-214",
+          "countrySubdivisionName": "Ngaraard"
+        },
+        {
+          "countrySubdivisionCode": "PW-218",
+          "countrySubdivisionName": "Ngarchelong"
+        },
+        {
+          "countrySubdivisionCode": "PW-222",
+          "countrySubdivisionName": "Ngardmau"
+        },
+        {
+          "countrySubdivisionCode": "PW-224",
+          "countrySubdivisionName": "Ngatpang"
+        },
+        {
+          "countrySubdivisionCode": "PW-226",
+          "countrySubdivisionName": "Ngchesar"
+        },
+        {
+          "countrySubdivisionCode": "PW-227",
+          "countrySubdivisionName": "Ngeremlengui"
+        },
+        {
+          "countrySubdivisionCode": "PW-228",
+          "countrySubdivisionName": "Ngiwal"
+        },
+        {
+          "countrySubdivisionCode": "PW-350",
+          "countrySubdivisionName": "Peleliu"
+        },
+        {
+          "countrySubdivisionCode": "PW-370",
+          "countrySubdivisionName": "Sonsorol"
+        },
+        {
+          "countrySubdivisionCode": "PW-4",
+          "countrySubdivisionName": "Airai"
+        },
+        {
+          "countrySubdivisionCode": "PW-50",
+          "countrySubdivisionName": "Hatobohei"
+        }
+      ]
+    },
+    {
+      "countryCode": "LCA",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "LC-1",
+          "countrySubdivisionName": "Anse la Raye"
+        },
+        {
+          "countrySubdivisionCode": "LC-10",
+          "countrySubdivisionName": "Soufrière"
+        },
+        {
+          "countrySubdivisionCode": "LC-11",
+          "countrySubdivisionName": "Vieux Fort"
+        },
+        {
+          "countrySubdivisionCode": "LC-12",
+          "countrySubdivisionName": "Canaries"
+        },
+        {
+          "countrySubdivisionCode": "LC-2",
+          "countrySubdivisionName": "Castries"
+        },
+        {
+          "countrySubdivisionCode": "LC-3",
+          "countrySubdivisionName": "Choiseul"
+        },
+        {
+          "countrySubdivisionCode": "LC-5",
+          "countrySubdivisionName": "Dennery"
+        },
+        {
+          "countrySubdivisionCode": "LC-6",
+          "countrySubdivisionName": "Gros Islet"
+        },
+        {
+          "countrySubdivisionCode": "LC-7",
+          "countrySubdivisionName": "Laborie"
+        },
+        {
+          "countrySubdivisionCode": "LC-8",
+          "countrySubdivisionName": "Micoud"
+        }
+      ]
+    },
+    {
+      "countryCode": "VCT",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "VC-1",
+          "countrySubdivisionName": "Charlotte"
+        },
+        {
+          "countrySubdivisionCode": "VC-2",
+          "countrySubdivisionName": "Saint Andrew"
+        },
+        {
+          "countrySubdivisionCode": "VC-3",
+          "countrySubdivisionName": "Saint David"
+        },
+        {
+          "countrySubdivisionCode": "VC-4",
+          "countrySubdivisionName": "Saint George"
+        },
+        {
+          "countrySubdivisionCode": "VC-5",
+          "countrySubdivisionName": "Saint Patrick"
+        },
+        {
+          "countrySubdivisionCode": "VC-6",
+          "countrySubdivisionName": "Grenadines"
+        }
+      ]
+    },
+    {
+      "countryCode": "WSM",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "WS-AA",
+          "countrySubdivisionName": "A'ana"
+        },
+        {
+          "countrySubdivisionCode": "WS-AL",
+          "countrySubdivisionName": "Aiga-i-le-Tai"
+        },
+        {
+          "countrySubdivisionCode": "WS-AT",
+          "countrySubdivisionName": "Atua"
+        },
+        {
+          "countrySubdivisionCode": "WS-FA",
+          "countrySubdivisionName": "Fa'asaleleaga"
+        },
+        {
+          "countrySubdivisionCode": "WS-GE",
+          "countrySubdivisionName": "Gaga'emauga"
+        },
+        {
+          "countrySubdivisionCode": "WS-GI",
+          "countrySubdivisionName": "Gagaifomauga"
+        },
+        {
+          "countrySubdivisionCode": "WS-PA",
+          "countrySubdivisionName": "Palauli"
+        },
+        {
+          "countrySubdivisionCode": "WS-SA",
+          "countrySubdivisionName": "Satupa'itea"
+        },
+        {
+          "countrySubdivisionCode": "WS-TU",
+          "countrySubdivisionName": "Tuamasaga"
+        },
+        {
+          "countrySubdivisionCode": "WS-VF",
+          "countrySubdivisionName": "Va'a-o-Fonoti"
+        },
+        {
+          "countrySubdivisionCode": "WS-VS",
+          "countrySubdivisionName": "Vaisigano"
+        }
+      ]
+    },
+    {
+      "countryCode": "SMR",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "SM-1",
+          "countrySubdivisionName": "Acquaviva"
+        },
+        {
+          "countrySubdivisionCode": "SM-2",
+          "countrySubdivisionName": "Chiesanuova"
+        },
+        {
+          "countrySubdivisionCode": "SM-3",
+          "countrySubdivisionName": "Domagnano"
+        },
+        {
+          "countrySubdivisionCode": "SM-4",
+          "countrySubdivisionName": "Faetano"
+        },
+        {
+          "countrySubdivisionCode": "SM-5",
+          "countrySubdivisionName": "Fiorentino"
+        },
+        {
+          "countrySubdivisionCode": "SM-6",
+          "countrySubdivisionName": "Borgo Maggiore"
+        },
+        {
+          "countrySubdivisionCode": "SM-7",
+          "countrySubdivisionName": "San Marino"
+        },
+        {
+          "countrySubdivisionCode": "SM-8",
+          "countrySubdivisionName": "Montegiardino"
+        },
+        {
+          "countrySubdivisionCode": "SM-9",
+          "countrySubdivisionName": "Serravalle"
+        }
+      ]
+    },
+    {
+      "countryCode": "STP",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "ST-P",
+          "countrySubdivisionName": "Príncipe"
+        },
+        {
+          "countrySubdivisionCode": "ST-S",
+          "countrySubdivisionName": "São Tomé"
+        }
+      ]
+    },
+    {
+      "countryCode": "SEN",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "SN-DB",
+          "countrySubdivisionName": "Diourbel"
+        },
+        {
+          "countrySubdivisionCode": "SN-DK",
+          "countrySubdivisionName": "Dakar"
+        },
+        {
+          "countrySubdivisionCode": "SN-FK",
+          "countrySubdivisionName": "Fatick"
+        },
+        {
+          "countrySubdivisionCode": "SN-KA",
+          "countrySubdivisionName": "Kaffrine"
+        },
+        {
+          "countrySubdivisionCode": "SN-KD",
+          "countrySubdivisionName": "Kolda"
+        },
+        {
+          "countrySubdivisionCode": "SN-KE",
+          "countrySubdivisionName": "Kédougou"
+        },
+        {
+          "countrySubdivisionCode": "SN-KL",
+          "countrySubdivisionName": "Kaolack"
+        },
+        {
+          "countrySubdivisionCode": "SN-LG",
+          "countrySubdivisionName": "Louga"
+        },
+        {
+          "countrySubdivisionCode": "SN-MT",
+          "countrySubdivisionName": "Matam"
+        },
+        {
+          "countrySubdivisionCode": "SN-SE",
+          "countrySubdivisionName": "Sédhiou"
+        },
+        {
+          "countrySubdivisionCode": "SN-SL",
+          "countrySubdivisionName": "Saint-Louis"
+        },
+        {
+          "countrySubdivisionCode": "SN-TC",
+          "countrySubdivisionName": "Tambacounda"
+        },
+        {
+          "countrySubdivisionCode": "SN-TH",
+          "countrySubdivisionName": "Thiès"
+        },
+        {
+          "countrySubdivisionCode": "SN-ZG",
+          "countrySubdivisionName": "Ziguinchor"
+        }
+      ]
+    },
+    {
+      "countryCode": "SYC",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "SC-1",
+          "countrySubdivisionName": "Anse aux Pins"
+        },
+        {
+          "countrySubdivisionCode": "SC-10",
+          "countrySubdivisionName": "Bel Ombre"
+        },
+        {
+          "countrySubdivisionCode": "SC-11",
+          "countrySubdivisionName": "Cascade"
+        },
+        {
+          "countrySubdivisionCode": "SC-12",
+          "countrySubdivisionName": "Glacis"
+        },
+        {
+          "countrySubdivisionCode": "SC-13",
+          "countrySubdivisionName": "Grand Anse Mahe"
+        },
+        {
+          "countrySubdivisionCode": "SC-14",
+          "countrySubdivisionName": "Grand Anse Praslin"
+        },
+        {
+          "countrySubdivisionCode": "SC-15",
+          "countrySubdivisionName": "La Digue"
+        },
+        {
+          "countrySubdivisionCode": "SC-16",
+          "countrySubdivisionName": "English River"
+        },
+        {
+          "countrySubdivisionCode": "SC-17",
+          "countrySubdivisionName": "Mont Buxton"
+        },
+        {
+          "countrySubdivisionCode": "SC-18",
+          "countrySubdivisionName": "Mont Fleuri"
+        },
+        {
+          "countrySubdivisionCode": "SC-19",
+          "countrySubdivisionName": "Plaisance"
+        },
+        {
+          "countrySubdivisionCode": "SC-2",
+          "countrySubdivisionName": "Anse Boileau"
+        },
+        {
+          "countrySubdivisionCode": "SC-20",
+          "countrySubdivisionName": "Pointe Larue"
+        },
+        {
+          "countrySubdivisionCode": "SC-21",
+          "countrySubdivisionName": "Port Glaud"
+        },
+        {
+          "countrySubdivisionCode": "SC-22",
+          "countrySubdivisionName": "Saint Louis"
+        },
+        {
+          "countrySubdivisionCode": "SC-23",
+          "countrySubdivisionName": "Takamaka"
+        },
+        {
+          "countrySubdivisionCode": "SC-24",
+          "countrySubdivisionName": "Les Mamelles"
+        },
+        {
+          "countrySubdivisionCode": "SC-25",
+          "countrySubdivisionName": "Roche Caiman"
+        },
+        {
+          "countrySubdivisionCode": "SC-3",
+          "countrySubdivisionName": "Anse Etoile"
+        },
+        {
+          "countrySubdivisionCode": "SC-4",
+          "countrySubdivisionName": "Au Cap"
+        },
+        {
+          "countrySubdivisionCode": "SC-5",
+          "countrySubdivisionName": "Anse Royale"
+        },
+        {
+          "countrySubdivisionCode": "SC-6",
+          "countrySubdivisionName": "Baie Lazare"
+        },
+        {
+          "countrySubdivisionCode": "SC-7",
+          "countrySubdivisionName": "Baie Sainte Anne"
+        },
+        {
+          "countrySubdivisionCode": "SC-8",
+          "countrySubdivisionName": "Beau Vallon"
+        },
+        {
+          "countrySubdivisionCode": "SC-9",
+          "countrySubdivisionName": "Bel Air"
+        }
+      ]
+    },
+    {
+      "countryCode": "SGP",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "SG-1",
+          "countrySubdivisionName": "Central Singapore"
+        },
+        {
+          "countrySubdivisionCode": "SG-2",
+          "countrySubdivisionName": "North East"
+        },
+        {
+          "countrySubdivisionCode": "SG-3",
+          "countrySubdivisionName": "North West"
+        },
+        {
+          "countrySubdivisionCode": "SG-4",
+          "countrySubdivisionName": "South East"
+        },
+        {
+          "countrySubdivisionCode": "SG-5",
+          "countrySubdivisionName": "South West"
+        }
+      ]
+    },
+    {
+      "countryCode": "SOM",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "SO-AW",
+          "countrySubdivisionName": "Awdal"
+        },
+        {
+          "countrySubdivisionCode": "SO-BK",
+          "countrySubdivisionName": "Bakool"
+        },
+        {
+          "countrySubdivisionCode": "SO-BN",
+          "countrySubdivisionName": "Banaadir"
+        },
+        {
+          "countrySubdivisionCode": "SO-BR",
+          "countrySubdivisionName": "Bari"
+        },
+        {
+          "countrySubdivisionCode": "SO-BY",
+          "countrySubdivisionName": "Bay"
+        },
+        {
+          "countrySubdivisionCode": "SO-GA",
+          "countrySubdivisionName": "Galguduud"
+        },
+        {
+          "countrySubdivisionCode": "SO-GE",
+          "countrySubdivisionName": "Gedo"
+        },
+        {
+          "countrySubdivisionCode": "SO-HI",
+          "countrySubdivisionName": "Hiiraan"
+        },
+        {
+          "countrySubdivisionCode": "SO-JD",
+          "countrySubdivisionName": "Jubbada Dhexe"
+        },
+        {
+          "countrySubdivisionCode": "SO-JH",
+          "countrySubdivisionName": "Jubbada Hoose"
+        },
+        {
+          "countrySubdivisionCode": "SO-MU",
+          "countrySubdivisionName": "Mudug"
+        },
+        {
+          "countrySubdivisionCode": "SO-NU",
+          "countrySubdivisionName": "Nugaal"
+        },
+        {
+          "countrySubdivisionCode": "SO-SA",
+          "countrySubdivisionName": "Sanaag"
+        },
+        {
+          "countrySubdivisionCode": "SO-SD",
+          "countrySubdivisionName": "Shabeellaha Dhexe"
+        },
+        {
+          "countrySubdivisionCode": "SO-SH",
+          "countrySubdivisionName": "Shabeellaha Hoose"
+        },
+        {
+          "countrySubdivisionCode": "SO-SO",
+          "countrySubdivisionName": "Sool"
+        },
+        {
+          "countrySubdivisionCode": "SO-TO",
+          "countrySubdivisionName": "Togdheer"
+        },
+        {
+          "countrySubdivisionCode": "SO-WO",
+          "countrySubdivisionName": "Woqooyi Galbeed"
+        }
+      ]
+    },
+    {
+      "countryCode": "ZAF",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "ZA-EC",
+          "countrySubdivisionName": "Eastern Cape"
+        },
+        {
+          "countrySubdivisionCode": "ZA-FS",
+          "countrySubdivisionName": "Free State"
+        },
+        {
+          "countrySubdivisionCode": "ZA-GT",
+          "countrySubdivisionName": "Gauteng"
+        },
+        {
+          "countrySubdivisionCode": "ZA-LP",
+          "countrySubdivisionName": "Limpopo"
+        },
+        {
+          "countrySubdivisionCode": "ZA-MP",
+          "countrySubdivisionName": "Mpumalanga"
+        },
+        {
+          "countrySubdivisionCode": "ZA-NC",
+          "countrySubdivisionName": "Northern Cape"
+        },
+        {
+          "countrySubdivisionCode": "ZA-NL",
+          "countrySubdivisionName": "Kwazulu-Natal"
+        },
+        {
+          "countrySubdivisionCode": "ZA-NW",
+          "countrySubdivisionName": "North-West"
+        },
+        {
+          "countrySubdivisionCode": "ZA-WC",
+          "countrySubdivisionName": "Western Cape"
+        }
+      ]
+    },
+    {
+      "countryCode": "SSD",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "SS-BN",
+          "countrySubdivisionName": "Northern Bahr el Ghazal"
+        },
+        {
+          "countrySubdivisionCode": "SS-BW",
+          "countrySubdivisionName": "Western Bahr el  Ghazal"
+        },
+        {
+          "countrySubdivisionCode": "SS-EC",
+          "countrySubdivisionName": "Central Equatoria"
+        },
+        {
+          "countrySubdivisionCode": "SS-EE",
+          "countrySubdivisionName": "Eastern Equatoria"
+        },
+        {
+          "countrySubdivisionCode": "SS-EW",
+          "countrySubdivisionName": "Western Equatoria"
+        },
+        {
+          "countrySubdivisionCode": "SS-JG",
+          "countrySubdivisionName": "Jonglei"
+        },
+        {
+          "countrySubdivisionCode": "SS-LK",
+          "countrySubdivisionName": "Lakes"
+        },
+        {
+          "countrySubdivisionCode": "SS-NU",
+          "countrySubdivisionName": "Upper Nile"
+        },
+        {
+          "countrySubdivisionCode": "SS-UY",
+          "countrySubdivisionName": "Unity"
+        },
+        {
+          "countrySubdivisionCode": "SS-WR",
+          "countrySubdivisionName": "Warrap"
+        }
+      ]
+    },
+    {
+      "countryCode": "SUR",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "SR-BR",
+          "countrySubdivisionName": "Brokopondo"
+        },
+        {
+          "countrySubdivisionCode": "SR-CM",
+          "countrySubdivisionName": "Commewijne"
+        },
+        {
+          "countrySubdivisionCode": "SR-CR",
+          "countrySubdivisionName": "Coronie"
+        },
+        {
+          "countrySubdivisionCode": "SR-MA",
+          "countrySubdivisionName": "Marowijne"
+        },
+        {
+          "countrySubdivisionCode": "SR-NI",
+          "countrySubdivisionName": "Nickerie"
+        },
+        {
+          "countrySubdivisionCode": "SR-PM",
+          "countrySubdivisionName": "Paramaribo"
+        },
+        {
+          "countrySubdivisionCode": "SR-PR",
+          "countrySubdivisionName": "Para"
+        },
+        {
+          "countrySubdivisionCode": "SR-SA",
+          "countrySubdivisionName": "Saramacca"
+        },
+        {
+          "countrySubdivisionCode": "SR-SI",
+          "countrySubdivisionName": "Sipaliwini"
+        },
+        {
+          "countrySubdivisionCode": "SR-WA",
+          "countrySubdivisionName": "Wanica"
+        }
+      ]
+    },
+    {
+      "countryCode": "SWZ",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "SZ-HH",
+          "countrySubdivisionName": "Hhohho"
+        },
+        {
+          "countrySubdivisionCode": "SZ-LU",
+          "countrySubdivisionName": "Lubombo"
+        },
+        {
+          "countrySubdivisionCode": "SZ-MA",
+          "countrySubdivisionName": "Manzini"
+        },
+        {
+          "countrySubdivisionCode": "SZ-SH",
+          "countrySubdivisionName": "Shiselweni"
+        }
+      ]
+    },
+    {
+      "countryCode": "SWE",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "SE-AB",
+          "countrySubdivisionName": "Stockholms län [SE-01]"
+        },
+        {
+          "countrySubdivisionCode": "SE-AC",
+          "countrySubdivisionName": "Västerbottens län [SE-24]"
+        },
+        {
+          "countrySubdivisionCode": "SE-BD",
+          "countrySubdivisionName": "Norrbottens län [SE-25]"
+        },
+        {
+          "countrySubdivisionCode": "SE-C",
+          "countrySubdivisionName": "Uppsala län [SE-03]"
+        },
+        {
+          "countrySubdivisionCode": "SE-D",
+          "countrySubdivisionName": "Södermanlands län [SE-04]"
+        },
+        {
+          "countrySubdivisionCode": "SE-E",
+          "countrySubdivisionName": "Östergötlands län [SE-05]"
+        },
+        {
+          "countrySubdivisionCode": "SE-F",
+          "countrySubdivisionName": "Jönköpings län [SE-06]"
+        },
+        {
+          "countrySubdivisionCode": "SE-G",
+          "countrySubdivisionName": "Kronobergs län [SE-07]"
+        },
+        {
+          "countrySubdivisionCode": "SE-H",
+          "countrySubdivisionName": "Kalmar län [SE-08]"
+        },
+        {
+          "countrySubdivisionCode": "SE-I",
+          "countrySubdivisionName": "Gotlands län [SE-09]"
+        },
+        {
+          "countrySubdivisionCode": "SE-K",
+          "countrySubdivisionName": "Blekinge län [SE-10]"
+        },
+        {
+          "countrySubdivisionCode": "SE-M",
+          "countrySubdivisionName": "Skåne län [SE-12]"
+        },
+        {
+          "countrySubdivisionCode": "SE-N",
+          "countrySubdivisionName": "Hallands län [SE-13]"
+        },
+        {
+          "countrySubdivisionCode": "SE-O",
+          "countrySubdivisionName": "Västra Götalands län [SE-14]"
+        },
+        {
+          "countrySubdivisionCode": "SE-S",
+          "countrySubdivisionName": "Värmlands län [SE-17]"
+        },
+        {
+          "countrySubdivisionCode": "SE-T",
+          "countrySubdivisionName": "Örebro län [SE-18]"
+        },
+        {
+          "countrySubdivisionCode": "SE-U",
+          "countrySubdivisionName": "Västmanlands län [SE-19]"
+        },
+        {
+          "countrySubdivisionCode": "SE-W",
+          "countrySubdivisionName": "Dalarnas län [SE-20]"
+        },
+        {
+          "countrySubdivisionCode": "SE-X",
+          "countrySubdivisionName": "Gävleborgs län [SE-21]"
+        },
+        {
+          "countrySubdivisionCode": "SE-Y",
+          "countrySubdivisionName": "Västernorrlands län [SE-22]"
+        },
+        {
+          "countrySubdivisionCode": "SE-Z",
+          "countrySubdivisionName": "Jämtlands län [SE-23]"
+        }
+      ]
+    },
+    {
+      "countryCode": "TGO",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "TG-C",
+          "countrySubdivisionName": "Centre"
+        },
+        {
+          "countrySubdivisionCode": "TG-K",
+          "countrySubdivisionName": "Kara"
+        },
+        {
+          "countrySubdivisionCode": "TG-M",
+          "countrySubdivisionName": "Maritime (Région)"
+        },
+        {
+          "countrySubdivisionCode": "TG-P",
+          "countrySubdivisionName": "Plateaux"
+        },
+        {
+          "countrySubdivisionCode": "TG-S",
+          "countrySubdivisionName": "Savannes"
+        }
+      ]
+    },
+    {
+      "countryCode": "TUN",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "TN-11",
+          "countrySubdivisionName": "Tunis"
+        },
+        {
+          "countrySubdivisionCode": "TN-12",
+          "countrySubdivisionName": "L'Ariana"
+        },
+        {
+          "countrySubdivisionCode": "TN-13",
+          "countrySubdivisionName": "Ben Arous"
+        },
+        {
+          "countrySubdivisionCode": "TN-14",
+          "countrySubdivisionName": "La Manouba"
+        },
+        {
+          "countrySubdivisionCode": "TN-21",
+          "countrySubdivisionName": "Nabeul"
+        },
+        {
+          "countrySubdivisionCode": "TN-22",
+          "countrySubdivisionName": "Zaghouan"
+        },
+        {
+          "countrySubdivisionCode": "TN-23",
+          "countrySubdivisionName": "Bizerte"
+        },
+        {
+          "countrySubdivisionCode": "TN-31",
+          "countrySubdivisionName": "Béja"
+        },
+        {
+          "countrySubdivisionCode": "TN-32",
+          "countrySubdivisionName": "Jendouba"
+        },
+        {
+          "countrySubdivisionCode": "TN-33",
+          "countrySubdivisionName": "Le Kef"
+        },
+        {
+          "countrySubdivisionCode": "TN-34",
+          "countrySubdivisionName": "Siliana"
+        },
+        {
+          "countrySubdivisionCode": "TN-41",
+          "countrySubdivisionName": "Kairouan"
+        },
+        {
+          "countrySubdivisionCode": "TN-42",
+          "countrySubdivisionName": "Kasserine"
+        },
+        {
+          "countrySubdivisionCode": "TN-43",
+          "countrySubdivisionName": "Sidi Bouzid"
+        },
+        {
+          "countrySubdivisionCode": "TN-51",
+          "countrySubdivisionName": "Sousse"
+        },
+        {
+          "countrySubdivisionCode": "TN-52",
+          "countrySubdivisionName": "Monastir"
+        },
+        {
+          "countrySubdivisionCode": "TN-53",
+          "countrySubdivisionName": "Mahdia"
+        },
+        {
+          "countrySubdivisionCode": "TN-61",
+          "countrySubdivisionName": "Sfax"
+        },
+        {
+          "countrySubdivisionCode": "TN-71",
+          "countrySubdivisionName": "Gafsa"
+        },
+        {
+          "countrySubdivisionCode": "TN-72",
+          "countrySubdivisionName": "Tozeur"
+        },
+        {
+          "countrySubdivisionCode": "TN-73",
+          "countrySubdivisionName": "Kébili"
+        },
+        {
+          "countrySubdivisionCode": "TN-81",
+          "countrySubdivisionName": "Gabès"
+        },
+        {
+          "countrySubdivisionCode": "TN-82",
+          "countrySubdivisionName": "Médenine"
+        },
+        {
+          "countrySubdivisionCode": "TN-83",
+          "countrySubdivisionName": "Tataouine"
+        }
+      ]
+    },
+    {
+      "countryCode": "GBR",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "GB-ABD",
+          "countrySubdivisionName": "Aberdeenshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-ABE",
+          "countrySubdivisionName": "Aberdeen City"
+        },
+        {
+          "countrySubdivisionCode": "GB-AGB",
+          "countrySubdivisionName": "Argyll and Bute"
+        },
+        {
+          "countrySubdivisionCode": "GB-AGY",
+          "countrySubdivisionName": "Isle of Anglesey"
+        },
+        {
+          "countrySubdivisionCode": "GB-ANS",
+          "countrySubdivisionName": "Angus"
+        },
+        {
+          "countrySubdivisionCode": "GB-ANT",
+          "countrySubdivisionName": "Antrim"
+        },
+        {
+          "countrySubdivisionCode": "GB-ARD",
+          "countrySubdivisionName": "Ards"
+        },
+        {
+          "countrySubdivisionCode": "GB-ARM",
+          "countrySubdivisionName": "Armagh"
+        },
+        {
+          "countrySubdivisionCode": "GB-BAS",
+          "countrySubdivisionName": "Bath and North East Somerset"
+        },
+        {
+          "countrySubdivisionCode": "GB-BBD",
+          "countrySubdivisionName": "Blackburn with Darwen"
+        },
+        {
+          "countrySubdivisionCode": "GB-BDF",
+          "countrySubdivisionName": "Bedford"
+        },
+        {
+          "countrySubdivisionCode": "GB-BDG",
+          "countrySubdivisionName": "Barking and Dagenham"
+        },
+        {
+          "countrySubdivisionCode": "GB-BEN",
+          "countrySubdivisionName": "Brent"
+        },
+        {
+          "countrySubdivisionCode": "GB-BEX",
+          "countrySubdivisionName": "Bexley"
+        },
+        {
+          "countrySubdivisionCode": "GB-BFS",
+          "countrySubdivisionName": "Belfast"
+        },
+        {
+          "countrySubdivisionCode": "GB-BGE",
+          "countrySubdivisionName": "Bridgend"
+        },
+        {
+          "countrySubdivisionCode": "GB-BGW",
+          "countrySubdivisionName": "Blaenau Gwent"
+        },
+        {
+          "countrySubdivisionCode": "GB-BIR",
+          "countrySubdivisionName": "Birmingham"
+        },
+        {
+          "countrySubdivisionCode": "GB-BKM",
+          "countrySubdivisionName": "Buckinghamshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-BLA",
+          "countrySubdivisionName": "Ballymena"
+        },
+        {
+          "countrySubdivisionCode": "GB-BLY",
+          "countrySubdivisionName": "Ballymoney"
+        },
+        {
+          "countrySubdivisionCode": "GB-BMH",
+          "countrySubdivisionName": "Bournemouth"
+        },
+        {
+          "countrySubdivisionCode": "GB-BNB",
+          "countrySubdivisionName": "Banbridge"
+        },
+        {
+          "countrySubdivisionCode": "GB-BNE",
+          "countrySubdivisionName": "Barnet"
+        },
+        {
+          "countrySubdivisionCode": "GB-BNH",
+          "countrySubdivisionName": "Brighton and Hove"
+        },
+        {
+          "countrySubdivisionCode": "GB-BNS",
+          "countrySubdivisionName": "Barnsley"
+        },
+        {
+          "countrySubdivisionCode": "GB-BOL",
+          "countrySubdivisionName": "Bolton"
+        },
+        {
+          "countrySubdivisionCode": "GB-BPL",
+          "countrySubdivisionName": "Blackpool"
+        },
+        {
+          "countrySubdivisionCode": "GB-BRC",
+          "countrySubdivisionName": "Bracknell Forest"
+        },
+        {
+          "countrySubdivisionCode": "GB-BRD",
+          "countrySubdivisionName": "Bradford"
+        },
+        {
+          "countrySubdivisionCode": "GB-BRY",
+          "countrySubdivisionName": "Bromley"
+        },
+        {
+          "countrySubdivisionCode": "GB-BST",
+          "countrySubdivisionName": "Bristol, City of"
+        },
+        {
+          "countrySubdivisionCode": "GB-BUR",
+          "countrySubdivisionName": "Bury"
+        },
+        {
+          "countrySubdivisionCode": "GB-CAM",
+          "countrySubdivisionName": "Cambridgeshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-CAY",
+          "countrySubdivisionName": "Caerphilly"
+        },
+        {
+          "countrySubdivisionCode": "GB-CBF",
+          "countrySubdivisionName": "Central Bedfordshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-CGN",
+          "countrySubdivisionName": "Ceredigion"
+        },
+        {
+          "countrySubdivisionCode": "GB-CGV",
+          "countrySubdivisionName": "Craigavon"
+        },
+        {
+          "countrySubdivisionCode": "GB-CHE",
+          "countrySubdivisionName": "Cheshire East"
+        },
+        {
+          "countrySubdivisionCode": "GB-CHW",
+          "countrySubdivisionName": "Cheshire West and Chester"
+        },
+        {
+          "countrySubdivisionCode": "GB-CKF",
+          "countrySubdivisionName": "Carrickfergus"
+        },
+        {
+          "countrySubdivisionCode": "GB-CKT",
+          "countrySubdivisionName": "Cookstown"
+        },
+        {
+          "countrySubdivisionCode": "GB-CLD",
+          "countrySubdivisionName": "Calderdale"
+        },
+        {
+          "countrySubdivisionCode": "GB-CLK",
+          "countrySubdivisionName": "Clackmannanshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-CLR",
+          "countrySubdivisionName": "Coleraine"
+        },
+        {
+          "countrySubdivisionCode": "GB-CMA",
+          "countrySubdivisionName": "Cumbria"
+        },
+        {
+          "countrySubdivisionCode": "GB-CMD",
+          "countrySubdivisionName": "Camden"
+        },
+        {
+          "countrySubdivisionCode": "GB-CMN",
+          "countrySubdivisionName": "Carmarthenshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-CON",
+          "countrySubdivisionName": "Cornwall"
+        },
+        {
+          "countrySubdivisionCode": "GB-COV",
+          "countrySubdivisionName": "Coventry"
+        },
+        {
+          "countrySubdivisionCode": "GB-CRF",
+          "countrySubdivisionName": "Cardiff"
+        },
+        {
+          "countrySubdivisionCode": "GB-CRY",
+          "countrySubdivisionName": "Croydon"
+        },
+        {
+          "countrySubdivisionCode": "GB-CSR",
+          "countrySubdivisionName": "Castlereagh"
+        },
+        {
+          "countrySubdivisionCode": "GB-CWY",
+          "countrySubdivisionName": "Conwy"
+        },
+        {
+          "countrySubdivisionCode": "GB-DAL",
+          "countrySubdivisionName": "Darlington"
+        },
+        {
+          "countrySubdivisionCode": "GB-DBY",
+          "countrySubdivisionName": "Derbyshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-DEN",
+          "countrySubdivisionName": "Denbighshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-DER",
+          "countrySubdivisionName": "Derby"
+        },
+        {
+          "countrySubdivisionCode": "GB-DEV",
+          "countrySubdivisionName": "Devon"
+        },
+        {
+          "countrySubdivisionCode": "GB-DGN",
+          "countrySubdivisionName": "Dungannon"
+        },
+        {
+          "countrySubdivisionCode": "GB-DGY",
+          "countrySubdivisionName": "Dumfries and Galloway"
+        },
+        {
+          "countrySubdivisionCode": "GB-DNC",
+          "countrySubdivisionName": "Doncaster"
+        },
+        {
+          "countrySubdivisionCode": "GB-DND",
+          "countrySubdivisionName": "Dundee City"
+        },
+        {
+          "countrySubdivisionCode": "GB-DOR",
+          "countrySubdivisionName": "Dorset"
+        },
+        {
+          "countrySubdivisionCode": "GB-DOW",
+          "countrySubdivisionName": "Down"
+        },
+        {
+          "countrySubdivisionCode": "GB-DRY",
+          "countrySubdivisionName": "Derry"
+        },
+        {
+          "countrySubdivisionCode": "GB-DUD",
+          "countrySubdivisionName": "Dudley"
+        },
+        {
+          "countrySubdivisionCode": "GB-DUR",
+          "countrySubdivisionName": "Durham"
+        },
+        {
+          "countrySubdivisionCode": "GB-EAL",
+          "countrySubdivisionName": "Ealing"
+        },
+        {
+          "countrySubdivisionCode": "GB-EAW",
+          "countrySubdivisionName": "England and Wales"
+        },
+        {
+          "countrySubdivisionCode": "GB-EAY",
+          "countrySubdivisionName": "East Ayrshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-EDH",
+          "countrySubdivisionName": "Edinburgh, City of"
+        },
+        {
+          "countrySubdivisionCode": "GB-EDU",
+          "countrySubdivisionName": "East Dunbartonshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-ELN",
+          "countrySubdivisionName": "East Lothian"
+        },
+        {
+          "countrySubdivisionCode": "GB-ELS",
+          "countrySubdivisionName": "Eilean Siar"
+        },
+        {
+          "countrySubdivisionCode": "GB-ENF",
+          "countrySubdivisionName": "Enfield"
+        },
+        {
+          "countrySubdivisionCode": "GB-ENG",
+          "countrySubdivisionName": "England"
+        },
+        {
+          "countrySubdivisionCode": "GB-ERW",
+          "countrySubdivisionName": "East Renfrewshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-ERY",
+          "countrySubdivisionName": "East Riding of Yorkshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-ESS",
+          "countrySubdivisionName": "Essex"
+        },
+        {
+          "countrySubdivisionCode": "GB-ESX",
+          "countrySubdivisionName": "East Sussex"
+        },
+        {
+          "countrySubdivisionCode": "GB-FAL",
+          "countrySubdivisionName": "Falkirk"
+        },
+        {
+          "countrySubdivisionCode": "GB-FER",
+          "countrySubdivisionName": "Fermanagh"
+        },
+        {
+          "countrySubdivisionCode": "GB-FIF",
+          "countrySubdivisionName": "Fife"
+        },
+        {
+          "countrySubdivisionCode": "GB-FLN",
+          "countrySubdivisionName": "Flintshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-GAT",
+          "countrySubdivisionName": "Gateshead"
+        },
+        {
+          "countrySubdivisionCode": "GB-GBN",
+          "countrySubdivisionName": "Great Britain"
+        },
+        {
+          "countrySubdivisionCode": "GB-GLG",
+          "countrySubdivisionName": "Glasgow City"
+        },
+        {
+          "countrySubdivisionCode": "GB-GLS",
+          "countrySubdivisionName": "Gloucestershire"
+        },
+        {
+          "countrySubdivisionCode": "GB-GRE",
+          "countrySubdivisionName": "Greenwich"
+        },
+        {
+          "countrySubdivisionCode": "GB-GWN",
+          "countrySubdivisionName": "Gwynedd"
+        },
+        {
+          "countrySubdivisionCode": "GB-HAL",
+          "countrySubdivisionName": "Halton"
+        },
+        {
+          "countrySubdivisionCode": "GB-HAM",
+          "countrySubdivisionName": "Hampshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-HAV",
+          "countrySubdivisionName": "Havering"
+        },
+        {
+          "countrySubdivisionCode": "GB-HCK",
+          "countrySubdivisionName": "Hackney"
+        },
+        {
+          "countrySubdivisionCode": "GB-HEF",
+          "countrySubdivisionName": "Herefordshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-HIL",
+          "countrySubdivisionName": "Hillingdon"
+        },
+        {
+          "countrySubdivisionCode": "GB-HLD",
+          "countrySubdivisionName": "Highland"
+        },
+        {
+          "countrySubdivisionCode": "GB-HMF",
+          "countrySubdivisionName": "Hammersmith and Fulham"
+        },
+        {
+          "countrySubdivisionCode": "GB-HNS",
+          "countrySubdivisionName": "Hounslow"
+        },
+        {
+          "countrySubdivisionCode": "GB-HPL",
+          "countrySubdivisionName": "Hartlepool"
+        },
+        {
+          "countrySubdivisionCode": "GB-HRT",
+          "countrySubdivisionName": "Hertfordshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-HRW",
+          "countrySubdivisionName": "Harrow"
+        },
+        {
+          "countrySubdivisionCode": "GB-HRY",
+          "countrySubdivisionName": "Haringey"
+        },
+        {
+          "countrySubdivisionCode": "GB-IOW",
+          "countrySubdivisionName": "Isle of Wight"
+        },
+        {
+          "countrySubdivisionCode": "GB-ISL",
+          "countrySubdivisionName": "Islington"
+        },
+        {
+          "countrySubdivisionCode": "GB-IVC",
+          "countrySubdivisionName": "Inverclyde"
+        },
+        {
+          "countrySubdivisionCode": "GB-KEC",
+          "countrySubdivisionName": "Kensington and Chelsea"
+        },
+        {
+          "countrySubdivisionCode": "GB-KEN",
+          "countrySubdivisionName": "Kent"
+        },
+        {
+          "countrySubdivisionCode": "GB-KHL",
+          "countrySubdivisionName": "Kingston upon Hull"
+        },
+        {
+          "countrySubdivisionCode": "GB-KIR",
+          "countrySubdivisionName": "Kirklees"
+        },
+        {
+          "countrySubdivisionCode": "GB-KTT",
+          "countrySubdivisionName": "Kingston upon Thames"
+        },
+        {
+          "countrySubdivisionCode": "GB-KWL",
+          "countrySubdivisionName": "Knowsley"
+        },
+        {
+          "countrySubdivisionCode": "GB-LAN",
+          "countrySubdivisionName": "Lancashire"
+        },
+        {
+          "countrySubdivisionCode": "GB-LBH",
+          "countrySubdivisionName": "Lambeth"
+        },
+        {
+          "countrySubdivisionCode": "GB-LCE",
+          "countrySubdivisionName": "Leicester"
+        },
+        {
+          "countrySubdivisionCode": "GB-LDS",
+          "countrySubdivisionName": "Leeds"
+        },
+        {
+          "countrySubdivisionCode": "GB-LEC",
+          "countrySubdivisionName": "Leicestershire"
+        },
+        {
+          "countrySubdivisionCode": "GB-LEW",
+          "countrySubdivisionName": "Lewisham"
+        },
+        {
+          "countrySubdivisionCode": "GB-LIN",
+          "countrySubdivisionName": "Lincolnshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-LIV",
+          "countrySubdivisionName": "Liverpool"
+        },
+        {
+          "countrySubdivisionCode": "GB-LMV",
+          "countrySubdivisionName": "Limavady"
+        },
+        {
+          "countrySubdivisionCode": "GB-LND",
+          "countrySubdivisionName": "London, City of"
+        },
+        {
+          "countrySubdivisionCode": "GB-LRN",
+          "countrySubdivisionName": "Larne"
+        },
+        {
+          "countrySubdivisionCode": "GB-LSB",
+          "countrySubdivisionName": "Lisburn"
+        },
+        {
+          "countrySubdivisionCode": "GB-LUT",
+          "countrySubdivisionName": "Luton"
+        },
+        {
+          "countrySubdivisionCode": "GB-MAN",
+          "countrySubdivisionName": "Manchester"
+        },
+        {
+          "countrySubdivisionCode": "GB-MDB",
+          "countrySubdivisionName": "Middlesbrough"
+        },
+        {
+          "countrySubdivisionCode": "GB-MDW",
+          "countrySubdivisionName": "Medway"
+        },
+        {
+          "countrySubdivisionCode": "GB-MFT",
+          "countrySubdivisionName": "Magherafelt"
+        },
+        {
+          "countrySubdivisionCode": "GB-MIK",
+          "countrySubdivisionName": "Milton Keynes"
+        },
+        {
+          "countrySubdivisionCode": "GB-MLN",
+          "countrySubdivisionName": "Midlothian"
+        },
+        {
+          "countrySubdivisionCode": "GB-MON",
+          "countrySubdivisionName": "Monmouthshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-MRT",
+          "countrySubdivisionName": "Merton"
+        },
+        {
+          "countrySubdivisionCode": "GB-MRY",
+          "countrySubdivisionName": "Moray"
+        },
+        {
+          "countrySubdivisionCode": "GB-MTY",
+          "countrySubdivisionName": "Merthyr Tydfil"
+        },
+        {
+          "countrySubdivisionCode": "GB-MYL",
+          "countrySubdivisionName": "Moyle"
+        },
+        {
+          "countrySubdivisionCode": "GB-NAY",
+          "countrySubdivisionName": "North Ayrshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-NBL",
+          "countrySubdivisionName": "Northumberland"
+        },
+        {
+          "countrySubdivisionCode": "GB-NDN",
+          "countrySubdivisionName": "North Down"
+        },
+        {
+          "countrySubdivisionCode": "GB-NEL",
+          "countrySubdivisionName": "North East Lincolnshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-NET",
+          "countrySubdivisionName": "Newcastle upon Tyne"
+        },
+        {
+          "countrySubdivisionCode": "GB-NFK",
+          "countrySubdivisionName": "Norfolk"
+        },
+        {
+          "countrySubdivisionCode": "GB-NGM",
+          "countrySubdivisionName": "Nottingham"
+        },
+        {
+          "countrySubdivisionCode": "GB-NIR",
+          "countrySubdivisionName": "Northern Ireland"
+        },
+        {
+          "countrySubdivisionCode": "GB-NLK",
+          "countrySubdivisionName": "North Lanarkshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-NLN",
+          "countrySubdivisionName": "North Lincolnshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-NSM",
+          "countrySubdivisionName": "North Somerset"
+        },
+        {
+          "countrySubdivisionCode": "GB-NTA",
+          "countrySubdivisionName": "Newtownabbey"
+        },
+        {
+          "countrySubdivisionCode": "GB-NTH",
+          "countrySubdivisionName": "Northamptonshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-NTL",
+          "countrySubdivisionName": "Neath Port Talbot"
+        },
+        {
+          "countrySubdivisionCode": "GB-NTT",
+          "countrySubdivisionName": "Nottinghamshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-NTY",
+          "countrySubdivisionName": "North Tyneside"
+        },
+        {
+          "countrySubdivisionCode": "GB-NWM",
+          "countrySubdivisionName": "Newham"
+        },
+        {
+          "countrySubdivisionCode": "GB-NWP",
+          "countrySubdivisionName": "Newport"
+        },
+        {
+          "countrySubdivisionCode": "GB-NYK",
+          "countrySubdivisionName": "North Yorkshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-NYM",
+          "countrySubdivisionName": "Newry and Mourne"
+        },
+        {
+          "countrySubdivisionCode": "GB-OLD",
+          "countrySubdivisionName": "Oldham"
+        },
+        {
+          "countrySubdivisionCode": "GB-OMH",
+          "countrySubdivisionName": "Omagh"
+        },
+        {
+          "countrySubdivisionCode": "GB-ORK",
+          "countrySubdivisionName": "Orkney Islands"
+        },
+        {
+          "countrySubdivisionCode": "GB-OXF",
+          "countrySubdivisionName": "Oxfordshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-PEM",
+          "countrySubdivisionName": "Pembrokeshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-PKN",
+          "countrySubdivisionName": "Perth and Kinross"
+        },
+        {
+          "countrySubdivisionCode": "GB-PLY",
+          "countrySubdivisionName": "Plymouth"
+        },
+        {
+          "countrySubdivisionCode": "GB-POL",
+          "countrySubdivisionName": "Poole"
+        },
+        {
+          "countrySubdivisionCode": "GB-POR",
+          "countrySubdivisionName": "Portsmouth"
+        },
+        {
+          "countrySubdivisionCode": "GB-POW",
+          "countrySubdivisionName": "Powys"
+        },
+        {
+          "countrySubdivisionCode": "GB-PTE",
+          "countrySubdivisionName": "Peterborough"
+        },
+        {
+          "countrySubdivisionCode": "GB-RCC",
+          "countrySubdivisionName": "Redcar and Cleveland"
+        },
+        {
+          "countrySubdivisionCode": "GB-RCH",
+          "countrySubdivisionName": "Rochdale"
+        },
+        {
+          "countrySubdivisionCode": "GB-RCT",
+          "countrySubdivisionName": "Rhondda, Cynon, Taff"
+        },
+        {
+          "countrySubdivisionCode": "GB-RDB",
+          "countrySubdivisionName": "Redbridge"
+        },
+        {
+          "countrySubdivisionCode": "GB-RDG",
+          "countrySubdivisionName": "Reading"
+        },
+        {
+          "countrySubdivisionCode": "GB-RFW",
+          "countrySubdivisionName": "Renfrewshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-RIC",
+          "countrySubdivisionName": "Richmond upon Thames"
+        },
+        {
+          "countrySubdivisionCode": "GB-ROT",
+          "countrySubdivisionName": "Rotherham"
+        },
+        {
+          "countrySubdivisionCode": "GB-RUT",
+          "countrySubdivisionName": "Rutland"
+        },
+        {
+          "countrySubdivisionCode": "GB-SAW",
+          "countrySubdivisionName": "Sandwell"
+        },
+        {
+          "countrySubdivisionCode": "GB-SAY",
+          "countrySubdivisionName": "South Ayrshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-SCB",
+          "countrySubdivisionName": "Scottish Borders, The"
+        },
+        {
+          "countrySubdivisionCode": "GB-SCT",
+          "countrySubdivisionName": "Scotland"
+        },
+        {
+          "countrySubdivisionCode": "GB-SFK",
+          "countrySubdivisionName": "Suffolk"
+        },
+        {
+          "countrySubdivisionCode": "GB-SFT",
+          "countrySubdivisionName": "Sefton"
+        },
+        {
+          "countrySubdivisionCode": "GB-SGC",
+          "countrySubdivisionName": "South Gloucestershire"
+        },
+        {
+          "countrySubdivisionCode": "GB-SHF",
+          "countrySubdivisionName": "Sheffield"
+        },
+        {
+          "countrySubdivisionCode": "GB-SHN",
+          "countrySubdivisionName": "St. Helens"
+        },
+        {
+          "countrySubdivisionCode": "GB-SHR",
+          "countrySubdivisionName": "Shropshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-SKP",
+          "countrySubdivisionName": "Stockport"
+        },
+        {
+          "countrySubdivisionCode": "GB-SLF",
+          "countrySubdivisionName": "Salford"
+        },
+        {
+          "countrySubdivisionCode": "GB-SLG",
+          "countrySubdivisionName": "Slough"
+        },
+        {
+          "countrySubdivisionCode": "GB-SLK",
+          "countrySubdivisionName": "South Lanarkshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-SND",
+          "countrySubdivisionName": "Sunderland"
+        },
+        {
+          "countrySubdivisionCode": "GB-SOL",
+          "countrySubdivisionName": "Solihull"
+        },
+        {
+          "countrySubdivisionCode": "GB-SOM",
+          "countrySubdivisionName": "Somerset"
+        },
+        {
+          "countrySubdivisionCode": "GB-SOS",
+          "countrySubdivisionName": "Southend-on-Sea"
+        },
+        {
+          "countrySubdivisionCode": "GB-SRY",
+          "countrySubdivisionName": "Surrey"
+        },
+        {
+          "countrySubdivisionCode": "GB-STB",
+          "countrySubdivisionName": "Strabane"
+        },
+        {
+          "countrySubdivisionCode": "GB-STE",
+          "countrySubdivisionName": "Stoke-on-Trent"
+        },
+        {
+          "countrySubdivisionCode": "GB-STG",
+          "countrySubdivisionName": "Stirling"
+        },
+        {
+          "countrySubdivisionCode": "GB-STH",
+          "countrySubdivisionName": "Southampton"
+        },
+        {
+          "countrySubdivisionCode": "GB-STN",
+          "countrySubdivisionName": "Sutton"
+        },
+        {
+          "countrySubdivisionCode": "GB-STS",
+          "countrySubdivisionName": "Staffordshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-STT",
+          "countrySubdivisionName": "Stockton-on-Tees"
+        },
+        {
+          "countrySubdivisionCode": "GB-STY",
+          "countrySubdivisionName": "South Tyneside"
+        },
+        {
+          "countrySubdivisionCode": "GB-SWA",
+          "countrySubdivisionName": "Swansea"
+        },
+        {
+          "countrySubdivisionCode": "GB-SWD",
+          "countrySubdivisionName": "Swindon"
+        },
+        {
+          "countrySubdivisionCode": "GB-SWK",
+          "countrySubdivisionName": "Southwark"
+        },
+        {
+          "countrySubdivisionCode": "GB-TAM",
+          "countrySubdivisionName": "Tameside"
+        },
+        {
+          "countrySubdivisionCode": "GB-TFW",
+          "countrySubdivisionName": "Telford and Wrekin"
+        },
+        {
+          "countrySubdivisionCode": "GB-THR",
+          "countrySubdivisionName": "Thurrock"
+        },
+        {
+          "countrySubdivisionCode": "GB-TOB",
+          "countrySubdivisionName": "Torbay"
+        },
+        {
+          "countrySubdivisionCode": "GB-TOF",
+          "countrySubdivisionName": "Torfaen"
+        },
+        {
+          "countrySubdivisionCode": "GB-TRF",
+          "countrySubdivisionName": "Trafford"
+        },
+        {
+          "countrySubdivisionCode": "GB-TWH",
+          "countrySubdivisionName": "Tower Hamlets"
+        },
+        {
+          "countrySubdivisionCode": "GB-UKM",
+          "countrySubdivisionName": "United Kingdom"
+        },
+        {
+          "countrySubdivisionCode": "GB-VGL",
+          "countrySubdivisionName": "Vale of Glamorgan, The"
+        },
+        {
+          "countrySubdivisionCode": "GB-WAR",
+          "countrySubdivisionName": "Warwickshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-WBK",
+          "countrySubdivisionName": "West Berkshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-WDU",
+          "countrySubdivisionName": "West Dunbartonshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-WFT",
+          "countrySubdivisionName": "Waltham Forest"
+        },
+        {
+          "countrySubdivisionCode": "GB-WGN",
+          "countrySubdivisionName": "Wigan"
+        },
+        {
+          "countrySubdivisionCode": "GB-WIL",
+          "countrySubdivisionName": "Wiltshire"
+        },
+        {
+          "countrySubdivisionCode": "GB-WKF",
+          "countrySubdivisionName": "Wakefield"
+        },
+        {
+          "countrySubdivisionCode": "GB-WLL",
+          "countrySubdivisionName": "Walsall"
+        },
+        {
+          "countrySubdivisionCode": "GB-WLN",
+          "countrySubdivisionName": "West Lothian"
+        },
+        {
+          "countrySubdivisionCode": "GB-WLS",
+          "countrySubdivisionName": "Wales"
+        },
+        {
+          "countrySubdivisionCode": "GB-WLV",
+          "countrySubdivisionName": "Wolverhampton"
+        },
+        {
+          "countrySubdivisionCode": "GB-WND",
+          "countrySubdivisionName": "Wandsworth"
+        },
+        {
+          "countrySubdivisionCode": "GB-WNM",
+          "countrySubdivisionName": "Windsor and Maidenhead"
+        },
+        {
+          "countrySubdivisionCode": "GB-WOK",
+          "countrySubdivisionName": "Wokingham"
+        },
+        {
+          "countrySubdivisionCode": "GB-WOR",
+          "countrySubdivisionName": "Worcestershire"
+        },
+        {
+          "countrySubdivisionCode": "GB-WRL",
+          "countrySubdivisionName": "Wirral"
+        },
+        {
+          "countrySubdivisionCode": "GB-WRT",
+          "countrySubdivisionName": "Warrington"
+        },
+        {
+          "countrySubdivisionCode": "GB-WRX",
+          "countrySubdivisionName": "Wrexham"
+        },
+        {
+          "countrySubdivisionCode": "GB-WSM",
+          "countrySubdivisionName": "Westminster"
+        },
+        {
+          "countrySubdivisionCode": "GB-WSX",
+          "countrySubdivisionName": "West Sussex"
+        },
+        {
+          "countrySubdivisionCode": "GB-YOR",
+          "countrySubdivisionName": "York"
+        },
+        {
+          "countrySubdivisionCode": "GB-ZET",
+          "countrySubdivisionName": "Shetland Islands"
+        }
+      ]
+    },
+    {
+      "countryCode": "UMI",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "UM-67",
+          "countrySubdivisionName": "Johnston Atoll"
+        },
+        {
+          "countrySubdivisionCode": "UM-71",
+          "countrySubdivisionName": "Midway Islands"
+        },
+        {
+          "countrySubdivisionCode": "UM-76",
+          "countrySubdivisionName": "Navassa Island"
+        },
+        {
+          "countrySubdivisionCode": "UM-79",
+          "countrySubdivisionName": "Wake Island"
+        },
+        {
+          "countrySubdivisionCode": "UM-81",
+          "countrySubdivisionName": "Baker Island"
+        },
+        {
+          "countrySubdivisionCode": "UM-84",
+          "countrySubdivisionName": "Howland Island"
+        },
+        {
+          "countrySubdivisionCode": "UM-86",
+          "countrySubdivisionName": "Jarvis Island"
+        },
+        {
+          "countrySubdivisionCode": "UM-89",
+          "countrySubdivisionName": "Kingman Reef"
+        },
+        {
+          "countrySubdivisionCode": "UM-95",
+          "countrySubdivisionName": "Palmyra Atoll"
+        }
+      ]
+    },
+    {
+      "countryCode": "USA",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "US-AK",
+          "countrySubdivisionName": "Alaska"
+        },
+        {
+          "countrySubdivisionCode": "US-AL",
+          "countrySubdivisionName": "Alabama"
+        },
+        {
+          "countrySubdivisionCode": "US-AR",
+          "countrySubdivisionName": "Arkansas"
+        },
+        {
+          "countrySubdivisionCode": "US-AZ",
+          "countrySubdivisionName": "Arizona"
+        },
+        {
+          "countrySubdivisionCode": "US-CA",
+          "countrySubdivisionName": "California"
+        },
+        {
+          "countrySubdivisionCode": "US-CO",
+          "countrySubdivisionName": "Colorado"
+        },
+        {
+          "countrySubdivisionCode": "US-CT",
+          "countrySubdivisionName": "Connecticut"
+        },
+        {
+          "countrySubdivisionCode": "US-DC",
+          "countrySubdivisionName": "District of Columbia"
+        },
+        {
+          "countrySubdivisionCode": "US-DE",
+          "countrySubdivisionName": "Delaware"
+        },
+        {
+          "countrySubdivisionCode": "US-FL",
+          "countrySubdivisionName": "Florida"
+        },
+        {
+          "countrySubdivisionCode": "US-GA",
+          "countrySubdivisionName": "Georgia"
+        },
+        {
+          "countrySubdivisionCode": "US-HI",
+          "countrySubdivisionName": "Hawaii"
+        },
+        {
+          "countrySubdivisionCode": "US-IA",
+          "countrySubdivisionName": "Iowa"
+        },
+        {
+          "countrySubdivisionCode": "US-ID",
+          "countrySubdivisionName": "Idaho"
+        },
+        {
+          "countrySubdivisionCode": "US-IL",
+          "countrySubdivisionName": "Illinois"
+        },
+        {
+          "countrySubdivisionCode": "US-IN",
+          "countrySubdivisionName": "Indiana"
+        },
+        {
+          "countrySubdivisionCode": "US-KS",
+          "countrySubdivisionName": "Kansas"
+        },
+        {
+          "countrySubdivisionCode": "US-KY",
+          "countrySubdivisionName": "Kentucky"
+        },
+        {
+          "countrySubdivisionCode": "US-LA",
+          "countrySubdivisionName": "Louisiana"
+        },
+        {
+          "countrySubdivisionCode": "US-MA",
+          "countrySubdivisionName": "Massachusetts"
+        },
+        {
+          "countrySubdivisionCode": "US-MD",
+          "countrySubdivisionName": "Maryland"
+        },
+        {
+          "countrySubdivisionCode": "US-ME",
+          "countrySubdivisionName": "Maine"
+        },
+        {
+          "countrySubdivisionCode": "US-MI",
+          "countrySubdivisionName": "Michigan"
+        },
+        {
+          "countrySubdivisionCode": "US-MN",
+          "countrySubdivisionName": "Minnesota"
+        },
+        {
+          "countrySubdivisionCode": "US-MO",
+          "countrySubdivisionName": "Missouri"
+        },
+        {
+          "countrySubdivisionCode": "US-MS",
+          "countrySubdivisionName": "Mississippi"
+        },
+        {
+          "countrySubdivisionCode": "US-MT",
+          "countrySubdivisionName": "Montana"
+        },
+        {
+          "countrySubdivisionCode": "US-NC",
+          "countrySubdivisionName": "North Carolina"
+        },
+        {
+          "countrySubdivisionCode": "US-ND",
+          "countrySubdivisionName": "North Dakota"
+        },
+        {
+          "countrySubdivisionCode": "US-NE",
+          "countrySubdivisionName": "Nebraska"
+        },
+        {
+          "countrySubdivisionCode": "US-NH",
+          "countrySubdivisionName": "New Hampshire"
+        },
+        {
+          "countrySubdivisionCode": "US-NJ",
+          "countrySubdivisionName": "New Jersey"
+        },
+        {
+          "countrySubdivisionCode": "US-NM",
+          "countrySubdivisionName": "New Mexico"
+        },
+        {
+          "countrySubdivisionCode": "US-NV",
+          "countrySubdivisionName": "Nevada"
+        },
+        {
+          "countrySubdivisionCode": "US-NY",
+          "countrySubdivisionName": "New York"
+        },
+        {
+          "countrySubdivisionCode": "US-OH",
+          "countrySubdivisionName": "Ohio"
+        },
+        {
+          "countrySubdivisionCode": "US-OK",
+          "countrySubdivisionName": "Oklahoma"
+        },
+        {
+          "countrySubdivisionCode": "US-OR",
+          "countrySubdivisionName": "Oregon"
+        },
+        {
+          "countrySubdivisionCode": "US-PA",
+          "countrySubdivisionName": "Pennsylvania"
+        },
+        {
+          "countrySubdivisionCode": "US-RI",
+          "countrySubdivisionName": "Rhode Island"
+        },
+        {
+          "countrySubdivisionCode": "US-SC",
+          "countrySubdivisionName": "South Carolina"
+        },
+        {
+          "countrySubdivisionCode": "US-SD",
+          "countrySubdivisionName": "South Dakota"
+        },
+        {
+          "countrySubdivisionCode": "US-TN",
+          "countrySubdivisionName": "Tennessee"
+        },
+        {
+          "countrySubdivisionCode": "US-TX",
+          "countrySubdivisionName": "Texas"
+        },
+        {
+          "countrySubdivisionCode": "US-UT",
+          "countrySubdivisionName": "Utah"
+        },
+        {
+          "countrySubdivisionCode": "US-VA",
+          "countrySubdivisionName": "Virginia"
+        },
+        {
+          "countrySubdivisionCode": "US-VT",
+          "countrySubdivisionName": "Vermont"
+        },
+        {
+          "countrySubdivisionCode": "US-WA",
+          "countrySubdivisionName": "Washington"
+        },
+        {
+          "countrySubdivisionCode": "US-WI",
+          "countrySubdivisionName": "Wisconsin"
+        },
+        {
+          "countrySubdivisionCode": "US-WV",
+          "countrySubdivisionName": "West Virginia"
+        },
+        {
+          "countrySubdivisionCode": "US-WY",
+          "countrySubdivisionName": "Wyoming"
+        }
+      ]
+    },
+    {
+      "countryCode": "URY",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "UY-AR",
+          "countrySubdivisionName": "Artigas"
+        },
+        {
+          "countrySubdivisionCode": "UY-CA",
+          "countrySubdivisionName": "Canelones"
+        },
+        {
+          "countrySubdivisionCode": "UY-CL",
+          "countrySubdivisionName": "Cerro Largo"
+        },
+        {
+          "countrySubdivisionCode": "UY-CO",
+          "countrySubdivisionName": "Colonia"
+        },
+        {
+          "countrySubdivisionCode": "UY-DU",
+          "countrySubdivisionName": "Durazno"
+        },
+        {
+          "countrySubdivisionCode": "UY-FD",
+          "countrySubdivisionName": "Florida"
+        },
+        {
+          "countrySubdivisionCode": "UY-FS",
+          "countrySubdivisionName": "Flores"
+        },
+        {
+          "countrySubdivisionCode": "UY-LA",
+          "countrySubdivisionName": "Lavalleja"
+        },
+        {
+          "countrySubdivisionCode": "UY-MA",
+          "countrySubdivisionName": "Maldonado"
+        },
+        {
+          "countrySubdivisionCode": "UY-MO",
+          "countrySubdivisionName": "Montevideo"
+        },
+        {
+          "countrySubdivisionCode": "UY-PA",
+          "countrySubdivisionName": "Paysandú"
+        },
+        {
+          "countrySubdivisionCode": "UY-RN",
+          "countrySubdivisionName": "Río Negro"
+        },
+        {
+          "countrySubdivisionCode": "UY-RO",
+          "countrySubdivisionName": "Rocha"
+        },
+        {
+          "countrySubdivisionCode": "UY-RV",
+          "countrySubdivisionName": "Rivera"
+        },
+        {
+          "countrySubdivisionCode": "UY-SA",
+          "countrySubdivisionName": "Salto"
+        },
+        {
+          "countrySubdivisionCode": "UY-SJ",
+          "countrySubdivisionName": "San José"
+        },
+        {
+          "countrySubdivisionCode": "UY-SO",
+          "countrySubdivisionName": "Soriano"
+        },
+        {
+          "countrySubdivisionCode": "UY-TA",
+          "countrySubdivisionName": "Tacuarembó"
+        },
+        {
+          "countrySubdivisionCode": "UY-TT",
+          "countrySubdivisionName": "Treinta y Tres"
+        }
+      ]
+    },
+    {
+      "countryCode": "VUT",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "VU-MAP",
+          "countrySubdivisionName": "Malampa"
+        },
+        {
+          "countrySubdivisionCode": "VU-PAM",
+          "countrySubdivisionName": "Pénama"
+        },
+        {
+          "countrySubdivisionCode": "VU-SAM",
+          "countrySubdivisionName": "Sanma"
+        },
+        {
+          "countrySubdivisionCode": "VU-SEE",
+          "countrySubdivisionName": "Shéfa"
+        },
+        {
+          "countrySubdivisionCode": "VU-TAE",
+          "countrySubdivisionName": "Taféa"
+        },
+        {
+          "countrySubdivisionCode": "VU-TOB",
+          "countrySubdivisionName": "Torba"
+        }
+      ]
+    },
+    {
+      "countryCode": "VNM",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "VN-1",
+          "countrySubdivisionName": "Lai Châu"
+        },
+        {
+          "countrySubdivisionCode": "VN-13",
+          "countrySubdivisionName": "Quảng Ninh"
+        },
+        {
+          "countrySubdivisionCode": "VN-14",
+          "countrySubdivisionName": "Hòa Bình"
+        },
+        {
+          "countrySubdivisionCode": "VN-18",
+          "countrySubdivisionName": "Ninh Bình"
+        },
+        {
+          "countrySubdivisionCode": "VN-2",
+          "countrySubdivisionName": "Lào Cai"
+        },
+        {
+          "countrySubdivisionCode": "VN-20",
+          "countrySubdivisionName": "Thái Bình"
+        },
+        {
+          "countrySubdivisionCode": "VN-21",
+          "countrySubdivisionName": "Thanh Hóa"
+        },
+        {
+          "countrySubdivisionCode": "VN-22",
+          "countrySubdivisionName": "Nghệ An"
+        },
+        {
+          "countrySubdivisionCode": "VN-23",
+          "countrySubdivisionName": "Hà Tinh"
+        },
+        {
+          "countrySubdivisionCode": "VN-24",
+          "countrySubdivisionName": "Quảng Bình"
+        },
+        {
+          "countrySubdivisionCode": "VN-25",
+          "countrySubdivisionName": "Quảng Trị"
+        },
+        {
+          "countrySubdivisionCode": "VN-26",
+          "countrySubdivisionName": "Thừa Thiên-Huế"
+        },
+        {
+          "countrySubdivisionCode": "VN-27",
+          "countrySubdivisionName": "Quảng Nam"
+        },
+        {
+          "countrySubdivisionCode": "VN-28",
+          "countrySubdivisionName": "Kon Tum"
+        },
+        {
+          "countrySubdivisionCode": "VN-29",
+          "countrySubdivisionName": "Quảng Ngãi"
+        },
+        {
+          "countrySubdivisionCode": "VN-3",
+          "countrySubdivisionName": "Hà Giang"
+        },
+        {
+          "countrySubdivisionCode": "VN-30",
+          "countrySubdivisionName": "Gia Lai"
+        },
+        {
+          "countrySubdivisionCode": "VN-31",
+          "countrySubdivisionName": "Bình Định"
+        },
+        {
+          "countrySubdivisionCode": "VN-32",
+          "countrySubdivisionName": "Phú Yên"
+        },
+        {
+          "countrySubdivisionCode": "VN-33",
+          "countrySubdivisionName": "Đắk Lắk"
+        },
+        {
+          "countrySubdivisionCode": "VN-34",
+          "countrySubdivisionName": "Khánh Hòa"
+        },
+        {
+          "countrySubdivisionCode": "VN-35",
+          "countrySubdivisionName": "﻿Lâm Đồng"
+        },
+        {
+          "countrySubdivisionCode": "VN-36",
+          "countrySubdivisionName": "Ninh Thuận"
+        },
+        {
+          "countrySubdivisionCode": "VN-37",
+          "countrySubdivisionName": "Tây Ninh"
+        },
+        {
+          "countrySubdivisionCode": "VN-39",
+          "countrySubdivisionName": "Đồng Nai"
+        },
+        {
+          "countrySubdivisionCode": "VN-4",
+          "countrySubdivisionName": "Cao Bằng"
+        },
+        {
+          "countrySubdivisionCode": "VN-40",
+          "countrySubdivisionName": "Bình Thuận"
+        },
+        {
+          "countrySubdivisionCode": "VN-41",
+          "countrySubdivisionName": "Long An"
+        },
+        {
+          "countrySubdivisionCode": "VN-43",
+          "countrySubdivisionName": "Bà Rịa - Vũng Tàu"
+        },
+        {
+          "countrySubdivisionCode": "VN-44",
+          "countrySubdivisionName": "An Giang"
+        },
+        {
+          "countrySubdivisionCode": "VN-45",
+          "countrySubdivisionName": "Đồng Tháp"
+        },
+        {
+          "countrySubdivisionCode": "VN-46",
+          "countrySubdivisionName": "Tiền Giang"
+        },
+        {
+          "countrySubdivisionCode": "VN-47",
+          "countrySubdivisionName": "Kiến Giang"
+        },
+        {
+          "countrySubdivisionCode": "VN-49",
+          "countrySubdivisionName": "Vinh Long"
+        },
+        {
+          "countrySubdivisionCode": "VN-5",
+          "countrySubdivisionName": "Son La"
+        },
+        {
+          "countrySubdivisionCode": "VN-50",
+          "countrySubdivisionName": "Bến Tre"
+        },
+        {
+          "countrySubdivisionCode": "VN-51",
+          "countrySubdivisionName": "Trà Vinh"
+        },
+        {
+          "countrySubdivisionCode": "VN-52",
+          "countrySubdivisionName": "Sóc Trang"
+        },
+        {
+          "countrySubdivisionCode": "VN-53",
+          "countrySubdivisionName": "Bắc Kạn"
+        },
+        {
+          "countrySubdivisionCode": "VN-54",
+          "countrySubdivisionName": "Bắc Giang"
+        },
+        {
+          "countrySubdivisionCode": "VN-55",
+          "countrySubdivisionName": "Bạc Liêu"
+        },
+        {
+          "countrySubdivisionCode": "VN-56",
+          "countrySubdivisionName": "Bắc Ninh"
+        },
+        {
+          "countrySubdivisionCode": "VN-57",
+          "countrySubdivisionName": "Bình Duong"
+        },
+        {
+          "countrySubdivisionCode": "VN-58",
+          "countrySubdivisionName": "Bình Phước"
+        },
+        {
+          "countrySubdivisionCode": "VN-59",
+          "countrySubdivisionName": "Cà Mau"
+        },
+        {
+          "countrySubdivisionCode": "VN-6",
+          "countrySubdivisionName": "Yên Bái"
+        },
+        {
+          "countrySubdivisionCode": "VN-61",
+          "countrySubdivisionName": "Hải Dương"
+        },
+        {
+          "countrySubdivisionCode": "VN-63",
+          "countrySubdivisionName": "Hà Nam"
+        },
+        {
+          "countrySubdivisionCode": "VN-66",
+          "countrySubdivisionName": "Hung Yên"
+        },
+        {
+          "countrySubdivisionCode": "VN-67",
+          "countrySubdivisionName": "Nam Định"
+        },
+        {
+          "countrySubdivisionCode": "VN-68",
+          "countrySubdivisionName": "Phú Thọ"
+        },
+        {
+          "countrySubdivisionCode": "VN-69",
+          "countrySubdivisionName": "Thái Nguyên"
+        },
+        {
+          "countrySubdivisionCode": "VN-7",
+          "countrySubdivisionName": "Tuyên Quang"
+        },
+        {
+          "countrySubdivisionCode": "VN-70",
+          "countrySubdivisionName": "Vinh Phúc"
+        },
+        {
+          "countrySubdivisionCode": "VN-71",
+          "countrySubdivisionName": "Điện Biên"
+        },
+        {
+          "countrySubdivisionCode": "VN-72",
+          "countrySubdivisionName": "Đắk Nông"
+        },
+        {
+          "countrySubdivisionCode": "VN-73",
+          "countrySubdivisionName": "Hậu Giang"
+        },
+        {
+          "countrySubdivisionCode": "VN-9",
+          "countrySubdivisionName": "Lạng Sơn"
+        },
+        {
+          "countrySubdivisionCode": "VN-CT",
+          "countrySubdivisionName": "Can Tho"
+        },
+        {
+          "countrySubdivisionCode": "VN-DN",
+          "countrySubdivisionName": "Da Nang"
+        },
+        {
+          "countrySubdivisionCode": "VN-HN",
+          "countrySubdivisionName": "Ha Noi"
+        },
+        {
+          "countrySubdivisionCode": "VN-HP",
+          "countrySubdivisionName": "Hai Phong"
+        },
+        {
+          "countrySubdivisionCode": "VN-SG",
+          "countrySubdivisionName": "Ho Chi Minh"
+        }
+      ]
+    },
+    {
+      "countryCode": "WLF",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "WF-AL",
+          "countrySubdivisionName": "Alo"
+        },
+        {
+          "countrySubdivisionCode": "WF-SG",
+          "countrySubdivisionName": "Sigave"
+        },
+        {
+          "countrySubdivisionCode": "WF-UV",
+          "countrySubdivisionName": "Uvea"
+        }
+      ]
+    },
+    {
+      "countryCode": "ZMB",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "ZM-1",
+          "countrySubdivisionName": "Western"
+        },
+        {
+          "countrySubdivisionCode": "ZM-10",
+          "countrySubdivisionName": "Muchinga"
+        },
+        {
+          "countrySubdivisionCode": "ZM-2",
+          "countrySubdivisionName": "Central"
+        },
+        {
+          "countrySubdivisionCode": "ZM-3",
+          "countrySubdivisionName": "Eastern"
+        },
+        {
+          "countrySubdivisionCode": "ZM-4",
+          "countrySubdivisionName": "Luapula"
+        },
+        {
+          "countrySubdivisionCode": "ZM-5",
+          "countrySubdivisionName": "Northern"
+        },
+        {
+          "countrySubdivisionCode": "ZM-6",
+          "countrySubdivisionName": "North-Western"
+        },
+        {
+          "countrySubdivisionCode": "ZM-7",
+          "countrySubdivisionName": "Southern"
+        },
+        {
+          "countrySubdivisionCode": "ZM-8",
+          "countrySubdivisionName": "Copperbelt"
+        },
+        {
+          "countrySubdivisionCode": "ZM-9",
+          "countrySubdivisionName": "Lusaka"
+        }
+      ]
+    },
+    {
+      "countryCode": "ZWE",
+      "subdivisions": [
+        {
+          "countrySubdivisionCode": "ZW-BU",
+          "countrySubdivisionName": "Bulawayo"
+        },
+        {
+          "countrySubdivisionCode": "ZW-HA",
+          "countrySubdivisionName": "Harare"
+        },
+        {
+          "countrySubdivisionCode": "ZW-MA",
+          "countrySubdivisionName": "Manicaland"
+        },
+        {
+          "countrySubdivisionCode": "ZW-MC",
+          "countrySubdivisionName": "Mashonaland Central"
+        },
+        {
+          "countrySubdivisionCode": "ZW-ME",
+          "countrySubdivisionName": "Mashonaland East"
+        },
+        {
+          "countrySubdivisionCode": "ZW-MI",
+          "countrySubdivisionName": "Midlands"
+        },
+        {
+          "countrySubdivisionCode": "ZW-MN",
+          "countrySubdivisionName": "Matabeleland North"
+        },
+        {
+          "countrySubdivisionCode": "ZW-MS",
+          "countrySubdivisionName": "Matabeleland South"
+        },
+        {
+          "countrySubdivisionCode": "ZW-MV",
+          "countrySubdivisionName": "Masvingo"
+        },
+        {
+          "countrySubdivisionCode": "ZW-MW",
+          "countrySubdivisionName": "Mashonaland West"
+        }
+      ]
+    }
+  ]
+}

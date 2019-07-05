@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4EEB53DC-2434-4A9E-A0AE-2BF46A82A522}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AwApi.Auth</RootNamespace>
+    <AssemblyName>AwApi.Auth</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Owin, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.4.0.0\lib\net451\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.6.3\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.4.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IO.Compression, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.Memory, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.1\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.6\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Primitives, Version=4.5.0.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Primitives.4.5.3\lib\net461\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.4.5.0\lib\netstandard2.0\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Http, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.6\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuthClaimsVm.cs" />
+    <Compile Include="AuthConstants.cs" />
+    <Compile Include="AuthEnums.cs" />
+    <Compile Include="AuthHelper.cs" />
+    <Compile Include="AuthMiddleware.cs" />
+    <Compile Include="AwAuthorization.cs" />
+    <Compile Include="AwDeviceAuthorization.cs" />
+    <Compile Include="AuthCacheKeys.cs" />
+    <Compile Include="ClaimExtensions.cs" />
+    <Compile Include="ClaimsInventoryHelper.cs" />
+    <Compile Include="ClaimsManager.cs" />
+    <Compile Include="DeviceSecurityLevel.cs" />
+    <Compile Include="FakeAuthInfoVm.cs" />
+    <Compile Include="GlobalExceptionMiddleware.cs" />
+    <Compile Include="IAuthMiddleware.cs" />
+    <Compile Include="AgentPasswordPrincipalService.cs" />
+    <Compile Include="ApiKey\ApiKeyPrincipalCreator.cs" />
+    <Compile Include="Device\DeviceAuthPrincipalCreator.cs" />
+    <Compile Include="IAgentPasswordPrincipalService.cs" />
+    <Compile Include="Device\IDeviceAuthPrincipalCreator.cs" />
+    <Compile Include="Oidc\IOidcAuthPrincipalCreator.cs" />
+    <Compile Include="IOpenAmPrincipalService.cs" />
+    <Compile Include="SupportKey\ISupportAuthPrincipalCreator.cs" />
+    <Compile Include="UnregisteredDevice\IUnregisteredDeviceAuthPrincipalCreator.cs" />
+    <Compile Include="Oidc\OidcAuthPrincipalCreator.cs" />
+    <Compile Include="OpenAmPrincipalService.cs" />
+    <Compile Include="SupportKey\SupportAuthPrincipalCreator.cs" />
+    <Compile Include="Fake\FakeAuthPrincipalCreator.cs" />
+    <Compile Include="FakePrincipalCreator.cs" />
+    <Compile Include="ApiKey\IApiKeyPrincipalCreator.cs" />
+    <Compile Include="Fake\IFakeAuthPrincipalCreator.cs" />
+    <Compile Include="IPrincipalCreator.cs" />
+    <Compile Include="PrincipalExceptionFactory.cs" />
+    <Compile Include="IAgentProfilePrincipalService.cs" />
+    <Compile Include="AgentProfilePrincipalService.cs" />
+    <Compile Include="UnregisteredDevice\UnregisteredDeviceAuthPrincipalCreator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AwApi.Business\AwApi.Business.csproj">
+      <Project>{0F6922D9-C782-4675-8ED2-51BBC8E1D50B}</Project>
+      <Name>AwApi.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AwApi.Integration\AwApi.Integration.csproj">
+      <Project>{727025F0-7908-4103-B86C-1054987E8526}</Project>
+      <Name>AwApi.Integration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AwApi.ViewModels\AwApi.ViewModels.csproj">
+      <Project>{22AAF2BB-70D0-43A3-B231-265C6C79BAEA}</Project>
+      <Name>AwApi.ViewModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.AgentConnect.DomainModel\MoneyGram.AgentConnect.DomainModel.csproj">
+      <Project>{ecd9abbb-5222-47cb-abb2-62f2789509eb}</Project>
+      <Name>MoneyGram.AgentConnect.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.AgentConnect\MoneyGram.AgentConnect.csproj">
+      <Project>{1710B185-08D3-4C5B-99B7-E15B6BBC6809}</Project>
+      <Name>MoneyGram.AgentConnect</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.Common.Cache\MoneyGram.Common.Cache.csproj">
+      <Project>{8C88858F-248F-4B7A-AA51-8FA9503A5F62}</Project>
+      <Name>MoneyGram.Common.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.Common.Json\MoneyGram.Common.Json.csproj">
+      <Project>{71D1D50E-D5E7-47AB-B3F9-D0039543C1BE}</Project>
+      <Name>MoneyGram.Common.Json</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.Common.Localization\MoneyGram.Common.Localization.csproj">
+      <Project>{FF84CBB7-295E-4C36-8C8C-433AB309B08B}</Project>
+      <Name>MoneyGram.Common.Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.Common\MoneyGram.Common.csproj">
+      <Project>{7645BF39-6AD8-43F2-B2FC-7B599DEEDDB3}</Project>
+      <Name>MoneyGram.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.PartnerService.DomainModel\MoneyGram.PartnerService.DomainModel.csproj">
+      <Project>{1FC229F6-8D93-4F36-883E-FE491A102051}</Project>
+      <Name>MoneyGram.PartnerService.DomainModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

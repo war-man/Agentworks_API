@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://moneygram.com/common_v1" xmlns="http://moneygram.com/common_v1" xmlns:cmn="http://moneygram.com/common_v1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:include schemaLocation="mgi_error_v1.xsd"/>
+	<xs:include schemaLocation="mgi_request_metadata_v1.xsd"/>
+	
+	<xs:complexType name="BaseServiceRequestMessage">
+		<xs:sequence>
+			<xs:element maxOccurs="1" minOccurs="1" name="header" type="Header"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="BaseServiceResponseMessage">
+		<xs:sequence>
+			<xs:element maxOccurs="1" minOccurs="1" name="header" type="Header"/>
+			<xs:element maxOccurs="1" minOccurs="0" name="error" type="cmn:ServiceError"/>
+			
+		</xs:sequence>
+	</xs:complexType>
+		
+	
+</xs:schema>

@@ -1,0 +1,26 @@
+﻿{
+  "payload": {
+    "stagedTransactionInfos": [
+      {
+        "mgiSessionType": 0,
+        "senderFirstName": "MARK",
+        "senderLastName": "SMITH",
+        "senderAddress": "654 Pine St.",
+        "senderCity": "New York",
+        "senderCountrySubdivision": "US-NY",
+        "senderCountry": "USA",
+        "senderPostalCode": "11091",
+        "destinationCountry": "USA",
+        "billerName": "Ford Motor Co.",
+        "billerAccountNumber": "3333222111",
+        "confirmationNumber": "11111111",
+        "sendAmount": 125.00,
+        "sendCurrency": "USD"
+      }
+    ],
+    "doCheckIn": false,
+    "timeStamp": "2018-05-07T11:18:16.991+02:00",
+    "flags": 0
+  },
+  "errors": []
+}

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{22AAF2BB-70D0-43A3-B231-265C6C79BAEA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AwApi.ViewModels</RootNamespace>
+    <AssemblyName>AwApi.ViewModels</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\AwApi.ViewModels.XML</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>bin\AwApi.ViewModels.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcApiResponse.cs" />
+    <Compile Include="ApiData.cs" />
+    <Compile Include="AwVersion.cs" />
+    <Compile Include="Cache\AgentCacheRequest.cs" />
+    <Compile Include="ClaimsNames.cs" />
+    <Compile Include="Consumer\ConsumerProfileDocumentContentType.cs" />
+    <Compile Include="Consumer\GetConsumerProfileDocumentResponse.cs" />
+    <Compile Include="Consumer\GetConsumerProfileDocumentResponsePayload.cs" />
+    <Compile Include="Consumer\GetPersonalIDImageResponse.cs" />
+    <Compile Include="Consumer\GetPersonalIDImageResponsePayload.cs" />
+    <Compile Include="Consumer\ImageItemType.cs" />
+    <Compile Include="Consumer\PersonalIDImageContentType.cs" />
+    <Compile Include="Consumer\SaveConsumerProfileDocumentRequest.cs" />
+    <Compile Include="Consumer\SavePersonalIDImageRequest.cs" />
+    <Compile Include="DataSource.cs" />
+    <Compile Include="DwRegisterDeviceReqVm.cs" />
+    <Compile Include="DwRegisterDeviceRespVm.cs" />
+    <Compile Include="EditTransfer\EditTransferTransactionResponsePayload.cs" />
+    <Compile Include="Event\EventResponse.cs" />
+    <Compile Include="Health\DeepHealthCheckResponse.cs" />
+    <Compile Include="Lookup\AllLookupResponse.cs" />
+    <Compile Include="ApiResponse.cs" />
+    <Compile Include="BusinessMetadata.cs" />
+    <Compile Include="Device.cs" />
+    <Compile Include="ActivityType.cs" />
+    <Compile Include="GetAllFieldsTransactionType.cs" />
+    <Compile Include="HierarchyLevel.cs" />
+    <Compile Include="Location\Enumerations.cs" />
+    <Compile Include="Location\LocationRequest.cs" />
+    <Compile Include="Location\User.cs" />
+    <Compile Include="Location\UserAgentActivity.cs" />
+    <Compile Include="Lookup\AllLookupRequest.cs" />
+    <Compile Include="MgiAwRole.cs" />
+    <Compile Include="Operator.cs" />
+    <Compile Include="PrincipalException.cs" />
+    <Compile Include="ReceiptsApiData.cs" />
+    <Compile Include="Location\AgentsRespVm.cs" />
+    <Compile Include="Location\AgentVm.cs" />
+    <Compile Include="Location\LocationResVm.cs" />
+    <Compile Include="Location\Pos.cs" />
+    <Compile Include="Location\PosResponse.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\BillPayReportDetail.cs" />
+    <Compile Include="Reports\BillPayTotalReportDetail.cs" />
+    <Compile Include="Reports\DailyTranDetailReportResponsePayload.cs" />
+    <Compile Include="Reports\DailyTranSummaryReportResponsePayload.cs" />
+    <Compile Include="Reports\ReceiveReportDetail.cs" />
+    <Compile Include="Reports\ReceiveTotalReportDetail.cs" />
+    <Compile Include="Reports\ReportMetadata.cs" />
+    <Compile Include="Reports\ReportResponse.cs" />
+    <Compile Include="Reports\ReportRequest.cs" />
+    <Compile Include="Reports\Report.cs" />
+    <Compile Include="EditTransfer\EditTransferTransactionResponse.cs" />
+    <Compile Include="Event\EventActionType.cs" />
+    <Compile Include="Event\EventRequest.cs" />
+    <Compile Include="Event\EventRequestPayload.cs" />
+    <Compile Include="Reports\SendReportDetail.cs" />
+    <Compile Include="Reports\SendTotalReportDetail.cs" />
+    <Compile Include="Reports\TransactionDetail.cs" />
+    <Compile Include="SaveProfilePrinterRequest.cs" />
+    <Compile Include="TransactionalLimits.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MoneyGram.AgentConnect.DomainModel\MoneyGram.AgentConnect.DomainModel.csproj">
+      <Project>{ecd9abbb-5222-47cb-abb2-62f2789509eb}</Project>
+      <Name>MoneyGram.AgentConnect.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.Common\MoneyGram.Common.csproj">
+      <Project>{7645BF39-6AD8-43F2-B2FC-7B599DEEDDB3}</Project>
+      <Name>MoneyGram.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

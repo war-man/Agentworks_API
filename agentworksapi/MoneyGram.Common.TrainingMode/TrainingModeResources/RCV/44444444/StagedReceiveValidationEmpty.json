@@ -1,0 +1,15 @@
+{
+  "payload": {
+    "mgiSessionID": "44444444",
+    "token": null,
+    "readyForCommit": true,
+    "gafVersionNumber": "1.1.20180226",
+    "fieldsToCollect": [],
+    "receipts": null,
+    "receiptInfo": null,
+    "doCheckIn": false,
+    "timeStamp": "2018-05-09T12:46:32.471+02:00",
+    "flags": 0
+  },
+  "errors": []
+}

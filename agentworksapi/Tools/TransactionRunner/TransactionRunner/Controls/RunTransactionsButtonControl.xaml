@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="TransactionRunner.Controls.RunTransactionsButtonControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Initialized="RunTransactionsButtonControl_Initialized">
+    <Grid Width="235">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnSend" Grid.Column="0" Content="{Binding RunButtonContent}" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Click="SendClick" IsEnabled="{Binding RunButtonEnabled}"/>
+        <Button x:Name="btnStop" Grid.Column="1" Margin="15,0,0,0" Content="{Binding StopButtonContent}" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Click="Stop_Click" IsEnabled="{Binding StopButtonEnabled}" />
+    </Grid>
+</UserControl>

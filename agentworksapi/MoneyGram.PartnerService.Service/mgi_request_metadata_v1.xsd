@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by Elena Kuznetsov (MoneyGram International) -->
+<xs:schema 
+	xmlns:cmn="http://moneygram.com/common_v1" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://moneygram.com/common_v1" 
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+	
+	<xs:element name="header" type="cmn:Header"/>
+
+	<xs:complexType name="Header">
+		<xs:sequence>
+			<xs:element name="security" type="cmn:SecurityHeader" minOccurs="0" maxOccurs="0">
+				<xs:annotation>
+					<xs:documentation>currently not used</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="routingContext" type="cmn:RoutingContextHeader" minOccurs="0" maxOccurs="0">
+				<xs:annotation>
+					<xs:documentation>currently not used</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="processingInstruction" type="cmn:ProcessingInstruction" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="clientHeader" type="cmn:ClientHeader" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProcessingInstruction">
+		<xs:sequence>
+			<xs:element name="action" type="xs:string" />
+			<xs:element name="invocationMethod" type="cmn:InvocationMethodCode" minOccurs="0"
+				maxOccurs="0" />
+			<xs:element name="readOnlyFlag" type="xs:boolean"
+				minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>
+						Transaction will not be initiated if true.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="faultHandling" type="xs:string" minOccurs="0" maxOccurs="0">
+				<xs:annotation>
+					<xs:documentation>
+						Not currently used.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="language" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="echoRequestFlag" type="xs:boolean"
+				minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>
+						Return Request with Response if true.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="simulatedModeAction" type="xs:string"
+				minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>
+						Simulation mode action. If value is specified
+						then the request is executed in the simulation
+						mode. The simulated mode action value is used to
+						determine the type of the response. If service
+						is running in the production mode then the
+						simulation mode request will cause an error.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="returnErrorsAsException" type="xs:boolean"
+				minOccurs="0" maxOccurs="1">
+			</xs:element>
+			<xs:element name="rollbackTransaction" type="xs:boolean"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="InvocationMethodCode">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="FOR-FUTURE-USE"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="SecurityHeader">
+		<xs:sequence>
+			<xs:element name="userID" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ClientHeader">
+		<xs:sequence>
+			<xs:element name="clientRequestID" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="clientSessionID" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="RoutingContextHeader">
+		<xs:sequence>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

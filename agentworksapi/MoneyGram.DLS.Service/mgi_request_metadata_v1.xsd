@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://moneygram.com/common_v1" xmlns:cmn="http://moneygram.com/common_v1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	
+	<xs:element name="header" type="cmn:Header"/>
+
+	<xs:complexType name="Header">
+		<xs:sequence>
+			<xs:element maxOccurs="0" minOccurs="0" name="security" type="cmn:SecurityHeader">
+				<xs:annotation>
+					<xs:documentation>currently not used</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element maxOccurs="0" minOccurs="0" name="routingContext" type="cmn:RoutingContextHeader">
+				<xs:annotation>
+					<xs:documentation>currently not used</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element maxOccurs="1" minOccurs="0" name="processingInstruction" type="cmn:ProcessingInstruction"/>
+			<xs:element maxOccurs="1" minOccurs="0" name="clientHeader" type="cmn:ClientHeader"/>
+			<xs:element name="agent" type="cmn:AgentHeader" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProcessingInstruction">
+		<xs:sequence>
+			<xs:element name="action" type="xs:string"/>
+			<xs:element maxOccurs="0" minOccurs="0" name="invocationMethod" type="cmn:InvocationMethodCode"/>
+			<xs:element maxOccurs="1" minOccurs="0" name="readOnlyFlag" type="xs:boolean">
+				<xs:annotation>
+					<xs:documentation>
+						Transaction will not be initiated if true.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element maxOccurs="0" minOccurs="0" name="faultHandling" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>
+						Not currently used.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element maxOccurs="1" minOccurs="0" name="language" type="xs:string"/>
+			<xs:element maxOccurs="1" minOccurs="0" name="echoRequestFlag" type="xs:boolean">
+				<xs:annotation>
+					<xs:documentation>
+						Return Request with Response if true.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element maxOccurs="1" minOccurs="0" name="simulatedModeAction" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>
+						Simulation mode action. If value is specified
+						then the request is executed in the simulation
+						mode. The simulated mode action value is used to
+						determine the type of the response. If service
+						is running in the production mode then the
+						simulation mode request will cause an error.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element maxOccurs="1" minOccurs="0" name="returnErrorsAsException" type="xs:boolean">
+			</xs:element>
+			<xs:element name="rollbackTransaction" type="xs:boolean"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="InvocationMethodCode">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="FOR-FUTURE-USE"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="SecurityHeader">
+		<xs:sequence>
+			<xs:element maxOccurs="1" minOccurs="0" name="userID" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ClientHeader">
+		<xs:sequence>
+			<xs:element maxOccurs="1" minOccurs="0" name="clientRequestID" type="xs:string"/>
+			<xs:element maxOccurs="1" minOccurs="0" name="clientSessionID" type="xs:string"/>
+			<xs:element name="clientName" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="AgentHeader">
+		<xs:sequence>
+			<xs:element name="mainOfficeId" type="cmn:AgentID"  minOccurs="0"/>
+			<xs:element name="legacyMainOfficeId" type="cmn:AgentID"  minOccurs="0"/>
+			<xs:element name="agentId" type="cmn:AgentID"  minOccurs="0"/>
+			<xs:element name="legacyAgentId" type="cmn:AgentID"  minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="AgentID">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="8"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="RoutingContextHeader">
+		<xs:sequence>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

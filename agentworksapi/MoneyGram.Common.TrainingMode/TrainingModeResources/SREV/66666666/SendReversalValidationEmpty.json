@@ -1,0 +1,153 @@
+﻿{
+  "payload": {
+    "mgiSessionID": "66666666",
+    "readyForCommit": false,
+    "gafVersionNumber": "1.1.20171003",
+    "sendAmount": 200.0,
+    "sendCurrency": "USD",
+    "totalSendFees": 0.0,
+    "totalSendTaxes": 0.0,
+    "totalReversalAmount": 200.0,
+    "detailSendAmounts": [
+      {
+        "amountType": "NON_MGI_SND_TAX",
+        "amount": 0.0,
+        "amountCurrency": "USD"
+      },
+      {
+        "amountType": "TTL_AMT_TO_MGI",
+        "amount": 200.0,
+        "amountCurrency": "USD"
+      },
+      {
+        "amountType": "MGI_SND_FACE_TAX",
+        "amount": 0.0,
+        "amountCurrency": "USD"
+      }
+    ],
+    "reversalType": 1,
+    "fieldsToCollect": [
+      {
+        "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.CategoryInfo, MoneyGram.AgentConnect.DomainModel",
+        "infos": [
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "readOnly": false,
+            "required": true,
+            "childFieldsKnown": null,
+            "fieldMin": null,
+            "fieldMax": null,
+            "defaultValue": null,
+            "validationRegEx": null,
+            "exampleFormat": null,
+            "childFields": [],
+            "lookupDataSource": null,
+            "lookupKey": null,
+            "display": null,
+            "dataType": 10,
+            "enumeration": {
+              "name": "SEND_REVERSAL_RSNS",
+              "enumeratedItems": [
+                {
+                  "identifier": "NO_RCV_LOC",
+                  "labelShort": "No Receive Location",
+                  "label": "No Receive Location"
+                },
+                {
+                  "identifier": "WRONG_SERVICE",
+                  "labelShort": "Wrong Transfer Service",
+                  "label": "Wrong Transfer Service"
+                },
+                {
+                  "identifier": "NO_TQ",
+                  "labelShort": "Missing Test Question",
+                  "label": "Missing Test Question"
+                },
+                {
+                  "identifier": "INCORRECT_AMT",
+                  "labelShort": "Send/Receive/Amt Wrong",
+                  "label": "Send/Receive/amt Incorrect"
+                },
+                {
+                  "identifier": "MS_NOT_USED",
+                  "labelShort": "MG Plus was not entered",
+                  "label": "MG Plus was not entered"
+                },
+                {
+                  "identifier": "TECH_PROB",
+                  "labelShort": "Agent Technical Issue",
+                  "label": "Agent Technical Issue"
+                },
+                {
+                  "identifier": "CHANGE_MIND",
+                  "labelShort": "Customer Changed Mind",
+                  "label": "Customer Changed Mind"
+                },
+                {
+                  "identifier": "DUP_TRAN",
+                  "labelShort": "Duplicate Transaction",
+                  "label": "Duplicate Transaction"
+                },
+                {
+                  "identifier": "NO_PICKUP",
+                  "labelShort": "Failure to pickup funds",
+                  "label": "Failure to pickup funds"
+                },
+                {
+                  "identifier": "PROB_AT_LOC",
+                  "labelShort": "Payout issue at rec",
+                  "label": "Payout problem at receive location"
+                },
+                {
+                  "identifier": "STATE_CNTRY_REST",
+                  "labelShort": "ST/Country Restriction",
+                  "label": "State or Country Restriction"
+                },
+                {
+                  "identifier": "SB_EP",
+                  "labelShort": "Should Be EP",
+                  "label": "Should Be Express Payment"
+                },
+                {
+                  "identifier": "WRONG_CNTRY",
+                  "labelShort": "Wrong Country",
+                  "label": "Wrong Country"
+                },
+                {
+                  "identifier": "WRONG_CRNCY",
+                  "labelShort": "Wrong Currency",
+                  "label": "Wrong Currency"
+                },
+                {
+                  "identifier": "WRONG_STATE",
+                  "labelShort": "Wrong state",
+                  "label": "Wrong state"
+                }
+              ]
+            },
+            "infoKey": "send_ReversalReason",
+            "label": null,
+            "labelStandAlone": null,
+            "displayOrder": null,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          }
+        ],
+        "infoKey": "sendReversalTranInfoSet",
+        "label": "Transaction Information",
+        "labelStandAlone": "Transaction Information",
+        "displayOrder": 1,
+        "helpTextShort": null,
+        "helpTextLong": null,
+        "documentation": null
+      }
+    ],
+    "receipts": null,
+    "receiptInfo": null,
+    "doCheckIn": false,
+    "timeStamp": "2018-05-16T12:43:34.906+02:00",
+    "flags": 0
+  },
+  "errors": []
+}

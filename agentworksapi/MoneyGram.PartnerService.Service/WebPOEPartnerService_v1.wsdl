@@ -1,0 +1,2066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://moneygram.com/webpoe/service/partner_v1" xmlns:prt="http://moneygram.com/webpoe/service/partner_v1" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:cmn="http://moneygram.com/common_v1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <wsdl:types>
+    <xs:schema targetNamespace="http://moneygram.com/webpoe/service/partner_v1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+			<xs:include schemaLocation="WebPOEPartnerService_v1.xsd"/>
+		</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getPOEAgentLocationMoResponse">
+    <wsdl:part name="parameters" element="prt:getPOEAgentLocationMoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getLocationsForMoRgstdPosRequest">
+    <wsdl:part name="parameters" element="prt:getLocationsForMoRgstdPosRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="saveUserDeviceTimeResponse">
+    <wsdl:part name="parameters" element="prt:saveUserDeviceTimeResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="tokenValidationRequest">
+    <wsdl:part name="parameters" element="prt:tokenValidationRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPendingApprovalsResponse">
+    <wsdl:part name="parameters" element="prt:getPendingApprovalsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapAuthenticateUserRequest">
+    <wsdl:part name="parameters" element="prt:ldapAuthenticateUserRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapFindUserRequest">
+    <wsdl:part name="parameters" element="prt:ldapFindUserRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="denyManagerApprovalRequest">
+    <wsdl:part name="parameters" element="prt:denyManagerApprovalRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getUserIdExistsResponse">
+    <wsdl:part name="parameters" element="prt:getUserIdExistsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapPasswordExpiredRequest">
+    <wsdl:part name="parameters" element="prt:ldapPasswordExpiredRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="registerTokenRequest">
+    <wsdl:part name="parameters" element="prt:registerTokenRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="clearTokenResponse">
+    <wsdl:part name="parameters" element="prt:clearTokenResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapUpdatePasswordResponse">
+    <wsdl:part name="parameters" element="prt:ldapUpdatePasswordResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createTransactionExceedInfoResponse">
+    <wsdl:part name="parameters" element="prt:createTransactionExceedInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="profileChangeRequest">
+    <wsdl:part name="parameters" element="prt:profileChangeRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTmsInstanceRequest">
+    <wsdl:part name="parameters" element="prt:getTmsInstanceRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getUsersByLocResponse">
+    <wsdl:part name="parameters" element="prt:getUsersByLocResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="manageTabResponse">
+    <wsdl:part name="parameters" element="prt:manageTabResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateTokenResponse">
+    <wsdl:part name="parameters" element="prt:updateTokenResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="massManageWebDeviceRequest">
+    <wsdl:part name="parameters" element="prt:massManageWebDeviceRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getWebDeviceResponse">
+    <wsdl:part name="parameters" element="prt:getWebDeviceResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="removeLdapUserRequest">
+    <wsdl:part name="parameters" element="prt:removeLdapUserRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getLocationsForMoRgstdPosResponse">
+    <wsdl:part name="parameters" element="prt:getLocationsForMoRgstdPosResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapChangePasswordRequest">
+    <wsdl:part name="parameters" element="prt:ldapChangePasswordRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapUpdatePasswordRequest">
+    <wsdl:part name="parameters" element="prt:ldapUpdatePasswordRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="confirmMailUserResponse">
+    <wsdl:part name="parameters" element="prt:confirmMailUserResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAgentsDeviceNamesRequest">
+    <wsdl:part name="parameters" element="prt:getAgentsDeviceNamesRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPOSDeviceResponse">
+    <wsdl:part name="parameters" element="prt:getPOSDeviceResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAgentPasswordRequest">
+    <wsdl:part name="parameters" element="prt:getAgentPasswordRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getUserResponse">
+    <wsdl:part name="parameters" element="prt:getUserResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapModifyUserResponse">
+    <wsdl:part name="parameters" element="prt:ldapModifyUserResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="saveTMSInstanceRequest">
+    <wsdl:part name="parameters" element="prt:saveTMSInstanceRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="confirmMailUserRequest">
+    <wsdl:part name="parameters" element="prt:confirmMailUserRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAlertsInfoRequest">
+    <wsdl:part name="parameters" element="prt:getAlertsInfoRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="denyManagerApprovalResponse">
+    <wsdl:part name="parameters" element="prt:denyManagerApprovalResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="clearTokenRequest">
+    <wsdl:part name="parameters" element="prt:clearTokenRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getLocationsForMoRequest">
+    <wsdl:part name="parameters" element="prt:getLocationsForMoRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAgentsNonWebPoeResponse">
+    <wsdl:part name="parameters" element="prt:getAgentsNonWebPoeResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createTransactionExceedInfoRequest">
+    <wsdl:part name="parameters" element="prt:createTransactionExceedInfoRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getUsersResponse">
+    <wsdl:part name="parameters" element="prt:getUsersResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPendingMailValidationResponse">
+    <wsdl:part name="parameters" element="prt:getPendingMailValidationResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getMoEligibilityRequest">
+    <wsdl:part name="parameters" element="prt:getMoEligibilityRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTransactionExceedInfoResponse">
+    <wsdl:part name="parameters" element="prt:getTransactionExceedInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapCreateUserResponse">
+    <wsdl:part name="parameters" element="prt:ldapCreateUserResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getUserAlertsRequest">
+    <wsdl:part name="parameters" element="prt:getUserAlertsRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="manageWidgetsResponse">
+    <wsdl:part name="parameters" element="prt:manageWidgetsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPendingApprovalUserRequest">
+    <wsdl:part name="parameters" element="prt:getPendingApprovalUserRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="insertAlertUserRequest">
+    <wsdl:part name="parameters" element="prt:insertAlertUserRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="manageWidgetsRequest">
+    <wsdl:part name="parameters" element="prt:manageWidgetsRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPOELocationsForMoRequest">
+    <wsdl:part name="parameters" element="prt:getPOELocationsForMoRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getLocationsForMoActivePosResponse">
+    <wsdl:part name="parameters" element="prt:getLocationsForMoActivePosResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="managePartnerResponse">
+    <wsdl:part name="parameters" element="prt:managePartnerResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getUserAlertsResponse">
+    <wsdl:part name="parameters" element="prt:getUserAlertsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="checkUserExistsRequest">
+    <wsdl:part name="parameters" element="prt:checkUserExistsRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapGetUserAttributesResponse">
+    <wsdl:part name="parameters" element="prt:ldapGetUserAttributesResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="manageWebDeviceRequest">
+    <wsdl:part name="parameters" element="prt:manageWebDeviceRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAgentsNonWebPoeRequest">
+    <wsdl:part name="parameters" element="prt:getAgentsNonWebPoeRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getWidgetsRequest">
+    <wsdl:part name="parameters" element="prt:getWidgetsRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAgentsRequest">
+    <wsdl:part name="parameters" element="prt:getAgentsRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="manageUserRequest">
+    <wsdl:part name="parameters" element="prt:manageUserRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="authenticateUserResponse">
+    <wsdl:part name="parameters" element="prt:authenticateUserResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPendingApprovalUserResponse">
+    <wsdl:part name="parameters" element="prt:getPendingApprovalUserResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapAccountLockedResponse">
+    <wsdl:part name="parameters" element="prt:ldapAccountLockedResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="saveUserDeviceTimeRequest">
+    <wsdl:part name="parameters" element="prt:saveUserDeviceTimeRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapChangePasswordCheckResponse">
+    <wsdl:part name="parameters" element="prt:ldapChangePasswordCheckResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPendingApprovalsRequest">
+    <wsdl:part name="parameters" element="prt:getPendingApprovalsRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getCountriesResponse">
+    <wsdl:part name="parameters" element="prt:getCountriesResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTemplatesRequest">
+    <wsdl:part name="parameters" element="prt:getTemplatesRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapChangePasswordResponse">
+    <wsdl:part name="parameters" element="prt:ldapChangePasswordResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="saveTMSInstanceResponse">
+    <wsdl:part name="parameters" element="prt:saveTMSInstanceResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="approveManagerApprovalRequest">
+    <wsdl:part name="parameters" element="prt:approveManagerApprovalRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAgentsResponse">
+    <wsdl:part name="parameters" element="prt:getAgentsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAlertsInfoResponse">
+    <wsdl:part name="parameters" element="prt:getAlertsInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createLdapUserResponse">
+    <wsdl:part name="parameters" element="prt:createLdapUserResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getUserReportsInfoResponse">
+    <wsdl:part name="parameters" element="prt:getUserReportsInfoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="manageUserResponse">
+    <wsdl:part name="parameters" element="prt:manageUserResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="saveAgentTMSInstanceRequest">
+    <wsdl:part name="parameters" element="prt:saveAgentTMSInstanceRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getLocationsForMoActivePosRequest">
+    <wsdl:part name="parameters" element="prt:getLocationsForMoActivePosRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getManagerApprovalReasonsRequest">
+    <wsdl:part name="parameters" element="prt:getManagerApprovalReasonsRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapAccountLockedRequest">
+    <wsdl:part name="parameters" element="prt:ldapAccountLockedRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapModifyUserRequest">
+    <wsdl:part name="parameters" element="prt:ldapModifyUserRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createManagerApprovalResponse">
+    <wsdl:part name="parameters" element="prt:createManagerApprovalResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="removeLdapUserResponse">
+    <wsdl:part name="parameters" element="prt:removeLdapUserResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="error">
+    <wsdl:part name="error" element="cmn:error">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapAuthenticateUserResponse">
+    <wsdl:part name="parameters" element="prt:ldapAuthenticateUserResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getRolesRequest">
+    <wsdl:part name="parameters" element="prt:getRolesRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPOEAgentLocationMoRequest">
+    <wsdl:part name="parameters" element="prt:getPOEAgentLocationMoRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getUsersByLocRequest">
+    <wsdl:part name="parameters" element="prt:getUsersByLocRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="manageWebDeviceResponse">
+    <wsdl:part name="parameters" element="prt:manageWebDeviceResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getCountriesRequest">
+    <wsdl:part name="parameters" element="prt:getCountriesRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAgentLocationMoRequest">
+    <wsdl:part name="parameters" element="prt:getAgentLocationMoRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTescoUserResponse">
+    <wsdl:part name="parameters" element="prt:getTescoUserResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateTokenRequest">
+    <wsdl:part name="parameters" element="prt:updateTokenRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPendingMailValidationRequest">
+    <wsdl:part name="parameters" element="prt:getPendingMailValidationRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="profileChangeResponse">
+    <wsdl:part name="parameters" element="prt:profileChangeResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createManagerApprovalRequest">
+    <wsdl:part name="parameters" element="prt:createManagerApprovalRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPOELocationsForMoResponse">
+    <wsdl:part name="parameters" element="prt:getPOELocationsForMoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getArchivedApprovalsByRangeRequest">
+    <wsdl:part name="parameters" element="prt:getArchivedApprovalsByRangeRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAgentsDeviceNamesResponse">
+    <wsdl:part name="parameters" element="prt:getAgentsDeviceNamesResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="registerTokenResponse">
+    <wsdl:part name="parameters" element="prt:registerTokenResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="massManageWebDeviceResponse">
+    <wsdl:part name="parameters" element="prt:massManageWebDeviceResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getPOSDeviceRequest">
+    <wsdl:part name="parameters" element="prt:getPOSDeviceRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTescoUserRequest">
+    <wsdl:part name="parameters" element="prt:getTescoUserRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getWebDeviceRequest">
+    <wsdl:part name="parameters" element="prt:getWebDeviceRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getUsersRequest">
+    <wsdl:part name="parameters" element="prt:getUsersRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getNoFingerPrintMFARequest">
+    <wsdl:part name="parameters" element="prt:getNoFingerPrintMFARequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapCreateUserRequest">
+    <wsdl:part name="parameters" element="prt:ldapCreateUserRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="insertAlertUserResponse">
+    <wsdl:part name="parameters" element="prt:insertAlertUserResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapChangePasswordCheckRequest">
+    <wsdl:part name="parameters" element="prt:ldapChangePasswordCheckRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getUserIdExistsRequest">
+    <wsdl:part name="parameters" element="prt:getUserIdExistsRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAgentsLocationsResponse">
+    <wsdl:part name="parameters" element="prt:getAgentsLocationsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAgentPasswordResponse">
+    <wsdl:part name="parameters" element="prt:getAgentPasswordResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapCreateAWUserResponse">
+    <wsdl:part name="parameters" element="prt:ldapCreateAWUserResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="manageTokenRequest">
+    <wsdl:part name="parameters" element="prt:manageTokenRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="approveManagerApprovalResponse">
+    <wsdl:part name="parameters" element="prt:approveManagerApprovalResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createLdapUserRequest">
+    <wsdl:part name="parameters" element="prt:createLdapUserRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getLocationsForMoResponse">
+    <wsdl:part name="parameters" element="prt:getLocationsForMoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getRolesResponse">
+    <wsdl:part name="parameters" element="prt:getRolesResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="manageTabRequest">
+    <wsdl:part name="parameters" element="prt:manageTabRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAgentsLocationsRequest">
+    <wsdl:part name="parameters" element="prt:getAgentsLocationsRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapGetUserAttributesRequest">
+    <wsdl:part name="parameters" element="prt:ldapGetUserAttributesRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getUserRequest">
+    <wsdl:part name="parameters" element="prt:getUserRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="managePartnerRequest">
+    <wsdl:part name="parameters" element="prt:managePartnerRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTokenResponse">
+    <wsdl:part name="parameters" element="prt:getTokenResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="manageTokenResponse">
+    <wsdl:part name="parameters" element="prt:manageTokenResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTransactionExceedInfoRequest">
+    <wsdl:part name="parameters" element="prt:getTransactionExceedInfoRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="tokenValidationResponse">
+    <wsdl:part name="parameters" element="prt:tokenValidationResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTemplatesResponse">
+    <wsdl:part name="parameters" element="prt:getTemplatesResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapPasswordExpiredResponse">
+    <wsdl:part name="parameters" element="prt:ldapPasswordExpiredResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="saveAgentTMSInstanceResponse">
+    <wsdl:part name="parameters" element="prt:saveAgentTMSInstanceResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTmsInstanceResponse">
+    <wsdl:part name="parameters" element="prt:getTmsInstanceResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getCountryLanguagesResponse">
+    <wsdl:part name="parameters" element="prt:getCountryLanguagesResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTabsResponse">
+    <wsdl:part name="parameters" element="prt:getTabsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapFindUserResponse">
+    <wsdl:part name="parameters" element="prt:ldapFindUserResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getManagerApprovalReasonsResponse">
+    <wsdl:part name="parameters" element="prt:getManagerApprovalReasonsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getWidgetsResponse">
+    <wsdl:part name="parameters" element="prt:getWidgetsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="checkUserExistsResponse">
+    <wsdl:part name="parameters" element="prt:checkUserExistsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="authenticateUserRequest">
+    <wsdl:part name="parameters" element="prt:authenticateUserRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getNoFingerPrintMFAResponse">
+    <wsdl:part name="parameters" element="prt:getNoFingerPrintMFAResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAgentLocationMoResponse">
+    <wsdl:part name="parameters" element="prt:getAgentLocationMoResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getCountryLanguagesRequest">
+    <wsdl:part name="parameters" element="prt:getCountryLanguagesRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getMoEligibilityResponse">
+    <wsdl:part name="parameters" element="prt:getMoEligibilityResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getUserReportsInfoRequest">
+    <wsdl:part name="parameters" element="prt:getUserReportsInfoRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="ldapCreateAWUserRequest">
+    <wsdl:part name="parameters" element="prt:ldapCreateAWUserRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTokenRequest">
+    <wsdl:part name="parameters" element="prt:getTokenRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getArchivedApprovalsByRangeResponse">
+    <wsdl:part name="parameters" element="prt:getArchivedApprovalsByRangeResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getTabsRequest">
+    <wsdl:part name="parameters" element="prt:getTabsRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="WebPOEPartnerServicePortType">
+    <wsdl:operation name="getTescoUser">
+      <wsdl:input message="prt:getTescoUserRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getTescoUserResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="confirmMailUser">
+      <wsdl:input message="prt:confirmMailUserRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:confirmMailUserResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPendingMailValidation">
+      <wsdl:input message="prt:getPendingMailValidationRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getPendingMailValidationResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getTransactionExceedInfo">
+      <wsdl:input message="prt:getTransactionExceedInfoRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getTransactionExceedInfoResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="createTransactionExceedInfo">
+      <wsdl:input message="prt:createTransactionExceedInfoRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:createTransactionExceedInfoResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getManagerApprovalReasons">
+      <wsdl:input message="prt:getManagerApprovalReasonsRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getManagerApprovalReasonsResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="createManagerApproval">
+      <wsdl:input message="prt:createManagerApprovalRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:createManagerApprovalResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPendingApprovals">
+      <wsdl:input message="prt:getPendingApprovalsRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getPendingApprovalsResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPendingApprovalUser">
+      <wsdl:input message="prt:getPendingApprovalUserRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getPendingApprovalUserResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getArchivedApprovalsByRange">
+      <wsdl:input message="prt:getArchivedApprovalsByRangeRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getArchivedApprovalsByRangeResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="approveManagerApproval">
+      <wsdl:input message="prt:approveManagerApprovalRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:approveManagerApprovalResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="denyManagerApproval">
+      <wsdl:input message="prt:denyManagerApprovalRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:denyManagerApprovalResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapCreateAWUser">
+      <wsdl:input message="prt:ldapCreateAWUserRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:ldapCreateAWUserResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapAccountLocked">
+      <wsdl:input message="prt:ldapAccountLockedRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:ldapAccountLockedResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapChangePassword">
+      <wsdl:input message="prt:ldapChangePasswordRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:ldapChangePasswordResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapChangePasswordCheck">
+      <wsdl:input message="prt:ldapChangePasswordCheckRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:ldapChangePasswordCheckResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapFindUser">
+      <wsdl:input message="prt:ldapFindUserRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:ldapFindUserResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapGetUserAttributes">
+      <wsdl:input message="prt:ldapGetUserAttributesRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:ldapGetUserAttributesResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapModifyUser">
+      <wsdl:input message="prt:ldapModifyUserRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:ldapModifyUserResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapPasswordExpired">
+      <wsdl:input message="prt:ldapPasswordExpiredRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:ldapPasswordExpiredResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapUpdatePassword">
+      <wsdl:input message="prt:ldapUpdatePasswordRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:ldapUpdatePasswordResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapCreateUser">
+      <wsdl:input message="prt:ldapCreateUserRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:ldapCreateUserResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapAuthenticateUser">
+      <wsdl:input message="prt:ldapAuthenticateUserRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:ldapAuthenticateUserResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getLocationsForMo">
+      <wsdl:input message="prt:getLocationsForMoRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getLocationsForMoResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPOELocationsForMo">
+      <wsdl:input message="prt:getPOELocationsForMoRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getPOELocationsForMoResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAgentsDeviceNames">
+      <wsdl:input message="prt:getAgentsDeviceNamesRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getAgentsDeviceNamesResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAgentPassword">
+      <wsdl:input message="prt:getAgentPasswordRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getAgentPasswordResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAlertsInfo">
+      <wsdl:input message="prt:getAlertsInfoRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getAlertsInfoResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getUserAlerts">
+      <wsdl:input message="prt:getUserAlertsRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getUserAlertsResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="insertAlertUser">
+      <wsdl:input message="prt:insertAlertUserRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:insertAlertUserResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getMoEligibility">
+      <wsdl:input message="prt:getMoEligibilityRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getMoEligibilityResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getTmsInstance">
+      <wsdl:input message="prt:getTmsInstanceRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getTmsInstanceResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="saveAgentTMSInstance">
+      <wsdl:input message="prt:saveAgentTMSInstanceRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:saveAgentTMSInstanceResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="saveTMSInstance">
+      <wsdl:input message="prt:saveTMSInstanceRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:saveTMSInstanceResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="saveUserDeviceTime">
+      <wsdl:input message="prt:saveUserDeviceTimeRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:saveUserDeviceTimeResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="updateToken">
+      <wsdl:input message="prt:updateTokenRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:updateTokenResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getToken">
+      <wsdl:input message="prt:getTokenRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getTokenResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="manageUser">
+      <wsdl:input message="prt:manageUserRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:manageUserResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getUser">
+      <wsdl:input message="prt:getUserRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getUserResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getUsers">
+      <wsdl:input message="prt:getUsersRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getUsersResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getUsersByLoc">
+      <wsdl:input message="prt:getUsersByLocRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getUsersByLocResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getUserIdExists">
+      <wsdl:input message="prt:getUserIdExistsRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getUserIdExistsResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="manageTab">
+      <wsdl:input message="prt:manageTabRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:manageTabResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getTabs">
+      <wsdl:input message="prt:getTabsRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getTabsResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="manageWidgets">
+      <wsdl:input message="prt:manageWidgetsRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:manageWidgetsResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getTemplates">
+      <wsdl:input message="prt:getTemplatesRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getTemplatesResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getRoles">
+      <wsdl:input message="prt:getRolesRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getRolesResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAgents">
+      <wsdl:input message="prt:getAgentsRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getAgentsResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAgentsLocations">
+      <wsdl:input message="prt:getAgentsLocationsRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getAgentsLocationsResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAgentsNonWebPoe">
+      <wsdl:input message="prt:getAgentsNonWebPoeRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getAgentsNonWebPoeResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getWidgets">
+      <wsdl:input message="prt:getWidgetsRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getWidgetsResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="registerMFAToken">
+      <wsdl:input message="prt:registerTokenRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:registerTokenResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="profileChange">
+      <wsdl:input message="prt:profileChangeRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:profileChangeResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="clearToken">
+      <wsdl:input message="prt:clearTokenRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:clearTokenResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="tokenValidation">
+      <wsdl:input message="prt:tokenValidationRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:tokenValidationResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="checkUserExists">
+      <wsdl:input message="prt:checkUserExistsRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:checkUserExistsResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="createLdapUser">
+      <wsdl:input message="prt:createLdapUserRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:createLdapUserResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="removeLdapUser">
+      <wsdl:input message="prt:removeLdapUserRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:removeLdapUserResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getWebDevice">
+      <wsdl:input message="prt:getWebDeviceRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getWebDeviceResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getNoFingerPrintMFA">
+      <wsdl:input message="prt:getNoFingerPrintMFARequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getNoFingerPrintMFAResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="manageWebDevice">
+      <wsdl:input message="prt:manageWebDeviceRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:manageWebDeviceResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="massManageWebDevice">
+      <wsdl:input message="prt:massManageWebDeviceRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:massManageWebDeviceResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPOSDevice">
+      <wsdl:input message="prt:getPOSDeviceRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getPOSDeviceResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="authenticateUser">
+      <wsdl:input message="prt:authenticateUserRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:authenticateUserResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAgentLocationMo">
+      <wsdl:input message="prt:getAgentLocationMoRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getAgentLocationMoResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPOEAgentLocationMo">
+      <wsdl:input message="prt:getPOEAgentLocationMoRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getPOEAgentLocationMoResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getLocationsForMoActivePos">
+      <wsdl:input message="prt:getLocationsForMoActivePosRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getLocationsForMoActivePosResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getLocationsForMoRgstdPos">
+      <wsdl:input message="prt:getLocationsForMoRgstdPosRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getLocationsForMoRgstdPosResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="manageToken">
+      <wsdl:input message="prt:manageTokenRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:manageTokenResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="managePartner">
+      <wsdl:input message="prt:managePartnerRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:managePartnerResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getUserReportsInfo">
+      <wsdl:input message="prt:getUserReportsInfoRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getUserReportsInfoResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getCountries">
+      <wsdl:input message="prt:getCountriesRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getCountriesResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getCountryLanguages">
+      <wsdl:input message="prt:getCountryLanguagesRequest">
+    </wsdl:input>
+      <wsdl:output message="prt:getCountryLanguagesResponse">
+    </wsdl:output>
+      <wsdl:fault name="error" message="prt:error">
+    </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebPOEPartnerServiceSOAPBinding" type="prt:WebPOEPartnerServicePortType">
+    <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getTescoUser">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getTescoUser"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal" namespace=""/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getLocationsForMoRgstdPos">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getLocationsForMoRgstdPos"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getLocationsForMoActivePos">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getLocationsForMoActivePos"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getTmsInstance">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getTmsInstance"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="saveTMSInstance">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/saveTMSInstance"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="saveAgentTMSInstance">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/saveAgentTMSInstance"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="saveUserDeviceTime">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/saveUserDeviceTime"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="updateToken">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/updateToken"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="manageUser">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/manageUser"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getUser">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getUser"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getUsers">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getUsers"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getUsersByLoc">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getUsersByLoc"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getUserIdExists">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getUserIdExists"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="manageTab">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/manageTab"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getTabs">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getTabs"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="manageWidgets">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/manageWidgets"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getRoles">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getRoles"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAlertsInfo">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getAlertsInfo"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getUserAlerts">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getUserAlerts"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="insertAlertUser">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/insertAlertUser"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getTemplates">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getTemplates"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAgents">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getAgents"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAgentsLocations">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getAgentsLocations"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAgentsNonWebPoe">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getAgentsNonWebPoe"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getWidgets">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getWidgets"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="registerMFAToken">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/registerMFAToken"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="profileChange">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/profileChange"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="clearToken">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/clearToken"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="tokenValidation">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/tokenValidation"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="checkUserExists">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/checkUserExists"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="createLdapUser">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/createLdapUser"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="removeLdapUser">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/removeLdapUser"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getWebDevice">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getWebDevice"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getNoFingerPrintMFA">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getNoFingerPrintMFA"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="manageWebDevice">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/manageWebDevice"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="massManageWebDevice">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/massManageWebDevice"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPOSDevice">
+      <wsdlsoap:operation soapAction="http://moneygram.com/POSpoe/service/partner_v1/getPOSDevice"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="authenticateUser">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/authenticateUser"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAgentLocationMo">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getAgentLocationMo"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPOEAgentLocationMo">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getPOEAgentLocationMo"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="managePartner">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/managePartner"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="manageToken">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/manageToken"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getToken">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getToken"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getMoEligibility">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getMoEligibility"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAgentsDeviceNames">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getAgentsDeviceNames"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getAgentPassword">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getAgentPassword"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getLocationsForMo">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getLocationsForMo"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPOELocationsForMo">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getPOELocationsForMo"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapAccountLocked">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/ldapAccountLocked"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapChangePassword">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/ldapChangePassword"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapChangePasswordCheck">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/ldapChangePasswordCheck"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapFindUser">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/ldapFindUser"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapGetUserAttributes">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/ldapGetUserAttributes"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapModifyUser">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/ldapModifyUser"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapPasswordExpired">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/ldapPasswordExpired"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapUpdatePassword">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/ldapUpdatePassword"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapCreateUser">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/ldapCreateUser"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapAuthenticateUser">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/ldapAuthenticateUser"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="createManagerApproval">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/createManagerApproval"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPendingApprovals">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getPendingApprovals"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPendingApprovalUser">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getPendingApprovalUser"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getArchivedApprovalsByRange">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getArchivedApprovalsByRange"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="approveManagerApproval">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/approveManagerApproval"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="denyManagerApproval">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/denyManagerApproval"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getManagerApprovalReasons">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getManagerApprovalReasons"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getUserReportsInfo">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getUserReportsInfo"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getTransactionExceedInfo">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getTransactionExceedInfo"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="createTransactionExceedInfo">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/createTransactionExceedInfo"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="confirmMailUser">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/confirmMailUser"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getPendingMailValidation">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getPendingMailValidation"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ldapCreateAWUser">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/ldapCreateAWUser"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getCountries">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getCountries"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getCountryLanguages">
+      <wsdlsoap:operation soapAction="http://moneygram.com/webpoe/service/partner_v1/getCountryLanguages"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="error">
+        <wsdlsoap:fault name="error" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="partner_v1">
+    <wsdl:port name="WebPOEPartnerServicePort" binding="prt:WebPOEPartnerServiceSOAPBinding">
+      <wsdlsoap:address location="http://q5wsintsvcs.qacorp.moneygram.com:80/partnerService/partner_v1"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

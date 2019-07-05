@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutDir>bin\</OutDir>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutDir>bin\</OutDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MoneyGram.PartnerHierarchy.DomainModel\MoneyGram.PartnerHierarchy.DomainModel.csproj" />
+    <ProjectReference Include="..\MoneyGram.PartnerHierarchy.IntegrationTest.Data\MoneyGram.PartnerHierarchy.IntegrationTest.Data.csproj" />
+  </ItemGroup>
+
+</Project>

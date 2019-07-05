@@ -1,0 +1,39 @@
+﻿{
+  "serviceOptionInfos": [
+    {
+      "display": "Will Call",
+      "code": "WillCall",
+      "key": "WILL_CALL"
+    },
+    {
+      "display": "HDS - USD",
+      "code": "HdsUsd",
+      "key": "HDS_USD"
+    },
+    {
+      "display": "HDS - Local",
+      "code": "HdsLocal",
+      "key": "HDS_LOCAL"
+    },
+    {
+      "display": "Home Delivery",
+      "code": "HomeDelivery",
+      "key": "HOME_DELIVERY"
+    },
+    {
+      "display": "Card Deposit",
+      "code": "CardDeposit",
+      "key": "CARD_DEPOSIT"
+    },
+    {
+      "display": "Bank Deposit",
+      "code": "BankDeposit",
+      "key": "BANK_DEPOSIT"
+    },
+    {
+      "display": "Receive At",
+      "code": "ReceiveAt",
+      "key": "RECEIVE_AT"
+    }
+  ]
+}

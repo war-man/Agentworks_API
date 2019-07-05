@@ -1,0 +1,60 @@
+﻿{
+  "LocationDetails": [
+    {
+      "MgiMainOfficeId": "40001153",
+      "MgiDeviceAgentLocationId": "40001166",      
+      "AcEnv": "D1",
+      "AgentStatus": "ACTIVE",
+      "OracleAccountNumber": 100067054 
+    },
+    {
+      "MgiMainOfficeId": "40001153",
+      "MgiDeviceAgentLocationId": "40001166",      
+      "AcEnv": "D2",
+      "AgentStatus": "ACTIVE",
+      "OracleAccountNumber": 100067054 
+    },
+    {
+      "MgiMainOfficeId": "40001153",
+      "MgiDeviceAgentLocationId": "40001166",      
+      "AcEnv": "D3",
+      "AgentStatus": "ACTIVE",
+      "OracleAccountNumber": 100067054 
+    },
+    {
+      "MgiMainOfficeId": "40001153",
+      "MgiDeviceAgentLocationId": "40001166",      
+      "AcEnv": "D5",
+      "AgentStatus": "ACTIVE",
+      "OracleAccountNumber": 100067054 
+    },
+    {
+      "MgiMainOfficeId": "40001153",
+      "MgiDeviceAgentLocationId": "40001166",      
+      "AcEnv": "Q1",
+      "AgentStatus": "ACTIVE",
+      "OracleAccountNumber": 100067054 
+    },
+    {
+      "MgiMainOfficeId": "40001153",
+      "MgiDeviceAgentLocationId": "40001166",      
+      "AcEnv": "Q2",
+      "AgentStatus": "ACTIVE",
+      "OracleAccountNumber": 100067054 
+    },
+    {
+      "MgiMainOfficeId": "40001153",
+      "MgiDeviceAgentLocationId": "40001166",      
+      "AcEnv": "Q3",
+      "AgentStatus": "ACTIVE",
+      "OracleAccountNumber": 100067054 
+    },
+    {
+      "MgiMainOfficeId": "40001153",
+      "MgiDeviceAgentLocationId": "40001166",      
+      "AcEnv": "Q5",
+      "AgentStatus": "ACTIVE",
+      "OracleAccountNumber": 100067054 
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+﻿Usage:
+	AcUpgradeTool <wsdl path> <arguments>
+
+Arguments:
+	"/h" or "?" for help

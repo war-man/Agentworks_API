@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{026EDC3B-C466-4C47-B915-A3D5B5CA4214}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MoneyGram.AgentConnect.IntegrationTest</RootNamespace>
+    <AssemblyName>MoneyGram.AgentConnect.IntegrationTest</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\MoneyGram.AgentConnect.IntegrationTest.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.4.3.1\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq, Version=4.10.0.0, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <HintPath>..\packages\Moq.4.10.0\lib\net45\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.1\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="Amend\AmendTests.cs" />
+    <Compile Include="BillPay\BillPayTests.cs" />
+    <Compile Include="Common\AcMapperTests.cs" />
+    <Compile Include="BusinessErrorExtension.cs" />
+    <Compile Include="Consumer\CreateOrUpdateProfileConsumerTest.cs" />
+    <Compile Include="Consumer\CreateOrUpdateProfileReceiverTest.cs" />
+    <Compile Include="Consumer\CreateOrUpdateProfileSenderTest.cs" />
+    <Compile Include="Consumer\GetProfileReceiverTest.cs" />
+    <Compile Include="Consumer\GetProfileSenderTest.cs" />
+    <Compile Include="Consumer\SearchConsumerProfilesTest.cs" />
+    <Compile Include="Consumer\GetProfileConsumerTest.cs" />
+    <Compile Include="Lookup\TransactionLookupTests.cs" />
+    <Compile Include="Lookup\GetAllFieldsTests.cs" />
+    <Compile Include="Lookup\GetBankDetailsByLevelTest.cs" />
+    <Compile Include="Lookup\GetBankDetailsTest.cs" />
+    <Compile Include="Lookup\GetCountryInfoTests.cs" />
+    <Compile Include="Lookup\GetCountrySubdivisionTests.cs" />
+    <Compile Include="Lookup\GetCurrencyInfoTests.cs" />
+    <Compile Include="Lookup\GetEnumerationsTests.cs" />
+    <Compile Include="Lookup\IndustryTests.cs" />
+    <Compile Include="Lookup\ProfileTests.cs" />
+    <Compile Include="ReceiveReversal\ReceiveReversalTests.cs" />
+    <Compile Include="Recv\RecvTests.cs" />
+    <Compile Include="Repositories\RepositoryTests.cs" />
+    <Compile Include="SendReversal\SendReversalTests.cs" />
+    <Compile Include="Send\SendReceiveAtTests.cs" />
+    <Compile Include="Send\SendHomeDeliveryTests.cs" />
+    <Compile Include="Send\SendBankDepositTests.cs" />
+    <Compile Include="Send\SendWillCallTests.cs" />
+    <Compile Include="Send\StagingSendTests.cs" />
+    <Compile Include="SetupTestInitializer.cs" />
+    <Compile Include="AgentConnectProxyFactoryMock.cs" />
+    <Compile Include="Common\ConsumerHistoryLookupTests.cs" />
+    <Compile Include="Common\DomainTransformExtensionsTests.cs" />
+    <Compile Include="Common\FeeLookupTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Send\SendTests.cs" />
+    <Compile Include="TestLogHelper.cs" />
+    <Compile Include="TrainingMode\TrainingModeTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="parallel.testsettings" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Config\D1\integrationTestSettings.json" />
+    <None Include="Config\D2\integrationTestSettings.json" />
+    <None Include="Config\D3\integrationTestSettings.json" />
+    <None Include="Config\D5\integrationTestSettings.json" />
+    <None Include="Config\External\integrationTestSettings.json" />
+    <None Include="Config\integrationTestSettings.json" />
+    <None Include="Config\Q1\integrationTestSettings.json" />
+    <None Include="Config\Q2\integrationTestSettings.json" />
+    <None Include="Config\Q3\integrationTestSettings.json" />
+    <None Include="Config\Q5\integrationTestSettings.json" />
+    <None Include="TestPlaylist\Framework Demo.playlist" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MoneyGram.AgentConnect.DomainModel\MoneyGram.AgentConnect.DomainModel.csproj">
+      <Project>{ECD9ABBB-5222-47CB-ABB2-62F2789509EB}</Project>
+      <Name>MoneyGram.AgentConnect.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.AgentConnect.IntegrationTest.Operations\MoneyGram.AgentConnect.IntegrationTest.Operations.csproj">
+      <Project>{2a2b0470-9297-4952-8eff-b30ec82a23b5}</Project>
+      <Name>MoneyGram.AgentConnect.IntegrationTest.Operations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.AgentConnect.IntegrationTestData\MoneyGram.AgentConnect.IntegrationTest.Data.csproj">
+      <Project>{ca3a6363-cd55-4e5d-ba22-16302f93dac0}</Project>
+      <Name>MoneyGram.AgentConnect.IntegrationTest.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.AgentConnect.Service\MoneyGram.AgentConnect.Service.csproj">
+      <Project>{df52263b-2da7-45fa-927d-3b2354462e2d}</Project>
+      <Name>MoneyGram.AgentConnect.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.AgentConnect\MoneyGram.AgentConnect.csproj">
+      <Project>{1710b185-08d3-4c5b-99b7-e15b6bbc6809}</Project>
+      <Name>MoneyGram.AgentConnect</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>xcopy /y "$(ProjectDir)Config\integrationTestSettings.json" "$(TargetDir)\App_Data\*"</PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

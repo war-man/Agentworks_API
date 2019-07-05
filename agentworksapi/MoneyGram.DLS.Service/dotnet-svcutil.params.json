@@ -1,0 +1,21 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "2.0.0",
+  "options": {
+    "inputs": [
+      "DataLookupService_v1.wsdl",
+      "DataLookupService_v1.xsd",
+      "mgi_error_v1.xsd",
+      "mgi_request_metadata_v1.xsd",
+      "mgi_request_v1.xsd"
+    ],
+    "namespaceMappings": [
+      "*, MoneyGram.DLS.Service"
+    ],
+    "outputFile": "DataLookupService.cs",
+    "serializerMode": "XmlSerializer",
+    "targetFramework": "netstandard2.0",
+    "typeReuseMode": "All",
+    "wrapped": true
+  }
+}

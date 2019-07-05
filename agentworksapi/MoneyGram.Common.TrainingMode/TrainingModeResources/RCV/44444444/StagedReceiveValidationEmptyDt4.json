@@ -1,0 +1,681 @@
+{
+  "payload": {
+    "receipts": null,
+    "receiptInfo": null,
+    "doCheckIn": false,
+    "flags": 0,
+    "timeStamp": "2019-05-01T14:03:35.207-05:00",
+    "fieldsToCollect": [
+      {
+        "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.CategoryInfo, MoneyGram.AgentConnect.DomainModel",
+        "infos": [
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "readOnly": false,
+            "required": true,
+            "childFields": [
+              {
+                "fieldValue": "A",
+                "infos": [
+                  {
+                    "readOnly": false,
+                    "required": true,
+                    "display": true,
+                    "dataType": 4,
+                    "infoKey": "payout1_CheckAmount",
+                    "label": "Payout Check Amount 1",
+                    "labelStandAlone": "Payout Check Amount 1",
+                    "displayOrder": 3
+                  },
+                  {
+                    "readOnly": false,
+                    "required": true,
+                    "fieldMax": 12,
+                    "validationRegEx": "^[0-9]*$",
+                    "display": true,
+                    "dataType": 1,
+                    "infoKey": "payout1_CheckNumber",
+                    "label": "Payout Check Number 1",
+                    "labelStandAlone": "Payout Check Number 1",
+                    "displayOrder": 2
+                  }
+                ]
+              },
+              {
+                "fieldValue": "C",
+                "infos": [
+                  {
+                    "readOnly": false,
+                    "required": true,
+                    "display": true,
+                    "dataType": 4,
+                    "infoKey": "payout1_CheckAmount",
+                    "label": "Payout Check Amount 1",
+                    "labelStandAlone": "Payout Check Amount 1",
+                    "displayOrder": 3
+                  },
+                  {
+                    "readOnly": false,
+                    "required": true,
+                    "fieldMax": 12,
+                    "validationRegEx": "^[0-9]*$",
+                    "display": true,
+                    "dataType": 1,
+                    "infoKey": "payout1_CheckNumber",
+                    "label": "Payout Check Number 1",
+                    "labelStandAlone": "Payout Check Number 1",
+                    "displayOrder": 2
+                  }
+                ]
+              }
+            ],
+            "display": true,
+            "dataType": 8,
+            "enumeration": {
+              "name": "PAYOUT1_TYPE",
+              "enumeratedItems": [
+                {
+                  "identifier": "A",
+                  "labelShort": "Agent",
+                  "label": "Agent"
+                },
+                {
+                  "identifier": "C",
+                  "labelShort": "Consumer",
+                  "label": "Consumer"
+                }
+              ]
+            },
+            "infoKey": "payout1_Type",
+            "label": "Payout Type 1",
+            "labelStandAlone": "Payout Type 1",
+            "displayOrder": 1
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "readOnly": false,
+            "required": true,
+            "childFields": [
+              {
+                "fieldValue": "A",
+                "infos": [
+                  {
+                    "readOnly": false,
+                    "required": false,
+                    "display": true,
+                    "dataType": 4,
+                    "infoKey": "payout2_CheckAmount",
+                    "label": "Payout Check Amount 2",
+                    "labelStandAlone": "Payout Check Amount 2",
+                    "displayOrder": 6
+                  },
+                  {
+                    "readOnly": false,
+                    "required": false,
+                    "fieldMax": 12,
+                    "validationRegEx": "^[0-9]*$",
+                    "display": true,
+                    "dataType": 1,
+                    "infoKey": "payout2_CheckNumber",
+                    "label": "Payout Check Number 2",
+                    "labelStandAlone": "Payout Check Number 2",
+                    "displayOrder": 5
+                  }
+                ]
+              },
+              {
+                "fieldValue": "C",
+                "infos": [
+                  {
+                    "readOnly": false,
+                    "required": false,
+                    "display": true,
+                    "dataType": 4,
+                    "infoKey": "payout2_CheckAmount",
+                    "label": "Payout Check Amount 2",
+                    "labelStandAlone": "Payout Check Amount 2",
+                    "displayOrder": 6
+                  },
+                  {
+                    "readOnly": false,
+                    "required": false,
+                    "fieldMax": 12,
+                    "validationRegEx": "^[0-9]*$",
+                    "display": true,
+                    "dataType": 1,
+                    "infoKey": "payout2_CheckNumber",
+                    "label": "Payout Check Number 2",
+                    "labelStandAlone": "Payout Check Number 2",
+                    "displayOrder": 5
+                  }
+                ]
+              }
+            ],
+            "display": true,
+            "dataType": 8,
+            "enumeration": {
+              "name": "PAYOUT2_TYPE",
+              "enumeratedItems": [
+                {
+                  "identifier": "A",
+                  "labelShort": "Agent",
+                  "label": "Agent"
+                },
+                {
+                  "identifier": "C",
+                  "labelShort": "Consumer",
+                  "label": "Consumer"
+                },
+                {
+                  "identifier": "N",
+                  "labelShort": "None",
+                  "label": "None"
+                }
+              ]
+            },
+            "infoKey": "payout2_Type",
+            "label": "Payout Type 2",
+            "labelStandAlone": "Payout Type 2",
+            "displayOrder": 4
+          }
+        ],
+        "infoKey": "receiveReceiverPayoutSet",
+        "label": "Payout Information",
+        "labelStandAlone": "Payout Information",
+        "displayOrder": 2
+      },
+      {
+        "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.CategoryInfo, MoneyGram.AgentConnect.DomainModel",
+        "infos": [
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "readOnly": false,
+            "required": true,
+            "fieldMin": 3,
+            "fieldMax": 3,
+            "lookupDataSource": "countryInfo",
+            "lookupKey": "okForAddress",
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_Country",
+            "label": "Country",
+            "labelStandAlone": "Receiver Country",
+            "displayOrder": 1
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "readOnly": false,
+            "required": true,
+            "fieldMax": 30,
+            "validationRegEx": "^([a-zA-Z0-9 \\u00C0-\\u017F\\#\\/\\.\\\"\\'\\,\\(\\)\\-])*$",
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_Address",
+            "label": "Address",
+            "labelStandAlone": "Receiver Street Address",
+            "displayOrder": 3,
+            "helpTextLong": "Only alpha, numeric and certain special characters (#./'-,()\") are allowed. Minimum 5 characters with at least one alpha character. No repeated special characters ( #### or ////). PO Box not allowed"
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "readOnly": false,
+            "required": true,
+            "fieldMax": 40,
+            "validationRegEx": "^([a-zA-Z \\u00C0-\\u017F\\#\\/\\.\\\"\\'\\,\\(\\)\\-])*$",
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_City",
+            "label": "City",
+            "labelStandAlone": "Receiver City",
+            "displayOrder": 6
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "readOnly": false,
+            "required": false,
+            "lookupDataSource": "countrySubDivInfo",
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_Country_SubdivisionCode",
+            "label": "State/Province",
+            "labelStandAlone": "Receiver State/Province",
+            "displayOrder": 7
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "readOnly": false,
+            "required": true,
+            "fieldMin": 2,
+            "fieldMax": 10,
+            "validationRegEx": "^([0-9a-zA-Z -])*$",
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_PostalCode",
+            "label": "Postal Code",
+            "labelStandAlone": "Receiver Postal Code",
+            "displayOrder": 8
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "readOnly": false,
+            "required": false,
+            "fieldMax": 5,
+            "lookupDataSource": "countryPhoneCodeInfo",
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_PrimaryPhoneCountryCode",
+            "label": "Primary Phone Country Code",
+            "labelStandAlone": "Receiver Primary Phone Country Code",
+            "displayOrder": 10
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "readOnly": false,
+            "required": false,
+            "fieldMin": 5,
+            "fieldMax": 14,
+            "validationRegEx": "^([0-9\\.\\-])*$",
+            "display": true,
+            "dataType": 1,
+            "infoKey": "receiver_PrimaryPhone",
+            "label": "Primary Phone Number",
+            "labelStandAlone": "Receiver Primary Phone Number",
+            "displayOrder": 11,
+            "helpTextLong": "Only numeric characters are allowed. Cannot contain a string of repeating numeric characters (example 8888888)"
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldToCollectInfo, MoneyGram.AgentConnect.DomainModel",
+            "readOnly": false,
+            "required": true,
+            "fieldMax": 10,
+            "display": true,
+            "dataType": 5,
+            "infoKey": "receiver_DOB",
+            "label": "Date of Birth",
+            "labelStandAlone": "Receiver Date of Birth",
+            "displayOrder": 23
+          },
+          {
+            "infos": [
+              {
+                "readOnly": false,
+                "required": true,
+                "childFields": [
+                  {
+                    "fieldValue": "ALN",
+                    "infos": [
+                      {
+                        "readOnly": false,
+                        "required": false,
+                        "exampleFormat": "dd",
+                        "display": true,
+                        "dataType": 11,
+                        "infoKey": "receiver_PersonalId1_Expiration_Day",
+                        "label": "ID Expiry Day",
+                        "labelStandAlone": "Receiver ID Expiry Day",
+                        "displayOrder": 8
+                      },
+                      {
+                        "readOnly": false,
+                        "required": false,
+                        "exampleFormat": "mm",
+                        "display": true,
+                        "dataType": 9,
+                        "infoKey": "receiver_PersonalId1_Expiration_Month",
+                        "label": "ID Expiry Month",
+                        "labelStandAlone": "Receiver ID Expiry Month",
+                        "displayOrder": 7
+                      },
+                      {
+                        "readOnly": false,
+                        "required": false,
+                        "exampleFormat": "yyyy",
+                        "display": true,
+                        "dataType": 10,
+                        "infoKey": "receiver_PersonalId1_Expiration_Year",
+                        "label": "ID Expiry Year",
+                        "labelStandAlone": "Receiver ID Expiry Year",
+                        "displayOrder": 6
+                      },
+                      {
+                        "readOnly": false,
+                        "required": true,
+                        "fieldMin": 3,
+                        "fieldMax": 3,
+                        "lookupDataSource": "countryInfo",
+                        "lookupKey": "okForIdentification",
+                        "display": true,
+                        "dataType": 1,
+                        "infoKey": "receiver_PersonalId1_Issue_Country",
+                        "label": "ID Issue Country",
+                        "labelStandAlone": "Receiver ID Issue Country",
+                        "displayOrder": 9
+                      },
+                      {
+                        "readOnly": false,
+                        "required": true,
+                        "fieldMax": 20,
+                        "validationRegEx": "^(([0-9A-Za-z]\\-*\\**\\s*)*([0-9A-Za-z]*\\s*\\-*\\**))*$",
+                        "display": true,
+                        "dataType": 1,
+                        "infoKey": "receiver_PersonalId1_Number",
+                        "label": "ID Number",
+                        "labelStandAlone": "Receiver ID Number",
+                        "displayOrder": 2
+                      }
+                    ]
+                  },
+                  {
+                    "fieldValue": "DRV",
+                    "infos": [
+                      {
+                        "readOnly": false,
+                        "required": false,
+                        "exampleFormat": "dd",
+                        "display": true,
+                        "dataType": 11,
+                        "infoKey": "receiver_PersonalId1_Expiration_Day",
+                        "label": "ID Expiry Day",
+                        "labelStandAlone": "Receiver ID Expiry Day",
+                        "displayOrder": 8
+                      },
+                      {
+                        "readOnly": false,
+                        "required": false,
+                        "exampleFormat": "mm",
+                        "display": true,
+                        "dataType": 9,
+                        "infoKey": "receiver_PersonalId1_Expiration_Month",
+                        "label": "ID Expiry Month",
+                        "labelStandAlone": "Receiver ID Expiry Month",
+                        "displayOrder": 7
+                      },
+                      {
+                        "readOnly": false,
+                        "required": false,
+                        "exampleFormat": "yyyy",
+                        "display": true,
+                        "dataType": 10,
+                        "infoKey": "receiver_PersonalId1_Expiration_Year",
+                        "label": "ID Expiry Year",
+                        "labelStandAlone": "Receiver ID Expiry Year",
+                        "displayOrder": 6
+                      },
+                      {
+                        "readOnly": false,
+                        "required": true,
+                        "fieldMin": 3,
+                        "fieldMax": 3,
+                        "lookupDataSource": "countryInfo",
+                        "lookupKey": "okForIdentification",
+                        "display": true,
+                        "dataType": 1,
+                        "infoKey": "receiver_PersonalId1_Issue_Country",
+                        "label": "ID Issue Country",
+                        "labelStandAlone": "Receiver ID Issue Country",
+                        "displayOrder": 9
+                      },
+                      {
+                        "readOnly": false,
+                        "required": true,
+                        "fieldMax": 20,
+                        "validationRegEx": "^(([0-9A-Za-z]\\-*\\**\\s*)*([0-9A-Za-z]*\\s*\\-*\\**))*$",
+                        "display": true,
+                        "dataType": 1,
+                        "infoKey": "receiver_PersonalId1_Number",
+                        "label": "ID Number",
+                        "labelStandAlone": "Receiver ID Number",
+                        "displayOrder": 2
+                      }
+                    ]
+                  },
+                  {
+                    "fieldValue": "GOV",
+                    "infos": [
+                      {
+                        "readOnly": false,
+                        "required": false,
+                        "exampleFormat": "dd",
+                        "display": true,
+                        "dataType": 11,
+                        "infoKey": "receiver_PersonalId1_Expiration_Day",
+                        "label": "ID Expiry Day",
+                        "labelStandAlone": "Receiver ID Expiry Day",
+                        "displayOrder": 8
+                      },
+                      {
+                        "readOnly": false,
+                        "required": false,
+                        "exampleFormat": "mm",
+                        "display": true,
+                        "dataType": 9,
+                        "infoKey": "receiver_PersonalId1_Expiration_Month",
+                        "label": "ID Expiry Month",
+                        "labelStandAlone": "Receiver ID Expiry Month",
+                        "displayOrder": 7
+                      },
+                      {
+                        "readOnly": false,
+                        "required": false,
+                        "exampleFormat": "yyyy",
+                        "display": true,
+                        "dataType": 10,
+                        "infoKey": "receiver_PersonalId1_Expiration_Year",
+                        "label": "ID Expiry Year",
+                        "labelStandAlone": "Receiver ID Expiry Year",
+                        "displayOrder": 6
+                      },
+                      {
+                        "readOnly": false,
+                        "required": true,
+                        "fieldMin": 3,
+                        "fieldMax": 3,
+                        "lookupDataSource": "countryInfo",
+                        "lookupKey": "okForIdentification",
+                        "display": true,
+                        "dataType": 1,
+                        "infoKey": "receiver_PersonalId1_Issue_Country",
+                        "label": "ID Issue Country",
+                        "labelStandAlone": "Receiver ID Issue Country",
+                        "displayOrder": 9
+                      },
+                      {
+                        "readOnly": false,
+                        "required": true,
+                        "fieldMax": 20,
+                        "validationRegEx": "^(([0-9A-Za-z]\\-*\\**\\s*)*([0-9A-Za-z]*\\s*\\-*\\**))*$",
+                        "display": true,
+                        "dataType": 1,
+                        "infoKey": "receiver_PersonalId1_Number",
+                        "label": "ID Number",
+                        "labelStandAlone": "Receiver ID Number",
+                        "displayOrder": 2
+                      }
+                    ]
+                  },
+                  {
+                    "fieldValue": "PAS",
+                    "infos": [
+                      {
+                        "readOnly": false,
+                        "required": false,
+                        "exampleFormat": "dd",
+                        "display": true,
+                        "dataType": 11,
+                        "infoKey": "receiver_PersonalId1_Expiration_Day",
+                        "label": "ID Expiry Day",
+                        "labelStandAlone": "Receiver ID Expiry Day",
+                        "displayOrder": 8
+                      },
+                      {
+                        "readOnly": false,
+                        "required": false,
+                        "exampleFormat": "mm",
+                        "display": true,
+                        "dataType": 9,
+                        "infoKey": "receiver_PersonalId1_Expiration_Month",
+                        "label": "ID Expiry Month",
+                        "labelStandAlone": "Receiver ID Expiry Month",
+                        "displayOrder": 7
+                      },
+                      {
+                        "readOnly": false,
+                        "required": false,
+                        "exampleFormat": "yyyy",
+                        "display": true,
+                        "dataType": 10,
+                        "infoKey": "receiver_PersonalId1_Expiration_Year",
+                        "label": "ID Expiry Year",
+                        "labelStandAlone": "Receiver ID Expiry Year",
+                        "displayOrder": 6
+                      },
+                      {
+                        "readOnly": false,
+                        "required": true,
+                        "fieldMin": 3,
+                        "fieldMax": 3,
+                        "lookupDataSource": "countryInfo",
+                        "lookupKey": "okForIdentification",
+                        "display": true,
+                        "dataType": 1,
+                        "infoKey": "receiver_PersonalId1_Issue_Country",
+                        "label": "ID Issue Country",
+                        "labelStandAlone": "Receiver ID Issue Country",
+                        "displayOrder": 9
+                      },
+                      {
+                        "readOnly": false,
+                        "required": true,
+                        "fieldMax": 20,
+                        "validationRegEx": "^(([0-9A-Za-z]\\-*\\**\\s*)*([0-9A-Za-z]*\\s*\\-*\\**))*$",
+                        "display": true,
+                        "dataType": 1,
+                        "infoKey": "receiver_PersonalId1_Number",
+                        "label": "ID Number",
+                        "labelStandAlone": "Receiver ID Number",
+                        "displayOrder": 2
+                      }
+                    ]
+                  },
+                  {
+                    "fieldValue": "STA",
+                    "infos": [
+                      {
+                        "readOnly": false,
+                        "required": false,
+                        "exampleFormat": "dd",
+                        "display": true,
+                        "dataType": 11,
+                        "infoKey": "receiver_PersonalId1_Expiration_Day",
+                        "label": "ID Expiry Day",
+                        "labelStandAlone": "Receiver ID Expiry Day",
+                        "displayOrder": 8
+                      },
+                      {
+                        "readOnly": false,
+                        "required": false,
+                        "exampleFormat": "mm",
+                        "display": true,
+                        "dataType": 9,
+                        "infoKey": "receiver_PersonalId1_Expiration_Month",
+                        "label": "ID Expiry Month",
+                        "labelStandAlone": "Receiver ID Expiry Month",
+                        "displayOrder": 7
+                      },
+                      {
+                        "readOnly": false,
+                        "required": false,
+                        "exampleFormat": "yyyy",
+                        "display": true,
+                        "dataType": 10,
+                        "infoKey": "receiver_PersonalId1_Expiration_Year",
+                        "label": "ID Expiry Year",
+                        "labelStandAlone": "Receiver ID Expiry Year",
+                        "displayOrder": 6
+                      },
+                      {
+                        "readOnly": false,
+                        "required": true,
+                        "fieldMin": 3,
+                        "fieldMax": 3,
+                        "lookupDataSource": "countryInfo",
+                        "lookupKey": "okForIdentification",
+                        "display": true,
+                        "dataType": 1,
+                        "infoKey": "receiver_PersonalId1_Issue_Country",
+                        "label": "ID Issue Country",
+                        "labelStandAlone": "Receiver ID Issue Country",
+                        "displayOrder": 9
+                      },
+                      {
+                        "readOnly": false,
+                        "required": true,
+                        "fieldMax": 20,
+                        "validationRegEx": "^(([0-9A-Za-z]\\-*\\**\\s*)*([0-9A-Za-z]*\\s*\\-*\\**))*$",
+                        "display": true,
+                        "dataType": 1,
+                        "infoKey": "receiver_PersonalId1_Number",
+                        "label": "ID Number",
+                        "labelStandAlone": "Receiver ID Number",
+                        "displayOrder": 2
+                      }
+                    ]
+                  }
+                ],
+                "display": true,
+                "dataType": 8,
+                "enumeration": {
+                  "name": "PERSONAL_ID1_TYPE",
+                  "enumeratedItems": [
+                    {
+                      "identifier": "ALN",
+                      "labelShort": "Alien ID",
+                      "label": "Alien ID"
+                    },
+                    {
+                      "identifier": "DRV",
+                      "labelShort": "Drivers License",
+                      "label": "Drivers License"
+                    },
+                    {
+                      "identifier": "GOV",
+                      "labelShort": "Government ID",
+                      "label": "Government ID"
+                    },
+                    {
+                      "identifier": "PAS",
+                      "labelShort": "Passport",
+                      "label": "Passport"
+                    },
+                    {
+                      "identifier": "STA",
+                      "labelShort": "State ID",
+                      "label": "State ID"
+                    }
+                  ]
+                },
+                "infoKey": "receiver_PersonalId1_Type",
+                "label": "ID Type",
+                "labelStandAlone": "Receiver ID Type",
+                "displayOrder": 1
+              }
+            ],
+            "infoKey": "receiveReceiverIdentificationPrimarySet",
+            "label": "Primary Identification",
+            "labelStandAlone": "Receiver Primary Identification",
+            "displayOrder": 998
+          }
+        ],
+        "infoKey": "receiveReceiverInformationSet",
+        "label": "Receiver Information",
+        "labelStandAlone": "Receiver Information",
+        "displayOrder": 4
+      }
+    ],
+    "GAFVersionNumber": null,
+    "mgiSessionID": "44444444",
+    "readyForCommit": false,
+    "token": null
+  },
+  "errors": []
+}

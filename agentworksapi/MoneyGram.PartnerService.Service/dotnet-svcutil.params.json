@@ -1,0 +1,21 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "2.0.0",
+  "options": {
+    "inputs": [
+      "mgi_error_v1.xsd",
+      "mgi_request_metadata_v1.xsd",
+      "mgi_request_v1.xsd",
+      "WebPOEPartnerService_v1.wsdl",
+      "WebPOEPartnerService_v1.xsd"
+    ],
+    "namespaceMappings": [
+      "*, MoneyGram.PartnerService.Service"
+    ],
+    "outputFile": "PartnerService.cs",
+    "serializerMode": "XmlSerializer",
+    "targetFramework": "netstandard2.0",
+    "typeReuseMode": "All",
+    "wrapped": true
+  }
+}

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0592667A-8AEE-4D94-8D4B-0B42021E5513}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AwApi.EntityMapper</RootNamespace>
+    <AssemblyName>AwApi.EntityMapper</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\AwApi.EntityMapper.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <Optimize>true</Optimize>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=8.1.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.8.1.0\lib\net461\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoMapperExtensions.cs" />
+    <Compile Include="AwMapper.cs" />
+    <Compile Include="DwRegisterDeviceReqVmExtensions.cs" />
+    <Compile Include="LocationVmExtensions\AgentsRespVmExtensions.cs" />
+    <Compile Include="LocationVmExtensions\PosDeviceRespVmExtension.cs" />
+    <Compile Include="MapperHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportsVmExtensions\ReportReqVmExtenstions.cs" />
+    <Compile Include="RequestExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AwApi.Integration\AwApi.Integration.csproj">
+      <Project>{727025F0-7908-4103-B86C-1054987E8526}</Project>
+      <Name>AwApi.Integration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AwApi.ViewModels\AwApi.ViewModels.csproj">
+      <Project>{22aaf2bb-70d0-43a3-b231-265c6c79baea}</Project>
+      <Name>AwApi.ViewModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.AgentConnect.DomainModel\MoneyGram.AgentConnect.DomainModel.csproj">
+      <Project>{ecd9abbb-5222-47cb-abb2-62f2789509eb}</Project>
+      <Name>MoneyGram.AgentConnect.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.Common\MoneyGram.Common.csproj">
+      <Project>{7645bf39-6ad8-43f2-b2fc-7b599deeddb3}</Project>
+      <Name>MoneyGram.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.DLS.DomainModel\MoneyGram.DLS.DomainModel.csproj">
+      <Project>{5f0369d5-374a-4103-bc6e-d070ae54222f}</Project>
+      <Name>MoneyGram.DLS.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.OpenIDM\MoneyGram.OpenIDM.csproj">
+      <Project>{023014E7-952E-45C5-91DC-54367275C940}</Project>
+      <Name>MoneyGram.OpenIDM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.PartnerService.DomainModel\MoneyGram.PartnerService.DomainModel.csproj">
+      <Project>{1fc229f6-8d93-4f36-883e-fe491a102051}</Project>
+      <Name>MoneyGram.PartnerService.DomainModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,31 @@
+﻿{
+  "payload": {
+    "stagedTransactionInfos": [
+      {
+        "mgiSessionType": 1,
+        "senderFirstName": "JOHN",
+        "senderMiddleName": "",
+        "senderLastName": "DOE",
+        "senderLastName2": "",
+        "senderAddress": "123 Elm St.",
+        "senderCity": "New York",
+        "senderCountrySubdivision": "US-NY",
+        "senderCountry": "USA",
+        "senderPostalCode": "11009",
+        "senderPhone": "111222333",
+        "receiverFirstName": "JANE",
+        "receiverMiddleName": "",
+        "receiverLastName": "SMITH",
+        "receiverLastName2": "",
+        "destinationCountry": "USA",
+        "confirmationNumber": "11111111",
+        "sendAmount": 150.0,
+        "sendCurrency": "USD"
+      }
+    ],
+    "doCheckIn": false,
+    "timeStamp": "2018-05-04T12:59:18.324+02:00",
+    "flags": 16
+  },
+  "errors": []
+}

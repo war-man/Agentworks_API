@@ -1,0 +1,24 @@
+﻿{
+  "refundReasonInfos": [
+    {
+      "identifier": "NO_RCV_LOC",
+      "label": "No Receive Location",
+      "labelShort": "No Receive Location"
+    },
+    {
+      "identifier": "WRONG_SERVICE",
+      "label": "Wrong Transfer Service",
+      "labelShort": "Wrong Transfer Service"
+    },
+    {
+      "identifier": "NO_TQ",
+      "label": "Missing Test Question",
+      "labelShort": "Missing Test Question"
+    },
+    {
+      "identifier": "INCORRECT_AMT",
+      "label": "Send/Receive/amt Incorrect",
+      "labelShort": "Send/Receive/amt Incorrect"
+    }
+  ]
+}

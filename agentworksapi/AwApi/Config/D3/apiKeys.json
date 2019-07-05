@@ -1,0 +1,26 @@
+﻿{
+  "3a2f7602-5c4f-4ee0-a6f3-13c835761ab3": {
+    "agentId": "40698809",
+    "mainOfficeId": "40698786",
+    "password": "456",
+    "pos": "88"
+  },
+  "5e278ab0-04c6-4006-921d-da19163dbe09": {
+    "agentId": "40698809",
+    "mainOfficeId": "40698786",
+    "password": "456",
+    "pos": "89"
+  },
+  "a3419006-66e5-4d87-aa52-ad5289156fe5": {
+    "agentId": "71529646",
+    "mainOfficeId": "71529633",
+    "password": "456",
+    "pos": "02"
+  },
+  "c3485a03-9538-41a1-804e-b1ad00287d8f": {
+    "agentId": "71529646",
+    "mainOfficeId": "71529633",
+    "password": "456",
+    "pos": "03"
+  }
+}

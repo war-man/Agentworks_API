@@ -1,0 +1,12 @@
+STRKEY_AND	and
+STRKEY_APP_LOAD_ERROR	An error occurred while loading AgentWorks. Would you like to reload or logout?
+STRKEY_CONFIDENTIAL	Confidential
+STRKEY_DOCUMENT_ISSUE_DATE	Document issue date
+STRKEY_ERROR_DETAILS	Error Details
+STRKEY_PHOTOCOPY_MESSAGE_PART1_SHORT	Please take a copy of the
+STRKEY_POA_SCAN	Proof of Address
+STRKEY_POC_PHOTOCOPY_TIP	For easier traceability MoneyGram recommends writing the transaction reference number of this transaction on the Proof of Address copy.
+STRKEY_PROOF_OF_ADDRESS	Proof of Address
+STRKEY_RELOAD	Reload
+STRKEY_SEARCH	Search
+STRKEY_UNCOLLECTED_REQUIRED_FIELDS	The following fields are required to complete the transaction but were unable to be collected:

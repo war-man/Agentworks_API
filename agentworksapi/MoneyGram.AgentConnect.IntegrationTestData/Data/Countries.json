@@ -1,0 +1,6405 @@
+﻿{
+  "countryInfos": [
+    {
+      "countryCode": "AFG",
+      "countryName": "Afghanistan",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "AFA",
+        "AFN"
+      ],
+      "sendCurrencies": [
+        "AFA",
+        "AFN",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "93"
+      ]
+    },
+    {
+      "countryCode": "ALB",
+      "countryName": "Albania",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "ALL",
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "355"
+      ]
+    },
+    {
+      "countryCode": "DZA",
+      "countryName": "Algeria",
+      "baseCurrency": "DZD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "DZD"
+      ],
+      "sendCurrencies": [
+        "DZD"
+      ],
+      "countryDialCodes": [
+        "213"
+      ]
+    },
+    {
+      "countryCode": "ASM",
+      "countryName": "American Samoa",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "AND",
+      "countryName": "Andorra",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "376"
+      ]
+    },
+    {
+      "countryCode": "AGO",
+      "countryName": "Angola",
+      "baseCurrency": "AOA",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "AOA",
+        "USD",
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "AOA",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "244"
+      ]
+    },
+    {
+      "countryCode": "AIA",
+      "countryName": "Anguilla",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XCD",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "ATG",
+      "countryName": "Antigua and Barbuda",
+      "baseCurrency": "XCD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XCD",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "XCD",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "ARG",
+      "countryName": "Argentina",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "ARS"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "54"
+      ]
+    },
+    {
+      "countryCode": "ARM",
+      "countryName": "Armenia",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "374"
+      ]
+    },
+    {
+      "countryCode": "ABW",
+      "countryName": "Aruba",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "indicativeRateActive",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "297"
+      ]
+    },
+    {
+      "countryCode": "AUS",
+      "countryName": "Australia",
+      "baseCurrency": "AUD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "AUD"
+      ],
+      "sendCurrencies": [
+        "AUD",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "61"
+      ]
+    },
+    {
+      "countryCode": "AUT",
+      "countryName": "Austria",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "43"
+      ]
+    },
+    {
+      "countryCode": "AZE",
+      "countryName": "Azerbaijan",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "994"
+      ]
+    },
+    {
+      "countryCode": "BHS",
+      "countryName": "Bahamas",
+      "baseCurrency": "BSD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "BSD",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "BSD",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "BHR",
+      "countryName": "Bahrain",
+      "baseCurrency": "BHD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "BHD"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "BHD"
+      ],
+      "countryDialCodes": [
+        "973"
+      ]
+    },
+    {
+      "countryCode": "BGD",
+      "countryName": "Bangladesh",
+      "baseCurrency": "BDT",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "BDT"
+      ],
+      "sendCurrencies": [
+        "BDT"
+      ],
+      "countryDialCodes": [
+        "880"
+      ]
+    },
+    {
+      "countryCode": "BRB",
+      "countryName": "Barbados",
+      "baseCurrency": "BBD",
+      "lookupKeys": [
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "BBD"
+      ],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "BLR",
+      "countryName": "Belarus",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "375"
+      ]
+    },
+    {
+      "countryCode": "BEL",
+      "countryName": "Belgium",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "32"
+      ]
+    },
+    {
+      "countryCode": "BLZ",
+      "countryName": "Belize",
+      "baseCurrency": "BZD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "BZD",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "BZD",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "501"
+      ]
+    },
+    {
+      "countryCode": "BEN",
+      "countryName": "Benin",
+      "baseCurrency": "XOF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XOF"
+      ],
+      "sendCurrencies": [
+        "XOF"
+      ],
+      "countryDialCodes": [
+        "229"
+      ]
+    },
+    {
+      "countryCode": "BMU",
+      "countryName": "Bermuda",
+      "baseCurrency": "BMD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "BMD",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "BMD",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "BTN",
+      "countryName": "Bhutan",
+      "baseCurrency": "BTN",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "BTN"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "BTN"
+      ],
+      "countryDialCodes": [
+        "975"
+      ]
+    },
+    {
+      "countryCode": "BOL",
+      "countryName": "Bolivia (Plurinational State of)",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "BOB"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "591"
+      ]
+    },
+    {
+      "countryCode": "BES",
+      "countryName": "Bonaire, Sint Eustatius and Saba",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "599"
+      ]
+    },
+    {
+      "countryCode": "BIH",
+      "countryName": "Bosnia and Herzegovina",
+      "baseCurrency": "BAM",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR",
+        "BAM",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "EUR",
+        "BAM"
+      ],
+      "countryDialCodes": [
+        "387"
+      ]
+    },
+    {
+      "countryCode": "BWA",
+      "countryName": "Botswana",
+      "baseCurrency": "BWP",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "BWP",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "BWP",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "267"
+      ]
+    },
+    {
+      "countryCode": "BVT",
+      "countryName": "Bouvet Island",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": []
+    },
+    {
+      "countryCode": "BRA",
+      "countryName": "Brazil",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "directedSendsActive",
+        "hasBaseCurrency",
+        "indicativeRateActive",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "BRL"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "55"
+      ]
+    },
+    {
+      "countryCode": "IOT",
+      "countryName": "British Indian Ocean Territory",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "246"
+      ]
+    },
+    {
+      "countryCode": "BRN",
+      "countryName": "Brunei Darussalam",
+      "baseCurrency": "BND",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "BND"
+      ],
+      "sendCurrencies": [
+        "BND"
+      ],
+      "countryDialCodes": [
+        "673"
+      ]
+    },
+    {
+      "countryCode": "BGR",
+      "countryName": "Bulgaria",
+      "baseCurrency": "BGN",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "EUR",
+        "BGN"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "EUR",
+        "BGN"
+      ],
+      "countryDialCodes": [
+        "359"
+      ]
+    },
+    {
+      "countryCode": "BFA",
+      "countryName": "Burkina Faso",
+      "baseCurrency": "XOF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XOF"
+      ],
+      "sendCurrencies": [
+        "XOF"
+      ],
+      "countryDialCodes": [
+        "226"
+      ]
+    },
+    {
+      "countryCode": "BDI",
+      "countryName": "Burundi",
+      "baseCurrency": "BIF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "BIF"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "BIF"
+      ],
+      "countryDialCodes": [
+        "257"
+      ]
+    },
+    {
+      "countryCode": "CPV",
+      "countryName": "Cape Verde",
+      "baseCurrency": "CVE",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR",
+        "CVE"
+      ],
+      "sendCurrencies": [
+        "EUR",
+        "CVE"
+      ],
+      "countryDialCodes": [
+        "238"
+      ]
+    },
+    {
+      "countryCode": "KHM",
+      "countryName": "Cambodia",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "KHR",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "855"
+      ]
+    },
+    {
+      "countryCode": "CMR",
+      "countryName": "Cameroon",
+      "baseCurrency": "XAF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XAF"
+      ],
+      "sendCurrencies": [
+        "XAF"
+      ],
+      "countryDialCodes": [
+        "237"
+      ]
+    },
+    {
+      "countryCode": "CAN",
+      "countryName": "Canada",
+      "baseCurrency": "CAD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "CAD"
+      ],
+      "sendCurrencies": [
+        "CAD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "CYM",
+      "countryName": "Cayman Islands",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "KYD",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "KYD",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "CAF",
+      "countryName": "Central African Republic",
+      "baseCurrency": "XAF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XAF",
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "XAF",
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "236"
+      ]
+    },
+    {
+      "countryCode": "TCD",
+      "countryName": "Chad",
+      "baseCurrency": "XAF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XAF",
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "XAF",
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "235"
+      ]
+    },
+    {
+      "countryCode": "CHL",
+      "countryName": "Chile",
+      "baseCurrency": "CLP",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "CLP",
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "CLP",
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "56"
+      ]
+    },
+    {
+      "countryCode": "CHN",
+      "countryName": "China",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "directedSendsActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR",
+        "AUD",
+        "CNY",
+        "GBP",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "EUR",
+        "AUD",
+        "GBP",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "86"
+      ]
+    },
+    {
+      "countryCode": "CXR",
+      "countryName": "Christmas Island",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "61"
+      ]
+    },
+    {
+      "countryCode": "CCK",
+      "countryName": "Cocos (Keeling) Islands",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "61"
+      ]
+    },
+    {
+      "countryCode": "COL",
+      "countryName": "Colombia",
+      "baseCurrency": "COP",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "COP"
+      ],
+      "sendCurrencies": [
+        "COP"
+      ],
+      "countryDialCodes": [
+        "57"
+      ]
+    },
+    {
+      "countryCode": "COM",
+      "countryName": "Comoros",
+      "baseCurrency": "KMF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "KMF"
+      ],
+      "sendCurrencies": [
+        "KMF"
+      ],
+      "countryDialCodes": [
+        "269"
+      ]
+    },
+    {
+      "countryCode": "COG",
+      "countryName": "Congo",
+      "baseCurrency": "XAF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XAF"
+      ],
+      "sendCurrencies": [
+        "XAF"
+      ],
+      "countryDialCodes": [
+        "242"
+      ]
+    },
+    {
+      "countryCode": "COD",
+      "countryName": "Congo, the Democratic Republic of",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "243"
+      ]
+    },
+    {
+      "countryCode": "COK",
+      "countryName": "Cook Islands",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "682"
+      ]
+    },
+    {
+      "countryCode": "CRI",
+      "countryName": "Costa Rica",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "506"
+      ]
+    },
+    {
+      "countryCode": "CIV",
+      "countryName": "Côte d'Ivoire",
+      "baseCurrency": "XOF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XOF"
+      ],
+      "sendCurrencies": [
+        "XOF"
+      ],
+      "countryDialCodes": [
+        "225"
+      ]
+    },
+    {
+      "countryCode": "HRV",
+      "countryName": "Croatia",
+      "baseCurrency": "HRK",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "HRK",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "HRK",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "385"
+      ]
+    },
+    {
+      "countryCode": "CUB",
+      "countryName": "Cuba",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "CUC",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "CUC"
+      ],
+      "countryDialCodes": [
+        "53"
+      ]
+    },
+    {
+      "countryCode": "CUW",
+      "countryName": "Curaçao",
+      "baseCurrency": "ANG",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "ANG"
+      ],
+      "sendCurrencies": [
+        "ANG",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "599"
+      ]
+    },
+    {
+      "countryCode": "CYP",
+      "countryName": "Cyprus",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "CYP",
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR",
+        "CYP"
+      ],
+      "countryDialCodes": [
+        "357"
+      ]
+    },
+    {
+      "countryCode": "CZE",
+      "countryName": "Czech Republic",
+      "baseCurrency": "CZK",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "EUR",
+        "CZK"
+      ],
+      "sendCurrencies": [
+        "CZK",
+        "USD",
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "420"
+      ]
+    },
+    {
+      "countryCode": "DNK",
+      "countryName": "Denmark",
+      "baseCurrency": "DKK",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "DKK"
+      ],
+      "sendCurrencies": [
+        "DKK"
+      ],
+      "countryDialCodes": [
+        "45"
+      ]
+    },
+    {
+      "countryCode": "DJI",
+      "countryName": "Djibouti",
+      "baseCurrency": "DJF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "DJF",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "DJF",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "253"
+      ]
+    },
+    {
+      "countryCode": "DMA",
+      "countryName": "Dominica",
+      "baseCurrency": "XCD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "XCD"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "XCD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "DOM",
+      "countryName": "Dominican Republic",
+      "baseCurrency": "DOP",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "DOP"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "DOP"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "ECU",
+      "countryName": "Ecuador",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "593"
+      ]
+    },
+    {
+      "countryCode": "EGY",
+      "countryName": "Egypt",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "20"
+      ]
+    },
+    {
+      "countryCode": "SLV",
+      "countryName": "El Salvador",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "directedSendsActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "503"
+      ]
+    },
+    {
+      "countryCode": "GNQ",
+      "countryName": "Equatorial Guinea",
+      "baseCurrency": "XAF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XAF"
+      ],
+      "sendCurrencies": [
+        "XAF"
+      ],
+      "countryDialCodes": [
+        "240"
+      ]
+    },
+    {
+      "countryCode": "ERI",
+      "countryName": "Eritrea",
+      "baseCurrency": "ERN",
+      "lookupKeys": [
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "ERN"
+      ],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "291"
+      ]
+    },
+    {
+      "countryCode": "EST",
+      "countryName": "Estonia",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "372"
+      ]
+    },
+    {
+      "countryCode": "ETH",
+      "countryName": "Ethiopia",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "indicativeRateActive",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "251"
+      ]
+    },
+    {
+      "countryCode": "FLK",
+      "countryName": "Falkland Islands (Malvinas)",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "500"
+      ]
+    },
+    {
+      "countryCode": "FRO",
+      "countryName": "Faroe Islands",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "298"
+      ]
+    },
+    {
+      "countryCode": "FJI",
+      "countryName": "Fiji",
+      "baseCurrency": "FJD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "FJD"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "FJD"
+      ],
+      "countryDialCodes": [
+        "679"
+      ]
+    },
+    {
+      "countryCode": "FIN",
+      "countryName": "Finland",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "358"
+      ]
+    },
+    {
+      "countryCode": "FRA",
+      "countryName": "France",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "EUR",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "33"
+      ]
+    },
+    {
+      "countryCode": "GUF",
+      "countryName": "French Guiana",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "594"
+      ]
+    },
+    {
+      "countryCode": "PYF",
+      "countryName": "French Polynesia",
+      "baseCurrency": "XPF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XPF"
+      ],
+      "sendCurrencies": [
+        "XPF"
+      ],
+      "countryDialCodes": [
+        "689"
+      ]
+    },
+    {
+      "countryCode": "ATF",
+      "countryName": "French Southern Territories",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "262"
+      ]
+    },
+    {
+      "countryCode": "GAB",
+      "countryName": "Gabon",
+      "baseCurrency": "XAF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR",
+        "XAF"
+      ],
+      "sendCurrencies": [
+        "XAF",
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "241"
+      ]
+    },
+    {
+      "countryCode": "GMB",
+      "countryName": "Gambia",
+      "baseCurrency": "GMD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "GMD",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "GMD"
+      ],
+      "countryDialCodes": [
+        "220"
+      ]
+    },
+    {
+      "countryCode": "GEO",
+      "countryName": "Georgia",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "995"
+      ]
+    },
+    {
+      "countryCode": "DEU",
+      "countryName": "Germany",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "49"
+      ]
+    },
+    {
+      "countryCode": "GHA",
+      "countryName": "Ghana",
+      "baseCurrency": "GHS",
+      "lookupKeys": [
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "GHC",
+        "GHS"
+      ],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "233"
+      ]
+    },
+    {
+      "countryCode": "GIB",
+      "countryName": "Gibraltar",
+      "baseCurrency": "GBP",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "GBP"
+      ],
+      "sendCurrencies": [
+        "GBP",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "350"
+      ]
+    },
+    {
+      "countryCode": "GRC",
+      "countryName": "Greece",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "30"
+      ]
+    },
+    {
+      "countryCode": "GRL",
+      "countryName": "Greenland",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "299"
+      ]
+    },
+    {
+      "countryCode": "GRD",
+      "countryName": "Grenada",
+      "baseCurrency": "XCD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "XCD"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "XCD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "GLP",
+      "countryName": "Guadeloupe",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "590"
+      ]
+    },
+    {
+      "countryCode": "GUM",
+      "countryName": "Guam",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "GTM",
+      "countryName": "Guatemala",
+      "baseCurrency": "GTQ",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "directedSendsActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "GTQ"
+      ],
+      "sendCurrencies": [
+        "GTQ"
+      ],
+      "countryDialCodes": [
+        "502"
+      ]
+    },
+    {
+      "countryCode": "GGY",
+      "countryName": "Guernsey",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": []
+    },
+    {
+      "countryCode": "GIN",
+      "countryName": "Guinea",
+      "baseCurrency": "GNF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "GNF",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "GNF"
+      ],
+      "countryDialCodes": [
+        "224"
+      ]
+    },
+    {
+      "countryCode": "GNB",
+      "countryName": "Guinea-Bissau",
+      "baseCurrency": "XOF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XOF"
+      ],
+      "sendCurrencies": [
+        "XOF"
+      ],
+      "countryDialCodes": [
+        "245"
+      ]
+    },
+    {
+      "countryCode": "GUY",
+      "countryName": "Guyana",
+      "baseCurrency": "GYD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "GYD"
+      ],
+      "sendCurrencies": [
+        "GYD"
+      ],
+      "countryDialCodes": [
+        "592"
+      ]
+    },
+    {
+      "countryCode": "HTI",
+      "countryName": "Haiti",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "509"
+      ]
+    },
+    {
+      "countryCode": "HMD",
+      "countryName": "Heard Island and McDonald Islands",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": []
+    },
+    {
+      "countryCode": "VAT",
+      "countryName": "Holy See",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "39",
+        "379"
+      ]
+    },
+    {
+      "countryCode": "HND",
+      "countryName": "Honduras",
+      "baseCurrency": "HNL",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "HNL",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "HNL"
+      ],
+      "countryDialCodes": [
+        "504"
+      ]
+    },
+    {
+      "countryCode": "HKG",
+      "countryName": "Hong Kong",
+      "baseCurrency": "HKD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "HKD"
+      ],
+      "sendCurrencies": [
+        "HKD"
+      ],
+      "countryDialCodes": [
+        "852"
+      ]
+    },
+    {
+      "countryCode": "HUN",
+      "countryName": "Hungary",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "HUF",
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "HUF",
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "36"
+      ]
+    },
+    {
+      "countryCode": "ISL",
+      "countryName": "Iceland",
+      "baseCurrency": "ISK",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR",
+        "ISK",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "ISK",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "354"
+      ]
+    },
+    {
+      "countryCode": "IND",
+      "countryName": "India",
+      "baseCurrency": "INR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "directedSendsActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "INR",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "INR",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "91"
+      ]
+    },
+    {
+      "countryCode": "IDN",
+      "countryName": "Indonesia",
+      "baseCurrency": "IDR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "IDR"
+      ],
+      "sendCurrencies": [
+        "IDR"
+      ],
+      "countryDialCodes": [
+        "62"
+      ]
+    },
+    {
+      "countryCode": "IRN",
+      "countryName": "Iran (Islamic Republic of)",
+      "baseCurrency": "IRR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "IRR"
+      ],
+      "sendCurrencies": [
+        "IRR"
+      ],
+      "countryDialCodes": [
+        "98"
+      ]
+    },
+    {
+      "countryCode": "IRQ",
+      "countryName": "Iraq",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "964"
+      ]
+    },
+    {
+      "countryCode": "IRL",
+      "countryName": "Ireland",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "353"
+      ]
+    },
+    {
+      "countryCode": "ISR",
+      "countryName": "Israel",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "EUR",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "972"
+      ]
+    },
+    {
+      "countryCode": "ITA",
+      "countryName": "Italy",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "39"
+      ]
+    },
+    {
+      "countryCode": "JAM",
+      "countryName": "Jamaica",
+      "baseCurrency": "JMD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "JMD"
+      ],
+      "sendCurrencies": [
+        "JMD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "JPN",
+      "countryName": "Japan",
+      "baseCurrency": "JPY",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "JPY"
+      ],
+      "sendCurrencies": [
+        "JPY",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "81"
+      ]
+    },
+    {
+      "countryCode": "XHA",
+      "countryName": "Jersey",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": []
+    },
+    {
+      "countryCode": "JOR",
+      "countryName": "Jordan",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "JOD",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "962"
+      ]
+    },
+    {
+      "countryCode": "KAZ",
+      "countryName": "Kazakhstan",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "7"
+      ]
+    },
+    {
+      "countryCode": "KEN",
+      "countryName": "Kenya",
+      "baseCurrency": "KES",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "directedSendsActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "KES"
+      ],
+      "sendCurrencies": [
+        "KES"
+      ],
+      "countryDialCodes": [
+        "254"
+      ]
+    },
+    {
+      "countryCode": "KIR",
+      "countryName": "Kiribati",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "686"
+      ]
+    },
+    {
+      "countryCode": "PRK",
+      "countryName": "Korea (Democratic People's Republic of)",
+      "baseCurrency": "KPW",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "KPW"
+      ],
+      "sendCurrencies": [
+        "KPW"
+      ],
+      "countryDialCodes": [
+        "850"
+      ]
+    },
+    {
+      "countryCode": "KOR",
+      "countryName": "Korea, Republic of",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "82"
+      ]
+    },
+    {
+      "countryCode": "XRK",
+      "countryName": "Kosovo",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForBirth",
+        "okForBrthCitizenship",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": []
+    },
+    {
+      "countryCode": "KWT",
+      "countryName": "Kuwait",
+      "baseCurrency": "KWD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "KWD",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "KWD",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "965"
+      ]
+    },
+    {
+      "countryCode": "KGZ",
+      "countryName": "Kyrgyzstan",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "996"
+      ]
+    },
+    {
+      "countryCode": "LAO",
+      "countryName": "Lao People's Democratic Republic",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "LAK"
+      ],
+      "sendCurrencies": [
+        "LAK",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "856"
+      ]
+    },
+    {
+      "countryCode": "LVA",
+      "countryName": "Latvia",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "LVL",
+        "USD",
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "371"
+      ]
+    },
+    {
+      "countryCode": "LBN",
+      "countryName": "Lebanon",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "LBP"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "961"
+      ]
+    },
+    {
+      "countryCode": "LSO",
+      "countryName": "Lesotho",
+      "baseCurrency": "LSL",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "LSL"
+      ],
+      "sendCurrencies": [
+        "LSL"
+      ],
+      "countryDialCodes": [
+        "266"
+      ]
+    },
+    {
+      "countryCode": "LBR",
+      "countryName": "Liberia",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "231"
+      ]
+    },
+    {
+      "countryCode": "LBY",
+      "countryName": "Libya",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "indicativeRateActive",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "218"
+      ]
+    },
+    {
+      "countryCode": "LIE",
+      "countryName": "Liechtenstein",
+      "baseCurrency": "CHF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "CHF"
+      ],
+      "sendCurrencies": [
+        "CHF"
+      ],
+      "countryDialCodes": [
+        "423"
+      ]
+    },
+    {
+      "countryCode": "LTU",
+      "countryName": "Lithuania",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "LTL",
+        "EUR",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "EUR",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "370"
+      ]
+    },
+    {
+      "countryCode": "LUX",
+      "countryName": "Luxembourg",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "352"
+      ]
+    },
+    {
+      "countryCode": "MAC",
+      "countryName": "Macao",
+      "baseCurrency": "HKD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "HKD"
+      ],
+      "sendCurrencies": [
+        "HKD"
+      ],
+      "countryDialCodes": [
+        "853"
+      ]
+    },
+    {
+      "countryCode": "MKD",
+      "countryName": "Macedonia, the former Yugoslav Republic of",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "389"
+      ]
+    },
+    {
+      "countryCode": "MDG",
+      "countryName": "Madagascar",
+      "baseCurrency": "MGA",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "MGA",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "MGA",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "261"
+      ]
+    },
+    {
+      "countryCode": "MWI",
+      "countryName": "Malawi",
+      "baseCurrency": "MWK",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "MWK",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "MWK",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "265"
+      ]
+    },
+    {
+      "countryCode": "MYS",
+      "countryName": "Malaysia",
+      "baseCurrency": "MYR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "MYR",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "MYR",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "60"
+      ]
+    },
+    {
+      "countryCode": "MDV",
+      "countryName": "Maldives",
+      "baseCurrency": "MVR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "MVR",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "MVR"
+      ],
+      "countryDialCodes": [
+        "960"
+      ]
+    },
+    {
+      "countryCode": "MLI",
+      "countryName": "Mali",
+      "baseCurrency": "XOF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XOF"
+      ],
+      "sendCurrencies": [
+        "XOF"
+      ],
+      "countryDialCodes": [
+        "223"
+      ]
+    },
+    {
+      "countryCode": "MLT",
+      "countryName": "Malta",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "EUR",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "356"
+      ]
+    },
+    {
+      "countryCode": "MHL",
+      "countryName": "Marshall Islands",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "692"
+      ]
+    },
+    {
+      "countryCode": "MTQ",
+      "countryName": "Martinique",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "596"
+      ]
+    },
+    {
+      "countryCode": "MRT",
+      "countryName": "Mauritania",
+      "baseCurrency": "MRO",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "MRO"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "MRO"
+      ],
+      "countryDialCodes": [
+        "222"
+      ]
+    },
+    {
+      "countryCode": "MUS",
+      "countryName": "Mauritius",
+      "baseCurrency": "MUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "MUR",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "MUR",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "230"
+      ]
+    },
+    {
+      "countryCode": "MYT",
+      "countryName": "Mayotte",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": []
+    },
+    {
+      "countryCode": "MEX",
+      "countryName": "Mexico",
+      "baseCurrency": "MXN",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "directedSendsActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "MXN"
+      ],
+      "sendCurrencies": [
+        "MXN"
+      ],
+      "countryDialCodes": [
+        "52"
+      ]
+    },
+    {
+      "countryCode": "FSM",
+      "countryName": "Micronesia (Federated States of)",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "691"
+      ]
+    },
+    {
+      "countryCode": "MDA",
+      "countryName": "Moldova, Republic of",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "373"
+      ]
+    },
+    {
+      "countryCode": "MCO",
+      "countryName": "Monaco",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "377"
+      ]
+    },
+    {
+      "countryCode": "MNG",
+      "countryName": "Mongolia",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "976"
+      ]
+    },
+    {
+      "countryCode": "MNE",
+      "countryName": "Montenegro",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "382"
+      ]
+    },
+    {
+      "countryCode": "MSR",
+      "countryName": "Montserrat",
+      "baseCurrency": "XCD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "XCD"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "XCD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "MAR",
+      "countryName": "Morocco",
+      "baseCurrency": "MAD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "MAD"
+      ],
+      "sendCurrencies": [
+        "MAD"
+      ],
+      "countryDialCodes": [
+        "212"
+      ]
+    },
+    {
+      "countryCode": "MOZ",
+      "countryName": "Mozambique",
+      "baseCurrency": "MZN",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "MZN",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "MZN",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "258"
+      ]
+    },
+    {
+      "countryCode": "MMR",
+      "countryName": "Myanmar",
+      "baseCurrency": "MMK",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "MMK"
+      ],
+      "sendCurrencies": [
+        "MMK"
+      ],
+      "countryDialCodes": [
+        "95"
+      ]
+    },
+    {
+      "countryCode": "NAM",
+      "countryName": "Namibia",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "indicativeRateActive",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "264"
+      ]
+    },
+    {
+      "countryCode": "NRU",
+      "countryName": "Nauru",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "674"
+      ]
+    },
+    {
+      "countryCode": "NPL",
+      "countryName": "Nepal",
+      "baseCurrency": "NPR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "NPR"
+      ],
+      "sendCurrencies": [
+        "NPR"
+      ],
+      "countryDialCodes": [
+        "977"
+      ]
+    },
+    {
+      "countryCode": "NLD",
+      "countryName": "Netherlands",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "31"
+      ]
+    },
+    {
+      "countryCode": "ANT",
+      "countryName": "Netherlands Antilles",
+      "lookupKeys": [
+        "okForBirth",
+        "okForBrthCitizenship",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": []
+    },
+    {
+      "countryCode": "NCL",
+      "countryName": "New Caledonia",
+      "baseCurrency": "XPF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XPF"
+      ],
+      "sendCurrencies": [
+        "XPF"
+      ],
+      "countryDialCodes": [
+        "687"
+      ]
+    },
+    {
+      "countryCode": "NZL",
+      "countryName": "New Zealand",
+      "baseCurrency": "NZD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "NZD"
+      ],
+      "sendCurrencies": [
+        "NZD"
+      ],
+      "countryDialCodes": [
+        "64"
+      ]
+    },
+    {
+      "countryCode": "NIC",
+      "countryName": "Nicaragua",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "505"
+      ]
+    },
+    {
+      "countryCode": "NER",
+      "countryName": "Niger",
+      "baseCurrency": "XOF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XOF"
+      ],
+      "sendCurrencies": [
+        "XOF"
+      ],
+      "countryDialCodes": [
+        "227"
+      ]
+    },
+    {
+      "countryCode": "NGA",
+      "countryName": "Nigeria",
+      "baseCurrency": "NGN",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "NGN"
+      ],
+      "sendCurrencies": [
+        "NGN",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "234"
+      ]
+    },
+    {
+      "countryCode": "NIU",
+      "countryName": "Niue",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "683"
+      ]
+    },
+    {
+      "countryCode": "NFK",
+      "countryName": "Norfolk Island",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "672"
+      ]
+    },
+    {
+      "countryCode": "MNP",
+      "countryName": "Northern Mariana Islands",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "NOR",
+      "countryName": "Norway",
+      "baseCurrency": "NOK",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "NOK"
+      ],
+      "sendCurrencies": [
+        "NOK"
+      ],
+      "countryDialCodes": [
+        "47"
+      ]
+    },
+    {
+      "countryCode": "OMN",
+      "countryName": "Oman",
+      "baseCurrency": "OMR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "OMR",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "OMR",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "968"
+      ]
+    },
+    {
+      "countryCode": "PAK",
+      "countryName": "Pakistan",
+      "baseCurrency": "PKR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "PKR"
+      ],
+      "sendCurrencies": [
+        "PKR"
+      ],
+      "countryDialCodes": [
+        "92"
+      ]
+    },
+    {
+      "countryCode": "PLW",
+      "countryName": "Palau",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "680"
+      ]
+    },
+    {
+      "countryCode": "PSE",
+      "countryName": "Palestine, State of",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "970"
+      ]
+    },
+    {
+      "countryCode": "PAN",
+      "countryName": "Panama",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "507"
+      ]
+    },
+    {
+      "countryCode": "PNG",
+      "countryName": "Papua New Guinea",
+      "baseCurrency": "PGK",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "PGK"
+      ],
+      "sendCurrencies": [
+        "PGK"
+      ],
+      "countryDialCodes": [
+        "675"
+      ]
+    },
+    {
+      "countryCode": "PRY",
+      "countryName": "Paraguay",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "PYG"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "595"
+      ]
+    },
+    {
+      "countryCode": "PER",
+      "countryName": "Peru",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "PEN",
+        "USD",
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "51"
+      ]
+    },
+    {
+      "countryCode": "PHL",
+      "countryName": "Philippines",
+      "baseCurrency": "PHP",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "directedSendsActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "PHP"
+      ],
+      "sendCurrencies": [
+        "PHP",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "63"
+      ]
+    },
+    {
+      "countryCode": "PCN",
+      "countryName": "Pitcairn",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": []
+    },
+    {
+      "countryCode": "POL",
+      "countryName": "Poland",
+      "baseCurrency": "PLN",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "directedSendsActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "EUR",
+        "PLN"
+      ],
+      "sendCurrencies": [
+        "PLN",
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "48"
+      ]
+    },
+    {
+      "countryCode": "PRT",
+      "countryName": "Portugal",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "351"
+      ]
+    },
+    {
+      "countryCode": "PRI",
+      "countryName": "Puerto Rico",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "QAT",
+      "countryName": "Qatar",
+      "baseCurrency": "QAR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "QAR"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "QAR"
+      ],
+      "countryDialCodes": [
+        "974"
+      ]
+    },
+    {
+      "countryCode": "REU",
+      "countryName": "Réunion",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "262"
+      ]
+    },
+    {
+      "countryCode": "ROU",
+      "countryName": "Romania",
+      "baseCurrency": "RON",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR",
+        "RON",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "EUR",
+        "RON",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "40"
+      ]
+    },
+    {
+      "countryCode": "RUS",
+      "countryName": "Russian Federation",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "7"
+      ]
+    },
+    {
+      "countryCode": "RWA",
+      "countryName": "Rwanda",
+      "baseCurrency": "RWF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "RWF"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "RWF"
+      ],
+      "countryDialCodes": [
+        "250"
+      ]
+    },
+    {
+      "countryCode": "BLM",
+      "countryName": "Saint Barthélemy",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": []
+    },
+    {
+      "countryCode": "SHN",
+      "countryName": "Saint Helena, Ascension and Tristan da Cunha",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "247",
+        "290"
+      ]
+    },
+    {
+      "countryCode": "KNA",
+      "countryName": "Saint Kitts and Nevis",
+      "baseCurrency": "XCD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XCD",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "XCD",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "LCA",
+      "countryName": "Saint Lucia",
+      "baseCurrency": "XCD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XCD",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "XCD",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "MAF",
+      "countryName": "Saint Martin (French part)",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": []
+    },
+    {
+      "countryCode": "SPM",
+      "countryName": "Saint Pierre and Miquelon",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "508"
+      ]
+    },
+    {
+      "countryCode": "VCT",
+      "countryName": "Saint Vincent and the Grenadines",
+      "baseCurrency": "XCD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XCD",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "XCD",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "WSM",
+      "countryName": "Samoa",
+      "baseCurrency": "WST",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "WST",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "WST",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "685"
+      ]
+    },
+    {
+      "countryCode": "SMR",
+      "countryName": "San Marino",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "378"
+      ]
+    },
+    {
+      "countryCode": "STP",
+      "countryName": "Sao Tome and Principe",
+      "baseCurrency": "STD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "STD",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "STD",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "239"
+      ]
+    },
+    {
+      "countryCode": "SAU",
+      "countryName": "Saudi Arabia",
+      "baseCurrency": "SAR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "SAR",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "SAR"
+      ],
+      "countryDialCodes": [
+        "966"
+      ]
+    },
+    {
+      "countryCode": "SEN",
+      "countryName": "Senegal",
+      "baseCurrency": "XOF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XOF"
+      ],
+      "sendCurrencies": [
+        "XOF"
+      ],
+      "countryDialCodes": [
+        "221"
+      ]
+    },
+    {
+      "countryCode": "SRB",
+      "countryName": "Serbia",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "RSD",
+        "EUR",
+        "USD"
+      ],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "381"
+      ]
+    },
+    {
+      "countryCode": "SCG",
+      "countryName": "Serbia and Montenegro",
+      "lookupKeys": [
+        "okForBirth",
+        "okForBrthCitizenship",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": []
+    },
+    {
+      "countryCode": "SYC",
+      "countryName": "Seychelles",
+      "baseCurrency": "SCR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "SCR"
+      ],
+      "sendCurrencies": [
+        "SCR"
+      ],
+      "countryDialCodes": [
+        "248"
+      ]
+    },
+    {
+      "countryCode": "SLE",
+      "countryName": "Sierra Leone",
+      "baseCurrency": "SLL",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "SLL"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "SLL"
+      ],
+      "countryDialCodes": [
+        "232"
+      ]
+    },
+    {
+      "countryCode": "SGP",
+      "countryName": "Singapore",
+      "baseCurrency": "SGD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "SGD"
+      ],
+      "sendCurrencies": [
+        "SGD"
+      ],
+      "countryDialCodes": [
+        "65"
+      ]
+    },
+    {
+      "countryCode": "SXM",
+      "countryName": "Sint Maarten (Dutch part)",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "SVK",
+      "countryName": "Slovakia",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "421"
+      ]
+    },
+    {
+      "countryCode": "SVN",
+      "countryName": "Slovenia",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "386"
+      ]
+    },
+    {
+      "countryCode": "SLB",
+      "countryName": "Solomon Islands",
+      "baseCurrency": "SBD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "SBD"
+      ],
+      "sendCurrencies": [
+        "SBD"
+      ],
+      "countryDialCodes": [
+        "677"
+      ]
+    },
+    {
+      "countryCode": "SOM",
+      "countryName": "Somalia",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "252"
+      ]
+    },
+    {
+      "countryCode": "ZAF",
+      "countryName": "South Africa",
+      "baseCurrency": "ZAR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "indicativeRateActive",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "ZAR"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "ZAR"
+      ],
+      "countryDialCodes": [
+        "27"
+      ]
+    },
+    {
+      "countryCode": "SGS",
+      "countryName": "South Georgia and the South Sandwich Islands",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": []
+    },
+    {
+      "countryCode": "SSD",
+      "countryName": "South Sudan",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "211"
+      ]
+    },
+    {
+      "countryCode": "ESP",
+      "countryName": "Spain",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR"
+      ],
+      "sendCurrencies": [
+        "EUR"
+      ],
+      "countryDialCodes": [
+        "34"
+      ]
+    },
+    {
+      "countryCode": "LKA",
+      "countryName": "Sri Lanka",
+      "baseCurrency": "LKR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "directedSendsActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "LKR"
+      ],
+      "sendCurrencies": [
+        "LKR"
+      ],
+      "countryDialCodes": [
+        "94"
+      ]
+    },
+    {
+      "countryCode": "SDN",
+      "countryName": "Sudan",
+      "baseCurrency": "SDD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "SDD"
+      ],
+      "sendCurrencies": [
+        "SDD"
+      ],
+      "countryDialCodes": [
+        "249"
+      ]
+    },
+    {
+      "countryCode": "SUR",
+      "countryName": "Suriname",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "SRD",
+        "EUR",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "597"
+      ]
+    },
+    {
+      "countryCode": "SJM",
+      "countryName": "Svalbard and Jan Mayen",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": []
+    },
+    {
+      "countryCode": "SWZ",
+      "countryName": "Swaziland",
+      "baseCurrency": "SZL",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "SZL"
+      ],
+      "sendCurrencies": [
+        "SZL"
+      ],
+      "countryDialCodes": [
+        "268"
+      ]
+    },
+    {
+      "countryCode": "SWE",
+      "countryName": "Sweden",
+      "baseCurrency": "SEK",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "SEK"
+      ],
+      "sendCurrencies": [
+        "SEK"
+      ],
+      "countryDialCodes": [
+        "46"
+      ]
+    },
+    {
+      "countryCode": "CHE",
+      "countryName": "Switzerland",
+      "baseCurrency": "CHF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "CHF"
+      ],
+      "sendCurrencies": [
+        "CHF"
+      ],
+      "countryDialCodes": [
+        "41"
+      ]
+    },
+    {
+      "countryCode": "SYR",
+      "countryName": "Syrian Arab Republic",
+      "baseCurrency": "SYP",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "SYP"
+      ],
+      "sendCurrencies": [
+        "SYP"
+      ],
+      "countryDialCodes": [
+        "963"
+      ]
+    },
+    {
+      "countryCode": "TWN",
+      "countryName": "Taiwan",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "886"
+      ]
+    },
+    {
+      "countryCode": "TJK",
+      "countryName": "Tajikistan",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "992"
+      ]
+    },
+    {
+      "countryCode": "TZA",
+      "countryName": "Tanzania, United Republic of",
+      "baseCurrency": "TZS",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "TZS"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "TZS"
+      ],
+      "countryDialCodes": [
+        "255"
+      ]
+    },
+    {
+      "countryCode": "THA",
+      "countryName": "Thailand",
+      "baseCurrency": "THB",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "THB"
+      ],
+      "sendCurrencies": [
+        "THB"
+      ],
+      "countryDialCodes": [
+        "66"
+      ]
+    },
+    {
+      "countryCode": "XQA",
+      "countryName": "Tibet",
+      "lookupKeys": [
+        "okForBirth",
+        "okForBrthCitizenship",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": []
+    },
+    {
+      "countryCode": "TLS",
+      "countryName": "Timor-Leste",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "670"
+      ]
+    },
+    {
+      "countryCode": "TGO",
+      "countryName": "Togo",
+      "baseCurrency": "XOF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "XOF"
+      ],
+      "sendCurrencies": [
+        "XOF"
+      ],
+      "countryDialCodes": [
+        "228"
+      ]
+    },
+    {
+      "countryCode": "TKL",
+      "countryName": "Tokelau",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "690"
+      ]
+    },
+    {
+      "countryCode": "TON",
+      "countryName": "Tonga",
+      "baseCurrency": "TOP",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "TOP"
+      ],
+      "sendCurrencies": [
+        "TOP"
+      ],
+      "countryDialCodes": [
+        "676"
+      ]
+    },
+    {
+      "countryCode": "TTO",
+      "countryName": "Trinidad and Tobago",
+      "baseCurrency": "TTD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "TTD"
+      ],
+      "sendCurrencies": [
+        "TTD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "TUN",
+      "countryName": "Tunisia",
+      "baseCurrency": "TND",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "TND",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "TND",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "216"
+      ]
+    },
+    {
+      "countryCode": "TUR",
+      "countryName": "Turkey",
+      "baseCurrency": "TRY",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR",
+        "USD",
+        "TRY"
+      ],
+      "sendCurrencies": [
+        "EUR",
+        "USD",
+        "TRY"
+      ],
+      "countryDialCodes": [
+        "90"
+      ]
+    },
+    {
+      "countryCode": "TKM",
+      "countryName": "Turkmenistan",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "993"
+      ]
+    },
+    {
+      "countryCode": "TCA",
+      "countryName": "Turks and Caicos Islands",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "TUV",
+      "countryName": "Tuvalu",
+      "baseCurrency": "AUD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "AUD"
+      ],
+      "sendCurrencies": [
+        "AUD"
+      ],
+      "countryDialCodes": [
+        "688"
+      ]
+    },
+    {
+      "countryCode": "UGA",
+      "countryName": "Uganda",
+      "baseCurrency": "UGX",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "UGX"
+      ],
+      "sendCurrencies": [
+        "UGX"
+      ],
+      "countryDialCodes": [
+        "256"
+      ]
+    },
+    {
+      "countryCode": "UKR",
+      "countryName": "Ukraine",
+      "baseCurrency": "EUR",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "EUR",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "EUR",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "380"
+      ]
+    },
+    {
+      "countryCode": "ARE",
+      "countryName": "United Arab Emirates",
+      "baseCurrency": "AED",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "AED"
+      ],
+      "sendCurrencies": [
+        "AED"
+      ],
+      "countryDialCodes": [
+        "971"
+      ]
+    },
+    {
+      "countryCode": "GBR",
+      "countryName": "United Kingdom of Great Britain and Northern Ireland",
+      "baseCurrency": "GBP",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "GBP"
+      ],
+      "sendCurrencies": [
+        "GBP"
+      ],
+      "countryDialCodes": [
+        "44"
+      ]
+    },
+    {
+      "countryCode": "UMI",
+      "countryName": "United States Minor Outlying Islands",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": []
+    },
+    {
+      "countryCode": "USA",
+      "countryName": "United States of America",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "directedSendsActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "MXN",
+        "CAD",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "MXN",
+        "CAD",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "URY",
+      "countryName": "Uruguay",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "598"
+      ]
+    },
+    {
+      "countryCode": "UZB",
+      "countryName": "Uzbekistan",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "998"
+      ]
+    },
+    {
+      "countryCode": "VUT",
+      "countryName": "Vanuatu",
+      "baseCurrency": "VUV",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "VUV",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "VUV",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "678"
+      ]
+    },
+    {
+      "countryCode": "VEN",
+      "countryName": "Venezuela (Bolivarian Republic of)",
+      "baseCurrency": "VEF",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "VEF"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "VEF"
+      ],
+      "countryDialCodes": [
+        "58"
+      ]
+    },
+    {
+      "countryCode": "VNM",
+      "countryName": "Viet Nam",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "directedSendsActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "84"
+      ]
+    },
+    {
+      "countryCode": "VGB",
+      "countryName": "Virgin Islands (British)",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "VIR",
+      "countryName": "Virgin Islands (U.S.)",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD"
+      ],
+      "sendCurrencies": [
+        "USD"
+      ],
+      "countryDialCodes": [
+        "1"
+      ]
+    },
+    {
+      "countryCode": "WLF",
+      "countryName": "Wallis and Futuna",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": [
+        "681"
+      ]
+    },
+    {
+      "countryCode": "ESH",
+      "countryName": "Western Sahara",
+      "lookupKeys": [
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": []
+    },
+    {
+      "countryCode": "YEM",
+      "countryName": "Yemen",
+      "baseCurrency": "USD",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "YER",
+        "USD"
+      ],
+      "sendCurrencies": [
+        "YER",
+        "USD"
+      ],
+      "countryDialCodes": [
+        "967"
+      ]
+    },
+    {
+      "countryCode": "YUG",
+      "countryName": "Yugoslavia",
+      "lookupKeys": [
+        "okForBirth",
+        "okForBrthCitizenship",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": []
+    },
+    {
+      "countryCode": "ZRZ",
+      "countryName": "Zaire",
+      "lookupKeys": [
+        "okForBirth",
+        "okForBrthCitizenship",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [],
+      "sendCurrencies": [],
+      "countryDialCodes": []
+    },
+    {
+      "countryCode": "ZMB",
+      "countryName": "Zambia",
+      "baseCurrency": "ZMW",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "ZMW",
+        "USD",
+        "ZMK"
+      ],
+      "sendCurrencies": [
+        "ZMW",
+        "USD",
+        "ZMK"
+      ],
+      "countryDialCodes": [
+        "260"
+      ]
+    },
+    {
+      "countryCode": "ZWE",
+      "countryName": "Zimbabwe",
+      "baseCurrency": "CNY",
+      "lookupKeys": [
+        "sendActive",
+        "receiveActive",
+        "hasBaseCurrency",
+        "okForAddress",
+        "okForBirth",
+        "okForIdentification",
+        "okForCitizenship",
+        "okForBrthCitizenship",
+        "okForNationality",
+        "okForBrthNationality"
+      ],
+      "receiveCurrencies": [
+        "USD",
+        "CNY",
+        "ZWD"
+      ],
+      "sendCurrencies": [
+        "USD",
+        "CNY",
+        "ZWD"
+      ],
+      "countryDialCodes": [
+        "263"
+      ]
+    }
+  ]
+}

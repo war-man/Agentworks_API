@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://moneygram.com/service/DataLookupService_v1" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dls="http://moneygram.com/service/DataLookupService_v1" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <wsdl:types>
+    <xs:schema targetNamespace="http://moneygram.com/service/DataLookupService_v1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+			<xs:include schemaLocation="DataLookupService_v1.xsd"/>
+		</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="MoneyGramSendDetailReportWithTaxResponse">
+    <wsdl:part name="parameters" element="dls:moneyGramSendDetailReportWithTaxResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="BPTransactionDetailLookupRequest">
+    <wsdl:part name="bpTransactionDetailLookupRequest" element="dls:bpTransactionDetailLookupRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="TransactionSummaryLookupResponse">
+    <wsdl:part name="parameters" element="dls:transactionSummaryLookupResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="TransactionSummaryLookupRequest">
+    <wsdl:part name="parameters" element="dls:transactionSummaryLookupRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="MTTransactionDetailLookupRequest">
+    <wsdl:part name="mtTransactionDetailLookupRequest" element="dls:mtTransactionDetailLookupRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SearchStoppedTransactionsResponse">
+    <wsdl:part name="searchStoppedTransactionsResponse" element="dls:searchStoppedTransactionsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="BPTransactionDetailLookupResponse">
+    <wsdl:part name="bpTransactionDetailLookupResponse" element="dls:bpTransactionDetailLookupResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="DailyTransactionDetailLookupResponse">
+    <wsdl:part name="dailyTransactionDetailLookupResponse" element="dls:dailyTransactionDetailLookupResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="MGIConsumerTransactionLookupResponse">
+    <wsdl:part name="parameters" element="dls:mgiConsumerTransactionLookupResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="MoneyGramSendDetailReportWithTaxRequest">
+    <wsdl:part name="parameters" element="dls:moneyGramSendDetailReportWithTaxRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetTransactionListByProfileRequest">
+    <wsdl:part name="getTransactionListByProfileRequest" element="dls:getTransactionListByProfileRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="MGIConsumerTransactionLookupRequest">
+    <wsdl:part name="parameters" element="dls:mgiConsumerTransactionLookupRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SearchConsumerEntityResponse">
+    <wsdl:part name="searchConsumerEntityResponse" element="dls:searchConsumerEntityResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetConsumerTransactionHistoryResponse">
+    <wsdl:part name="parameters" element="dls:getConsumerTransactionHistoryResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SearchStoppedTransactionsRequest">
+    <wsdl:part name="searchStoppedTransactionsRequest" element="dls:searchStoppedTransactionsRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="BPFrequentCustomerLookupRequest">
+    <wsdl:part name="parameters" element="dls:bpFrequentCustomerLookupRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="BPFrequentCustomerLookupResponse">
+    <wsdl:part name="parameters" element="dls:bpFrequentCustomerLookupResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="MTFrequentCustomerLookupResponse">
+    <wsdl:part name="parameters" element="dls:mtFrequentCustomerLookupResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetTransactionListByProfileResponse">
+    <wsdl:part name="getTransactionListByProfileResponse" element="dls:getTransactionListByProfileResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="MTTransactionDetailLookupResponse">
+    <wsdl:part name="mtTransactionDetailLookupResponse" element="dls:mtTransactionDetailLookupResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="DailyTransactionDetailLookupRequest">
+    <wsdl:part name="dailyTransactionDetailLookupRequest" element="dls:dailyTransactionDetailLookupRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="SearchConsumerEntityRequest">
+    <wsdl:part name="searchConsumerEntityRequest" element="dls:searchConsumerEntityRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="MTFrequentCustomerLookupRequest">
+    <wsdl:part name="parameters" element="dls:mtFrequentCustomerLookupRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="GetConsumerTransactionHistoryRequest">
+    <wsdl:part name="parameters" element="dls:getConsumerTransactionHistoryRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="DataLookupServicePortType">
+    <wsdl:operation name="SearchStoppedTransactions">
+      <wsdl:input message="dls:SearchStoppedTransactionsRequest">
+    </wsdl:input>
+      <wsdl:output message="dls:SearchStoppedTransactionsResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchConsumerEntity">
+      <wsdl:input message="dls:SearchConsumerEntityRequest">
+    </wsdl:input>
+      <wsdl:output message="dls:SearchConsumerEntityResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MTFrequentCustomerLookup">
+      <wsdl:input message="dls:MTFrequentCustomerLookupRequest">
+    </wsdl:input>
+      <wsdl:output message="dls:MTFrequentCustomerLookupResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BPFrequentCustomerLookup">
+      <wsdl:input message="dls:BPFrequentCustomerLookupRequest">
+    </wsdl:input>
+      <wsdl:output message="dls:BPFrequentCustomerLookupResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTransactionListByProfile">
+      <wsdl:input message="dls:GetTransactionListByProfileRequest">
+    </wsdl:input>
+      <wsdl:output message="dls:GetTransactionListByProfileResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MTTransactionDetailLookup">
+      <wsdl:input message="dls:MTTransactionDetailLookupRequest">
+    </wsdl:input>
+      <wsdl:output message="dls:MTTransactionDetailLookupResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BPTransactionDetailLookup">
+      <wsdl:input message="dls:BPTransactionDetailLookupRequest">
+    </wsdl:input>
+      <wsdl:output message="dls:BPTransactionDetailLookupResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DailyTransactionDetailLookup">
+      <wsdl:input message="dls:DailyTransactionDetailLookupRequest">
+    </wsdl:input>
+      <wsdl:output message="dls:DailyTransactionDetailLookupResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransactionSummaryLookup">
+      <wsdl:input message="dls:TransactionSummaryLookupRequest">
+    </wsdl:input>
+      <wsdl:output message="dls:TransactionSummaryLookupResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MoneyGramSendDetailReportWithTax">
+      <wsdl:input message="dls:MoneyGramSendDetailReportWithTaxRequest">
+    </wsdl:input>
+      <wsdl:output message="dls:MoneyGramSendDetailReportWithTaxResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetConsumerTransactionHistory">
+      <wsdl:input message="dls:GetConsumerTransactionHistoryRequest">
+    </wsdl:input>
+      <wsdl:output message="dls:GetConsumerTransactionHistoryResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MGIConsumerTransactionLookup">
+      <wsdl:input message="dls:MGIConsumerTransactionLookupRequest">
+    </wsdl:input>
+      <wsdl:output message="dls:MGIConsumerTransactionLookupResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DataLookupServiceSOAPBinding" type="dls:DataLookupServicePortType">
+    <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="SearchStoppedTransactions">
+      <wsdlsoap:operation soapAction="http://moneygram.com/DataLookupService_v1/SearchStoppedTransactions"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchConsumerEntity">
+      <wsdlsoap:operation soapAction="http://moneygram.com/DataLookupService_v1/SearchConsumerEntity"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MTFrequentCustomerLookup">
+      <wsdlsoap:operation soapAction="http://moneygram.com/DataLookupService_v1/MTFrequentCustomerLookup"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BPFrequentCustomerLookup">
+      <wsdlsoap:operation soapAction="http://moneygram.com/DataLookupService_v1/BPrequentCustomerLookup"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTransactionListByProfile">
+      <wsdlsoap:operation soapAction="http://moneygram.com/DataLookupService_v1/GetTransactionListByProfile"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MTTransactionDetailLookup">
+      <wsdlsoap:operation soapAction="http://moneygram.com/DataLookupService_v1/MTTransactionDetailLookup"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BPTransactionDetailLookup">
+      <wsdlsoap:operation soapAction="http://moneygram.com/DataLookupService_v1/BPTransactionDetailLookup"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DailyTransactionDetailLookup">
+      <wsdlsoap:operation soapAction="http://moneygram.com/DataLookupService_v1/DailyTransactionDetailLookup"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TransactionSummaryLookup">
+      <wsdlsoap:operation soapAction="http://moneygram.com/DataLookupService_v1/TransactionSummaryLookup"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MoneyGramSendDetailReportWithTax">
+      <wsdlsoap:operation soapAction="http://moneygram.com/DataLookupService_v1/MoneyGramSendDetailReportWithTax"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetConsumerTransactionHistory">
+      <wsdlsoap:operation soapAction="http://moneygram.com/DataLookupService_v1/GetConsumerTransactionHistory"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MGIConsumerTransactionLookup">
+      <wsdlsoap:operation soapAction="http://moneygram.com/DataLookupService_v1/MGIConsumerTransactionLookup"/>
+      <wsdl:input>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DataLookupService_v1">
+    <wsdl:port name="DataLookupServiceSoap" binding="dls:DataLookupServiceSOAPBinding">
+      <wsdlsoap:address location="http://q5wsintsvcs.qacorp.moneygram.com:80/DataLookupService/DataLookupService_v1"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

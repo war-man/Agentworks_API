@@ -1,0 +1,14 @@
+﻿{
+  "da070b9d-b76e-46e1-a6c4-f532a8cf1c27": {
+    "Sub": "Support User",
+    "MgiAppAwRoles": [
+      "AgentWorks - Support"
+    ]
+  },
+  "1c048140-64de-4744-b095-863a316ae709": {
+    "Sub": "Support User - DT4 Support",
+    "MgiAppAwRoles": [
+      "AgentWorks - DT4 Support"
+    ]
+  }
+}

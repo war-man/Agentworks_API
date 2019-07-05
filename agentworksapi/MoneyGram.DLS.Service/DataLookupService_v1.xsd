@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema 
+    xmlns:dls="http://moneygram.com/service/DataLookupService_v1"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cmn="http://moneygram.com/common_v1"
+	targetNamespace="http://moneygram.com/service/DataLookupService_v1" elementFormDefault="qualified"
+	attributeFormDefault="unqualified" xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+	jxb:version="2.0">
+
+	<xs:import namespace="http://moneygram.com/common_v1"
+		schemaLocation="mgi_request_v1.xsd" />
+		
+	<xs:element name="mtFrequentCustomerLookupRequest" type="dls:MTFrequentCustomerLookupRequest" />
+	<xs:element name="mtFrequentCustomerLookupResponse" type="dls:MTFrequentCustomerLookupResponse" />
+	<xs:element name="bpFrequentCustomerLookupRequest" type="dls:BPFrequentCustomerLookupRequest" />
+	<xs:element name="bpFrequentCustomerLookupResponse" type="dls:BPFrequentCustomerLookupResponse" />	
+	<xs:element name="getTransactionListByProfileRequest" type="dls:GetTransactionListByProfileRequest"/>
+	<xs:element name="getTransactionListByProfileResponse" type="dls:GetTransactionListByProfileResponse"/>
+	<xs:element name="mtTransactionDetailLookupRequest" type="dls:MTTransactionDetailLookupRequest"/>
+	<xs:element name="mtTransactionDetailLookupResponse" type="dls:MTTransactionDetailLookupResponse"/>
+	<xs:element name="bpTransactionDetailLookupRequest" type="dls:BPTransactionDetailLookupRequest"/>
+	<xs:element name="bpTransactionDetailLookupResponse" type="dls:BPTransactionDetailLookupResponse"/>
+	<xs:element name="dailyTransactionDetailLookupRequest" type="dls:DailyTransactionDetailLookupRequest"/>
+	<xs:element name="dailyTransactionDetailLookupResponse" type="dls:DailyTransactionDetailLookupResponse"/>
+	
+	<xs:element name="searchConsumerEntityRequest" type="dls:SearchConsumerEntityRequest"/>
+	<xs:element name="searchConsumerEntityResponse" type="dls:SearchConsumerEntityResponse"/>
+	<xs:element name="searchStoppedTransactionsRequest" type="dls:SearchStoppedTransactionsRequest"/>
+	<xs:element name="searchStoppedTransactionsResponse" type="dls:SearchStoppedTransactionsResponse"/>
+	
+	<xs:element name="transactionSummaryLookupRequest" type="dls:TransactionSummaryLookupRequest"/>
+	<xs:element name="transactionSummaryLookupResponse" type="dls:TransactionSummaryLookupResponse"/>
+	
+	<xs:element name="moneyGramSendDetailReportWithTaxRequest" type="dls:MoneyGramSendDetailReportWithTaxRequest"/>
+	<xs:element name="moneyGramSendDetailReportWithTaxResponse" type="dls:MoneyGramSendDetailReportWithTaxResponse"/>
+	
+	<!--Consumer Profiles Phase 2 May 2017-->
+	<xs:element name="getConsumerTransactionHistoryRequest" type="dls:GetConsumerTransactionHistoryRequest"/>
+	<xs:element name="getConsumerTransactionHistoryResponse" type="dls:GetConsumerTransactionHistoryResponse"/>
+	<!--Consumer Profiles Phase 2 May 2017-->	
+
+	<xs:element name="mgiConsumerTransactionLookupRequest" type="dls:MGIConsumerTransactionLookupRequest"/>
+	<xs:element name="mgiConsumerTransactionLookupResponse" type="dls:MGIConsumerTransactionLookupResponse"/>
+
+    	
+    <xs:element name="entityUpdateMessage" type="dls:EntityUpdateMessageType" />
+	<xs:element name="rrnUpdateMessage" type="dls:RRNUpdateMessageType" />
+	
+	<xs:complexType name="MTFrequentCustomerLookupRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="customerLoyaltyId" nillable="true" type="dls:rewardsNumberType" />
+					<xs:element name="agentProfileId" nillable="true" type="dls:rewardsNumberType" />
+					<xs:element name="phoneNumber" nillable="true" type="dls:phoneNumberType" />
+					<xs:element name="numberOfSenders" type="xs:int" />
+					<xs:element name="numberOfReceivers" type="xs:int" />
+					<xs:element name="minimumSendDate" nillable="true" type="dls:dateStringType" />
+					
+				</xs:sequence>
+			</xs:extension>   
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="MoneyGramSendDetailReportWithTaxRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="agentId" type="dls:agentID" />
+					<xs:element name="activityDate" type="xs:date" />					
+				</xs:sequence>
+			</xs:extension>   
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="MoneyGramSendDetailReportWithTaxResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="reportInfo"
+						type="dls:MoneyGramSendWithTaxDetailInfo" />					
+				</xs:sequence>
+			</xs:extension>   
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="MoneyGramSendWithTaxDetailInfo">
+		<xs:sequence>
+			<xs:element name="referenceNumber" type="dls:stringMax8Min8" />
+			<xs:element name="faceAmount" type="dls:decimal14" />
+			<xs:element name="feeAmount" type="dls:decimal14" />
+			<xs:element name="totalAmount" type="dls:decimal14" />
+			<xs:element name="sendCurrency" type="dls:stringMax3" />
+			<xs:element name="paymentType" type="dls:paymentType" />
+			<xs:element name="taxAmount" nillable="true" type="dls:decimal14" />
+			<xs:element name="taxPercentage" nillable="true" type="dls:decimal3ThreePrec" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="BPFrequentCustomerLookupRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:sequence>
+					<xs:element name="customerLoyaltyId" nillable="true" type="dls:rewardsNumberType" />
+					<xs:element name="phoneNumber" nillable="true" type="dls:phoneNumberType" />
+					<xs:element name="billerAccountNumber" nillable="true" type="dls:stringMax20" />
+					<xs:element name="excludeUBP" nillable="true" type="xs:boolean" />
+					<xs:element name="numberOfSenders" type="xs:int" />
+					<xs:element name="numberOfReceivers" type="xs:int" />
+					<xs:element name="minimumSendDate" nillable="true" type="dls:dateStringType" />
+				</xs:sequence>
+				</xs:sequence>
+			</xs:extension>   
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="MTFrequentCustomerLookupResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element maxOccurs="unbounded" minOccurs="0" name="senderInfo" type="dls:MTSenderInfo" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	
+	<xs:complexType name="BPFrequentCustomerLookupResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element maxOccurs="unbounded" minOccurs="0" name="senderInfo" type="dls:BPSenderInfo" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="MTSenderInfo">
+		<xs:sequence>
+			<xs:element name="sender" nillable="true" type="dls:Sender" />
+			<xs:element maxOccurs="unbounded" minOccurs="0" name="mtTransactionDetail" type="dls:MTTransactionDetail" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="BPSenderInfo">
+		<xs:sequence>
+			<xs:element name="sender" nillable="true" type="dls:Sender" />
+			<xs:element maxOccurs="unbounded" minOccurs="0" name="bpTransactionDetail" type="dls:BPTransactionDetail" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	
+	<xs:complexType name="Sender">
+		<xs:sequence>
+			<xs:element name="person" nillable="true" type="dls:Person" />
+			<xs:element name="consumerId" type="dls:cnsmrIDType" />
+			<xs:element name="rewardsCardNumber" type="dls:rewardsNumberType" />
+			<xs:element name="loyaltyProgramTypeCode" type="dls:stringMax20" />
+			<xs:element name="lastUpdateDate" type="dls:dateStringType" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="MTTransactionDetail">
+	 <xs:complexContent>
+	 <xs:extension base="dls:TransactionsDetail">
+	 <xs:sequence>
+		<xs:element name="payoutCurrency" type="dls:stringMax3" />
+		<xs:element name="customerReceiveNumber" nillable="true" type="dls:stringMax256" />
+		<xs:element name="agentCustomerNumber" nillable="true" type="dls:stringMax20" />
+		<xs:element name="accountNumber" nillable="true" type="dls:stringMax256" />
+		<xs:element name="accountNickName" nillable="true" type="dls:stringMax20" />
+		<xs:element name="receiver" nillable="true" type="dls:MTReceiver" />
+	 </xs:sequence>
+	</xs:extension>
+	</xs:complexContent>
+	</xs:complexType>
+	
+	
+	<xs:complexType name="BPTransactionDetail">
+	 <xs:complexContent>
+	 <xs:extension base="dls:TransactionsDetail">
+	 <xs:sequence>
+		<xs:element name="receiver" nillable="true" type="dls:BPReceiver" />
+	 </xs:sequence>
+	</xs:extension>
+	</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="MTReceiver">
+	 <xs:sequence>
+		<xs:element name="person" nillable="true" type="dls:Person" />
+		<xs:element name="directedSendAgent" nillable="true" type="dls:DirectedSendsAgentInfo" />
+	</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="BPReceiver">
+	 <xs:sequence>
+		<xs:element name="person" nillable="true" type="dls:Person" />
+		<xs:element name="billerAgentInfo" nillable="true" type="dls:BillerAgentInfo" />
+	</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="DirectedSendsAgentInfo">
+	  <xs:complexContent>
+	 <xs:extension base="dls:AgentInfo">
+	 <xs:sequence>
+		<xs:element name="agentName" nillable="true" type="dls:stringMax50" />
+		<xs:element name="agentNameAbbreviation" nillable="true" type="dls:stringMax50" />
+	</xs:sequence>
+	</xs:extension>
+	</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="BillerAgentInfo">
+	  <xs:complexContent>
+	 <xs:extension base="dls:AgentInfo">
+	 <xs:sequence>
+	 	<xs:element name="receiveCode" nillable="true"
+	 		type="dls:stringMax34" />
+	 	<xs:element name="accountNumberLastFour" nillable="true"
+	 		type="dls:stringMax20" />
+	 	<xs:element name="agentName" nillable="true"
+	 		type="dls:stringMax50" />
+	 	<xs:element name="agentNameAbbreviation" nillable="true"
+	 		type="dls:stringMax50" />
+	 	<xs:element name="billerCity" nillable="true"
+	 		type="dls:stringMax50" />
+	 	<xs:element name="billerCountry" nillable="true"
+	 		type="dls:stringMax3" />
+	 	<xs:element name="billerCountryMF" nillable="true"
+	 		type="dls:stringMax2" />
+	 	<xs:element name="internationalBankAccountNumber" nillable="true"
+	 		type="dls:stringMax34"/>
+	 	<xs:element name="billerAccountDescription" nillable="true" 
+	 		type="dls:stringMax140"/>
+	 </xs:sequence>
+	 </xs:extension>
+	</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="AgentInfo">
+	 <xs:sequence>
+		<xs:element name="agentId" nillable="true" type="dls:stringMax10" />
+		<xs:element name="mainofficeAgentId" nillable="true" type="dls:stringMax10" />
+	</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Person">
+		<xs:sequence>
+			<xs:element name="address1" type="dls:addressType" />
+			<xs:element name="address2" type="dls:addressType" />
+			<xs:element name="address3" type="dls:addressType" />
+			<xs:element name="city" type="dls:cityType" />
+			<xs:element name="postalCode" type="dls:postalCodeType" />
+			<xs:element name="stateProvince" type="dls:stateType" />
+			<xs:element name="countryIsoCode" type="dls:isoCountryCodeType" />
+			<xs:element name="mfCountryCode" type="dls:mfCountryCodeType" />
+			<xs:element name="firstName" type="dls:cnsmrNameType" />
+			<xs:element name="lastName" type="dls:cnsmrNameType" />
+			<xs:element name="middleName" type="dls:cnsmrNameType" />
+			<xs:element name="maternalLastName" type="dls:cnsmrNameType" />
+			<xs:element name="phoneNumber" type="dls:phoneNumberType" />
+			<xs:element name="birthDate" type="dls:dateStringType" />
+			<xs:element name="birthCountry" type="dls:stringMax3" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="TransactionsDetail">
+		<xs:sequence>
+			<xs:element name="sendTranDate" type="dls:dateStringType" />
+			<xs:element name="transactionStatusCode" type="dls:stringMax10" />
+			<xs:element name="productId" type="dls:stringMax10" />
+			<xs:element name="deliveryOptionId" type="dls:stringMax10" />
+			<xs:element name="deliveryInstruction1" type="dls:stringMax50" />
+			<xs:element name="deliveryInstruction2" type="dls:stringMax50" />
+			<xs:element name="deliveryInstruction3" type="dls:stringMax50" />
+			<xs:element name="sendAgent" type="dls:AgentInfo" />
+			<xs:element name="sendIsoCountryCode" type="dls:isoCountryCodeType" />
+			<xs:element name="sendMFCountryCode" type="dls:mfCountryCodeType" />
+			<xs:element name="sendCurrency" type="dls:stringMax3" />
+			<xs:element name="sendAmount" type="dls:decimal14" />
+			<xs:element name="receiveCurrency" type="dls:stringMax3" />
+			<xs:element name="receiveISOCountryCode" type="dls:isoCountryCodeType" />
+			<xs:element name="destinationSubdivisionCode" type="dls:stateType" />
+			<xs:element name="receiveMFCountryCode" type="dls:mfCountryCodeType" />
+			<xs:element name="stoppedTransactionFlag" type="dls:yesNoType"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	 <xs:complexType name="GetTransactionListByProfileRequest">
+  <xs:complexContent>
+   <xs:extension base="cmn:BaseServiceRequestMessage">
+    <xs:sequence>
+     <xs:element name="consumerId" nillable="true" type="dls:cnsmrIDType"/>
+     <xs:element name="rewardsNumber" nillable="true" type="dls:rewardsNumberType"/> 
+     <!--Consumer Profiles Phase 2 -->
+     <xs:element name="profileType" type="xs:string" minOccurs="1" />             
+     <xs:element name="beginDate" minOccurs="0" type="xs:dateTime"/>         
+     <xs:element name="endDate" minOccurs="0" type="xs:dateTime"/>
+    </xs:sequence>
+   </xs:extension>
+  </xs:complexContent>
+ </xs:complexType>
+ 
+ <xs:complexType name="GetTransactionListByProfileResponse">
+  <xs:complexContent>
+   <xs:extension base="cmn:BaseServiceResponseMessage">
+    <xs:sequence>
+     <xs:element name="transactions" nillable="true" type="dls:ArrayOf_tns1_TransactionDto"/>
+    </xs:sequence>
+   </xs:extension>
+  </xs:complexContent>
+ </xs:complexType>
+ 
+ <xs:complexType name="ArrayOf_tns1_TransactionDto">
+  <xs:sequence>
+  <xs:element maxOccurs="unbounded" minOccurs="0" name="item" type="dls:TransactionDto" /> 
+  </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="TransactionDto">
+  <xs:sequence>
+   <xs:element name="rcvFirstName" nillable="true" type="dls:cnsmrNameType"/>
+   <xs:element name="rcvLastName" nillable="true" type="dls:cnsmrNameType"/>
+   <xs:element name="rcvMaternalLastName" nillable="true" type="dls:cnsmrNameType"/>
+   <xs:element name="referenceNbr" nillable="true" type="dls:stringMax10"/>
+   <xs:element name="sendAmt" nillable="true" type="xs:decimal"/>
+   <xs:element name="sendCurrencyCode" nillable="true" type="dls:stringMax3"/>
+   <xs:element name="sendDateAsStr" nillable="true" type="dls:stringMax50"/>
+   <xs:element name="status" nillable="true" type="dls:stringMax10"/>
+   <xs:element name="statusChangedDateAsStr" nillable="true" type="dls:stringMax50"/>
+   <xs:element name="currencyDecimalPrecision" nillable="true" type="xs:int"/>
+  </xs:sequence>
+ </xs:complexType>
+
+
+<!-- GCV PCR for AgentWorks Coding Starts -->
+
+	<xs:complexType name="MTTransactionDetailLookupRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="agentId" minOccurs="1" type="dls:stringMax10" />
+					<xs:element name="posId" minOccurs="0" type="dls:stringMax10" />
+					<xs:element name="dateTime" minOccurs="1" type="dls:dateStringType" />
+					<xs:element name="deliveryOption" minOccurs="0" type="dls:stringMax10" />
+					<xs:element name="eventType" minOccurs="0" type="dls:stringMax10" />
+				</xs:sequence>
+			</xs:extension>   
+		</xs:complexContent>
+	</xs:complexType>
+	
+		<xs:complexType name="MTTransactionDetailLookupResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>					
+					<xs:element maxOccurs="unbounded" minOccurs="0" name="getMTTransactionDetailLookupResultArray" type="dls:TransactionDetailLookupResult" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+
+	<xs:complexType name="BPTransactionDetailLookupRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="agentId" minOccurs="1" type="dls:stringMax10" />
+					<xs:element name="posId" minOccurs="0" type="dls:stringMax10" />
+					<xs:element name="dateTime" minOccurs="1" type="dls:dateStringType" />
+					<xs:element name="productVariant" minOccurs="0" type="dls:stringMax10" />
+					<xs:element name="eventType" minOccurs="0" type="dls:stringMax10" />
+				</xs:sequence>
+			</xs:extension>   
+		</xs:complexContent>
+	</xs:complexType>
+	
+		<xs:complexType name="BPTransactionDetailLookupResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>					
+					<xs:element maxOccurs="unbounded" minOccurs="0" name="getBPTransactionDetailLookupResultArray" type="dls:TransactionDetailLookupResult" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+
+	<xs:complexType name="DailyTransactionDetailLookupRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="agentId" minOccurs="1" type="dls:stringMax10" />
+					<xs:element name="posId" minOccurs="0" type="dls:stringMax10" />
+					<xs:element name="dateTime" minOccurs="1" type="dls:dateStringType" />
+				</xs:sequence>
+			</xs:extension>   
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="DailyTransactionDetailLookupResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>					
+					<xs:element maxOccurs="unbounded" minOccurs="0" name="getDailyTransactionDetailLookupResultArray" type="dls:TransactionDetailLookupResult" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+		
+	<xs:complexType name="TransactionDetailLookupResult">
+		<xs:sequence>
+			<xs:element name="posId" type="xs:string" />
+			<xs:element name="faceAmount" type="xs:string" />
+			<xs:element name="feeAmount" type="xs:string" />
+			<xs:element name="taxAmount" type="xs:string" />
+			<xs:element name="isoCurrencyCode" type="xs:string" />
+			<xs:element name="fxConsumerRate" type="xs:string" />
+			<xs:element name="authCode" type="xs:string" />
+			<xs:element name="payoutType" type="xs:string" />
+			<xs:element name="productId" type="xs:string" />
+			<xs:element name="referenceId" type="xs:string" />
+			<xs:element name="agentLocalTime" type="xs:string" />
+			<xs:element name="eventCode" type="xs:string" />
+			<xs:element name="eventDate" type="xs:string" maxOccurs="1"
+				minOccurs="0" />
+			<xs:element name="operatorId" type="xs:string" />
+			<xs:element name="senderName" type="xs:string" />
+			<xs:element name="isoSendCountryCode" type="xs:string" minOccurs="0" maxOccurs="1"></xs:element>
+			<xs:element name="receiverName" type="xs:string" />
+			<xs:element name="isoIntendedReceiveCountryCode"
+				type="xs:string" minOccurs="0" maxOccurs="1" />
+			<xs:element name="informationalFeeIndicator"
+				type="xs:boolean" />
+			<xs:element minOccurs="0" maxOccurs="1"
+				name="serialNumberArray" type="dls:SerialNumberResult" />
+			<xs:element minOccurs="0" name="alternateAgentId"
+				type="dls:stringMax10" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	
+	<xs:complexType name="GetConsumerTransactionHistoryRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="transactionIdArray" type="dls:transactionIds" minOccurs="0"/>
+					<xs:element name="filterCode" nillable="true" type="dls:stringMin0Max50" />
+					<xs:element name="billerAccountNumber" nillable="true" type="dls:stringMin0Max20" />
+					<xs:element name="maxReturn" nillable="true" type="dls:integer3" />
+					<xs:element name="maxReceiversToReturn" type="dls:integer3" minOccurs="0" />
+					<xs:element name="maxBillersToReturn" type="dls:integer3" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="transactionIds">
+		<xs:sequence>
+			<xs:element maxOccurs="unbounded" name="transactionId" type="dls:stringMax18"	minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<xs:complexType name="GetConsumerTransactionHistoryResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="transactions" nillable="true"	type="dls:ArrayOf_TransactionHistory" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="ArrayOf_TransactionHistory">
+		<xs:sequence>
+			<xs:element maxOccurs="unbounded"  name="transaction"	type="dls:TransactionHistory" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="TransactionHistory">
+		<xs:sequence>
+			<xs:element name="senderFirstName" type="dls:cnsmrNameType" minOccurs="0" />
+			<xs:element name="senderLastName" type="dls:cnsmrNameType" minOccurs="0" />
+			<xs:element name="senderMiddleName" type="dls:cnsmrNameType" minOccurs="0" />
+			<xs:element name="senderMaternalLastName" type="dls:cnsmrNameType" minOccurs="0" />
+			<xs:element name="senderPhoneNumber" type="dls:phoneNumberMaxType" minOccurs="0" />
+			<xs:element name="receiverFirstName" type="dls:cnsmrNameType" minOccurs="0" />
+			<xs:element name="receiverLastName" type="dls:cnsmrNameType" minOccurs="0" />
+			<xs:element name="receiverMiddleName" type="dls:cnsmrNameType" minOccurs="0" />
+			<xs:element name="receiverMaternalLastName" type="dls:cnsmrNameType" minOccurs="0" />
+			<xs:element name="referenceNumber" type="dls:stringMin0Max8" minOccurs="0" />
+			<xs:element name="productId" type="dls:stringMin0Max10" minOccurs="0" />
+			<xs:element name="transactionID" type="dls:stringMax18" minOccurs="0" />
+			<xs:element name="transactionEventSequenceNumber" type="dls:integer3" minOccurs="0" />
+			<xs:element name="transactionStatus" type="dls:stringMax3" minOccurs="0" />
+			<xs:element name="transactionStatusUpdateDate" type="xs:dateTime" minOccurs="0" />
+			<xs:element name="sendCurrrency" type="dls:stringMax3" minOccurs="0" />
+			<xs:element name="sendAmount" type="dls:amountType" minOccurs="0" />
+			<xs:element name="sendCountry" type="dls:isoCountryCodeType" minOccurs="0" />
+			<xs:element name="sendDate" type="xs:dateTime" minOccurs="0" />
+			<xs:element name="receiveCurrency" type="dls:stringMax3" minOccurs="0" />
+			<xs:element name="receiveAmount" type="dls:amountType" minOccurs="0" />
+			<xs:element name="receiveCountry" type="dls:isoCountryCodeType" minOccurs="0" />		
+			<xs:element name="deliveryOption" type="dls:stringMin0Max10" minOccurs="0" />
+			<xs:element name="receiverAddress1" type="dls:addressType" minOccurs="0" />
+			<xs:element name="receiverAddress2" type="dls:addressType" minOccurs="0" />
+			<xs:element name="receiverAddress3" type="dls:addressType" minOccurs="0" />
+			<xs:element name="receiverCity" type="dls:cityType" minOccurs="0" />
+			<xs:element name="receiverState" type="dls:stateType" minOccurs="0" />
+			<xs:element name="receiverZipCode" type="dls:postalCodeType" minOccurs="0" />
+			<xs:element name="receiverPhone" type="dls:phoneNumberMaxType" minOccurs="0" />
+			<xs:element name="receiverCountry" type="dls:isoCountryCodeType" minOccurs="0" />
+			<xs:element name="direction1" type="dls:addressType" minOccurs="0" />
+			<xs:element name="direction2" type="dls:addressType" minOccurs="0" />
+			<xs:element name="direction3" type="dls:addressType" minOccurs="0" />
+			<xs:element name="customerReceiveNumber" type="dls:stringMin0Max256" minOccurs="0" />
+			<xs:element name="accountNickName" 	type="dls:stringMin0Max20" minOccurs="0" />
+			<xs:element name="displayAccountID" type="dls:stringMin0Max256" minOccurs="0" />
+			<xs:element name="receiveAgentID" type="dls:stringMin0Max10" minOccurs="0" />
+			<xs:element name="receiveAgentName" type="dls:stringMin0Max50" minOccurs="0" />
+			<xs:element name="receiveAgentAbbreviation"  type="dls:stringMin0Max50" minOccurs="0" />
+			<xs:element name="receiveCode"  type="dls:stringMax34" minOccurs="0" />
+			<xs:element name="productVariant" type="dls:stringMin0Max10" minOccurs="0" />
+			<xs:element name="billerAccountNumber"  type="dls:stringMin0Max20" minOccurs="0" />
+			<xs:element name="billerAccountDescription"	type="dls:stringMax140" minOccurs="0" />
+			<xs:element name="internationalBankAccountNumber" type="dls:stringMax34" minOccurs="0" />
+			<xs:element name="billerName" type="dls:stringMin0Max50" minOccurs="0" />
+			<xs:element name="billerCity" type="dls:cityType"	minOccurs="0" />
+		</xs:sequence>
+</xs:complexType>
+
+	<xs:complexType name="MGIConsumerTransactionLookupRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="phoneNumber" nillable="true" type="dls:phoneNumberType" />
+					<xs:element name="transactionIdArray" type="dls:transactionIds" minOccurs="0"/>					
+					<xs:element name="filterCode" nillable="true" type="dls:stringMin0Max50" />			    
+					<xs:element name="maxReceiversToReturn" type="dls:integer3" minOccurs="0" />					
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="MGIConsumerTransactionLookupResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="transactions" nillable="true"	type="dls:ArrayOf_TransactionDetails" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="ArrayOf_TransactionDetails">
+		<xs:sequence>
+			<xs:element maxOccurs="unbounded"  name="transaction"	type="dls:TransactionDetails" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="TransactionDetails">
+		<xs:sequence>
+			<xs:element name="senderFirstName" type="dls:cnsmrNameType" minOccurs="0" />
+			<xs:element name="senderLastName" type="dls:cnsmrNameType" minOccurs="0" />
+			<xs:element name="senderMiddleName" type="dls:cnsmrNameType" minOccurs="0" />
+			<xs:element name="senderMaternalLastName" type="dls:cnsmrNameType" minOccurs="0" />
+			<xs:element name="senderAddress1" type="dls:addressType" minOccurs="0" />
+			<xs:element name="senderAddress2" type="dls:addressType" minOccurs="0" />
+			<xs:element name="senderAddress3" type="dls:addressType" minOccurs="0" />
+			<xs:element name="senderAddress4" type="dls:addressType" minOccurs="0" />
+			<xs:element name="senderCity" type="dls:cityType" minOccurs="0" />
+			<xs:element name="senderState" type="dls:stateType" minOccurs="0" />
+			<xs:element name="senderZipCode" type="dls:postalCodeType" minOccurs="0" />
+			<xs:element name="senderCountry" type="dls:isoCountryCodeType" minOccurs="0" />
+			<xs:element name="senderPhoneNumber" type="dls:phoneNumberMaxType" minOccurs="0" />
+			<xs:element name="senderPhoneCountryCode" type="dls:stringMax3" minOccurs="0" />
+			<xs:element name="senderBirthDate" type="dls:dateStringType" minOccurs="0"/>
+			<xs:element name="senderBirthCountry" type="dls:stringMax3" minOccurs="0"/>
+			
+			<xs:element name="receiverFirstName" type="dls:cnsmrNameType" minOccurs="0" />
+			<xs:element name="receiverLastName" type="dls:cnsmrNameType" minOccurs="0" />
+			<xs:element name="receiverMiddleName" type="dls:cnsmrNameType" minOccurs="0" />
+			<xs:element name="receiverMaternalLastName" type="dls:cnsmrNameType" minOccurs="0" />
+			<xs:element name="receiverAddress1" type="dls:addressType" minOccurs="0" />
+			<xs:element name="receiverAddress2" type="dls:addressType" minOccurs="0" />
+			<xs:element name="receiverAddress3" type="dls:addressType" minOccurs="0" />
+			<xs:element name="receiverAddress4" type="dls:addressType" minOccurs="0" />
+			<xs:element name="receiverCity" type="dls:cityType" minOccurs="0" />
+			<xs:element name="receiverState" type="dls:stateType" minOccurs="0" />
+			<xs:element name="receiverZipCode" type="dls:postalCodeType" minOccurs="0" />
+			<xs:element name="receiverPhone" type="dls:phoneNumberMaxType" minOccurs="0" />
+			<xs:element name="receiverPhoneCountryCode" type="dls:stringMax3" minOccurs="0" />
+			<xs:element name="receiverCountry" type="dls:isoCountryCodeType" minOccurs="0" />
+			
+			<xs:element name="referenceNumber" type="dls:stringMin0Max8" minOccurs="0" />
+			<xs:element name="productId" type="dls:stringMin0Max10" minOccurs="0" />
+			<xs:element name="transactionID" type="dls:stringMax18" minOccurs="0" />
+			<xs:element name="transactionEventSequenceNumber" type="dls:integer3" minOccurs="0" />
+			<xs:element name="transactionStatus" type="dls:stringMax3" minOccurs="0" />
+			<xs:element name="transactionStatusUpdateDate" type="xs:dateTime" minOccurs="0" />
+			<xs:element name="sendCurrrency" type="dls:stringMax3" minOccurs="0" />
+			<xs:element name="sendAmount" type="dls:amountType" minOccurs="0" />
+			<xs:element name="sendCountry" type="dls:isoCountryCodeType" minOccurs="0" />
+			<xs:element name="sendDate" type="xs:dateTime" minOccurs="0" />
+			<xs:element name="receiveCurrency" type="dls:stringMax3" minOccurs="0" />
+			<xs:element name="payoutCurrency" type="dls:stringMax3" minOccurs="0" />
+			<xs:element name="receiveAmount" type="dls:amountType" minOccurs="0" />
+			<xs:element name="receiveCountry" type="dls:isoCountryCodeType" minOccurs="0" />		
+			<xs:element name="deliveryOption" type="dls:stringMin0Max10" minOccurs="0" />			
+			<xs:element name="direction1" type="dls:addressType" minOccurs="0" />
+			<xs:element name="direction2" type="dls:addressType" minOccurs="0" />
+			<xs:element name="direction3" type="dls:addressType" minOccurs="0" />
+			<xs:element name="customerReceiveNumber" type="dls:stringMin0Max256" minOccurs="0" />
+			<xs:element name="consumerId" type="dls:cnsmrIDType" minOccurs="0"/>
+			<xs:element name="rewardsCardNumber" type="dls:rewardsNumberType" minOccurs="0"/>
+			<xs:element name="agentCustomerNumber" type="dls:stringMax20" minOccurs="0"/>
+			<xs:element name="accountNickName" 	type="dls:stringMin0Max20" minOccurs="0" />
+			<xs:element name="displayAccountID" type="dls:stringMin0Max256" minOccurs="0" />
+			<xs:element name="receiveAgentID" type="dls:stringMin0Max10" minOccurs="0" />
+			<xs:element name="receiveAgentName" type="dls:stringMin0Max50" minOccurs="0" />
+			<xs:element name="receiveAgentAbbreviation"  type="dls:stringMin0Max50" minOccurs="0" />
+			<xs:element name="receiveCode"  type="dls:stringMax34" minOccurs="0" />
+			<xs:element name="productVariant" type="dls:stringMin0Max10" minOccurs="0" />
+			<xs:element name="billerAccountNumber"  type="dls:stringMin0Max20" minOccurs="0" />
+			<xs:element name="billerAccountDescription"	type="dls:stringMax140" minOccurs="0" />
+			<xs:element name="internationalBankAccountNumber" type="dls:stringMax34" minOccurs="0" />
+			<xs:element name="billerName" type="dls:stringMin0Max50" minOccurs="0" />
+			<xs:element name="billerCity" type="dls:cityType"	minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+<!--  MDB elements start here -->
+
+
+	<xs:complexType name="SerialNumberResult">
+		<xs:sequence>					
+			<xs:element name="serialNumber" type="xs:string"  minOccurs="0" maxOccurs="unbounded"/>			
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:simpleType name="amountType">
+		<xs:restriction base="xs:decimal">
+			<xs:totalDigits value="15" />
+			<xs:fractionDigits value="3" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+  	<xs:complexType name="EntityUpdateMessageType">
+		<xs:sequence>
+			<xs:element name="messageId" type="xs:string" minOccurs="0" />
+			<xs:element name="messageType" type="xs:string" minOccurs="0" />
+			<xs:element name="entityUpdate" type="dls:EntityUpdateType" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+  	</xs:complexType>
+
+  <xs:complexType name="EntityUpdateType">
+	<xs:sequence>
+		<xs:element name="poeTranId" type="xs:string" />
+		<xs:element name="profileId" type="xs:string" />
+		<!--Consumer Profiles Phase 2 May 2017-->
+		<xs:element name="profileType" type="xs:string" minOccurs="1" />
+		<xs:element name="entityId" type="xs:string" />
+		<xs:element name="eventDateTime" type="xs:dateTime" />
+		<xs:element name="poeTranEvntId" type="xs:string" />
+		<xs:element name="eventType" type="xs:string" />
+		
+	</xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="RRNUpdateMessageType">
+	<xs:sequence>
+		<xs:element name="rrnUpdate" type="dls:RRNUpdateType" minOccurs="0" maxOccurs="unbounded" />
+	</xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="RRNUpdateType">
+	<xs:sequence>
+		<xs:element name="rrn" type="xs:string" minOccurs="0" />
+	</xs:sequence>
+  </xs:complexType>
+  
+	<xs:simpleType name="rewardsNumberType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="20" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="phoneNumberType">
+		<xs:restriction base="xs:string">
+			<xs:length value="20" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="phoneNumberMaxType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="20" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="dateOnlyStringType">
+		<xs:restriction base="xs:string">
+			<xs:length value="10" />
+			<xs:pattern value="\d\d/\d\d/\d\d\d\d"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="dateStringType">
+		<xs:restriction base="xs:string">
+			<xs:length value="25" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="dateMaxStringType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="25" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+    <xs:simpleType name="decimal14">
+    	<xs:restriction base="xs:decimal">
+    		<xs:minInclusive value="0"/>
+    		<xs:maxExclusive value="100000000000000" />
+    	</xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="integer3">
+    	<xs:restriction base="xs:integer">
+    		<xs:minInclusive value="0"/>
+    		<xs:maxExclusive value="999" />
+    	</xs:restriction>
+    </xs:simpleType>
+
+	<xs:simpleType name="stringMax2">
+		<xs:restriction base="xs:string">
+			<xs:length value="2" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="stringMax3">
+		<xs:restriction base="xs:string">
+			<xs:length value="3" />
+		</xs:restriction>
+	</xs:simpleType>		
+	
+	<xs:simpleType name="stringMax8Min8">
+		<xs:restriction base="xs:string">
+			<xs:length value="8" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="stringMin0Max8">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="8" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="stringMax10">
+		<xs:restriction base="xs:string">
+			<xs:length value="10" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="stringMin0Max10">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="10" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="agentID">
+		<xs:restriction base="xs:string">
+			<xs:length value="8" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="stringMax18">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="18" />
+		</xs:restriction>
+	</xs:simpleType>
+		
+	<xs:simpleType name="stringMax20">
+		<xs:restriction base="xs:string">
+			<xs:length value="20" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="stringMin0Max20">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="20" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="stringMax34">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="34" />
+		</xs:restriction>
+	</xs:simpleType>
+		
+	<xs:simpleType name="stringMax50">
+		<xs:restriction base="xs:string">
+			<xs:length value="50" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="stringMin0Max50">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="50" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="stringMax140">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="140"></xs:maxLength>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="stringMax256">
+		<xs:restriction base="xs:string">
+			<xs:length value="256" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="stringMin0Max256">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="256" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="addressType">
+  		<xs:restriction base="xs:string">
+   			<xs:maxLength value="80"/>
+  		</xs:restriction>
+	 </xs:simpleType>
+	 
+	 <xs:simpleType name="stateType">
+		  <xs:restriction base="xs:string">
+		  	 <xs:maxLength value="40"/>
+		  </xs:restriction>
+ 	</xs:simpleType>
+	 <xs:simpleType name="cityType">
+		  <xs:restriction base="xs:string">
+		   	<xs:maxLength value="60"/>
+		  </xs:restriction>
+	 </xs:simpleType>
+	 <xs:simpleType name="postalCodeType">
+		  <xs:restriction base="xs:string">
+		  	 <xs:maxLength value="14"/>
+		  </xs:restriction>
+	 </xs:simpleType>
+	 <xs:simpleType name="isoCountryCodeType">
+		  <xs:restriction base="xs:string">
+		  	 <xs:maxLength value="3"/>
+		  </xs:restriction>
+	 </xs:simpleType>
+	  <xs:simpleType name="mfCountryCodeType">
+		  <xs:restriction base="xs:string">
+		  	 <xs:maxLength value="2"/>
+		  </xs:restriction>
+	 </xs:simpleType>
+	 <xs:simpleType name="cnsmrNameType">
+		  <xs:restriction base="xs:string">
+		   	<xs:maxLength value="40"/>
+		  </xs:restriction>
+	 </xs:simpleType>
+	  <xs:simpleType name="cnsmrIDType">
+		  <xs:restriction base="xs:string">
+		   	<xs:maxLength value="14"/>
+		  </xs:restriction>
+	 </xs:simpleType>
+	 <xs:simpleType name="yesNoType">
+	 	<xs:restriction base="xs:string">
+			<xs:enumeration value="Y"/>
+			<xs:enumeration value="N"/>
+		</xs:restriction>
+	 </xs:simpleType>
+	 
+	 <xs:simpleType name="paymentType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="CASH" />
+			<xs:enumeration value="CARD" />
+			<xs:enumeration value="CANCL" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="decimal3ThreePrec">
+		<xs:restriction base="xs:decimal">
+			<xs:maxExclusive value="1000" />
+			<xs:fractionDigits value='3'/>
+		</xs:restriction>
+	</xs:simpleType>
+	 
+	 <xs:complexType name ="SearchConsumerEntityRequest">
+	 	<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="consumerIDNumber"  type="xs:string" />
+					<xs:element name="consumerIDType"  type="dls:consumerIDType" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:simpleType name="consumerIDType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="GCP" />
+			<xs:enumeration value="PLUS" />
+			<xs:enumeration value="MGO" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="SearchConsumerEntityResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="consumerEntityID"  type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>			
+	</xs:complexType>
+	
+	<xs:complexType name ="SearchStoppedTransactionsRequest">
+	 	<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:element name="poeTranID" type="xs:string"  minOccurs="0" />         
+					<xs:element name="agentCountry" type="xs:string"  minOccurs="0" />      
+					<xs:element name="senderPhoneNumber" type="xs:string"  minOccurs="0" /> 
+					<xs:element name="senderFirstName" type="xs:string"  minOccurs="0" />   
+					<xs:element name="senderMiddleName" type="xs:string"  minOccurs="0" />  
+					<xs:element name="senderLastName" type="xs:string"  minOccurs="0" />    
+					<xs:element name="rewardsNumber" type="xs:string"  minOccurs="0" />     
+					<xs:element name="receiverFirstName" type="xs:string"  minOccurs="0" /> 
+					<xs:element name="receiverMiddleName" type="xs:string"  minOccurs="0" />
+					<xs:element name="receiverLastName" type="xs:string"  minOccurs="0" />  
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="SearchStoppedTransactionsResponse">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceResponseMessage">
+				<xs:sequence>
+					<xs:element name="stoppedTransaction" type="dls:stoppedTransaction" minOccurs="0" maxOccurs="unbounded"/>                       
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>			
+	</xs:complexType>
+	
+	<xs:complexType name="stoppedTransaction">
+		<xs:sequence>
+			<xs:element name="tranId" type="xs:string" />   
+			<xs:element name="agentCountry" minOccurs="0" type="xs:string" />  
+			<xs:element name="senderPhoneNumber" minOccurs="0" type="xs:string" />                                                  
+			<xs:element name="senderFirstName" minOccurs="0" type="xs:string" />                     
+			<xs:element name="senderMiddleName" minOccurs="0" type="xs:string" />                    
+			<xs:element name="senderLastName" minOccurs="0" type="xs:string" />                                                            
+			<xs:element name="rewardsNumber" minOccurs="0" type="xs:string" />                  
+			<xs:element name="receiverFirstName" minOccurs="0" type="xs:string" />                   
+			<xs:element name="receiverMiddleName" minOccurs="0" type="xs:string" />                  
+			<xs:element name="receiverLastName" minOccurs="0" type="xs:string" />                    		              
+			<xs:element name="destCountry" minOccurs="0" type="xs:string" />                    
+			<xs:element name="sendAmount" minOccurs="0" type="xs:decimal" />                         
+			<xs:element name="sendCurrency" minOccurs="0" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="StoppedTransactionDetail">
+		<xs:sequence>
+			<xs:element name="sendAgent" type="xs:integer" />
+			<xs:element name="deliveryOption" type="xs:integer" />
+			<xs:element name="sendCurrency" type="xs:string" />
+			<xs:element name="sendCountry" type="xs:string" />
+			<xs:element name="amount" type="xs:float" />
+			<xs:element name="receiveAgent" type="xs:integer" minOccurs="0" />
+			<xs:element name="receiveCurrency" type="xs:string" />
+			<xs:element name="receiveCountry" type="xs:string" />
+			<xs:element name="direction1" type="xs:string" minOccurs="0" />
+			<xs:element name="direction2" type="xs:string" minOccurs="0" />
+			<xs:element name="direction3" type="xs:string" minOccurs="0" />
+			<xs:element name="customerReceiveNumber" type="xs:string" minOccurs="0" />
+			<xs:element name="sender" type="dls:Sender" minOccurs="0" />
+			<xs:element name="receiver" type="dls:Person" minOccurs="0" />
+			<xs:element name="intendedReceiveAgentId" type="xs:string" minOccurs="0" />
+			<xs:element name="poeTranId" type="xs:string" />
+			<xs:element name="poeTranEventId" type="xs:string" />
+			<xs:element name="consumerExtProfileId" type="xs:string" minOccurs="0" />
+		</xs:sequence>
+		<xs:attribute name="sequence" type="xs:long" use="required" />
+		<xs:attribute name="sendTransactionDate" type="xs:dateTime" use="required" />
+		<xs:attribute name="statusUpdateDate" type="xs:dateTime" use="required" />
+		<xs:attribute name="product" type="xs:integer" use="required" />
+		<xs:attribute name="status" type="xs:string" use="required" />
+		<xs:attribute name="mgTranSessionId" type="xs:string" use="optional"/>
+	</xs:complexType>
+	
+	<xs:element name="stoppedTransactionMessage">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="transaction" type="dls:StoppedTransactionDetail" />
+			</xs:sequence>
+			
+			<xs:attribute name="version" type="xs:string" use="required" />
+			<xs:attribute name="date" type="xs:dateTime" use="required" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="TransactionSummaryLookupRequest">
+		<xs:complexContent>
+			<xs:extension base="cmn:BaseServiceRequestMessage">
+				<xs:sequence>
+					<xs:choice>
+						<xs:element name="senderPhoneNumber" type="dls:phoneNumberType" />
+						<xs:group ref="dls:NamesSearchGroup" />
+						<xs:element name="referenceNumber" type="dls:stringMax8Min8" />
+					</xs:choice>
+					<xs:element name="startDate" type="xs:date" minOccurs="0" />
+					<xs:element name="endDate" type="xs:date" minOccurs="0" />
+					<xs:element name="maximumTransactionCount" minOccurs="0">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:minLength value="1"></xs:minLength>
+								<xs:maxLength value="3">
+								</xs:maxLength>
+								<xs:pattern value="\d+"></xs:pattern>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:group name="NamesSearchGroup">
+		<xs:sequence>
+			<!-- receiverLastName is required but CCTS needs it to be optional for 
+				client code generation -->
+			<xs:element name="receiverLastName" type="dls:cnsmrNameType"
+				minOccurs="0" />
+			<xs:element name="receiverFirstName" type="dls:cnsmrNameType"
+				minOccurs="0" />
+			<xs:element name="senderLastName" type="dls:cnsmrNameType"
+				minOccurs="0" />
+			<xs:element name="senderFirstName" type="dls:cnsmrNameType"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:group>
+		
+	<xs:complexType name="TransactionSummaryLookupResponse">
+    	<xs:complexContent>
+    		<xs:extension base="cmn:BaseServiceResponseMessage">
+    			<xs:sequence>
+    				<xs:element name="transactionSummary"
+    					type="dls:TransactionSummary" minOccurs="0" maxOccurs="unbounded">
+    				</xs:element>
+    			</xs:sequence>
+    		</xs:extension>
+    	</xs:complexContent>
+    </xs:complexType>
+
+	<xs:complexType name="TransactionSummary">
+		<xs:sequence>
+			<xs:element name="senderFirstName" type="dls:cnsmrNameType"/>
+			<xs:element name="senderLastName" type="dls:cnsmrNameType"/>
+			<xs:element name="senderMiddleName" type="dls:cnsmrNameType"/>
+			<xs:element name="senderMaternalLastName" type="dls:cnsmrNameType"/>
+			<xs:element name="senderPhoneNumber" type="dls:phoneNumberType"/>
+			<xs:element name="receiverFirstName" type="dls:cnsmrNameType"/>
+			<xs:element name="receiverLastName" type="dls:cnsmrNameType"/>
+			<xs:element name="receiverMiddleName" type="dls:cnsmrNameType"/>
+			<xs:element name="receiverMaternalLastName" type="dls:cnsmrNameType"/>
+			<xs:element name="referenceNumber" type="dls:stringMax8Min8"/>
+			<xs:element name="productId" type="dls:stringMax10"/>
+			<xs:element name="transactionID" type="dls:stringMax18"/>
+			<xs:element name="transactionEventSequenceNumber" type="dls:integer3"/>
+            <xs:element name="transactionStatus" type="dls:stringMax3"/>
+            <xs:element name="transactionStatusUpdateDate" type="dls:dateStringType"/>
+            <xs:element name="sendCurrrency" type="dls:stringMax3"/>
+			<xs:element name="sendAmount" type="dls:amountType"/>
+            <xs:element name="sendCountry" type="dls:isoCountryCodeType"/>
+            <xs:element name="sendDate" type="dls:dateStringType"/>
+            <xs:element name="receiveCurrency" type="dls:stringMax3"/>
+			<xs:element name="receiveAmount" type="dls:amountType"/>
+			<xs:element name="receiveCountry" type="dls:isoCountryCodeType"/>        </xs:sequence>
+	</xs:complexType>
+</xs:schema>

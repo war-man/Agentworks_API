@@ -1,0 +1,944 @@
+﻿STRKEY_1000_ERR_SYSTEM_EXCEPTION	Runtime exception occurred, please contact MoneyGram technical support (1000).
+STRKEY_1001_ERR_SYSTEM_INVALID_API_REQUEST_ACTION	Error occurred, please review logs for more information (1001).
+STRKEY_1010_ERR_DPSMGR_PRINTDOC_FORMS_LOAD_REQUIRED	R72 - Please load Money Order forms (1010).
+STRKEY_1011_ERR_DPSMGR_PRINTDOC_FORMS_VERIFY_REQUIRED	Money Order forms verification needed, please restart your transaction (1011).
+STRKEY_1012_ERR_DPSMGR_PRINTDOC_DISPENSER_HARDWARE_ERROR	R39 - A dispenser hardware error has occurred.  Please check the dispenser hardware and connectivity and retry. If this problem persists, please contact MoneyGram Technical Support (1012).
+STRKEY_1013_ERR_DPSMGR_PRINTDOC_LOW_FORMS_FOR_REQUEST	R26 - There are not enough forms remaining in the dispenser.  Please load forms and restart your transaction (1013).
+STRKEY_1014_ERR_DPSMGR_PRINTDOC_DOCUMENT_CONFIGURATION_MISSING	R23 - Your agent configuration is not authorized to perform this transaction.  Please contact Money Order technical support (1014).
+STRKEY_1015_ERR_DPSMGR_PRINTDOC_DG_SERIAL_NUMBER_MISMATCH	Error occurred, please review logs for more information (1015).
+STRKEY_1016_ERR_DPSMGR_PRINTDOC_DG_PRINT_ALREADY_STARTED	Error occurred, please review logs for more information (1016).
+STRKEY_1017_ERR_DPSMGR_PRINTDOC_DG_PRINT_CANCELLED	Error occurred, please review logs for more information (1017).
+STRKEY_1018_ERR_DPSMGR_PRINTDOC_DG_CANCEL_NOT_POSSIBLE	Error occurred, please review logs for more information (1018).
+STRKEY_1020_ERR_DPSMGR_PRINTDOC_PRINTING_LIMBO_DOCUMENT	The transaction did NOT complete normally (1020).
+STRKEY_1021_ERR_DPSMGR_PRINTDOC_PRINTING_ERROR	R82 - A dispenser error occurred that interrupted printing.  See summary screen for Money Order print results.  Please validate printed items, check hardware, and resubmit any unprinted transactions (1021).
+STRKEY_1022_ERR_DPSMGR_PRINTDOC_PRINTING_VOIDED_DOCUMENT	A dispenser error occurred that interrupted printing and created a VOID item.  See summary screen for Money Order print results.  Please validate printed items, check hardware, and resubmit any unprinted transactions (1022).
+STRKEY_1023_ERR_DPSMGR_PRINTDOC_PRINTING_DOCUMENT_NOT_PRINTED	An error occurred before printing and no document was printed.  Please check the dispenser hardware and connectivity and retry (1023).
+STRKEY_1024_ERR_DPSMGR_PRINTDOC_PRINTING_UNKNOWN_STATUS	R91 - An print status exception occurred while printing, please contact MoneyGram technical support (1024).
+STRKEY_1025_ERR_DPSMGR_PRINTDOC_PRINTING_RECOVER_STATE	Item did not complete prior to this server start (1025).
+STRKEY_1110_ERR_DPSMGR_LOADDOCS_LOAD_VERIFY_ACTIVE	R19 - A load or verify action is in progress. Please wait for original action to complete, then retry your request. If condition persists please contact MoneyGram Technical support (1110).
+STRKEY_1111_ERR_DPSMGR_LOADDOCS_FORM_LOAD_REQUIRED	R19 - Please load forms and retry. If this problem persists, please contact MoneyGram Technical Support (1111).
+STRKEY_1112_ERR_DPSMGR_LOADDOCS_LOAD_VERIFY_NOT_ACTIVE	R15 - An exception occurred while performing a load request, please contact MoneyGram technical support (1112).
+STRKEY_1113_ERR_DPSMGR_LOADDOCS_INCORRECT_VERIFY_LAST4_VALUE	R12 - The last 4 numbers specified do not match the currently loaded document (1113).
+STRKEY_1114_ERR_DPSMGR_LOADDOCS_EJECT_FORM_FAILED	R82 - A dispenser hardware error has occurred.  Please check the dispenser hardware and connectivity and retry. If this problem persists, please contact MoneyGram Technical Support (1114).
+STRKEY_1115_ERR_DPSMGR_LOADDOCS_RETRACT_FORM_FAILED	R82 - A dispenser hardware error has occurred.  Please check the dispenser hardware and connectivity and retry. If this problem persists, please contact MoneyGram Technical Support (1115).
+STRKEY_1116_ERR_DPSMGR_LOADDOCS_UNLOAD_FORM_FAILED	R82 - A dispenser hardware error has occurred.  Please check the dispenser hardware and connectivity and retry. If this problem persists, please contact MoneyGram Technical Support (1116).
+STRKEY_1117_ERR_DPSMGR_LOADDOCS_VOID_REMAINING_NOT_AVAILABLE	The Void Remaining forms request is not valid at this time.  Please continue loading new forms (1117).
+STRKEY_1118_ERR_DPSMGR_LOADDOCS_DOOR_MUST_BE_CLOSED	R68 - Unable to complete operation - dispenser door must be closed (locked) (1118).
+STRKEY_1119_ERR_DPSMGR_LOADDOCS_DOOR_MUST_BE_OPEN	R67 - Unable to complete operation - dispenser door must be open (unlocked) (1119).
+STRKEY_1120_ERR_DPSMGR_LOADDOCS_NO_FORM_DETECTED	R72 - Unable to complete operation - form not detected in dispenser (1120).
+STRKEY_1121_ERR_DPSMGR_LOADDOCS_VOID_REMAINING_ACTIVE	Unable to complete operation - Void remaining forms is currently active (1121).
+STRKEY_1122_ERR_DPSMGR_LOADDOCS_INCORRECT_PRINTED_VERIFY_VALUE	Error occurred, please review logs for more information (1122).
+STRKEY_1123_ERR_DPSMGR_LOADDOCS_MAX_VERIFY_ATTEMPTS_LAST4_VALUE	Maximum allowed verify attempts exceeded.  A new dispenser load is required now (1123).
+STRKEY_1201_ERR_TRANSMIT_FAILED_CONNECTION_FAILED_SSL_ERROR	Transmit failed: Connection failed - SSL error (1201).
+STRKEY_1202_ERR_TRANSMIT_FAILED_CONNECTION_FAILED_GENERAL_ERROR	Transmit failed: Connection failed - general error (1202).
+STRKEY_1203_ERR_TRANSMIT_FAILED_READ_FAILED_SSL_ERROR	Transmit failed: Read failed - SSL error (1203).
+STRKEY_1204_ERR_TRANSMIT_FAILED_READ_FAILED_GENERAL_ERROR	Transmit failed: Read failed - general error (1204).
+STRKEY_1205_ERR_TRANSMIT_FAILED_READ_FAILED_TIMEOUT	Transmit failed: Read failed - timeout (1205).
+STRKEY_1206_ERR_TRANSMIT_FAILED_WRITE_FAILED_SSL_ERROR	Transmit failed: Write failed - SSL error (1206).
+STRKEY_1207_ERR_TRANSMIT_FAILED_WRITE_FAILED_GENERAL_ERROR	Transmit failed: Write failed - general error (1207).
+STRKEY_1208_ERR_DPSMGR_XMITHOST_TOO_MANY_DATA_NAKS	Transmit failed: Too many data NAKS (1208).
+STRKEY_1209_ERR_DPSMGR_XMITHOST_TOO_MANY_DATA_RETRIES	Transmit failed: Too many data retries (1209).
+STRKEY_1210_ERR_DPSMGR_XMITHOST_TOO_MANY_CONNECT_ATTEMPTS	Transmit failed: Too many connection attempts (1210).
+STRKEY_1211_ERR_DPSMGR_XMITHOST_GENERAL_COMMUNICATION_ERROR	Transmit failed: General communication error (1211).
+STRKEY_1212_ERR_DPSMGR_XMITHOST_DEAUTHORIZED	Transmit failed: MoneyGram host deauthorized this installation (1212).
+STRKEY_1213_ERR_DPSMGR_XMITHOST_HOST_FORCED_DISCONNECTS	Error occurred, please review logs for more information (1213).
+STRKEY_1214_ERR_DPSMGR_XMITHOST_NO_UNIT_NUMBER_SETUP	Error occurred, please review logs for more information (1214).
+STRKEY_1230_ERR_DPSMGR_XMITHOST_EX_UNKNOWNHOST	Error occurred, please review logs for more information (1230).
+STRKEY_1231_ERR_DPSMGR_XMITHOST_EX_BIND	Error occurred, please review logs for more information (1231).
+STRKEY_1232_ERR_DPSMGR_XMITHOST_EX_CONNECT	Error occurred, please review logs for more information (1232).
+STRKEY_1233_ERR_DPSMGR_XMITHOST_EX_NOROUTETOHOST	Error occurred, please review logs for more information (1233).
+STRKEY_1234_ERR_DPSMGR_XMITHOST_EX_PORTUNREACHABLE	Error occurred, please review logs for more information (1234).
+STRKEY_1235_ERR_DPSMGR_XMITHOST_EX_PROTOCOL	Error occurred, please review logs for more information (1235).
+STRKEY_1236_ERR_DPSMGR_XMITHOST_EX_SOCKET	Error occurred, please review logs for more information (1236).
+STRKEY_1237_ERR_DPSMGR_XMITHOST_EX_SOCKETTIMEOUT	Error occurred, please review logs for more information (1237).
+STRKEY_1238_ERR_DPSMGR_XMITHOST_EX_SSLHANDSHAKE	Error occurred, please review logs for more information (1238).
+STRKEY_1239_ERR_DPSMGR_XMITHOST_EX_SSLKEY	Error occurred, please review logs for more information (1239).
+STRKEY_1240_ERR_DPSMGR_XMITHOST_EX_SSLPEERUNVERIFIED	Error occurred, please review logs for more information (1240).
+STRKEY_1241_ERR_DPSMGR_XMITHOST_EX_SSLPROTOCOL	Error occurred, please review logs for more information (1241).
+STRKEY_1242_ERR_DPSMGR_XMITHOST_EX_SSL	Error occurred, please review logs for more information (1242).
+STRKEY_2010_ERR_DISPENSER_NOT_INITIALZED	R90 - A dispenser hardware error has occurred.  Please check the dispenser hardware and connectivity and retry. If this problem persists, please contact MoneyGram Technical Support (2010).
+STRKEY_2011_ERR_DISPENSER_NO_CLEAR_TO_SEND	R39 - No dispenser detected.  Please check that the dispenser hardware is powered on, and that cables are connected, then retry. If this problem persists, please contact MoneyGram Technical Support (2011).
+STRKEY_2012_ERR_DISPENSER_END_OF_FILE	R41 - A dispenser communication error has occurred.  Please check the dispenser hardware and cabling, then retry. If this problem persists, please contact MoneyGram Technical Support (2012).
+STRKEY_2013_ERR_DISPENSER_BAD_RESPONSE	R41 - A dispenser communication error has occurred.  Please check the dispenser hardware and cabling, then retry. If this problem persists, please contact MoneyGram Technical Support (2013).
+STRKEY_2014_ERR_DISPENSER_RETRY_RESPONSE	R41 - A dispenser communication error has occurred.  Please check the dispenser hardware and cabling, then retry. If this problem persists, please contact MoneyGram Technical Support (2014).
+STRKEY_2015_ERR_DISPENSER_GENERAL_ERROR	R82 - A dispenser communication error has occurred.  Please check the dispenser hardware and cabling, then retry. If this problem persists, please contact MoneyGram Technical Support (2015).
+STRKEY_2016_ERR_DISPENSER_DOCUMENTS_IN_TRAY	Dispenser Error: Documents in tray (2016).
+STRKEY_2017_ERR_DISPENSER_MISSED_3_4_MARK	R48 - A dispenser error occurred that interrupted printing.  See summary screen for Money Order print results.  Please validate printed items, check hardware, and reload dispenser (2017).
+STRKEY_2018_ERR_DISPENSER_MISSED_TOP_OF_FORM	R45 - A dispenser error occurred that interrupted printing.  See summary screen for Money Order print results.  Please validate printed items, check hardware, and reload dispenser (2018).
+STRKEY_2019_ERR_DISPENSER_UNKNOWN_CAUSE	R41 - A dispenser error occurred that interrupted printing.  See summary screen for Money Order print results.  Please validate printed items, check hardware, and resubmit any unprinted transactions (2019).
+STRKEY_2020_ERR_DISPENSER_IO_TIMEOUT	R40 - A dispenser error occurred that interrupted printing.  See summary screen for Money Order print results.  Please validate printed items, check hardware, and resubmit any unprinted transactions (2020).
+STRKEY_2021_ERR_DISPENSER_RUNTIME_EXCEPTION	R82 - A dispenser error occurred that interrupted printing.  See summary screen for Money Order print results.  Please validate printed items, check hardware, and resubmit any unprinted transactions (2021).
+STRKEY_2022_ERR_DISPENSER_LOGO_DOWNLOAD_FAILED	R81 - A dispenser error occurred that interrupted printing.  See summary screen for Money Order print results.  Please validate printed items, check hardware, and resubmit any unprinted transactions (2022).
+STRKEY_2023_ERR_DISPENSER_PRINT_DOCUMENT_FAILED	R41 - A dispenser error occurred that interrupted printing.  See summary screen for Money Order print results.  Please validate printed items, check hardware, and reload dispenser (2023).
+STRKEY_2024_ERR_DISPENSER_MISSED_MID_MARK	R44 - A dispenser error occurred that interrupted printing.  See summary screen for Money Order print results.  Please validate printed items, check hardware, and reload dispenser (2024).
+STRKEY_2025_ERR_DISPENSER_NOT_IDLE_FAILURE	R49 - A dispenser error occurred that interrupted printing.  See summary screen for Money Order print results.  Please validate printed items, check hardware, and reload dispenser (2025).
+STRKEY_2026_ERR_DISPENSER_DOCUMENT_JAM	R82 - A dispenser error occurred that interrupted printing.  See summary screen for Money Order print results.  Please validate printed items, check hardware, and reload dispenser (2026).
+STRKEY_24_HOUR	24 Hour Service
+STRKEY_3001_ERR_SECURITY_CMDPARAM_SECURITY_TOKEN_MISSING	The required securityToken parameter was not specified (3001).
+STRKEY_3002_ERR_SECURITY_CMDPARAM_SECURITY_TOKEN_INVALID	The securityToken parameter is not valid (3002).
+STRKEY_3003_ERR_SECURITY_CMDPARAM_SECURITY_TOKEN_USED	The securityToken parameter has been used already (3003).
+STRKEY_3010_ERR_LOADDOCS_CMDPARAM_INVALID_LOAD_STEP_VALUE	Software error, please contact MoneyGram technical support (3010).
+STRKEY_3011_ERR_LOADDOCS_CMDPARAM_SERIAL_NUMBERS_NOT_ALLOWED	Software error, please contact MoneyGram technical support (3011).
+STRKEY_3012_ERR_LOADDOCS_CMDPARAM_INVALID_MAG_STRIPE_DATA	Software error, please contact MoneyGram technical support (3012).
+STRKEY_3013_ERR_LOADDOCS_CMDPARAM_INVALID_SERIAL_NUMBER_FORMAT	Software error, please contact MoneyGram technical support (3013).
+STRKEY_3014_ERR_LOADDOCS_CMDPARAM_INVALID_SERIAL_NUMBER_ORDER	Starting serial number entered is higher than ending serial number. Please verify the serial numbers and re-enter.
+STRKEY_3015_ERR_LOADDOCS_CMDPARAM_INVALID_VERIFY_LAST4_FORMAT	Software error, please contact MoneyGram technical support (3015).
+STRKEY_3016_ERR_LOADDOCS_CMDPARAM_TOO_MANY_SERIAL_NUMBERS	R14 - Software error, please contact MoneyGram technical support (3016).
+STRKEY_3017_ERR_LOADDOCS_CMDPARAM_NOT_ORIGINAL_REQUESTER	The client requesting this loadStep is did not originator of this Load session (3017).
+STRKEY_3018_ERR_LOADDOCS_CMDPARAM_PARAMETER_NOT_SUPPORTED	Software error, please contact MoneyGram technical support (3018).
+STRKEY_3019_ERR_LOADDOCS_CMDPARAM_INVALID_SERIAL_NUMBER_VALUE	The serial number entered is incorrect. Please verify the serial number and re-enter (3019).
+STRKEY_3020_ERR_LOADDOCS_CMDPARAM_SERIAL_NUMBER_ALREADY_USED	The specified serial number(s) has previously been issued (3020).
+STRKEY_3021_ERR_LOADDOCS_CMDPARAM_INVALID_PRINTED_VERIFY_FORMAT	Error occurred, please review logs for more information (3021).
+STRKEY_3040_ERR_LOADDOCS_NEEDED_TIMEOUT	Load Documents Needed - Earlier attempt timed out (3040).
+STRKEY_3041_ERR_LOADDOCS_NEEDED_NO_FORMS	Load Documents Needed - No forms loaded (3041).
+STRKEY_3042_ERR_LOADDOCS_NEEDED_ENTRY_ERROR	Load Documents Needed - Earlier attempt failed (3042).
+STRKEY_3043_ERR_LOADDOCS_NEEDED_GENERAL_ERROR	Load Documents Needed - General error occurred (3043).
+STRKEY_3044_ERR_LOADDOCS_NEEDED_DISPENSER_OPENED	Load Documents Needed - Dispenser is open or was opened (3044).
+STRKEY_3045_ERR_LOADDOCS_NEEDED_RELOAD_FORMS	Load Documents Needed - Forms reload required (3045).
+STRKEY_3046_ERR_LOADDOCS_NEEDED_RIBBON_ERROR	Load Documents Needed - Ribbon error (3046).
+STRKEY_3047_ERR_LOADDOCS_NEEDED_LOAD_CANCELLED	Load Documents Needed - Previous attempt was cancelled (3047).
+STRKEY_3048_ERR_LOADDOCS_NEEDED_UNKNOWN_ERROR	Load Documents Needed - Unknown cause (3048).
+STRKEY_3110_ERR_PRINTDOC_CMDPARAM_NO_ITEMS_SPECIFIED	Software error, please contact MoneyGram technical support (3110).
+STRKEY_3111_ERR_PRINTDOC_CMDPARAM_CONFLICTING_ITEMS	Software error, please contact MoneyGram technical support (3111).
+STRKEY_3112_ERR_PRINTDOC_CMDPARAM_MISSING_ITEM_PARAMETERS	Software error, please contact MoneyGram technical support (3112).
+STRKEY_3113_ERR_PRINTDOC_CMDPARAM_INVALID_DOCUMENT_TYPE	Software error, please contact MoneyGram technical support (3113).
+STRKEY_3114_ERR_PRINTDOC_CMDPARAM_INVALID_MGI_DOCUMENT_ID	Software error, please contact MoneyGram technical support (3114).
+STRKEY_3115_ERR_PRINTDOC_CMDPARAM_MGI_DOCUMENT_ID_NOT_FOUND	Software error, please contact MoneyGram technical support (3115).
+STRKEY_3116_ERR_PRINTDOC_CMDPARAM_INCORRECT_MGI_DOCUMENT_ID	Software error, please contact MoneyGram technical support (3116).
+STRKEY_3117_ERR_PRINTDOC_CMDPARAM_INVALID_AMOUNT	Software error, please contact MoneyGram technical support (3117).
+STRKEY_3118_ERR_PRINTDOC_CMDPARAM_AMOUNT_OUT_OF_RANGE	Software error, please contact MoneyGram technical support (3118).
+STRKEY_3119_ERR_PRINTDOC_CMDPARAM_PURCHASER_TOO_LARGE	Software error, please contact MoneyGram technical support (3119).
+STRKEY_3120_ERR_PRINTDOC_CMDPARAM_PAYEE_TOO_LARGE	Software error, please contact MoneyGram technical support (3120).
+STRKEY_3121_ERR_PRINTDOC_CMDPARAM_PAYMENT_DESCRIPTION_TOO_LARGE	Software error, please contact MoneyGram technical support (3121).
+STRKEY_3122_ERR_PRINTDOC_CMDPARAM_SPECIAL_MESSAGE_TOO_LARGE	Software error, please contact MoneyGram technical support (3122).
+STRKEY_3123_ERR_PRINTDOC_CMDPARAM_NON_SEQUENTIALS_ITEMS	Software error, please contact MoneyGram technical support (3123).
+STRKEY_3124_ERR_PRINTDOC_CMDPARAM_VOID_AMOUNT_MUST_BE_ZERO	Software error, please contact MoneyGram technical support (3124).
+STRKEY_3125_ERR_PRINTDOC_CMDPARAM_INVALID_FEE_AMOUNT	Error occurred, please review logs for more information (3125).
+STRKEY_3126_ERR_PRINTDOC_CMDPARAM_FEE_AMOUNT_OUT_OF_RANGE	Error occurred, please review logs for more information (3126).
+STRKEY_3127_ERR_PRINTDOC_CMDPARAM_INVALID_VENDOR_NUMBER	Error occurred, please review logs for more information (3127).
+STRKEY_3140_ERR_PRINTDOC_NEW_INSTALLATION	This installation needs a transmit to the MGI host for a Profile download (3140).
+STRKEY_3141_ERR_PRINTDOC_INVALID_SALES_HOURS	R38 - Unable to process request, sale was requested outside of your store's issuance hours (3141).
+STRKEY_3142_ERR_PRINTDOC_SALES_AMOUNT_LIMIT_EXCEEDED	R03 - Over store sales limit.  You cannot issue items at this time.  Please attempt a manual transmit of your terminal to MoneyGram and try your request again. If this problem persists, please contact MoneyGram Technical Support (3142).
+STRKEY_3143_ERR_PRINTDOC_DOC_AMOUNT_LIMIT_EXCEEDED	R20 - Item amount limit exceeded (3143).
+STRKEY_3144_ERR_PRINTDOC_SALES_COUNT_LIMIT_EXCEEDED	R03 - Over store sales limit.  You cannot issue items at this time.  Please attempt a manual transmit of your terminal to MoneyGram and try your request again. If this problem persists, please contact MoneyGram Technical Support (3144).
+STRKEY_3145_ERR_PRINTDOC_DAILY_AMOUNT_LIMIT_EXCEEDED	R02 - Over store sales limit.  You cannot issue items at this time.  Please attempt a manual transmit of your terminal to MoneyGram and try your request again. If this problem persists, please contact MoneyGram Technical Support (3145).
+STRKEY_3146_ERR_PRINTDOC_TRANSMIT_TO_HOST_NEEDED	Must transmit to MGI host (3146).
+STRKEY_3147_ERR_PRINTDOC_SITE_DEAUTHORIZED	This site has been deauthorized by MoneyGram (3147).
+STRKEY_3148_ERR_PRINTDOC_DISPENSER_APP_NOT_ENABLED	The Dispenser Application is disabled for this installation (3148).
+STRKEY_3149_ERR_PRINTDOC_INVALID_PROFILE_SETUP	R23 - Software error, please contact MoneyGram technical support (3149).
+STRKEY_3150_ERR_PRINTDOC_DOC_COUNT_LIMIT_EXCEEDED	R25 - Software error, please contact MoneyGram technical support (3150).
+STRKEY_3160_ERR_PRINTDOC_DG_PROFILE_NOT_SETUP_FOR_DELTAGRAMS	Error occurred, please review logs for more information (3160).
+STRKEY_3161_ERR_PRINTDOC_DG_REFERENCE_NUMBER_MISSING_OR_INVALID	Error occurred, please review logs for more information (3161).
+STRKEY_3162_ERR_PRINTDOC_DG_RECEIVERS_INFO_MISSING_OR_INVALID	Error occurred, please review logs for more information (3162).
+STRKEY_3163_ERR_PRINTDOC_DG_CHECK_TYPE_MISSING_OR_INVALID	Error occurred, please review logs for more information (3163).
+STRKEY_3210_ERR_BATCHTOTALS_RESET_BATCH_SYNCID_MISMATCH	resetBatchTotalsSyncID does not match last getBatchTotals. Reset not completed (3210).
+STRKEY_3310_ERR_CONFIG_LISTENER_PORT_INVALID	listenerPortNumber is not numeric or invalid (3310).
+STRKEY_3311_ERR_CONFIG_HOST_TRANSMIT_PORT_INVALID	mgiHostTransmitPort is not numeric or invalid (3311).
+STRKEY_3312_ERR_CONFIG_HOST_TRANSMIT_ADDRESS_INVALID	mgiHostTransmitAddress is too long (3312).
+STRKEY_3313_ERR_CONFIG_NEW_UNIT_PROFILE_NUMBER_INVALID	newProfileUnitNumber is too long or invalid (3313).
+STRKEY_3314_ERR_CONFIG_AUTHENTICATION_CODE_INVALID	authenticationCode is too long or invalid (3314).
+STRKEY_3315_ERR_CONFIG_DISPENSER_SERIAL_PORT_INVALID	dispenserSerialPort is too long or invalid (3315).
+STRKEY_3410_ERR_PROFILE_TRAINING_MODE_ENABLE_INVALID	trainingModeEnable is invalid (3410).
+STRKEY_3411_ERR_PROFILE_STORE_NAME_INVALID	storeName is too long or invalid (3411).
+STRKEY_3510_ERR_EVENT_LOG_DATA_FILTER_INVALID	Software error, please contact MoneyGram technical support (3510).
+STRKEY_3511_ERR_EVENT_LOG_DATA_STARTING_TIME_INVALID	Software error, please contact MoneyGram technical support (3511).
+STRKEY_3512_ERR_EVENT_LOG_DATA_ENDING_TIME_INVALID	Software error, please contact MoneyGram technical support (3512).
+STRKEY_3513_ERR_EVENT_LOG_DATA_ENDING_TIME_BUT_NO_STARTING_TIME	Software error, please contact MoneyGram technical support (3513).
+STRKEY_3514_ERR_EVENT_LOG_DATA_STARTING_TIME_AFTER_ENDING_TIME	Software error, please contact MoneyGram technical support (3514).
+STRKEY_3515_ERR_EVENT_LOG_DATA_DATE_RANGE_IS_OVER_24_HOURS	Software error, please contact MoneyGram technical support (3515).
+STRKEY_3610_ERR_PRINTSTATUS_CMDPARAM_REQUEST_ID_INVALID	Software error, please contact MoneyGram technical support (3610).
+STRKEY_3611_ERR_PRINTSTATUS_CMDPARAM_STATUS_TIMEOUT_SECS_INVALID	Software error, please contact MoneyGram technical support (3611).
+STRKEY_3612_ERR_PRINTSTATUS_CMDPARAM_REQUEST_ID_NOT_FOUND	Software error, please contact MoneyGram technical support (3612).
+STRKEY_3613_ERR_PRINTSTATUS_CMDPARAM_NOT_ORIGINAL_OWNER	The print request for the specified requestID was originated by another client (3613).
+STRKEY_40_CHARACTER_MAXIMUM	40-character maximum
+STRKEY_48_HOUR	48 Hour Service
+STRKEY_57344_ERR_NOT_READY	Dispenser Error: I/O timeout on dispenser (57344).
+STRKEY_57346_ERR_NOT_EXIST	Dispenser Error: I/O timeout on dispenser (57346).
+STRKEY_57348_ERR_NOT_OPEN	Dispenser Error: Not initialized state (open failed) (57348).
+STRKEY_57350_ERR_INVALID_PARAM	The inputted parameters are not valid (57350).
+STRKEY_57354_ERR_IO_ERROR	Dispenser Error: I/O timeout on dispenser (57354).
+STRKEY_57356_ERR_NO_CONNECTED	The specified connection has not been established (57356).
+STRKEY_57356_ERR_NOT_CONNECTED	Dispenser Error: I/O timeout on dispenser (57356).
+STRKEY_57358_ERR_XPD_SYNC	Dispenser Error: I/O timeout on dispenser (57358).
+STRKEY_57360_ERR_XPD_TIMEOUT	Dispenser Error: I/O timeout on dispenser (57360).
+STRKEY_57362_ERR_XPD_BUSY	Dispenser Error: General error encountered on dispenser (57362).
+STRKEY_57395_ERR_NOT_CLOSED	Dispenser Error: I/O timeout on dispenser (57395).
+STRKEY_AC	AgentConnect
+STRKEY_AC_ERROR	AC Error
+STRKEY_AC_ERROR_SUBCODE	Subcode
+STRKEY_ACCOUNT_DEPOSIT	Account Deposit
+STRKEY_ACCOUNT_INFORMATION	Account Information
+STRKEY_ACCOUNT_NUMBER	Account number
+STRKEY_ACCT_DEP	Account Deposit
+STRKEY_ACCT_NUM	Account Number
+STRKEY_ACCT_POUND_COLON	Acct #:
+STRKEY_ACTIVATE_USER	Activate user
+STRKEY_ACTIVE	Active
+STRKEY_ACTIVITY_DATE	Activity Date
+STRKEY_ADD_ANOTHER	Add Another
+STRKEY_ADD_MESSAGE	Add message
+STRKEY_ADD_VENDOR	Add a new vendor
+STRKEY_ADDITIONAL_DATA_COLLECTION	Additional data collection
+STRKEY_ADDITIONAL_DATA_COLON	Additional data:
+STRKEY_ADDITIONAL_DATA_MSG	MoneyGram requires the following additional data in order to process this transaction.
+STRKEY_ADDITIONAL_PAYMENT_DETAILS	Additional payment details:
+STRKEY_ADDRESS	Address
+STRKEY_ADDRESS_COLON	Address:
+STRKEY_ADMIN	Administration
+STRKEY_AFTER_PRINTING_COMPLETE	After printing is complete, tear off the printed forms using a downward motion and give them to the customer. You will not be charged for documents marked "Void" by the dispenser. Keep the voided document for your records. If an item has already printed and it is not wanted, keep it so you remain balanced.
+STRKEY_AGENT_ID	Agent ID
+STRKEY_AGENT_INFORMATION	Agent Information
+STRKEY_AGENT_LOCAL_TIME	(Agent local time)
+STRKEY_AGENT_NAME	Agent name
+STRKEY_AGENTSTATUS_ACTIVE	Active
+STRKEY_ALIEN_ID	Alien ID
+STRKEY_ALLOW_VENDOR_WRITE_IN	Allow teller to write in name of vendor during transaction?
+STRKEY_AMEND	Amend
+STRKEY_AMEND_RECV_NAME	Amend the receiver name
+STRKEY_AMEND_TRANSACTION	Amend Transaction
+STRKEY_AMENDED	Amended
+STRKEY_AMENDS	Amends
+STRKEY_AMOUNT	Amount
+STRKEY_AMOUNT_COLON	Amount:
+STRKEY_AMOUNT_OF_TRAN	Amount of transaction
+STRKEY_AMOUNT_TENDERED	Amount tendered
+STRKEY_AMT_TENDERED_COLON	Amount tendered:
+STRKEY_AND	and
+STRKEY_ANOTHER_PERSON	Another person
+STRKEY_API	AgentWorks API
+STRKEY_API_GETBANKDETAILS_NOTES	Replace [hierarchyLevelElementNumber] in the nextUri with customer selection from the list of hierarchyLevelInfos in this response.
+STRKEY_APP_LOAD_ERROR	An error occurred while loading AgentWorks. Would you like to reload or logout?
+STRKEY_APPLICATION	Application
+STRKEY_APPR_FX_RATE_WARNING	Not all currencies are available in all locations. The exchange rate is only an approximation. The actual exchange rates will be the rate that will be in effect at the time when the transfer is received.
+STRKEY_APRIL	April
+STRKEY_ARE_YOU_SURE_CANCEL	Are you sure you want to cancel the current action?
+STRKEY_ASK_SEC_QUESTION	Would the customer like to have the recipient answer an optional security question when they pick up the money?
+STRKEY_AUGUST	August
+STRKEY_AUTH_CODE	Auth Code
+STRKEY_AUTH_FAILED_CONTACT_MGI	Authentication Failed. Please contact MoneyGram support for assistance.
+STRKEY_AUTH_FAILED_TOUCH_TOKEN	Transaction authentication failed. Please try to authenticate again by touching the MoneyGram token.
+STRKEY_AVAILABLE_CREDIT	Available Credit
+STRKEY_BACK	Back
+STRKEY_BANK_ADDR	Bank address
+STRKEY_BANK_DEPOSIT	Bank Deposit
+STRKEY_BEGIN_DATE	Begin Date
+STRKEY_BEGINNING_SERIAL_NO	Beginning Serial #
+STRKEY_BENEFICIARY_FIRST_NAME	Beneficiary first/given name
+STRKEY_BENEFICIARY_INFO	Beneficiary Information
+STRKEY_BENEFICIARY_LAST_NAME	Beneficiary last/family name
+STRKEY_BILL_PAYMENTS	Bill Payments
+STRKEY_BILL_PMNT_TOTAL	Bill Payment Total
+STRKEY_BILLER_CODE	Biller code
+STRKEY_BILLER_CODE_COLON	Biller code:
+STRKEY_BILLER_INFO_COLON	Biller info:
+STRKEY_BILLER_NAME	Biller name
+STRKEY_BILLER_NAME_CODE_KEYWORD	Biller name, code, or keyword
+STRKEY_BILLER_NAME_COLON	Biller name:
+STRKEY_BILLER_NOT_FOUND	Biller not found
+STRKEY_BILLER_NOT_FOUND_MSG	Try entering the first few characters of the biller name or search for the Biller Receive Code.
+STRKEY_BILLER_NOT_VALID	Biller not valid
+STRKEY_BILLER_NOT_VALID_CHARS	Input can not contain any of these special characters:<br/> [, space, !, \", #, $, %, `, (, ), *, +, ., /, :, ;, <, =, >, ?, @, [, ], ^, _, \', {, |, }, ~, ]
+STRKEY_BILLER_NOTES	Biller notes
+STRKEY_BILLER_PMNT_POSTED_24	Depending on biller payments generally posted within 24 hours.
+STRKEY_BILLER_SEARCH	Biller search
+STRKEY_BILLER_SEARCH_RESULTS	Biller search results
+STRKEY_BILLER_SEARCH_RESULTS_COLON	Biller search results:
+STRKEY_BRANCH_LOCATION	Branch / Location
+STRKEY_BREAKPOINT	Breakpoint
+STRKEY_CALL_ME	Call Me
+STRKEY_CANC_DOOR_LOCKED	Load canceled because the dispenser was not locked
+STRKEY_CANC_DOOR_OPEN	Load canceled because the dispenser was not opened
+STRKEY_CANCEL	Cancel
+STRKEY_CANCEL_OPERATION	Cancel Operation
+STRKEY_CANNOT_COMPLETE_TRANSACTION	Cannot complete transaction. Instruct the customer to contact MoneyGram to provide additional information.
+STRKEY_CARD_DEPOSIT	Card Deposit
+STRKEY_CARD_NUMBER	Card number
+STRKEY_CARDHOLDER_INFORMATION	Cardholder information
+STRKEY_CARDHOLDER_INFORMATION_COLON	Cardholder information:
+STRKEY_CASH_OPTIONS	Cash Options
+STRKEY_CASH_PAYOUT	Enter the amount to be paid out in cash.
+STRKEY_CHANGE	Change
+STRKEY_CHANGE_DUE	Change due
+STRKEY_CHANGE_DUE_COLON	Change due:
+STRKEY_CHANGE_LANGUAGE	Change Language
+STRKEY_CHECK_FOR_TRAN_UPDATES	Check box for sender to receive transaction update, then enter information below
+STRKEY_CHECK_PAYOUT	Enter the amount to be paid out in check.
+STRKEY_CHECK_PRINTER	Check Printer
+STRKEY_CHECK_SCANNER_TRY_AGAIN	Check the scanner connection and try again.
+STRKEY_CITY	City
+STRKEY_CLEAR_CACHE	Clear cache
+STRKEY_CLICK_HERE_TRAINING_QUICK_REFERENCE_GUIDES	Click here for Training and Quick Reference Guides (QRGs)
+STRKEY_CLOSE	Close
+STRKEY_COB	Country of birth
+STRKEY_COB_COLON	Country of birth:
+STRKEY_COL_TITLE_BILLER	Biller
+STRKEY_COL_TITLE_FEE	Fee
+STRKEY_COMFIRM_ACCOUNT_NUMBER	Confirm customer account number
+STRKEY_COMMUNICATION_ERROR	There was a problem communicating with the shell.
+STRKEY_COMPLETE_TRAN	Complete Transaction
+STRKEY_COMPUTER_NAME	Computer name
+STRKEY_CONFIDENTIAL	Confidential
+STRKEY_CONFIRM_COLLECT_CASH	Confirm transaction details and collect cash from the customer before proceeding.
+STRKEY_CONFIRM_REQUIRED	Confirmation required
+STRKEY_CONFIRM_TRANSACTION_DETAILS	Confirm transaction details.
+STRKEY_CONFIRM_TRANSACTION_DETAILS_BEFORE_PROCEEDING	Confirm transaction details before proceeding.
+STRKEY_CONFIRM_TRANSACTION_DETAILS_BEFORE_PROCEEDING_NO_PERIOD	Confirm transaction details before proceeding
+STRKEY_CONFIRM_TRANSACTION_DETAILS_NO_PERIOD	Confirm transaction details
+STRKEY_CONFIRMATION	Confirmation
+STRKEY_CONTACT_INFORMATION_COLON	Contact Information:
+STRKEY_COPYRIGHT	Copyright
+STRKEY_COUNT	Count
+STRKEY_COUNTRY	Country
+STRKEY_COUNTRY_COLON	Country:
+STRKEY_CREATE_USER	Create user
+STRKEY_CREDIT_LIMITS	Credit limits
+STRKEY_CROP	Crop
+STRKEY_CURRENCY	Currency
+STRKEY_CURRENCY_CODE	Currency Code
+STRKEY_CUST_CARDHOLDER	Is the customer the cardholder?
+STRKEY_CUST_NOT_ON_RECORD	The customer record is not on file. We will now begin collecting the transaction information.
+STRKEY_CUSTOMER_ACCOUNT_NUMBER	Customer account number
+STRKEY_CUSTOMER_ON_FILE	Let's see if the customer is on file:
+STRKEY_DAILY_ACTIVITY_DETAIL	Money Transfer Daily Activity - Detail
+STRKEY_DAILY_ACTIVITY_LOG	Daily Activity Log
+STRKEY_DAILY_ACTIVITY_SUMMARY	Money Transfer Daily Activity - Summary
+STRKEY_DAILY_SALES	Daily Sales
+STRKEY_DAILY_TRAN_ACTIVITY	Daily Transaction Activity
+STRKEY_DAILY_TRAN_ACTIVITY_REPORTS	Daily Transaction Activity Reports
+STRKEY_DASHBRD_AMEND	Amend
+STRKEY_DASHBRD_BILL_PAY	Pay a <u>B</u>ill
+STRKEY_DASHBRD_COMPLETE_TRANSACTION	<u>C</u>omplete Mobile / Kiosk Transaction
+STRKEY_DASHBRD_EDIT_TRAN	Edit <u>T</u>ransfer
+STRKEY_DASHBRD_EST_FEE	<u>E</u>stimate Fee
+STRKEY_DASHBRD_FIND_LOC	Find Locations
+STRKEY_DASHBRD_LOAD_A_CARD	<u>L</u>oad a Card
+STRKEY_DASHBRD_MONEY_ORDER	<u>M</u>oney Order
+STRKEY_DASHBRD_PAY_TRAN	Pay for Transaction
+STRKEY_DASHBRD_RECV	<u>R</u>eceive Money
+STRKEY_DASHBRD_RECV_REV	Receive Reversal
+STRKEY_DASHBRD_REFUND	Re<u>f</u>und
+STRKEY_DASHBRD_REG_PLUS	Register for <u>P</u>lus
+STRKEY_DASHBRD_SEND	<u>S</u>end Money
+STRKEY_DASHBRD_UTILITIES	<u>U</u>tilities
+STRKEY_DASHBRD_VENDOR_PAYMENT	Pay a Vendor
+STRKEY_DASHBRD_VIEW_STATUS	<u>V</u>iew Status
+STRKEY_DATE	Date
+STRKEY_DATE_OF_BIRTH_COLON	Date of Birth:
+STRKEY_DATE_OF_SEND	Date of send
+STRKEY_DATE_OF_SEND_COLON	Date of send:
+STRKEY_DATE_TIME	Date/Time
+STRKEY_DATE_TIME_TRANSACTION	Date / Time of Transaction
+STRKEY_DAY	Day
+STRKEY_DAY_PLACEHOLDER	DD
+STRKEY_DEACTIVATE_USER	Deactivate user
+STRKEY_DECEMBER	December
+STRKEY_DEL_OPTION	Delivery Option
+STRKEY_DELETE	Delete
+STRKEY_DELIVERY_OPT_AND_AMT_COLON	Delivery Option & Amount:
+STRKEY_DELTAGRAMS	Deltagrams
+STRKEY_DESCRIPTION	Description
+STRKEY_DEST_COUNTRY	Destination country
+STRKEY_DEST_STATE	Destination state/province
+STRKEY_DESTINATION	Destination
+STRKEY_DESTINATION_AND_AMOUNT	Destination and amount
+STRKEY_DESTINATION_COLON	Destination:
+STRKEY_DETAIL_REPORT_NAME	MoneyGram Transaction Detailed Report
+STRKEY_DEVICE_ID	Device Id
+STRKEY_DIRECTIONS	Directions
+STRKEY_DISCOUNT	Discount
+STRKEY_DISCOUNT_COLON	Discount:
+STRKEY_DISPENSER_BUSY	The dispenser is currently busy, please try again.
+STRKEY_DISPENSER_CHARGE_WARNING	*** You are being charged for this transaction, contact moneygram support to resolve this issue. ***
+STRKEY_DISPENSER_ERROR_BEEN_DETECTED	Dispenser error has been detected
+STRKEY_DISPENSER_ERROR_DO_NOT_GIVE_MO_TOCUST	DO NOT give these printed money order(s) to your customer
+STRKEY_DISPENSER_ERROR_STEPS_1	You must report this to MoneyGram support.
+STRKEY_DISPENSER_ERROR_STEPS_2	Tell the MoneyGram representative the Reference #
+STRKEY_DISPENSER_ERROR_STEPS_2_CONTINUED	was NOT completed.
+STRKEY_DISPENSER_ERROR_STEPS_3	You will be charged for the following document(s)
+STRKEY_DISPENSER_ERROR_STEPS_3_CONTINUED	Money Order
+STRKEY_DISPENSER_ERROR_STEPS_4	Write the words
+STRKEY_DISPENSER_ERROR_STEPS_4_CONTINUED	NOT USED FOR PURPOSE INTENDED
+STRKEY_DISPENSER_ERROR_STEPS_4_CONTINUED_1	on the back of the
+STRKEY_DISPENSER_ERROR_STEPS_4_CONTINUED_2	money order(s)
+STRKEY_DISPENSER_ERROR_STEPS_4_CONTINUED_3	and place them with your checks for deposit.
+STRKEY_DISPENSER_LOADS	Dispenser Loads
+STRKEY_DISPENSER_REQUIRES_LOADING	The dispenser requires loading.
+STRKEY_DOB	Date of birth
+STRKEY_DOCS_LEFT_IN_PRINTER	documents remaining in printer
+STRKEY_DOCUMENT_ISSUE_DATE	Document issue date
+STRKEY_DRIVERS_LICENSE	Driver's license
+STRKEY_EDIT	Edit
+STRKEY_EDIT_TRANSFER	Edit a Transfer
+STRKEY_EDIT_VENDOR_LIST	Edit Vendor List
+STRKEY_EDIT_VENDOR_NAMES	Enter the names of vendors that you wish to pay by money order.
+STRKEY_EMAIL	Email
+STRKEY_EMAIL_COLON	Email:
+STRKEY_EMPLOYEE	Employee
+STRKEY_EMPLOYEE_NUMBER	Employee Number
+STRKEY_EMPLOYEE_TOTALS	Employee Total
+STRKEY_EMPLOYEEID	Employee ID
+STRKEY_END_DATE	End Date
+STRKEY_ENDING_SERIAL_NO	Ending Serial #
+STRKEY_ENDING_SERIAL_NUMBER	Ending serial number
+STRKEY_ENROLL_PLUS	Enroll Customer in Plus
+STRKEY_ENTER_PREPAID_CARD_NUMBER	Or enter a prepaid card number:
+STRKEY_ENTER_SERIAL_NUMBERS	Enter Serial Numbers
+STRKEY_ENV_INFO	Environment Information
+STRKEY_ENVIRONMENT	Environment
+STRKEY_ERR_LOADDOCS_CMDPARAM_INVALID_TO_MANY_DOCS	R14 - Attempting to load too many serial numbers.
+STRKEY_ERROR_DETAILS	Error Details
+STRKEY_ERROR_PAGE_MESSAGE	Something went wrong. We apologize. Please refresh the cache by clicking version at the bottom of the page and try again. If you keep getting an error. Please contact Moneygram support.
+STRKEY_ERROR_PRINTING	Error while printing
+STRKEY_ERROR_SCANNING	Error while scanning
+STRKEY_ERROR_SUCCESS_RECORD	Error/Success record
+STRKEY_ERROR_WHILE_PRINTING	Error while printing
+STRKEY_ERROR_WHILE_VOIDING	Error while voiding
+STRKEY_ESTIMATE_FEE	Estimate Fee
+STRKEY_EXCHANGE_RATE	Exchange Rate
+STRKEY_EXPECTED_POSTING	Expected posting
+STRKEY_EXPIRATION_DATE	Expiration Date
+STRKEY_EXPIRATION_DATE_COLON	Expiration date:
+STRKEY_EXPORT	Export
+STRKEY_EXPRESS_PAY_REPRINT	Express Pay reprint
+STRKEY_EXPRESS_PAYMENT	ExpressPayment
+STRKEY_FACE	Face
+STRKEY_FEBRUARY	February
+STRKEY_FEE	Fee
+STRKEY_FEE_AUTO_REFUNDED	Fee is automatically refunded for this transaction
+STRKEY_FEE_COLON	Fee:
+STRKEY_FEE_DOLLAR_SIGN	Fee ($)
+STRKEY_FEE_TYPE	Fee type
+STRKEY_FEES	Fees
+STRKEY_FEES_AND_TAX	Fees & Taxes
+STRKEY_FIND_COUNTRY_CODE	Find your country code
+STRKEY_FIND_LOCATIONS	Find Locations
+STRKEY_FINISH	Finish
+STRKEY_FINISHED	Finished
+STRKEY_FIRST_ENTER_CARD_INFO_COLON	First let's enter the card information:
+STRKEY_FIRST_NAME	First/given name
+STRKEY_FIRST_UNLOCK_DSP_THEN_NXT_STP	First, unlock the dispenser and remove the front cover. When you unlock the dispenser this wizard will move to the next step.
+STRKEY_FORGOT_PASSWORD	Forgot password?
+STRKEY_FRAUD_ALERT_MSG	Fraud Alert Message
+STRKEY_FX	F/X
+STRKEY_FX_RATE	FX Rate
+STRKEY_FX_RATE_COLON	FX rate:
+STRKEY_GET_PACK_FORMS	Get a pack of forms. Enter the starting and ending serial numbers.
+STRKEY_GOV_ID_NUM	Government ID number
+STRKEY_GOV_ID_NUM_COLON	Government ID number:
+STRKEY_GOV_ID_TYPE	Government ID type
+STRKEY_GOV_ID_TYPE_COLON	Government ID type:
+STRKEY_GOVERNMENT_ID	Government ID
+STRKEY_GRAND_TOTAL	Grand Total
+STRKEY_HARDWARE_COMMUNICATION_ERROR	There was a problem establishing a connection with the hardware service. Please contact MoneyGram for assistance.
+STRKEY_HDS_LOCAL	Home Delivery Service: Local Currency Payout
+STRKEY_HDS_USD	Home Delivery Service: USD Payout
+STRKEY_HELP	Help
+STRKEY_HMM	Hmm...
+STRKEY_HOME	Home
+STRKEY_HOME_DELIVERY	Home Delivery
+STRKEY_HOW_WILL_RECEIVE	How will the money be received?
+STRKEY_ID_NUMBER_COLON	ID number:
+STRKEY_ID_PROBLEM	Bad ID
+STRKEY_ID_TYPE_COLON	ID type:
+STRKEY_IDENTIFICATION	Identification
+STRKEY_IDENTIFICATION_COLON	Identification:
+STRKEY_IF_DIFF_FROM_SENDER	If different from the Sender.
+STRKEY_IFSC_NOT_KNOWN	If the IFSC is not known, find it below:
+STRKEY_IMAGE_PREVIEW	Image Preview
+STRKEY_INCL_CANC	Includes cancelled transactions.
+STRKEY_INCL_REF_RECV_REV	Includes refunded transactions and receive reversals.
+STRKEY_INDICATE_INTEND_PAYOUT_TX	Indicate the way you intend to pay out the transaction
+STRKEY_INFO_FEE_INDICATOR	Informational Fee Indicator
+STRKEY_INFORMATION	Information
+STRKEY_INT_SERV_ERROR	Internal server error. Please call support.
+STRKEY_INTERNATIONAL_ID	International ID
+STRKEY_INVALID	Invalid
+STRKEY_INVALID_AGENT_PROFILE	Invalid Agent Profile. Contact MoneyGram for support.
+STRKEY_INVALID_USER_PROFILE	Invalid User Profile. Contact MoneyGram for support.
+STRKEY_IS_AT_OR_BELOW	is at or below
+STRKEY_IS_CUST_RECEIVING	Is the customer receiving money on behalf of another person or organization (third party)?
+STRKEY_ISI_SETTINGS	ISI Settings
+STRKEY_ISSUING_COUNTRY	Issuing country
+STRKEY_ISSUING_COUNTRY_COLON	Issuing country:
+STRKEY_ISSUING_STATE	Issuing state/province
+STRKEY_ISSUING_STATE_COLON	Issuing state:
+STRKEY_ITEM_DETAIL	Item Detail
+STRKEY_JANUARY	January
+STRKEY_JULY	July
+STRKEY_JUNE	June
+STRKEY_LAST_FOUR_DIGITS	Last four digits
+STRKEY_LAST_LOGIN	Last login
+STRKEY_LAST_NAME	Last/family name
+STRKEY_LATEST_NEWS	Latest News
+STRKEY_LEARN_MORE_PLUS_PROGRAM	Learn more about the Plus program
+STRKEY_LETS_FIND_TRAN	First let's find the transaction:
+STRKEY_LEVEL	Level
+STRKEY_LOAD_A_CARD	Load a Card
+STRKEY_LOAD_AMOUNT	Load Amount
+STRKEY_LOAD_DISPENSER_Q	Load dispenser?
+STRKEY_LOAD_FORMS	Load Forms
+STRKEY_LOADFORMS	Load Forms
+STRKEY_LOCATION	Location
+STRKEY_LOCATION_COLON	Location:
+STRKEY_LOCK_DISPENSER	Lock Dispenser
+STRKEY_LOGOUT	Logout
+STRKEY_LONGER_THAN_EXPECTED	The current operation is taking longer than expected, would you like to cancel?
+STRKEY_LOREM_IPSUM	Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat
+STRKEY_MANAGER_ID	Manager ID
+STRKEY_MANAGER_NAME	Manager Name
+STRKEY_MARCH	March
+STRKEY_MASS_REGISTER_COMPUTER	Mass register computer
+STRKEY_MAX_LIMIT_EXCEEDED	Max Limit Exceeded
+STRKEY_MAXAMTENT_MO	Amount entered is greater than permitted amount
+STRKEY_MAXNO_MO	Maximum numbers of Money Order for this transaction has been reached
+STRKEY_MAY	May
+STRKEY_MG_REWARDS_NUMBER_NOT_ENTERED	MG Rewards Number Not Entered
+STRKEY_MGI_REWARDS_20OFF	20% off the fee on your 2nd money transfer after joining Plus Rewards
+STRKEY_MGI_REWARDS_40OFF	40% off the fee after every 5th money transfer
+STRKEY_MGI_REWARDS_EXCLUSIVEPROMO	Exclusive promotions and offers
+STRKEY_MGI_REWARDS_JOIN_TODAY	Join today earn rewards every time you send money
+STRKEY_MGI_REWARDS_MEMBER_ONLY_BENEFITS_COLON	Member-only benefits include:
+STRKEY_MGI_REWARDS_PREMIER_STATUS	Premier status upgrade after your 5th money transfer for even more benefits
+STRKEY_MGI_SERVICE_STATUS_CURRENT	MGI Services OK
+STRKEY_MGI_SERVICE_STATUS_DAYS_LEFT	days
+STRKEY_MGI_SERVICE_STATUS_DEPRECATED_CONTENT	Not installing this update will cause unexpected problems with MoneyGram applications.
+STRKEY_MGI_SERVICE_STATUS_DEPRECATED_HEADER	An MGI Services update is required. Please install the update now.
+STRKEY_MGI_SERVICE_STATUS_SUPPORTED_CONTENT	Please install the update within the next
+STRKEY_MGI_SERVICE_STATUS_SUPPORTED_HEADER	An MGI Services update is available.
+STRKEY_MIDDLE_NAME	Middle name
+STRKEY_MISSING_CAPABILITY	Missing Capability
+STRKEY_MISSING_TEST_QUES	Missing Test Question
+STRKEY_MO_AGENT_ID	MO Agent ID
+STRKEY_MO_REQUIRES_LOADING	The Money Order dispenser requires loading. Would you like to do this now?
+STRKEY_MOBILE_COUNTRY_CODE	Mobile Number Country dial code
+STRKEY_MOBILE_PHONE	Mobile Phone
+STRKEY_MOBILE_WALLET	Mobile Wallet
+STRKEY_MONEY_ORDER	Money Order
+STRKEY_MONEY_ORDER_FEES	Money Order Fees
+STRKEY_MONEY_ORDER_REPORTS	Money Order Reports
+STRKEY_MONEY_ORDERS	Money Orders
+STRKEY_MONEYGRAM	MONEYGRAM
+STRKEY_MONEYGRAM_PLUS_NUMBER	MoneyGram Plus Number
+STRKEY_MONEYGRAM_PLUS_NUMBER_COLON	MoneyGram Plus Number:
+STRKEY_MONEYGRAM_RIGHTS_RES	MoneyGram All rights reserved.
+STRKEY_MONEYORDER_DETAIL	Money Order Details
+STRKEY_MONEYORDER_REPORTS	Money Order Reports
+STRKEY_MONEYORDER_TYPE	Type
+STRKEY_MONTH	Month
+STRKEY_MONTH_PLACEHOLDER	MM
+STRKEY_MSG	Message
+STRKEY_MULTIPLE_PROFILES_FOUND	Multiple profiles found
+STRKEY_MULTIPLE_RECEIVER_PROFILES_FOUND_MSG	Multiple receiver profiles were found. Select a receiver to continue.
+STRKEY_MUST_INFORM_CANCEL_REFUND_WITHIN_30	You must inform the customer that they can cancel the transaction for a full refund within 30 minutes of payment, unless the funds have been picked up or deposited.
+STRKEY_MY_PROFILE	My Profile
+STRKEY_NAME	Name
+STRKEY_NAME_COLON	Name:
+STRKEY_NEW_BILLER	New biller
+STRKEY_NEW_CUSTOMER	New customer
+STRKEY_NEWS	News
+STRKEY_NEXT	Next
+STRKEY_NO	No
+STRKEY_NO_AWAITING_FUNDING_TRANSACTIONS	There are no transactions awaiting funding at this time
+STRKEY_NO_FEE	No fee
+STRKEY_NO_RECV_LOC	No Receive Location
+STRKEY_NO_THIRD_PARTY	No third party
+STRKEY_NONREGISTERED_DEVICE	This device has not been registered. Please contact your administrator for assistance.
+STRKEY_NONTRANSACTIONAL_DEVICE	This device is not registered to perform transactions. Please contact your administrator for assistance.
+STRKEY_NOT_ALL_CURRENCIES	Not all currencies are available in all locations. The exchange rate is only an approximation. The actual exchange rates will be the rate that will be in effect at the time when the transfer is received.
+STRKEY_NOT_ELIG_REVERSAL	This transaction is not eligible to be reversed. Please contact MoneyGram for assistance.
+STRKEY_NOT_RIGHT_CUST	Not the right customer? Register a new customer.
+STRKEY_NOVEMBER	November
+STRKEY_NUMBER	Number
+STRKEY_NUMBER_VENDOR_PAYMENTS	Number of vendor payments
+STRKEY_OCCUPATION	Occupation
+STRKEY_OCCUPATION_COLON	Occupation:
+STRKEY_OCTOBER	October
+STRKEY_OF	of
+STRKEY_OK	Ok
+STRKEY_OPT_CRITERIA_COLON	Optional criteria:
+STRKEY_OPTION	Option
+STRKEY_OPTION_COLON	Option:
+STRKEY_OPTIONAL	Optional
+STRKEY_OR_SEARCH_FOR_BILLER	Or search for a biller:
+STRKEY_ORACLE_ACCOUNT_NO	Oracle Account #
+STRKEY_ORG	An organization
+STRKEY_ORG_RECEIVE_AMOUNT	Original Receive Amount
+STRKEY_ORIGINAL	Original
+STRKEY_OTHER	Will call
+STRKEY_OTHER_COLON	Other:
+STRKEY_OUT_OF_CHECKS	Out of checks
+STRKEY_PASSPORT	Passport
+STRKEY_PAY_A_BILL	Pay a Bill
+STRKEY_PAY_FOR_TRAN	Pay For a Transaction
+STRKEY_PAY_TO	Pay to
+STRKEY_PAY_TO_COLON	Pay to:
+STRKEY_PAYMENT_AMOUNT	Payment amount
+STRKEY_PAYMENT_DETAILS	Payment details:
+STRKEY_PAYMENT_DUE_TO_MONEYGRAM	Payment Due to MoneyGram
+STRKEY_PAYOUT	Payout
+STRKEY_PHONE	Phone number
+STRKEY_PHONE_COLON	Phone number:
+STRKEY_PHONE_PLUS_OR_ACCOUNT_NUMBER	Phone, Plus, or account number
+STRKEY_PHOTO_ID	Photo ID
+STRKEY_PHOTO_ID_COLON	Photo ID:
+STRKEY_PHOTO_ID_NUM	Photo ID number
+STRKEY_PHOTO_ID_TYPE	Photo ID type
+STRKEY_PHOTOCOPY_MESSAGE_PART1	Please take a copy of all the required pages of the
+STRKEY_PHOTOCOPY_MESSAGE_PART1_SHORT	Please take a copy of the
+STRKEY_PHOTOCOPY_MESSAGE_PART2	before proceeding.
+STRKEY_PHOTOCOPY_MESSAGE_PART3	By clicking on
+STRKEY_PHOTOCOPY_MESSAGE_PART4	you acknowledge you have completed this requirement.
+STRKEY_PHOTOCOPY_TIP	For easier traceability MoneyGram recommends writing the transaction reference number of this transaction on each of the identification copies.
+STRKEY_PLEASE_CHECK_INPUT_TRY_AGAIN	Please check your input and try again.
+STRKEY_PLEASE_SCAN	Please scan the receipt that the customer has signed
+STRKEY_PLS_CONFIRM_BEFORE	Please confirm that the following information is correct before proceeding.
+STRKEY_PLUS_MEMBER_COLON	Plus number:
+STRKEY_PLUS_NUMBER	Plus number
+STRKEY_PLZ_ENTER_USERID_PASSWORD	Please enter your User ID and Password
+STRKEY_PMNT_CURRENCY	Payment Currency
+STRKEY_PMNT_RECVD_AFTER	Payments received after 12:01 AM are generally posted the next business day.
+STRKEY_POA_SCAN	Proof of Address
+STRKEY_POC_PHOTOCOPY_TIP	For easier traceability MoneyGram recommends writing the transaction reference number of this transaction on the Proof of Address copy.
+STRKEY_POS_ID	POS ID
+STRKEY_POS_NUM	POS number
+STRKEY_PREPAID_CARD_LOAD_NOT_FOUND_MSG	This card is not currently part of the MoneyGram network. Please try again later as our network is growing.
+STRKEY_PREPAID_CARD_NOT_FOUND_HEADER_MSG	No results matched this search
+STRKEY_PREVIOUS_RECIPIENTS_COLON	Previous Recipients:
+STRKEY_PRINT	Print
+STRKEY_PRINT_INCOMPL	Printing Incomplete!
+STRKEY_PRINTING_DOT_DOT_DOT	Printing...
+STRKEY_PRINTING_POPUP_ERROR	Unable to show receipt window.
+STRKEY_PRINTING_PROFILE_ERROR	Profile Misconfigured for printing. Contact Moneygram Support.
+STRKEY_PRINTING_UNABLE_ERROR	Unable to print receipt(s).
+STRKEY_PRINTTESTVOID	Print Test Void
+STRKEY_PRODUCT_TYPE	Product type
+STRKEY_PROFILE_ERROR	Profile Error
+STRKEY_PROMO_CODE	Promo code
+STRKEY_PROMO_CODE_1	Promo code 1
+STRKEY_PROMO_CODE_2	Promo code 2
+STRKEY_PROMO_CODE_3	Promo code 3
+STRKEY_PROMO_CODE_4	Promo code 4
+STRKEY_PROMO_CODE_5	Promo code 5
+STRKEY_PROOF_OF_ADDRESS	Proof of Address
+STRKEY_PROP_CONFIDENTIAL	Proprietary and confidential
+STRKEY_PROP_CONFIDENTIAL_HEADER	Proprietary and Confidential
+STRKEY_PROP_CONFIDENTIAL_MESSAGE	The Agent Portal and AgentWorks.NXT system is provided by MoneyGram to its authorized agents solely for their internal use. You agree not to copy, use, distribute or disclose the information contained in it, in whole or in part, except in furtherance of MoneyGram business. Your access to and use of this system is deemed acceptance of these obligations. If you and MoneyGram are parties to an agent contract or other agreement covering this system, your use of AgentWorks is subject to the confidentiality, proprietary rights and nondisclosure provisions of that agreement.<br /><br />MoneyGram, the Globe and AgentWorks are marks of MoneyGram.
+STRKEY_PURPOSE_FUNDS	Purpose of funds
+STRKEY_QUANTITY	Quantity
+STRKEY_REAL_TIME_CREDIT_STATUS	Status
+STRKEY_REASON_REFUND	Reason for refund transaction:
+STRKEY_RECEIPTS_SCAN	Receipts Scan
+STRKEY_RECEIVE_AMT_COLON	Receive Amt:
+STRKEY_RECEIVE_AT	Receive at
+STRKEY_RECEIVE_MONEY_FOR_COLON	Receive money for:
+STRKEY_RECEIVE_REVERSAL	Receive reversal
+STRKEY_RECEIVE_WARNING	You are about to complete this Receive transaction. Please check that there are adequate funds in the correct currency before proceeding.
+STRKEY_RECEIVER	Receiver
+STRKEY_RECEIVER_COLON	Receiver:
+STRKEY_RECEIVER_CONTACT_INFO	Receiver Contact Information
+STRKEY_RECEIVER_COUNTRY	Receiver Country
+STRKEY_RECEIVER_COUNTRY_COLON	Receiver Country:
+STRKEY_RECEIVER_DOB	Receiver's Date of Birth
+STRKEY_RECEIVER_IDENTIFICATION_PRIMARY_PHOTO_ID	Receiver Identification - Primary Photo ID
+STRKEY_RECEIVER_INFO	Receiver information
+STRKEY_RECEIVER_INFO_COLON	Receiver information:
+STRKEY_RECEIVER_LOCATION	Receiver location
+STRKEY_RECEIVER_NAME	Receiver Name
+STRKEY_RECEIVER_PROFILE	Receiver Profile
+STRKEY_RECEIVER_STATE	Receiver State
+STRKEY_RECIPIENT	Recipient
+STRKEY_RECIPIENT_OR_NEW	Select a recipient or the New Recipient button to continue
+STRKEY_RECIPIENTS	Recipients
+STRKEY_RECV	Receive
+STRKEY_RECV_AMT	Receive amount
+STRKEY_RECV_CODE_COLON	Receive Code:
+STRKEY_RECV_COUNTRY	Receive Country
+STRKEY_RECV_CURRENCY	Receive Currency
+STRKEY_RECV_LAST_NAME	Receiver Last Name
+STRKEY_RECV_MONEY	Receive Money
+STRKEY_RECV_NAME_CHANGED_FROM	Receiver name changed from:
+STRKEY_RECV_OPT_CUR	Receive option & currency
+STRKEY_RECV_REVERSAL	Receive Reversal
+STRKEY_RECV_TOTAL	Receive Total
+STRKEY_REF_NUM	Reference number
+STRKEY_REF_NUM_COLON	Reference number:
+STRKEY_REF_POUND	Ref #
+STRKEY_REFNUM	Ref Num
+STRKEY_REFUND	Refund
+STRKEY_REFUND_FEE	Refund fee?
+STRKEY_REFUND_FEE_OF	Refund the fee of
+STRKEY_REFUND_WARNING	You are about to refund a transaction. Please check that there are sufficient funds to payout.
+STRKEY_REGISTER_PLUS	Register for Plus
+STRKEY_RELOAD	Reload
+STRKEY_REPORT_DATE	Report Date
+STRKEY_REPORT_DATE_TIME	Report Date/Time
+STRKEY_REPORT_NAME	Report Name
+STRKEY_REPORT_SOURCE	Report Source
+STRKEY_REPORT_WILL_INCLUDE	The report will include transactions occurring between midnight and 11:59 PM.
+STRKEY_REPORTS	Reports
+STRKEY_REPORTS_ACTIVITY_DATE_COLON	Activity Date:
+STRKEY_REPORTS_MO_AGENT_ID_COLON	MO Agent ID:
+STRKEY_REPORTS_MONEYGRAM_AGENT_ID_COLON	MoneyGram Agent ID:
+STRKEY_REPORTS_NO_DETAIL_ITEMS	********NO DETAIL ITEMS*******
+STRKEY_REPORTS_REPORT_DATE_AND_TIME_COLON	Report Date/Time:
+STRKEY_REPRINT	Reprint
+STRKEY_REPRINT_RECEIPT	Reprint Receipt
+STRKEY_REPRINT_RECEIPTS	Reprint Receipts
+STRKEY_RESET	Reset
+STRKEY_RETRY_COUNT	Retry Count
+STRKEY_REVERSAL	Reversal
+STRKEY_REVERSE_REASON	Reason for reversing transaction:
+STRKEY_REVERSE_WARNING	You are about to reverse a transaction. Are you sure you want to continue?
+STRKEY_ROLE	Role
+STRKEY_ROTATE_LEFT	Rotate Left
+STRKEY_ROTATE_RIGHT	Rotate Right
+STRKEY_RTC_WEEKDAY	Tues - Fri
+STRKEY_RTC_WEEKEND	Sat - Mon
+STRKEY_RUN_REPORT	Run Report
+STRKEY_SALES_REPORT	MoneyGram Sales Report
+STRKEY_SALES_REPORT_NAME	MoneyGram Transaction Sales Report
+STRKEY_SAVE	Save
+STRKEY_SCAN	Scan
+STRKEY_SCAN_BACK	Scan Back
+STRKEY_SCAN_FRONT	Scan Front
+STRKEY_SCAN_RECEIPTS	Scan Receipts
+STRKEY_SCANNING_POPUP_CONNECTION_ERROR	Scanner not detected. Please connect the scanner, ensure it is switched on, and try again.
+STRKEY_SCANNING_POPUP_SCANNER_BUSY	Scanner is busy, please wait.
+STRKEY_SCANNING_POPUP_SCANNING_RECEIPT_FAILED	There has been an error in storing the receipt image, please retain the signed copy of the receipt to keep with your records.
+STRKEY_SCANNING_POPUP_SCANNING_RECEIPT_SUCCESS	The scanned receipt has been successfully uploaded.
+STRKEY_SEARCH	Search
+STRKEY_SEARCH_FOR_BILLER	Search for a biller:
+STRKEY_SEARCH_FOR_CUSTOMER	Search for the customer:
+STRKEY_SEC_QUESTION	Optional security question
+STRKEY_SECOND_FORM_ID_COLON	Second form of ID:
+STRKEY_SECOND_ID	Second form of ID
+STRKEY_SECOND_LAST_NAME	Second last/family name
+STRKEY_SECURITY_EXCEPTION	Security Exception
+STRKEY_SEL_ACTIVITY_DATE_COLON	Select activity date:
+STRKEY_SEL_THE_ACTIVITY_DATE_COLON	Select the activity date:
+STRKEY_SELECT	Select
+STRKEY_SELECT_ALL	Select All
+STRKEY_SELECT_BILLER	Select biller
+STRKEY_SELECT_COUNTRY	Select a country
+STRKEY_SELECT_LANGUAGE	Select your language
+STRKEY_SELECT_ONE	Select one
+STRKEY_SELECT_POS_COLON	Select POS(s):
+STRKEY_SELECT_PRINTER	Select Printer
+STRKEY_SELECT_PRINTER_TO_USE	Select the printer you would like to use with AgentWorks
+STRKEY_SELECT_REPORT_COLON	Select report:
+STRKEY_SELECT_SCANNER	Select Scanner
+STRKEY_SELECT_SCANNER_TO_USE	Select the scanner you would like to use with AgentWorks
+STRKEY_SELECT_STORE_LOC_COLON	Select store location:
+STRKEY_SELECT_TRAN	Select a transaction:
+STRKEY_SELECT_TRANS_DATE_COLON	Select the transaction date:
+STRKEY_SELECT_TRANS_TYPES	Select the transaction type(s):
+STRKEY_SELECT_VENDOR	Select vendor
+STRKEY_SEND	Send
+STRKEY_SEND_AMT	Send amount
+STRKEY_SEND_AMT_COLON	Send amount:
+STRKEY_SEND_AMT_EXCL_FEE	Send amount excluding fee
+STRKEY_SEND_AMT_INCL_FEE	Send amount including fee
+STRKEY_SEND_COLLECT_FUND	Collect Funds
+STRKEY_SEND_CURRENCY	Send Currency
+STRKEY_SEND_FEE_DETAILS	FEE DETAILS
+STRKEY_SEND_FINAL_RECEIVE_AMOUNT	Final Receive Amount
+STRKEY_SEND_FINISH_MSG	You must inform the customer that they can cancel the transaction for a full refund within 30 minutes of payment, unless the funds have been picked up or deposited.
+STRKEY_SEND_MONEY	Send Money
+STRKEY_SEND_MONEY_FROM	Send money from:
+STRKEY_SEND_MONEY_TO	Send money to:
+STRKEY_SEND_ORG_RECEIVE_AMOUNT	Original Receive Amount
+STRKEY_SEND_RECEIVE_FEE	Receive fee
+STRKEY_SEND_RECEIVE_TAX	Receive tax
+STRKEY_SEND_RECV_AMT_INCORRECT	Send/Receive Amount Incorrect
+STRKEY_SEND_TO_NEW_RECV	Send to a new receiver
+STRKEY_SEND_TOTAL	Send Total
+STRKEY_SENDER	Sender
+STRKEY_SENDER_COLON	Sender:
+STRKEY_SENDER_CONTACT_INFO	Sender Contact Information
+STRKEY_SENDER_IDENTIFICATION_PRIMARY_PHOTO_ID	Sender Identification - Primary Photo ID
+STRKEY_SENDER_INFO	Sender information:
+STRKEY_SENDER_LOCATION	Sender location
+STRKEY_SENDER_LOOKUP	Sender lookup
+STRKEY_SENDER_MOBILE_NUM	Sender Mobile Number
+STRKEY_SENDER_PHONE	Sender phone
+STRKEY_SENDER_PHONE_PLUS_NUM	Sender phone or Plus number
+STRKEY_SENDER_PROFILE	Sender Profile
+STRKEY_SENDER_SEARCH_RESULTS	Sender search results
+STRKEY_SENT_FROM	Sent from
+STRKEY_SENT_FROM_COLON	Sent from:
+STRKEY_SEPTEMBER	September
+STRKEY_SERIAL_NO	Serial #
+STRKEY_SERIAL_NUM_VERIFICATION	Serial Number Verification
+STRKEY_SERIAL_NUMBER	Serial Number
+STRKEY_SERVICE	Service
+STRKEY_SERVICE_LEVEL	Service level
+STRKEY_SERVICE_OPT_CURRENCY	Service option & currency
+STRKEY_SERVICE_OPTIONS	Service Options
+STRKEY_SHOW_ITEM_DETAIL	Show Item Detail
+STRKEY_SINGLE_RECEIVER_PROFILE_FOUND_MSG	Receiver profile found. Select a receiver to continue.
+STRKEY_SKIP_ENROLLMENT	Skip Enrollment
+STRKEY_SMS_STATUS_UPDATES	SMS/Text transaction status updates via mobile phone
+STRKEY_SOCIAL_SECURITY_NUM	Social Security Number
+STRKEY_SR_NAME	Sales Report
+STRKEY_STARTING_SERIAL_NUMBER	Starting serial number
+STRKEY_STATE	State/Province
+STRKEY_STATE_ID	State ID
+STRKEY_STATUS_NOTIFICATION_Q	If the customer wishes to receive status updates for this transaction, enter contact information.
+STRKEY_STEP_1	Step 1
+STRKEY_STEP_2	Step 2
+STRKEY_STEP_3	Step 3
+STRKEY_STEP_3_DESCRIPTION	Put the forms in the dispenser with the lowest serial number on top. The back of the document is facing out when feeding the document into the dispenser. Then feed the top form into the printer as shown while pressing the load button until the printer grabs it.
+STRKEY_STEP_4	Step 4
+STRKEY_STEP_4_DESCRIPTION	The serial number of the first form should be visible. Enter the last four digits of the serial number to verify loading.
+STRKEY_STEP_4_FRONTCOVER	Once the printer pulls the form, replace the front cover, lock it, and remove the key.
+STRKEY_STEP_4_LOCKDISP	When you lock the dispenser this wizard will move to the next step.
+STRKEY_STEP_5	Step 5
+STRKEY_STEP_5_DESCRIPTION	The serial number of the first form should be visible. Enter the last four digits of the serial number to verify loading.
+STRKEY_STORE_ID	Store ID
+STRKEY_STORE_NAME	Store Name
+STRKEY_STREET	Street address
+STRKEY_STREET_2	Street address 2
+STRKEY_STREET_3	Street address 3
+STRKEY_STREET_4	Street address 4
+STRKEY_STRKEY_CARDHOLDER_INFORMATION	Cardholder information
+STRKEY_STRKEY_CARDHOLDER_INFORMATION_COLON	Cardholder information:
+STRKEY_SUB_MENU_ITEM	Sub Menu Item
+STRKEY_SUBTOTAL	Subtotal
+STRKEY_SUCCESS	Success
+STRKEY_SUCCESS_BANG	Success!
+STRKEY_SUMMARY_REPORT_NAME	MoneyGram Transaction Summary Report
+STRKEY_SUPPORT	Support
+STRKEY_SWAP	Swap
+STRKEY_SWIPE_CARD_ENTER_NUMBER	Swipe the card or enter number
+STRKEY_SYSTEM_UNAVAILABLE	System unavailable. Contact MoneyGram for support.
+STRKEY_TAX_ID	Tax ID
+STRKEY_TERMS_COMMUNICATION	All communication, postings, and uploads to this site become the exclusive property of MoneyGram. You may not reproduce, reverse engineer, disassemble, modify or create derivative works from the site. You may not remove any copyright, trademark or other intellectual property or proprietary notice or legend contained on this site or its content.
+STRKEY_TERMS_COPYRIGHT	This web site is &#169;2011 MoneyGram. All rights reserved.
+STRKEY_TERMS_HEADER	Terms of Use
+STRKEY_TERMS_IMPROVEMENTS	MoneyGram may make changes or improvements to the information displayed on this web site, or to the products or services described herein, at any time, without notice.
+STRKEY_TERMS_IP	Intellectual Property Rights
+STRKEY_TERMS_OWNED_BY	This web site is owned and provided by MoneyGram International, Inc. and its subsidiaries and affiliates ("MoneyGram"). By using this web site, you agree to the following Terms of Use. Please review this information often, as it may change at any time, without notice.
+STRKEY_TERMS_RESTRICTIONS	Restrictions on Use
+STRKEY_TERMS_RESTRICTIONS_1	The website and information contained therein may only be used for MoneyGram transactions, and not for any other purpose.
+STRKEY_TERMS_RESTRICTIONS_2	You may not copy, distribute, modify, transmit, reuse, repost or otherwise display the web site content for purpose, without the express written consent of the MoneyGram Legal Department authorizing use for such purpose(s).
+STRKEY_TERMS_RESTRICTIONS_3	You may not copy, distribute, modify, transmit, reuse, report or otherwise use any consumer data on or made available to you through this website, other than in the execution of a MoneyGram transaction.
+STRKEY_TERMS_RESTRICTIONS_4	Any copy of these materials or any portion thereof must include the copyright notice below.
+STRKEY_TERMS_RESTRICTIONS_5	You may not use this site or any related services for any purpose that is unlawful or prohibited by this Agreement.
+STRKEY_TERMS_RESTRICTIONS_6	You may not use any device, software or action, including but not limited to, bots, spiders, viruses, worms or time bombs, designed to damage or otherwise interfere with the site or to intercept or expropriate any system, data or personal information contained at the site.
+STRKEY_TERMS_RESTRICTIONS_7	You will not use the site or related services for chain letters, junk mail, spamming or to engage in illegal activities.
+STRKEY_TERMS_RESTRICTIONS_8	You agree that you will not use this site to violate any laws, or conduct any other activity that gives rise to some liability or otherwise harm the goodwill associated with our trademarks.
+STRKEY_TERMS_RESTRICTIONS_9	MoneyGram may immediately suspend or terminate any or all of your rights to use this site if at any time for any reason.
+STRKEY_TERMS_RESTRICTIONS_MESSAGE	Use of this website is subject to the terms and conditions of your contract with MoneyGram. If you are an authorized user, you are authorized to view and input data and, if required for legal or regulatory purposes, to print materials appearing on this website, subject to the terms of your contract with MoneyGram, and the following:
+STRKEY_TERMS_SUBHEADER	Agent Portal and AgentWorks.NXT <sup>&trade;</sup> Terms of Use
+STRKEY_TERMS_TRADEMARKS	The trademarks and services marks on this site are the property of MoneyGram and may not be used without permission from the MoneyGram Legal Department.
+STRKEY_TERMS_VALIDATION	Validation
+STRKEY_TERMS_VALIDATION_MESSAGE	MoneyGram reserves the right to validate authorized users of this website, and to deny access, in its sole discretion, to anyone it believes cannot be properly validated.
+STRKEY_TEST_ANSWER	What is the correct answer to this question?
+STRKEY_TEST_QUESTION	What question would you like to ask the receiver?
+STRKEY_THERE_BEEN_ERROR	There Has Been An Error
+STRKEY_THIRD_PARTY	Third Party
+STRKEY_THIRD_PARTY_INFORMATION	Third party information
+STRKEY_THIRD_PARTY_ORG	Third Party Organization
+STRKEY_THRESHOLD_AMOUNT	Threshold Amount
+STRKEY_THRESHOLD_TYPE	Threshold Type
+STRKEY_TIME	Time
+STRKEY_TIME_LOCAL	Time(Local)
+STRKEY_TIP_COLON	Tip:
+STRKEY_TO	to
+STRKEY_TOTAL	Total
+STRKEY_TOTAL_AMOUNT	Total Amount
+STRKEY_TOTAL_COLON	Total:
+STRKEY_TOTAL_PAY_OUT	Total to pay out
+STRKEY_TOTAL_PRINTED	Total printed
+STRKEY_TOTAL_TO_COLLECT	Total to collect
+STRKEY_TOUCH_TOKEN	Please authenticate this transaction by touching the MoneyGram token
+STRKEY_TRAINING	Training
+STRKEY_TRAINING_ERROR_AMEND_REF_NUMBER	Invalid reference number, please use reference number 77777777
+STRKEY_TRAINING_ERROR_EDIT_TRAN_REF_NUMBER	Invalid reference number, please use reference numbers 55555555, 66666666 or 77777777
+STRKEY_TRAINING_ERROR_RCV_REF_NUMBER	Invalid reference number, please use reference numbers 11111111 or 22222222 or 33333333
+STRKEY_TRAINING_ERROR_SREV_REF_NUMBER	Invalid reference number, please use reference number 55555555 or 66666666
+STRKEY_TRAINING_QUICK_REFERENCE	Training & Quick Reference
+STRKEY_TRAN_DETAILS	Transaction details
+STRKEY_TRAN_MAX_LIMIT_EXCEEDED	Transaction Maximum Limit Exceeded
+STRKEY_TRAN_NOT_EDITABLE	This transaction cannot be edited.
+STRKEY_TRAN_STATUS	Transaction status
+STRKEY_TRAN_STATUS_AVAILABLE	Available
+STRKEY_TRAN_STATUS_AVAILABLE_FOR_REFUND	Available For Refund
+STRKEY_TRAN_STATUS_CANCELED	Canceled
+STRKEY_TRAN_STATUS_NOT_AVAILABLE	Not Available
+STRKEY_TRAN_STATUS_PREVIOUSLY_RECEIVED	Previously Received
+STRKEY_TRAN_STATUS_REFUNDED	Refunded
+STRKEY_TRAN_STATUS_UNKNOWN	Unknown
+STRKEY_TRAN_TYPE_CANCEL	MoneyGram Cancel
+STRKEY_TRAN_TYPE_EP	Express Payment
+STRKEY_TRAN_TYPE_RECEIVE	MoneyGram Receive
+STRKEY_TRAN_TYPE_REVERSAL	MoneyGram ReceiveReversal
+STRKEY_TRAN_TYPE_SEND	MoneyGram Send
+STRKEY_TRAN_TYPE_UP	Utility Payment
+STRKEY_TRANEXCEED_REPORT_NAME	Transactions that exceed Operators maximum limits
+STRKEY_TRANS_DATE	Transaction date
+STRKEY_TRANSACT	Transact
+STRKEY_TRANSACTION_ERROR	A transaction error has occurred! Your transaction has not been completed. Please try again
+STRKEY_TRANSACTION_NO_LONGER_VALID	Transaction is no longer valid
+STRKEY_TRANSACTION_TYPE	Transaction Type
+STRKEY_TRYAGAIN	Try Again
+STRKEY_UI	AgentWorks UI
+STRKEY_UNABLE_RETRIEVE_PRINTERS	Unable to retrieve available printers
+STRKEY_UNABLE_RETRIEVE_SCANNERS	Unable to retrieve available scanners
+STRKEY_UNABLE_SAVE_PRINTER	Unable to save selected printer
+STRKEY_UNABLE_SAVE_SCANNER	Unable to save selected scanner
+STRKEY_UNAUTHORIZED	Unauthorized access. Please call support.
+STRKEY_UNCOLLECTED_REQUIRED_FIELDS	The following fields are required to complete the transaction but were unable to be collected:
+STRKEY_UNCOMMITTED	Uncommitted
+STRKEY_UNLOCK_DISPENSER	Unlock Dispenser
+STRKEY_UNREGISTER_DEVICE	Unregister Device
+STRKEY_UPGRADE_MGI_SERVICES	Please update MGI Services to use this capability.
+STRKEY_UPLOAD	Upload
+STRKEY_USD	USD
+STRKEY_USER_ID	User ID
+STRKEY_USER_MANAGEMENT	User Management
+STRKEY_USER_NAME	User Name
+STRKEY_USER_NOTINROLE	Unauthorized access. Please call support.
+STRKEY_USER_PROFILE	User Profile
+STRKEY_USER_REPORT_NAME	User Report
+STRKEY_USER_THRESHOLD_EXCEEDED	Cannot complete the transaction as the amount exceeds the user transaction thresholds.
+STRKEY_USER_UNAUTHENTICATED	Unauthenticated access. Please call support.
+STRKEY_USER_WORKFLOW_MANAGEMENT	User Workflow Management
+STRKEY_UTILITIES	Utilities
+STRKEY_VENDOR	Vendor
+STRKEY_VENDOR_LIST_COLON	Vendor List:
+STRKEY_VENDOR_NAME	Vendor Name
+STRKEY_VENDOR_PAYMENT	Vendor Payment
+STRKEY_VENDOR_PAYMENT_COLON	Vendor Payment:
+STRKEY_VENDOR_PAYMENTS	Vendor Payments
+STRKEY_VERIFY_AND_EDIT_COLON	Verify and Edit:
+STRKEY_VERIFY_AND_EDIT_MSG	Please verify and/or edit the following.
+STRKEY_VERIFY_DETAILS_HEADER	Verify Details
+STRKEY_VERIFY_SERIAL_NUMBER	Verify Serial Number
+STRKEY_VERIFY_TRAN_AMOUNT	Verify transaction amount:
+STRKEY_VERSION	Version
+STRKEY_VERSION_COLON	Version:
+STRKEY_VIEW_STATUS	View Status
+STRKEY_VOID_FORMS	Void Forms
+STRKEY_VOIDED	Voided
+STRKEY_VOIDING_DOT_DOT_DOT	Voiding...
+STRKEY_VOIDS	Voids
+STRKEY_WAIT_FOR_RESPONSE	Wait For Response
+STRKEY_WANTS_CASH	Customer wants cash
+STRKEY_WE_DO_NOT_PLUS_MBR_ENROLL	We do not have a Plus number on file for the Sender. Consider enrolling them now. It only takes a minute.
+STRKEY_WELCOME	Welcome
+STRKEY_WHERE_MONEY_SENT	Where will the money be sent to?
+STRKEY_WILL_CALL	10 Minute Service
+STRKEY_WISH_PROCEED	Do you wish to proceed?
+STRKEY_WLCM_TO_MG_PARTNER_SERVICES	Welcome to MoneyGram Partner Services
+STRKEY_WRONG_TRANSFER_SVC	Wrong Transfer Service
+STRKEY_WRONG_TX	Wrong transaction
+STRKEY_WZRD_WILL_EXPLAIN_LOAD_TO_DSP	This wizard will explain how to load forms into the dispenser.
+STRKEY_WZRD_WILL_LOCK_DSP1	Once the printer pulls the form, replace the front cover, lock it, and remove the key.
+STRKEY_WZRD_WILL_LOCK_DSP2	When you lock the dispenser this wizard will move to the next step.
+STRKEY_YEAR	Year
+STRKEY_YEAR_PLACEHOLDER	YYYY
+STRKEY_YES	Yes
+STRKEY_YES_CONTINUE	Yes, continue
+STRKEY_YES_REFUND_AMT	Yes, refund amount is
+STRKEY_ZIP	Post/Zip code

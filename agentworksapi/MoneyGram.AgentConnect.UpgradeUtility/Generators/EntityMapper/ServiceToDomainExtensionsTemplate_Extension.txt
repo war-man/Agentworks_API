@@ -1,0 +1,10 @@
+﻿public static DOMAIN.{NAME} ToDomain(SERVICE.{NAME} {NAME_CAMEL})
+{
+	var domainModel = new DOMAIN.{NAME} {
+{PROPERTIES}
+	};
+
+	DomainTransformExtensions.NullifyWhiteSpaceStrings(domainModel);
+
+	return domainModel;
+}

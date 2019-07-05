@@ -1,0 +1,8 @@
+<UserControl x:Class="TransactionRunner.Controls.EnqueueButtonControl"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Loaded="EnqueueButtonControl_OnLoaded">
+    <Grid>
+        <Button x:Name="btnSend" Content="Add to Queue" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Click="BtnSend_OnClick" Visibility="Hidden"/>
+    </Grid>
+</UserControl>

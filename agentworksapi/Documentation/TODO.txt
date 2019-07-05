@@ -1,0 +1,3 @@
+TODO: integrate automapper for VM=>BO and BO=>VM mapping
+
+TODO: integrate Unity with XML configurations

@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{98434867-13D7-4F83-9811-0219C1C5758F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TransactionRunner</RootNamespace>
+    <AssemblyName>TransactionRunner</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>\\ad\shared\GITShares\TransactionRunner\1705_2\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Transaction Runner</ProductName>
+    <PublisherName>MoneyGram International</PublisherName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>0.15.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\TransactionRunner.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Images\MGLogo2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>D723AF3F5AA4F5606B23130366FC82A52E41E5AD</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>TransactionRunner_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="MoneyGram.AgentConnect.DomainModel">
+      <HintPath>..\..\..\AwApi\bin\MoneyGram.AgentConnect.DomainModel.dll</HintPath>
+    </Reference>
+    <Reference Include="MoneyGram.AgentConnect.IntegrationTest.Data">
+      <HintPath>..\..\..\MoneyGram.AgentConnect.IntegrationTest.Operations\bin\MoneyGram.AgentConnect.IntegrationTest.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MoneyGram.AgentConnect.IntegrationTest.Operations">
+      <HintPath>..\..\..\MoneyGram.AgentConnect.IntegrationTest.Operations\bin\MoneyGram.AgentConnect.IntegrationTest.Operations.dll</HintPath>
+    </Reference>
+    <Reference Include="MoneyGram.Common.Json">
+      <HintPath>..\..\..\MoneyGram.AgentConnect.IntegrationTest.Operations\bin\MoneyGram.Common.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\AwApi\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Http, Version=4.5.0.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Http.4.5.3\lib\net461\System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives, Version=4.5.0.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Primitives.4.5.3\lib\net461\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AgentManagementWindow.xaml.cs">
+      <DependentUpon>AgentManagementWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AgentManagementControl.xaml.cs">
+      <DependentUpon>AgentManagementControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BatchControl.xaml.cs">
+      <DependentUpon>BatchControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EnqueueButtonControl.xaml.cs">
+      <DependentUpon>EnqueueButtonControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ExportResultsControl.xaml.cs">
+      <DependentUpon>ExportResultsControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ImportControl.xaml.cs">
+      <DependentUpon>ImportControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ImportResultsControl.xaml.cs">
+      <DependentUpon>ImportResultsControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\OverwriteOrAppendControl.xaml.cs">
+      <DependentUpon>OverwriteOrAppendControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ReceiveControl.xaml.cs">
+      <DependentUpon>ReceiveControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SendReversalParametersControl.xaml.cs">
+      <DependentUpon>SendReversalParametersControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BillPayControl.xaml.cs">
+      <DependentUpon>BillPayControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\StagedBillPayControl.xaml.cs">
+      <DependentUpon>StagedBillPayControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\StagedReceiveControl.xaml.cs">
+      <DependentUpon>StagedReceiveControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\AppStartMode.cs" />
+    <Compile Include="Helpers\Controls\TransactionDataGrid.cs" />
+    <Compile Include="Helpers\Converters\InvertedBooleanToVisibilityConverter.cs" />
+    <Compile Include="Helpers\FileDialogHelper.cs" />
+    <Compile Include="Helpers\Controls\NumberTextBox.cs" />
+    <Compile Include="Helpers\FileHelper.cs" />
+    <Compile Include="Helpers\Converters\NullToVisibilityConverter.cs" />
+    <Compile Include="Helpers\RelayCommand.cs" />
+    <Compile Include="Helpers\ResultWriter.cs" />
+    <Compile Include="Helpers\TemplateAttribute.cs" />
+    <Compile Include="Helpers\TemplateManager.cs" />
+    <Compile Include="ImportExport\CSVFileHandler.cs" />
+    <Compile Include="ImportExport\Exportable.cs" />
+    <Compile Include="ImportExport\ExportFileFormat.cs" />
+    <Compile Include="ImportExport\ExportMode.cs" />
+    <Compile Include="ImportExport\IFileHandler.cs" />
+    <Compile Include="ImportExport\ImportExportSvc.cs" />
+    <Compile Include="ImportExport\ParamsList.cs" />
+    <Compile Include="ImportExport\StaticImportExport.cs" />
+    <Compile Include="ImportExport\XMLFileHandler.cs" />
+    <Compile Include="Interfaces\IAgentManagementViewModel.cs" />
+    <Compile Include="Interfaces\IBatchNumberViewModel.cs" />
+    <Compile Include="Interfaces\IBillPayViewModel.cs" />
+    <Compile Include="Interfaces\IExportResultsViewModel.cs" />
+    <Compile Include="Interfaces\IImportResultsViewModel.cs" />
+    <Compile Include="Interfaces\IImportViewModel.cs" />
+    <Compile Include="Interfaces\IReceiveAgentSelectorViewModel.cs" />
+    <Compile Include="Interfaces\IAgentSettings.cs" />
+    <Compile Include="Interfaces\IEnqueueButtonViewModel.cs" />
+    <Compile Include="Interfaces\IReceiveParametersViewModel.cs" />
+    <Compile Include="Interfaces\IReceiveViewModel.cs" />
+    <Compile Include="Interfaces\ISendReversalParametersViewModel.cs" />
+    <Compile Include="Interfaces\IStagedBillPayViewModel.cs" />
+    <Compile Include="Interfaces\IStagedReceiveViewModel.cs" />
+    <Compile Include="Interfaces\ITransactionPickerViewModel.cs" />
+    <Compile Include="Models\CancellationEvent.cs" />
+    <Compile Include="Models\TaskCancellation.cs" />
+    <Compile Include="PopupWindow.xaml.cs">
+      <DependentUpon>PopupWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transactions\Handlers\BillPayHandler.cs" />
+    <Compile Include="Transactions\Handlers\BillPayParameters.cs" />
+    <Compile Include="Transactions\Handlers\ReceiveHandler.cs" />
+    <Compile Include="Transactions\Handlers\ReceiveParameters.cs" />
+    <Compile Include="Transactions\Handlers\SendReversalHandler.cs" />
+    <Compile Include="Transactions\Handlers\SendParameters.cs" />
+    <Compile Include="Transactions\Handlers\SendReversalParameters.cs" />
+    <Compile Include="Transactions\Handlers\StagedBillPayHandler.cs" />
+    <Compile Include="Transactions\Handlers\StagedBillPayParameters.cs" />
+    <Compile Include="Transactions\Handlers\StagedReceiveHandler.cs" />
+    <Compile Include="Transactions\Handlers\StagedReceiveParameters.cs" />
+    <Compile Include="Transactions\Handlers\StagedSendHandler.cs" />
+    <Compile Include="Transactions\Handlers\StagedSendParameters.cs" />
+    <Compile Include="Transactions\StaticTransactionQueue.cs" />
+    <Compile Include="Controls\TransactionPickerControl.xaml.cs">
+      <DependentUpon>TransactionPickerControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\ITransactionResult.cs" />
+    <Compile Include="Transactions\BaseParams.cs" />
+    <Compile Include="Transactions\TransactionQueueMode.cs" />
+    <Compile Include="Transactions\TransactionResult.cs" />
+    <Compile Include="ViewModels\AgentManagementViewModel.cs" />
+    <Compile Include="ViewModels\BatchNumberViewModel.cs" />
+    <Compile Include="ViewModels\BillPayViewModel.cs" />
+    <Compile Include="ViewModels\ExportResultsViewModel.cs" />
+    <Compile Include="ViewModels\ImportResultsViewModel.cs" />
+    <Compile Include="ViewModels\ImportViewModel.cs" />
+    <Compile Include="ViewModels\IPopupViewModel.cs" />
+    <Compile Include="ViewModels\OutputViewModel.cs" />
+    <Compile Include="ViewModels\BaseAgentViewModel.cs" />
+    <Compile Include="ViewModels\OverwriteOrAppendViewModel.cs" />
+    <Compile Include="ViewModels\PopupViewModelBase.cs" />
+    <Compile Include="ViewModels\Settings\ReceiveSettings.cs" />
+    <Compile Include="ViewModels\ReceiveViewModel.cs" />
+    <Compile Include="ViewModels\SendReversalParametersViewModel.cs" />
+    <Compile Include="ViewModels\Settings\SendReversalSettings.cs" />
+    <Compile Include="ViewModels\Settings\SendSettings.cs" />
+    <Compile Include="ViewModels\Settings\BillPaySettings.cs" />
+    <Compile Include="ViewModels\StagedBillPayViewModel.cs" />
+    <Compile Include="ViewModels\StagedReceiveViewModel.cs" />
+    <Compile Include="ViewModels\Static\StaticAgentManagementVm.cs" />
+    <Compile Include="ViewModels\Static\StaticAgentSelectorVm.cs" />
+    <Compile Include="ViewModels\Static\StaticBatchNumberVm.cs" />
+    <Compile Include="ViewModels\Static\StaticBillPayVm.cs" />
+    <Compile Include="ViewModels\Static\StaticExportResultsViewModel.cs" />
+    <Compile Include="ViewModels\Static\StaticImportResultsViewModel.cs" />
+    <Compile Include="ViewModels\Static\StaticImportVm.cs" />
+    <Compile Include="ViewModels\Static\StaticModal.cs" />
+    <Compile Include="ViewModels\Static\StaticReceiveVm.cs" />
+    <Compile Include="ViewModels\Static\StaticSendParametersVm.cs" />
+    <Compile Include="ViewModels\Static\StaticSendReversalParametersVm.cs" />
+    <Compile Include="ViewModels\Static\StaticStagedBillPayVm.cs" />
+    <Compile Include="ViewModels\Static\StaticStagedReceiveVm.cs" />
+    <Compile Include="ViewModels\Static\StaticStagedSendParametersVm.cs" />
+    <Compile Include="ViewModels\Static\StaticTaskCancellation.cs" />
+    <Compile Include="ViewModels\Static\StaticTransactionNames.cs" />
+    <Compile Include="ViewModels\Static\StaticTransactionPickerVm.cs" />
+    <Compile Include="ViewModels\TransactionPickerViewModel.cs" />
+    <Compile Include="Interfaces\IRunTransactionsButtonViewModel.cs" />
+    <Compile Include="Timer\ElapsedTimer.xaml.cs">
+      <DependentUpon>ElapsedTimer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AgentSelectorControl.xaml.cs">
+      <DependentUpon>AgentSelectorControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SendParametersControl.xaml.cs">
+      <DependentUpon>SendParametersControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ResultsPaneControl.xaml.cs">
+      <DependentUpon>ResultsPaneControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TrVersion.xaml.cs">
+      <DependentUpon>TrVersion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RunTransactionsButtonControl.xaml.cs">
+      <DependentUpon>RunTransactionsButtonControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\IAgentSelectorViewModel.cs" />
+    <Compile Include="Interfaces\IMainWindowViewModel.cs" />
+    <Compile Include="Interfaces\IMessageBus.cs" />
+    <Compile Include="Interfaces\IResultsPaneViewModel.cs" />
+    <Compile Include="Interfaces\ISendParametersViewModel.cs" />
+    <Compile Include="Interfaces\ISettingsSvc.cs" />
+    <Compile Include="Interfaces\ITransactionHandler.cs" />
+    <Compile Include="Messaging\ActionReference.cs" />
+    <Compile Include="Messaging\MessageBus.cs" />
+    <Compile Include="Messaging\StaticMessageBus.cs" />
+    <Compile Include="Settings\SettingsSvc.cs" />
+    <Compile Include="Settings\StaticSettings.cs" />
+    <Compile Include="Timer\ElapsedTimerViewModel.cs" />
+    <Compile Include="Timer\IElapsedTimerViewModel.cs" />
+    <Compile Include="Timer\TimerEvents.cs" />
+    <Compile Include="Transactions\Handlers\AmendHandler.cs" />
+    <Compile Include="Transactions\Handlers\BaseHandler.cs" />
+    <Compile Include="Transactions\ITransactionQueue.cs" />
+    <Compile Include="Transactions\Handlers\SendHandler.cs" />
+    <Compile Include="Transactions\Transaction.cs" />
+    <Compile Include="Transactions\TransactionEvents.cs" />
+    <Compile Include="Transactions\TransactionQueue.cs" />
+    <Compile Include="Transactions\TransactionEnums.cs" />
+    <Compile Include="TrVersion.cs" />
+    <Compile Include="ViewModels\EnqueueButtonViewModel.cs" />
+    <Compile Include="ViewModels\MainWindowViewModel.cs" />
+    <Compile Include="ViewModels\ResultsPaneViewModel.cs" />
+    <Compile Include="ViewModels\SendParametersViewModel.cs" />
+    <Compile Include="ViewModels\RunTransactionsButtonViewModel.cs" />
+    <Compile Include="ConfigProviders\TransactionProvider.cs" />
+    <Compile Include="ViewModels\UserSettings.cs" />
+    <Compile Include="ViewModels\ViewModelExtensions.cs" />
+    <Page Include="AgentManagementWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\AgentManagementControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\BatchControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\AgentSelectorControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\EnqueueButtonControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\ExportResultsControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\ImportControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\ImportResultsControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\OverwriteOrAppendControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\ReceiveControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\SendReversalParametersControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\BillPayControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\StagedBillPayControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\StagedReceiveControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\TransactionPickerControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PopupWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Timer\ElapsedTimer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\SendParametersControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\ResultsPaneControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\TrVersion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\RunTransactionsButtonControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewModels\AgentSelectorViewModel.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="..\..\..\MoneyGram.AgentConnect.IntegrationTestData\Data\AmountRanges.json">
+      <Link>Data\AmountRanges.json</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\MoneyGram.AgentConnect.IntegrationTestData\Data\Countries.json">
+      <Link>Data\Countries.json</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\MoneyGram.AgentConnect.IntegrationTestData\Data\CountrySubdivisions.json">
+      <Link>Data\CountrySubdivisions.json</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\MoneyGram.AgentConnect.IntegrationTestData\Data\Currencies.json">
+      <Link>Data\Currencies.json</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\MoneyGram.AgentConnect.IntegrationTestData\Data\EnvironmentAgents.json">
+      <Link>Data\EnvironmentAgents.json</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\MoneyGram.AgentConnect.IntegrationTestData\Data\Environments.json">
+      <Link>Data\Environments.json</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\MoneyGram.AgentConnect.IntegrationTestData\Data\FeeTypes.json">
+      <Link>Data\FeeTypes.json</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\MoneyGram.AgentConnect.IntegrationTestData\Data\RefundReasons.json">
+      <Link>Data\RefundReasons.json</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\..\MoneyGram.AgentConnect.IntegrationTestData\Data\ServiceOptions.json">
+      <Link>Data\ServiceOptions.json</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="CHANGELOG.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Config\D1\integrationTestSettings.json" />
+    <None Include="Config\D2\integrationTestSettings.json" />
+    <None Include="Config\D3\integrationTestSettings.json" />
+    <None Include="Config\D5\integrationTestSettings.json" />
+    <None Include="Config\External\integrationTestSettings.json" />
+    <Content Include="Config\integrationTestSettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Config\Q1\integrationTestSettings.json" />
+    <None Include="Config\Q2\integrationTestSettings.json" />
+    <None Include="Config\Q3\integrationTestSettings.json" />
+    <None Include="Config\Q5\integrationTestSettings.json" />
+    <None Include="Documentation\TransactionRunnerDevelopmentDoc.docx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="TransactionRunner_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\mgi_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\MGLogo2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\trash-can.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\edit-symbol.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <SplashScreen Include="Images\splash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\busy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by Elena Kuznetsov (MoneyGram International) -->
+<xs:schema 
+	targetNamespace="http://moneygram.com/common_v1" 
+	elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:cmn="http://moneygram.com/common_v1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	
+	<xs:complexType name="ServiceError">
+		<xs:sequence>
+			<xs:element name="errorCode" type="xs:string"/>
+			<xs:element name="errorSource" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Service/Application Name</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="errorMessage" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="errorStackTrace" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="errorLocation" type="xs:string" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Step in processing that caused the error</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="errorHandlingCode" type="cmn:ErrorHandlingCode" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="errorCategoryCode" type="cmn:ErrorCategoryCode" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Indicates client or system error.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="relatedErrors" type="cmn:RelatedErrors" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>List of related errors. Example: required field validation.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="offendingField" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="RelatedErrors">
+		<xs:sequence>
+			<xs:element name="error" type="cmn:RelatedError" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="RelatedError">
+		<xs:annotation>
+			<xs:documentation>Related error. Example: offending field and validation message.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="code" type="xs:string"/>
+			<xs:element name="message" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Errors">
+		<xs:sequence>
+			<xs:element ref="cmn:error" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:simpleType name="ErrorCategoryCode">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="ClientIntegrationError"/>
+			<xs:enumeration value="UserError"/>
+			<xs:enumeration value="ServiceSystemError"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="ErrorHandlingCode">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="RetryNow"/>
+			<xs:enumeration value="RetryLater"/>
+			<xs:enumeration value="ReturnError"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:element name="error" type="cmn:ServiceError"/>
+</xs:schema>

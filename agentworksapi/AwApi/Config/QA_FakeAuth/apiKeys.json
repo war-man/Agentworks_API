@@ -1,0 +1,38 @@
+﻿{
+  "493ecfa5-1e9b-4a35-bf06-489af8f1c15f": {
+    "agentId": "40698809",
+    "mainOfficeId": "40698786",
+    "password": "456",
+    "pos": "84"
+  },
+  "2af20d42-c616-4625-a079-56ac4a56a96e": {
+    "agentId": "40307666",
+    "mainOfficeId": "40307132",
+    "password": "456",
+    "pos": "19"
+  },
+  "16566f83-b324-4a51-a6be-d0cb9dd5cb87": {
+    "agentId": "71529646",
+    "mainOfficeId": "71529633",
+    "password": "456",
+    "pos": "02"
+  },
+  "908d1115-de1e-4105-9617-2312b16e42a9": {
+    "agentId": "71217880",
+    "mainOfficeId": "71217877",
+    "password": "456",
+    "pos": "02"
+  },
+  "ce245880-d1cc-4973-8095-4cd7319b2129": {
+    "agentId": "68669881",
+    "mainOfficeId": "68669878",
+    "password": "456",
+    "pos": "04"
+  },
+  "88b98ccc-ed56-42f5-875f-a62d1a8e33e6": {
+    "agentId": "44185237",
+    "mainOfficeId": "40610492",
+    "password": "456",
+    "pos": "05"
+  }
+}

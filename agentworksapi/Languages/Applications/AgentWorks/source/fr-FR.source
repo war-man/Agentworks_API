@@ -1,0 +1,932 @@
+﻿STRKEY_1000_ERR_SYSTEM_EXCEPTION	Une exception d'exécution s'est produite. Veuillez contacter le support technique de MoneyGram (1000).
+STRKEY_1001_ERR_SYSTEM_INVALID_API_REQUEST_ACTION	Une erreur s'est produite. Consultez les registres pour plus d'informations (1001).
+STRKEY_1010_ERR_DPSMGR_PRINTDOC_FORMS_LOAD_REQUIRED	R72 - Veuillez charger les formulaires de mandat (1010).
+STRKEY_1011_ERR_DPSMGR_PRINTDOC_FORMS_VERIFY_REQUIRED	Vérification des formulaires de mandat requise, veuillez redémarrer votre transaction (1011).
+STRKEY_1012_ERR_DPSMGR_PRINTDOC_DISPENSER_HARDWARE_ERROR	R39 - Une erreur matérielle du distributeur s'est produite. Veuillez vérifier le matériel et la connectivité du distributeur et réessayer. Si ce problème persiste, veuillez contacter le support technique de MoneyGram (1012).
+STRKEY_1013_ERR_DPSMGR_PRINTDOC_LOW_FORMS_FOR_REQUEST	R26 - Il ne reste pas assez de formulaires dans le distributeur. Veuillez charger des formulaires et redémarrer votre transaction (1013).
+STRKEY_1014_ERR_DPSMGR_PRINTDOC_DOCUMENT_CONFIGURATION_MISSING	R23 - Votre configuration d'agent n'est pas autorisée à effectuer cette transaction. Veuillez contacter le support technique des mondats-poste (1014).
+STRKEY_1015_ERR_DPSMGR_PRINTDOC_DG_SERIAL_NUMBER_MISMATCH	Une erreur s'est produite. Consultez les registres pour plus d'informations (1015).
+STRKEY_1016_ERR_DPSMGR_PRINTDOC_DG_PRINT_ALREADY_STARTED	Une erreur s'est produite. Consultez les registres pour plus d'informations (1016).
+STRKEY_1017_ERR_DPSMGR_PRINTDOC_DG_PRINT_CANCELLED	Une erreur s'est produite. Consultez les registres pour plus d'informations (1017).
+STRKEY_1018_ERR_DPSMGR_PRINTDOC_DG_CANCEL_NOT_POSSIBLE	Une erreur s'est produite. Consultez les registres pour plus d'informations (1018).
+STRKEY_1020_ERR_DPSMGR_PRINTDOC_PRINTING_LIMBO_DOCUMENT	a transaction NE s'est PAS complétée normalement (1020).
+STRKEY_1021_ERR_DPSMGR_PRINTDOC_PRINTING_ERROR	R82 - Une erreur du distributeur s'est produite qui a interrompu l'impression. Voir l'écran de résumé pour les résultats d'impression des mandats. Veuillez valider les éléments imprimés, vérifier le matériel et soumettre à nouveau les transactions non imprimées (1021).
+STRKEY_1022_ERR_DPSMGR_PRINTDOC_PRINTING_VOIDED_DOCUMENT	Une erreur du distributeur s'est produite qui a interrompu l'impression et créé un article ANNULÉ. Voir l'écran de résumé pour les résultats d'impression des ordres d'argent. Veuillez valider les éléments imprimés, vérifier le matériel et soumettre à nouveau toutes les transactions non imprimées (1022).
+STRKEY_1023_ERR_DPSMGR_PRINTDOC_PRINTING_DOCUMENT_NOT_PRINTED	Une erreur s'est produite avant l'impression et aucun document n'a été imprimé. Vérifiez le matériel et la connectivité du distributeur, puis réessayez (1023).
+STRKEY_1024_ERR_DPSMGR_PRINTDOC_PRINTING_UNKNOWN_STATUS	R91 - Une exception d'état d'impression s'est produite lors de l'impression. Veuillez contacter le support technique de MoneyGram (1024).
+STRKEY_1025_ERR_DPSMGR_PRINTDOC_PRINTING_RECOVER_STATE	L'élément n'a pas été terminé avant le démarrage de ce serveur (1025).
+STRKEY_1110_ERR_DPSMGR_LOADDOCS_LOAD_VERIFY_ACTIVE	R19 - Une action de chargement ou de vérification est en cours. Veuillez attendre que l'action initiale soit terminée, puis réessayez votre demande. Si le problème persiste, veuillez contacter le support technique de MoneyGram (1110).
+STRKEY_1111_ERR_DPSMGR_LOADDOCS_FORM_LOAD_REQUIRED	R19 - Veuillez charger les formulaires et réessayer. Si ce problème persiste, veuillez contacter le support technique de MoneyGram (1111).
+STRKEY_1112_ERR_DPSMGR_LOADDOCS_LOAD_VERIFY_NOT_ACTIVE	R15 - Une exception s'est produite lors de l'exécution d'une demande de chargement. Veuillez contacter le support technique MoneyGram (1112).
+STRKEY_1113_ERR_DPSMGR_LOADDOCS_INCORRECT_VERIFY_LAST4_VALUE	R12 - Les 4 derniers chiffres spécifiés ne correspondent pas au document actuellement chargé (1113).
+STRKEY_1114_ERR_DPSMGR_LOADDOCS_EJECT_FORM_FAILED	R82 - Une erreur matérielle du distributeur s'est produite. Veuillez vérifier le matériel et la connectivité du distributeur et réessayer. Si ce problème persiste, veuillez contacter le support technique de MoneyGram (1114).
+STRKEY_1115_ERR_DPSMGR_LOADDOCS_RETRACT_FORM_FAILED	R82 - Une erreur matérielle du distributeur s'est produite. Veuillez vérifier le matériel et la connectivité du distributeur et réessayer. Si ce problème persiste, veuillez contacter le support technique de MoneyGram (1115).
+STRKEY_1116_ERR_DPSMGR_LOADDOCS_UNLOAD_FORM_FAILED	R82 - Une erreur matérielle du distributeur s'est produite. Veuillez vérifier le matériel et la connectivité du distributeur et réessayer. Si ce problème persiste, veuillez contacter le support technique de MoneyGram (1116).
+STRKEY_1117_ERR_DPSMGR_LOADDOCS_VOID_REMAINING_NOT_AVAILABLE	La demande de formulaires annulées restant n'est pas valide pour le moment. Veuillez continuer à charger les nouveaux formulaires (1117).
+STRKEY_1118_ERR_DPSMGR_LOADDOCS_DOOR_MUST_BE_CLOSED	R68 - Impossible de terminer l'opération - la porte du distributeur doit être fermée (verrouillée) (1118).
+STRKEY_1119_ERR_DPSMGR_LOADDOCS_DOOR_MUST_BE_OPEN	R67 - Impossible de terminer l'opération - la porte du distributeur doit être ouverte (déverrouillée) (1119).
+STRKEY_1120_ERR_DPSMGR_LOADDOCS_NO_FORM_DETECTED	R72 - Impossible de terminer l'opération - formulaire non détecté dans le distributeur (1120).
+STRKEY_1121_ERR_DPSMGR_LOADDOCS_VOID_REMAINING_ACTIVE	Impossible de terminer l'opération - Les formulaires nuls/vides restants sont actuellement actifs (1121).
+STRKEY_1122_ERR_DPSMGR_LOADDOCS_INCORRECT_PRINTED_VERIFY_VALUE	Une erreur s'est produite. Consultez les registres pour plus d'informations (1122).
+STRKEY_1123_ERR_DPSMGR_LOADDOCS_MAX_VERIFY_ATTEMPTS_LAST4_VALUE	Nombre maximal de tentatives de vérification autorisées dépassé. Une nouvelle charge de distributeur est requise maintenant (1123).
+STRKEY_1201_ERR_TRANSMIT_FAILED_CONNECTION_FAILED_SSL_ERROR	Échec de la transmission: Échec de la connexion - Erreur SSL (1201).
+STRKEY_1202_ERR_TRANSMIT_FAILED_CONNECTION_FAILED_GENERAL_ERROR	Échec de la transmission: échec de la connexion - erreur générale (1202).
+STRKEY_1203_ERR_TRANSMIT_FAILED_READ_FAILED_SSL_ERROR	Échec de la transmission: Échec de lecture - Erreur SSL (1203).
+STRKEY_1204_ERR_TRANSMIT_FAILED_READ_FAILED_GENERAL_ERROR	Échec de la transmission: Échec de lecture - erreur générale (1204).
+STRKEY_1205_ERR_TRANSMIT_FAILED_READ_FAILED_TIMEOUT	Échec de la transmission: Échec de lecture - délai d'expiration (1205).
+STRKEY_1206_ERR_TRANSMIT_FAILED_WRITE_FAILED_SSL_ERROR	Échec de la transmission: Échec de l'écriture - Erreur SSL (1206).
+STRKEY_1207_ERR_TRANSMIT_FAILED_WRITE_FAILED_GENERAL_ERROR	Echec de la transmission: Echec de l'écriture - erreur générale (1207).
+STRKEY_1208_ERR_DPSMGR_XMITHOST_TOO_MANY_DATA_NAKS	Échec de la transmission: trop de données NAKS (1208).
+STRKEY_1209_ERR_DPSMGR_XMITHOST_TOO_MANY_DATA_RETRIES	Échec de la transmission: trop de tentatives de données (1209).
+STRKEY_1210_ERR_DPSMGR_XMITHOST_TOO_MANY_CONNECT_ATTEMPTS	Échec de la transmission: trop de tentatives de connexion (1210).
+STRKEY_1211_ERR_DPSMGR_XMITHOST_GENERAL_COMMUNICATION_ERROR	Échec de la transmission: erreur de communication générale (1211).
+STRKEY_1212_ERR_DPSMGR_XMITHOST_DEAUTHORIZED	Échec de la transmission: l'hôte MoneyGram a désautorisée cette installation (1212). 
+STRKEY_1213_ERR_DPSMGR_XMITHOST_HOST_FORCED_DISCONNECTS	Une erreur s'est produite. Consultez les registres pour plus d'informations (1213).
+STRKEY_1214_ERR_DPSMGR_XMITHOST_NO_UNIT_NUMBER_SETUP	Une erreur s'est produite. Consultez les registres pour plus d'informations (1214).
+STRKEY_1230_ERR_DPSMGR_XMITHOST_EX_UNKNOWNHOST	Une erreur s'est produite. Consultez les registres pour plus d'informations (1230).
+STRKEY_1231_ERR_DPSMGR_XMITHOST_EX_BIND	Une erreur s'est produite. Consultez les registres pour plus d'informations (1231).
+STRKEY_1232_ERR_DPSMGR_XMITHOST_EX_CONNECT	Une erreur s'est produite. Consultez les registres pour plus d'informations (1232).
+STRKEY_1233_ERR_DPSMGR_XMITHOST_EX_NOROUTETOHOST	Une erreur s'est produite. Consultez les registres pour plus d'informations (1233).
+STRKEY_1234_ERR_DPSMGR_XMITHOST_EX_PORTUNREACHABLE	Une erreur s'est produite. Consultez les registres pour plus d'informations (1234).
+STRKEY_1235_ERR_DPSMGR_XMITHOST_EX_PROTOCOL	Une erreur s'est produite. Consultez les registres pour plus d'informations (1235).
+STRKEY_1236_ERR_DPSMGR_XMITHOST_EX_SOCKET	Une erreur s'est produite. Consultez les registres pour plus d'informations (1236).
+STRKEY_1237_ERR_DPSMGR_XMITHOST_EX_SOCKETTIMEOUT	Une erreur s'est produite. Consultez les registres pour plus d'informations (1237).
+STRKEY_1238_ERR_DPSMGR_XMITHOST_EX_SSLHANDSHAKE	Une erreur s'est produite. Consultez les registres pour plus d'informations (1238).
+STRKEY_1239_ERR_DPSMGR_XMITHOST_EX_SSLKEY	Une erreur s'est produite. Consultez les registres pour plus d'informations (1239).
+STRKEY_1240_ERR_DPSMGR_XMITHOST_EX_SSLPEERUNVERIFIED	Une erreur s'est produite. Consultez les registres pour plus d'informations (1240).
+STRKEY_1241_ERR_DPSMGR_XMITHOST_EX_SSLPROTOCOL	Une erreur s'est produite. Consultez les registres pour plus d'informations (1241).
+STRKEY_1242_ERR_DPSMGR_XMITHOST_EX_SSL	Une erreur s'est produite. Consultez les registres pour plus d'informations (1242).
+STRKEY_2010_ERR_DISPENSER_NOT_INITIALZED	R90 - Une erreur matérielle du distributeur s'est produite. Veuillez vérifier le matériel et la connectivité du distributeur et réessayer. Si ce problème persiste, contactez le support technique de MoneyGram (2010).
+STRKEY_2011_ERR_DISPENSER_NO_CLEAR_TO_SEND	R39 - Aucun distributeur détecté. Vérifiez que le matériel du distributeur est sous tension et que les câbles sont connectés, puis réessayez. Si ce problème persiste, contactez le support technique de MoneyGram (2011).
+STRKEY_2012_ERR_DISPENSER_END_OF_FILE	R41 - Une erreur de communication du distributeur s'est produite. Veuillez vérifier le matériel et le câblage du distributeur, puis réessayez. Si ce problème persiste, contactez le support technique de MoneyGram (2012).
+STRKEY_2013_ERR_DISPENSER_BAD_RESPONSE	R41 - Une erreur de communication du distributeur s'est produite. Veuillez vérifier le matériel et le câblage du distributeur, puis réessayez. Si ce problème persiste, contactez le support technique de MoneyGram (2013).
+STRKEY_2014_ERR_DISPENSER_RETRY_RESPONSE	R41 - Une erreur de communication du distributeur s'est produite. Veuillez vérifier le matériel et le câblage du distributeur, puis réessayez. Si ce problème persiste, contactez le support technique de MoneyGram (2014).
+STRKEY_2015_ERR_DISPENSER_GENERAL_ERROR	R82 - Une erreur de communication du distributeur s'est produite. Veuillez vérifier le matériel et le câblage du distributeur, puis réessayez. Si ce problème persiste, contactez le support technique de MoneyGram (2015).
+STRKEY_2016_ERR_DISPENSER_DOCUMENTS_IN_TRAY	Erreur du distributeur: documents dans la plaque (2016).
+STRKEY_2017_ERR_DISPENSER_MISSED_3_4_MARK	R48 - Une erreur du distributeur s'est produite qui a interrompu l'impression. Voir l'écran de résumé pour les résultats d'impression des mandats. Veuillez valider les articles imprimés, vérifier le matériel et recharger le distributeur (2017).
+STRKEY_2018_ERR_DISPENSER_MISSED_TOP_OF_FORM	R45 - Une erreur du distributeur s'est produite qui a interrompu l'impression. Voir l'écran de résumé pour les résultats d'impression des mandats. Veuillez valider les articles imprimés, vérifier le matériel et recharger le distributeur (2018).
+STRKEY_2019_ERR_DISPENSER_UNKNOWN_CAUSE	R41 - Une erreur du distributeur s'est produite qui a interrompu l'impression. Voir l'écran de résumé pour les résultats d'impression des mandats. Veuillez valider les éléments imprimés, vérifier le matériel et soumettre à nouveau toutes les transactions non imprimées (2019).
+STRKEY_2020_ERR_DISPENSER_IO_TIMEOUT	R40 - Une erreur du distributeur s'est produite qui a interrompu l'impression. Voir l'écran de résumé pour les résultats d'impression des mandats. Veuillez valider les éléments imprimés, vérifier le matériel et soumettre à nouveau toutes les transactions non imprimées (2020).
+STRKEY_2021_ERR_DISPENSER_RUNTIME_EXCEPTION	R82 - Une erreur du distributeur s'est produite qui a interrompu l'impression. Voir l'écran de résumé pour les résultats d'impression des mandats. Veuillez valider les éléments imprimés, vérifier le matériel et soumettre à nouveau les transactions non imprimées (1021).
+STRKEY_2022_ERR_DISPENSER_LOGO_DOWNLOAD_FAILED	R81 - Une erreur du distributeur s'est produite qui a interrompu l'impression. Voir l'écran de résumé pour les résultats d'impression des mandats. Veuillez valider les éléments imprimés, vérifier le matériel et soumettre à nouveau toutes les transactions non imprimées (2022).
+STRKEY_2023_ERR_DISPENSER_PRINT_DOCUMENT_FAILED	R41 - Une erreur du distributeur s'est produite qui a interrompu l'impression. Voir l'écran de résumé pour les résultats d'impression des mandats. Veuillez valider les articles imprimés, vérifier le matériel et recharger le distributeur (2023).
+STRKEY_2024_ERR_DISPENSER_MISSED_MID_MARK	R44 - Une erreur du distributeur s'est produite qui a interrompu l'impression. Voir l'écran de résumé pour les résultats d'impression des mandats. Veuillez valider les articles imprimés, vérifier le matériel et recharger le distributeur (2024).
+STRKEY_2025_ERR_DISPENSER_NOT_IDLE_FAILURE	R49 - Une erreur du distributeur s'est produite qui a interrompu l'impression. Voir l'écran de résumé pour les résultats d'impression des mandats. Veuillez valider les articles imprimés, vérifier le matériel et recharger le distributeur (2025).
+STRKEY_2026_ERR_DISPENSER_DOCUMENT_JAM	R82 - Une erreur du distributeur s'est produite qui a interrompu l'impression. Voir l'écran de résumé pour les résultats d'impression des mandats. Veuillez valider les articles imprimés, vérifier le matériel et recharger le distributeur (2026).
+STRKEY_24_HOUR	Service 24 heures
+STRKEY_3001_ERR_SECURITY_CMDPARAM_SECURITY_TOKEN_MISSING	Le paramètre du jeton de sécurité requis n'a pas été spécifié (3001).
+STRKEY_3002_ERR_SECURITY_CMDPARAM_SECURITY_TOKEN_INVALID	Le paramètre du jeton de sécurité n'est pas valide (3002).
+STRKEY_3003_ERR_SECURITY_CMDPARAM_SECURITY_TOKEN_USED	Le paramètre du jeton de sécurité a déjà été utilisé (3003).
+STRKEY_3010_ERR_LOADDOCS_CMDPARAM_INVALID_LOAD_STEP_VALUE	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3010).
+STRKEY_3011_ERR_LOADDOCS_CMDPARAM_SERIAL_NUMBERS_NOT_ALLOWED	Erreur du logiciel, veuillez contacter le support technique de MoneyGram () (3011)
+STRKEY_3012_ERR_LOADDOCS_CMDPARAM_INVALID_MAG_STRIPE_DATA	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3012)
+STRKEY_3013_ERR_LOADDOCS_CMDPARAM_INVALID_SERIAL_NUMBER_FORMAT	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3013)
+STRKEY_3014_ERR_LOADDOCS_CMDPARAM_INVALID_SERIAL_NUMBER_ORDER	Le numéro de série de départ saisi est supérieur au numéro de série final. Veuillez vérifier les numéros de série et ressaisissez-les.
+STRKEY_3015_ERR_LOADDOCS_CMDPARAM_INVALID_VERIFY_LAST4_FORMAT	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3015)
+STRKEY_3016_ERR_LOADDOCS_CMDPARAM_TOO_MANY_SERIAL_NUMBERS	R14 - Erreur de logiciel, veuillez contacter le support technique MoneyGram (3016).
+STRKEY_3017_ERR_LOADDOCS_CMDPARAM_NOT_ORIGINAL_REQUESTER	Le client demandant cette étape de chargement n’a pas été à l’origine de cette session de chargement (3017).
+STRKEY_3018_ERR_LOADDOCS_CMDPARAM_PARAMETER_NOT_SUPPORTED	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3015)
+STRKEY_3019_ERR_LOADDOCS_CMDPARAM_INVALID_SERIAL_NUMBER_VALUE	Le numéro de série entré est incorrect. Veuillez vérifier le numéro de série et ressaisissez (3019).
+STRKEY_3020_ERR_LOADDOCS_CMDPARAM_SERIAL_NUMBER_ALREADY_USED	Le ou les numéros de série spécifiés ont déjà été émis (3020).
+STRKEY_3021_ERR_LOADDOCS_CMDPARAM_INVALID_PRINTED_VERIFY_FORMAT	Une erreur s'est produite. Consultez les registres pour plus d'informations (3021).
+STRKEY_3040_ERR_LOADDOCS_NEEDED_TIMEOUT	Charger les documents nécessaires - La tentative précédente a expiré (3040).
+STRKEY_3041_ERR_LOADDOCS_NEEDED_NO_FORMS	Charger les documents nécessaires - Aucun formulaire chargé (3041).
+STRKEY_3042_ERR_LOADDOCS_NEEDED_ENTRY_ERROR	Charger les documents nécessaires - La tentative précédente a échoué (3042).
+STRKEY_3043_ERR_LOADDOCS_NEEDED_GENERAL_ERROR	Charger les documents nécessaires - Une erreur générale s'est produite (3043).
+STRKEY_3044_ERR_LOADDOCS_NEEDED_DISPENSER_OPENED	Charger les documents nécessaires - Le distributeur est ouvert ou a été ouvert (3044).
+STRKEY_3045_ERR_LOADDOCS_NEEDED_RELOAD_FORMS	Charger les documents nécessaires - Recharge de formulaires requise (3045).
+STRKEY_3046_ERR_LOADDOCS_NEEDED_RIBBON_ERROR	Charger les documents nécessaires - Erreur de ruban (3046).
+STRKEY_3047_ERR_LOADDOCS_NEEDED_LOAD_CANCELLED	Charger les documents nécessaires - La tentative précédente a été annulée (3047).
+STRKEY_3048_ERR_LOADDOCS_NEEDED_UNKNOWN_ERROR	Charger les documents nécessaires - Cause inconnue (3048).
+STRKEY_3110_ERR_PRINTDOC_CMDPARAM_NO_ITEMS_SPECIFIED	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3110)
+STRKEY_3111_ERR_PRINTDOC_CMDPARAM_CONFLICTING_ITEMS	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3111)
+STRKEY_3112_ERR_PRINTDOC_CMDPARAM_MISSING_ITEM_PARAMETERS	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3112)
+STRKEY_3113_ERR_PRINTDOC_CMDPARAM_INVALID_DOCUMENT_TYPE	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3113)
+STRKEY_3114_ERR_PRINTDOC_CMDPARAM_INVALID_MGI_DOCUMENT_ID	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3114)
+STRKEY_3115_ERR_PRINTDOC_CMDPARAM_MGI_DOCUMENT_ID_NOT_FOUND	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3115)
+STRKEY_3116_ERR_PRINTDOC_CMDPARAM_INCORRECT_MGI_DOCUMENT_ID	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3116)
+STRKEY_3117_ERR_PRINTDOC_CMDPARAM_INVALID_AMOUNT	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3117)
+STRKEY_3118_ERR_PRINTDOC_CMDPARAM_AMOUNT_OUT_OF_RANGE	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3118)
+STRKEY_3119_ERR_PRINTDOC_CMDPARAM_PURCHASER_TOO_LARGE	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3119)
+STRKEY_3120_ERR_PRINTDOC_CMDPARAM_PAYEE_TOO_LARGE	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3120)
+STRKEY_3121_ERR_PRINTDOC_CMDPARAM_PAYMENT_DESCRIPTION_TOO_LARGE	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3121)
+STRKEY_3122_ERR_PRINTDOC_CMDPARAM_SPECIAL_MESSAGE_TOO_LARGE	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3122)
+STRKEY_3123_ERR_PRINTDOC_CMDPARAM_NON_SEQUENTIALS_ITEMS	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3123)
+STRKEY_3124_ERR_PRINTDOC_CMDPARAM_VOID_AMOUNT_MUST_BE_ZERO	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3124)
+STRKEY_3125_ERR_PRINTDOC_CMDPARAM_INVALID_FEE_AMOUNT	Une erreur s'est produite. Consultez les registres pour plus d'informations (3125).
+STRKEY_3126_ERR_PRINTDOC_CMDPARAM_FEE_AMOUNT_OUT_OF_RANGE	Une erreur s'est produite. Consultez les registres pour plus d'informations (3126).
+STRKEY_3127_ERR_PRINTDOC_CMDPARAM_INVALID_VENDOR_NUMBER	Une erreur s'est produite. Consultez les registres pour plus d'informations (3127).
+STRKEY_3140_ERR_PRINTDOC_NEW_INSTALLATION	Cette installation nécessite une transmission à l'hôte MGI pour un téléchargement de profil (3140).
+STRKEY_3141_ERR_PRINTDOC_INVALID_SALES_HOURS	R38 - Incapable de traiter la demande, la vente a été demandée en dehors des heures d'émission de votre magasin (3141).
+STRKEY_3142_ERR_PRINTDOC_SALES_AMOUNT_LIMIT_EXCEEDED	R03 - Limite de vente supérieure au magasin. Vous ne pouvez pas émettre d'articles à ce moment. Veuillez essayer de transmettre manuellement votre terminal à MoneyGram et renouvelez votre demande. Si le problème persiste, contactez le support technique de MoneyGram (3142).
+STRKEY_3143_ERR_PRINTDOC_DOC_AMOUNT_LIMIT_EXCEEDED	R20 - Limite du montant de l'article dépassée (3143).
+STRKEY_3144_ERR_PRINTDOC_SALES_COUNT_LIMIT_EXCEEDED	R03 - Limite de vente supérieure au magasin. Vous ne pouvez pas émettre d'articles à ce moment. Veuillez essayer de transmettre manuellement votre terminal à MoneyGram et renouvelez votre demande. Si ce problème persiste, veuillez contacter le support technique MoneyGram (3144).
+STRKEY_3145_ERR_PRINTDOC_DAILY_AMOUNT_LIMIT_EXCEEDED	R02 - Limite de vente supérieure au magasin. Vous ne pouvez pas émettre d'articles à ce moment. Veuillez essayer de transmettre manuellement votre terminal à MoneyGram et renouvelez votre demande. Si ce problème persiste, veuillez contacter le support technique MoneyGram (3145).
+STRKEY_3146_ERR_PRINTDOC_TRANSMIT_TO_HOST_NEEDED	Doit transmettre à l'hôte MGI (3146).
+STRKEY_3147_ERR_PRINTDOC_SITE_DEAUTHORIZED	Ce site a été désautorisé par MoneyGram (3147).
+STRKEY_3148_ERR_PRINTDOC_DISPENSER_APP_NOT_ENABLED	L'application du distributeur est désactivée pour cette installation (3148).
+STRKEY_3149_ERR_PRINTDOC_INVALID_PROFILE_SETUP	R23 - Erreur de logiciel, veuillez contacter le support technique de MoneyGram (3149).
+STRKEY_3150_ERR_PRINTDOC_DOC_COUNT_LIMIT_EXCEEDED	R25 - Erreur de logiciel, veuillez contacter le support technique de MoneyGram (3150).
+STRKEY_3160_ERR_PRINTDOC_DG_PROFILE_NOT_SETUP_FOR_DELTAGRAMS	Une erreur s'est produite. Consultez les registres pour plus d'informations (3160).
+STRKEY_3161_ERR_PRINTDOC_DG_REFERENCE_NUMBER_MISSING_OR_INVALID	Une erreur s'est produite. Consultez les registres pour plus d'informations (3161).
+STRKEY_3162_ERR_PRINTDOC_DG_RECEIVERS_INFO_MISSING_OR_INVALID	Une erreur s'est produite. Consultez les registres pour plus d'informations (3162).
+STRKEY_3163_ERR_PRINTDOC_DG_CHECK_TYPE_MISSING_OR_INVALID	Une erreur s'est produite. Consultez les registres pour plus d'informations (3163).
+STRKEY_3210_ERR_BATCHTOTALS_RESET_BATCH_SYNCID_MISMATCH	Réinitialisation de l'ID de synchronisation des totaux par lots ne correspond pas à la dernière valeur obtenue pour les totaux de lots. Réinitialisation non terminée (3210).
+STRKEY_3310_ERR_CONFIG_LISTENER_PORT_INVALID	Le numéro de port de l’auditeur n’est pas numérique ou invalide (3310).
+STRKEY_3311_ERR_CONFIG_HOST_TRANSMIT_PORT_INVALID	Le port de transmission d'hôte MGI n'est pas numérique ou invalide (3311).
+STRKEY_3312_ERR_CONFIG_HOST_TRANSMIT_ADDRESS_INVALID	L'adresse de transmission de l'hôte MGI est trop longue (3312).
+STRKEY_3313_ERR_CONFIG_NEW_UNIT_PROFILE_NUMBER_INVALID	Le nouveau numéro d'unité de profil est trop long ou invalide (3313).
+STRKEY_3314_ERR_CONFIG_AUTHENTICATION_CODE_INVALID	Le code d'authentification est trop long ou invalide (3314).
+STRKEY_3315_ERR_CONFIG_DISPENSER_SERIAL_PORT_INVALID	Le port série du distributeur est trop long ou invalide (3315).
+STRKEY_3410_ERR_PROFILE_TRAINING_MODE_ENABLE_INVALID	Mode de formation activé n'est pas valide (3410).
+STRKEY_3411_ERR_PROFILE_STORE_NAME_INVALID	Le nom du magasin est trop long ou invalide (3411).
+STRKEY_3510_ERR_EVENT_LOG_DATA_FILTER_INVALID	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3510)
+STRKEY_3511_ERR_EVENT_LOG_DATA_STARTING_TIME_INVALID	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3511)
+STRKEY_3512_ERR_EVENT_LOG_DATA_ENDING_TIME_INVALID	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3512)
+STRKEY_3513_ERR_EVENT_LOG_DATA_ENDING_TIME_BUT_NO_STARTING_TIME	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3513)
+STRKEY_3514_ERR_EVENT_LOG_DATA_STARTING_TIME_AFTER_ENDING_TIME	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3514)
+STRKEY_3515_ERR_EVENT_LOG_DATA_DATE_RANGE_IS_OVER_24_HOURS	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3515)
+STRKEY_3610_ERR_PRINTSTATUS_CMDPARAM_REQUEST_ID_INVALID	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3610)
+STRKEY_3611_ERR_PRINTSTATUS_CMDPARAM_STATUS_TIMEOUT_SECS_INVALID	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3611)
+STRKEY_3612_ERR_PRINTSTATUS_CMDPARAM_REQUEST_ID_NOT_FOUND	Erreur du logiciel, veuillez contacter le support technique de MoneyGram (3612)
+STRKEY_3613_ERR_PRINTSTATUS_CMDPARAM_NOT_ORIGINAL_OWNER	La demande d'impression de l'ID de la demande spécifié a été créée par un autre client (3613).
+STRKEY_40_CHARACTER_MAXIMUM	40 caractères maximum
+STRKEY_48_HOUR	Service 48 heures
+STRKEY_57344_ERR_NOT_READY	Erreur du distributeur: I/O délai d'attente sur le distributeur (57344)
+STRKEY_57346_ERR_NOT_EXIST	Erreur du distributeur: I/O délai d'attente sur le distributeur (57346)
+STRKEY_57348_ERR_NOT_OPEN	Erreur du distributeur: Etat non initialisé (échec de l'ouverture) (57348).
+STRKEY_57350_ERR_INVALID_PARAM	Les paramètres entrés ne sont pas valides (57350).
+STRKEY_57354_ERR_IO_ERROR	Erreur du distributeur: I/O délai d'attente sur le distributeur (57354)
+STRKEY_57356_ERR_NO_CONNECTED	La connexion spécifiée n'a pas été établie (57356).
+STRKEY_57356_ERR_NOT_CONNECTED	Erreur du distributeur: I/O délai d'attente sur le distributeur (57356)
+STRKEY_57358_ERR_XPD_SYNC	Erreur du distributeur: I/O délai d'attente sur le distributeur (57358)
+STRKEY_57360_ERR_XPD_TIMEOUT	Erreur du distributeur: I/O délai d'attente sur le distributeur (57360)
+STRKEY_57362_ERR_XPD_BUSY	Erreur du distributeur: Erreur générale rencontrée sur le distributeur (57362).
+STRKEY_57395_ERR_NOT_CLOSED	Erreur du distributeur: I/O délai d'attente sur le distributeur (57395)
+STRKEY_AC	AgentConnect
+STRKEY_AC_ERROR	Erreur AC
+STRKEY_AC_ERROR_SUBCODE	Sous-code
+STRKEY_ACCOUNT_DEPOSIT	Dépôt sur compte
+STRKEY_ACCOUNT_INFORMATION	Information du compte
+STRKEY_ACCOUNT_NUMBER	Numéro de compte
+STRKEY_ACCT_DEP	Dépôt sur compte
+STRKEY_ACCT_NUM	Numéro de compte
+STRKEY_ACCT_POUND_COLON	Compte #
+STRKEY_ACTIVATE_USER	Utilisateur actif
+STRKEY_ACTIVE	Actif
+STRKEY_ACTIVITY_DATE	Date d'activité
+STRKEY_ADD_ANOTHER	Ajouter un autre
+STRKEY_ADD_MESSAGE	Ajouter un message
+STRKEY_ADD_VENDOR	Ajouter un nouveau fournisseur
+STRKEY_ADDITIONAL_DATA_COLLECTION	Collecte de données supplémentaire
+STRKEY_ADDITIONAL_DATA_COLON	Données supplémentaire
+STRKEY_ADDITIONAL_DATA_MSG	MoneyGram nécessite les données supplémentaires suivantes pour pouvoir traiter cette transaction.
+STRKEY_ADDITIONAL_PAYMENT_DETAILS	Détails de paiement supplémentaires
+STRKEY_ADDRESS	Adresse
+STRKEY_ADDRESS_COLON	Adresse
+STRKEY_ADMIN	Administration
+STRKEY_AFTER_PRINTING_COMPLETE	Une fois l’impression terminée, détachez les formulaires imprimés par un mouvement descendant et remettez-les au client. Vous ne serez pas facturé pour les documents marqués "Void" par le distributeur. Conservez le document annulé pour vos dossiers. Si un élément a déjà été imprimé et que vous ne le souhaitez pas, conservez-le pour rester en équilibre.
+STRKEY_AGENT_ID	ID de l’agent
+STRKEY_AGENT_INFORMATION	Renseignements sur l'agent
+STRKEY_AGENT_LOCAL_TIME	(Heure locale de l'agent)
+STRKEY_AGENT_NAME	ID de l’agent
+STRKEY_AGENTSTATUS_ACTIVE	Actif
+STRKEY_ALIEN_ID	ID de l'étranger
+STRKEY_ALLOW_VENDOR_WRITE_IN	Autoriser le caissier à écrire le nom du fournisseur pendant la transaction?
+STRKEY_AMEND	Modifier
+STRKEY_AMEND_RECV_NAME	Modifier le nom du destinataire
+STRKEY_AMEND_TRANSACTION	Modifier la transaction
+STRKEY_AMENDED	Modifié
+STRKEY_AMENDS	Amende
+STRKEY_AMOUNT	Montant
+STRKEY_AMOUNT_COLON	Montant:
+STRKEY_AMOUNT_OF_TRAN	Montant de la transaction
+STRKEY_AMOUNT_TENDERED	Montant offert
+STRKEY_AMT_TENDERED_COLON	Montant offert:
+STRKEY_ANOTHER_PERSON	Une autre personne
+STRKEY_API	API AgentWorks
+STRKEY_API_GETBANKDETAILS_NOTES	Remplacez [Numéro d'élément de niveau de hiérarchie] dans le prochain Uri par la sélection du client dans la liste des informations de niveau de hiérarchie de cette réponse.
+STRKEY_APPLICATION	Application
+STRKEY_APPR_FX_RATE_WARNING	Toutes les devises ne sont pas disponibles dans toutes les emplacements. Le taux de change n'est qu'une approximation. Les taux de change effectifs seront les taux en vigueur au moment de la réception du transfert.
+STRKEY_APRIL	avril
+STRKEY_ARE_YOU_SURE_CANCEL	Êtes-vous sûr de vouloir annuler l'action en cours?
+STRKEY_ASK_SEC_QUESTION	Le client souhaite-t-il que le destinataire réponde à une question de sécurité optionnelle lorsqu'il récupère l'argent?
+STRKEY_AUGUST	août
+STRKEY_AUTH_CODE	code d'autorisation
+STRKEY_AUTH_FAILED_CONTACT_MGI	Authentification échouée. Veuillez contacter le support MoneyGram pour avoir de l'aide.
+STRKEY_AUTH_FAILED_TOUCH_TOKEN	L'authentification de la transaction a échoué. Veuillez essayer de authentifier à nouveau en touchant le jeton MoneyGram.
+STRKEY_AVAILABLE_CREDIT	Crédit disponible
+STRKEY_BACK	Précédent
+STRKEY_BANK_ADDR	adresse de la banque
+STRKEY_BANK_DEPOSIT	dépôt bancaire
+STRKEY_BEGIN_DATE	Date de début
+STRKEY_BEGINNING_SERIAL_NO	Début de série  #
+STRKEY_BENEFICIARY_FIRST_NAME	Prénom du bénéficiaire
+STRKEY_BENEFICIARY_INFO	information du bénéficiaire
+STRKEY_BENEFICIARY_LAST_NAME	Nom de famille du bénéficiaire
+STRKEY_BILL_PAYMENTS	Paiement des factures
+STRKEY_BILL_PMNT_TOTAL	Paiement de facture total
+STRKEY_BILLER_CODE	Code de facturation
+STRKEY_BILLER_CODE_COLON	Code de facturation:
+STRKEY_BILLER_INFO_COLON	Info sur l'émetteur de la facture:
+STRKEY_BILLER_NAME	Nom de l'émetteur de la facture
+STRKEY_BILLER_NAME_CODE_KEYWORD	Nom, code ou mot-clé de l'émetteur de la facture
+STRKEY_BILLER_NAME_COLON	Nom de l'émetteur de la facture
+STRKEY_BILLER_NOT_FOUND	Émetteur de la facture introuvable
+STRKEY_BILLER_NOT_FOUND_MSG	Essayez de saisir les premiers caractères du nom de l'émetteur de factures ou recherchez son code de réception.
+STRKEY_BILLER_NOT_VALID	Émetteur de la facture invalide
+STRKEY_BILLER_NOT_VALID_CHARS	L'entrée ne peut contenir aucun de ces caractères spéciaux:<br/> [, espace, !, \", #, $, %, `, (, ), *, +, ., /, :, ;, <, =, >, ?, @, [, ], ^, _, \', {, |, }, ~, ]
+STRKEY_BILLER_NOTES	Notes de facturation
+STRKEY_BILLER_PMNT_POSTED_24	Dépendant des émettre des factures, les paiements sont généralement comptabilisés dans les 24 heures.
+STRKEY_BILLER_SEARCH	Recherche de l'émetteur de la facture
+STRKEY_BILLER_SEARCH_RESULTS	Résultats de recherche de l'émetteur de la facture
+STRKEY_BILLER_SEARCH_RESULTS_COLON	Résultats de recherche de l'émetteur de la facture:
+STRKEY_BRANCH_LOCATION	Emplacement de la succursale
+STRKEY_BREAKPOINT	Point d'arrêt
+STRKEY_CALL_ME	M'appeler
+STRKEY_CANC_DOOR_LOCKED	Chargement annulé car le distributeur n'était pas verrouillé
+STRKEY_CANC_DOOR_OPEN	Chargement annulé car le distributeur n'était pas ouvert
+STRKEY_CANCEL	Annuler
+STRKEY_CANCEL_OPERATION	Annuler l'opération
+STRKEY_CANNOT_COMPLETE_TRANSACTION	Impossible de terminer la transaction. Demandez au client de contacter MoneyGram pour fournir des informations supplémentaires.
+STRKEY_CARD_DEPOSIT	Dépôt de carte
+STRKEY_CARD_NUMBER	Numéro de carte
+STRKEY_CARDHOLDER_INFORMATION	Information du titulaire de carte
+STRKEY_CARDHOLDER_INFORMATION_COLON	Information du titulaire de carte:
+STRKEY_CASH_OPTIONS	Options de trésorerie
+STRKEY_CASH_PAYOUT	Entrez le montant à payer en espèces.
+STRKEY_CHANGE	Changement
+STRKEY_CHANGE_DUE	Changer en raison
+STRKEY_CHANGE_DUE_COLON	Changer en raison:
+STRKEY_CHANGE_LANGUAGE	Changer la langue
+STRKEY_CHECK_FOR_TRAN_UPDATES	Cochez la case permettant à l'expéditeur de recevoir la mise à jour de la transaction, puis entrez les informations ci-dessous
+STRKEY_CHECK_PAYOUT	Entrez le montant à payer en chèque.
+STRKEY_CHECK_PRINTER	Vérifier l'imprimante
+STRKEY_CHECK_SCANNER_TRY_AGAIN	Vérifiez la connexion du scanner et réessayez.
+STRKEY_CITY	Ville
+STRKEY_CLEAR_CACHE	Vider le cache
+STRKEY_CLICK_HERE_TRAINING_QUICK_REFERENCE_GUIDES	Cliquez ici pour la formation et les guides de référence rapide (QRG)
+STRKEY_CLOSE	Fermer
+STRKEY_COB	Pays de naissance
+STRKEY_COB_COLON	Pays de naissance:
+STRKEY_COL_TITLE_BILLER	Émetteur de la facture
+STRKEY_COL_TITLE_FEE	Frais
+STRKEY_COMFIRM_ACCOUNT_NUMBER	Confirmer le numéro de compte du client
+STRKEY_COMMUNICATION_ERROR	Un problème est survenu lors de la communication avec l'interface.
+STRKEY_COMPLETE_TRAN	Transaction complète
+STRKEY_COMPUTER_NAME	Nom de l'ordinateur
+STRKEY_CONFIRM_COLLECT_CASH	Confirmer les détails de la transaction et récupérer l'argent du client avant de continuer.
+STRKEY_CONFIRM_REQUIRED	Confirmation requise
+STRKEY_CONFIRM_TRANSACTION_DETAILS	Confirmer les détails de la transaction
+STRKEY_CONFIRM_TRANSACTION_DETAILS_BEFORE_PROCEEDING	Confirm transaction details before proceeding.
+STRKEY_CONFIRM_TRANSACTION_DETAILS_BEFORE_PROCEEDING_NO_PERIOD	Confirm transaction details before proceeding
+STRKEY_CONFIRM_TRANSACTION_DETAILS_NO_PERIOD	Confirmer les détails de la transaction
+STRKEY_CONFIRMATION	Confirmation
+STRKEY_CONTACT_INFORMATION_COLON	Informations de contact:
+STRKEY_COPYRIGHT	droits d'auteur
+STRKEY_COUNT	Compter
+STRKEY_COUNTRY	Pays
+STRKEY_COUNTRY_COLON	Pays
+STRKEY_CREATE_USER	Créer un utilisateur
+STRKEY_CREDIT_LIMITS	Limites de crédit
+STRKEY_CROP	Recadrer
+STRKEY_CURRENCY	Devise
+STRKEY_CURRENCY_CODE	Code de devise
+STRKEY_CUST_CARDHOLDER	Le client est-il le titulaire de la carte?
+STRKEY_CUST_NOT_ON_RECORD	La fiche client n'est pas archivée. Nous allons maintenant commencer à recueillir les informations de transaction.
+STRKEY_CUSTOMER_ACCOUNT_NUMBER	Numéro de compte client
+STRKEY_CUSTOMER_ON_FILE	Voyons si le client est enregistré:
+STRKEY_DAILY_ACTIVITY_DETAIL	Activité quotidienne de transfert d'argent - Détail
+STRKEY_DAILY_ACTIVITY_LOG	Journal d'activité quotidien
+STRKEY_DAILY_ACTIVITY_SUMMARY	Activité quotidienne de transfert d'argent - Résumé
+STRKEY_DAILY_SALES	Ventes quotidiennes
+STRKEY_DAILY_TRAN_ACTIVITY	Activité de transaction quotidienne
+STRKEY_DAILY_TRAN_ACTIVITY_REPORTS	Rapports d'activité de transaction quotidienne 
+STRKEY_DASHBRD_AMEND	Modifier
+STRKEY_DASHBRD_BILL_PAY	Payer une <u>f</u>acture
+STRKEY_DASHBRD_COMPLETE_TRANSACTION	<u>T</u>ransaction  mobile / kiosque complète
+STRKEY_DASHBRD_EDIT_TRAN	<u>M</u>odifier le Transfert
+STRKEY_DASHBRD_EST_FEE	Frais <u>d</u>'estimation
+STRKEY_DASHBRD_FIND_LOC	Trouver des emplacements
+STRKEY_DASHBRD_LOAD_A_CARD	<u>C</u>harger une carte
+STRKEY_DASHBRD_MONEY_ORDER	Mandat-<u>p</u>oste
+STRKEY_DASHBRD_PAY_TRAN	Payer pour la transaction
+STRKEY_DASHBRD_RECV	<u>R</u>ecevoir de l'argent
+STRKEY_DASHBRD_RECV_REV	Recevoir l'inversion
+STRKEY_DASHBRD_REFUND	R<u>e</u>mbourser
+STRKEY_DASHBRD_REG_PLUS	Inscrivez-vous pour <u>P</u>lus
+STRKEY_DASHBRD_SEND	<u>E</u>nvoyer de l'argent
+STRKEY_DASHBRD_UTILITIES	Les <u>u</u>tilitaires
+STRKEY_DASHBRD_VENDOR_PAYMENT	Payer un fournisseur
+STRKEY_DASHBRD_VIEW_STATUS	<u>V</u>oir le statut
+STRKEY_DATE	Date
+STRKEY_DATE_OF_BIRTH_COLON	Date de naissance:
+STRKEY_DATE_OF_SEND	Date d'envoi
+STRKEY_DATE_OF_SEND_COLON	Date d'envoi:
+STRKEY_DATE_TIME	Date / heure
+STRKEY_DATE_TIME_TRANSACTION	Date / heure de la transaction
+STRKEY_DAY	Jour
+STRKEY_DAY_PLACEHOLDER	DD
+STRKEY_DEACTIVATE_USER	Désactiver l'utilisateur
+STRKEY_DECEMBER	Décembre
+STRKEY_DEL_OPTION	L'option de livraison
+STRKEY_DELETE	Supprimer
+STRKEY_DELIVERY_OPT_AND_AMT_COLON	Option de livraison et montant:
+STRKEY_DELTAGRAMS	DeltaGrams
+STRKEY_DESCRIPTION	Description
+STRKEY_DEST_COUNTRY	Pays de destination
+STRKEY_DEST_STATE	État/province de destination
+STRKEY_DESTINATION	Description
+STRKEY_DESTINATION_AND_AMOUNT	Destination et montant
+STRKEY_DESTINATION_COLON	Destination
+STRKEY_DETAIL_REPORT_NAME	Rapport détaillé des transactions MoneyGram
+STRKEY_DEVICE_ID	Reference de l'appareil
+STRKEY_DIRECTIONS	Instructions
+STRKEY_DISCOUNT	Remise
+STRKEY_DISCOUNT_COLON	Remise:
+STRKEY_DISPENSER_BUSY	Le distributeur est actuellement occupé, veuillez réessayer.
+STRKEY_DISPENSER_CHARGE_WARNING	*** Cette transaction vous est facturée, contactez le support MoneyGram pour résoudre ce problème. ***
+STRKEY_DISPENSER_ERROR_BEEN_DETECTED	Une erreur du distributeur a été détectée
+STRKEY_DISPENSER_ERROR_DO_NOT_GIVE_MO_TOCUST	NE PAS donner ces mandats (ordres d'argent) imprimés à votre client
+STRKEY_DISPENSER_ERROR_STEPS_1	Vous devez signaler ceci au support de MoneyGram.
+STRKEY_DISPENSER_ERROR_STEPS_2	Indiquez au représentant MoneyGram le numéro de référence
+STRKEY_DISPENSER_ERROR_STEPS_2_CONTINUED	N'était pas terminé.
+STRKEY_DISPENSER_ERROR_STEPS_3	Vous serez facturé pour le (s) document (s) suivant (s)
+STRKEY_DISPENSER_ERROR_STEPS_3_CONTINUED	Mandat-poste
+STRKEY_DISPENSER_ERROR_STEPS_4	Écris les mots
+STRKEY_DISPENSER_ERROR_STEPS_4_CONTINUED	NON UTILISÉ À DES FINS PRÉVUES
+STRKEY_DISPENSER_ERROR_STEPS_4_CONTINUED_1	à l'arrière de la
+STRKEY_DISPENSER_ERROR_STEPS_4_CONTINUED_2	mandat-poste
+STRKEY_DISPENSER_ERROR_STEPS_4_CONTINUED_3	et placez-les avec vos chèques pour dépôt.
+STRKEY_DISPENSER_LOADS	Distributeur Charges
+STRKEY_DISPENSER_REQUIRES_LOADING	Le distributeur nécessite un chargement.
+STRKEY_DOB	Date de naissance
+STRKEY_DOCS_LEFT_IN_PRINTER	Documents restant dans l'imprimante
+STRKEY_DRIVERS_LICENSE	Permis de conduire
+STRKEY_EDIT	Modifier 
+STRKEY_EDIT_TRANSFER	Editer un transfert
+STRKEY_EDIT_VENDOR_LIST	Modifier la liste des fournisseurs
+STRKEY_EDIT_VENDOR_NAMES	Entrez les noms des fournisseurs que vous souhaitez payer par mandat (ordre d'argent).
+STRKEY_EMAIL	Adresse e-mail
+STRKEY_EMAIL_COLON	Adresse e-mail:
+STRKEY_EMPLOYEE	ID d'employé
+STRKEY_EMPLOYEE_NUMBER	Numéro d'employé
+STRKEY_EMPLOYEE_TOTALS	Total employé
+STRKEY_EMPLOYEEID	Identifiant de l'employé
+STRKEY_END_DATE	Date de fin
+STRKEY_ENDING_SERIAL_NO	Fin de série #
+STRKEY_ENDING_SERIAL_NUMBER	Fin du numéro de série
+STRKEY_ENROLL_PLUS	Inscrire un client en Plus
+STRKEY_ENTER_PREPAID_CARD_NUMBER	Ou entrez un numéro de carte prépayée:
+STRKEY_ENTER_SERIAL_NUMBERS	Entrez les numéros de série
+STRKEY_ENV_INFO	Informations sur l'environnement
+STRKEY_ENVIRONMENT	Environnement
+STRKEY_ERR_LOADDOCS_CMDPARAM_INVALID_TO_MANY_DOCS	R14 - Tentative de charger trop de numéros de série.
+STRKEY_ERROR_PAGE_MESSAGE	Quelque chose s'est mal passé. Nous nous s'excusons. Veuillez actualiser le cache en cliquant sur version en bas de la page et réessayer. Si vous continuez à obtenir une erreur. Veuillez contacter le support de Moneygram.
+STRKEY_ERROR_PRINTING	Erreur lors de l'impression
+STRKEY_ERROR_SCANNING	Erreur lors de la numérisation
+STRKEY_ERROR_SUCCESS_RECORD	Enregistrement d'erreur / succès
+STRKEY_ERROR_WHILE_PRINTING	Erreur lors de l'impression
+STRKEY_ERROR_WHILE_VOIDING	Erreur en annulant
+STRKEY_ESTIMATE_FEE	Frais d'estimation
+STRKEY_EXCHANGE_RATE	Taux de change
+STRKEY_EXPECTED_POSTING	Affichage attendu
+STRKEY_EXPIRATION_DATE	Date d’expiration
+STRKEY_EXPIRATION_DATE_COLON	Date d’expiration:
+STRKEY_EXPORT	Exportation
+STRKEY_EXPRESS_PAY_REPRINT	ExpressPay Réimpression
+STRKEY_EXPRESS_PAYMENT	Paiement Express
+STRKEY_FACE	Visage
+STRKEY_FEBRUARY	février
+STRKEY_FEE	Frais
+STRKEY_FEE_AUTO_REFUNDED	Les frais sont automatiquement remboursés pour cette transaction.
+STRKEY_FEE_COLON	Frais:
+STRKEY_FEE_DOLLAR_SIGN	Frais ($)
+STRKEY_FEE_TYPE	Type de frais
+STRKEY_FEES	Honoraires
+STRKEY_FEES_AND_TAX	Frais et taxes
+STRKEY_FIND_COUNTRY_CODE	Trouvez votre code pays
+STRKEY_FIND_LOCATIONS	Trouver des emplacements
+STRKEY_FINISH	Terminer
+STRKEY_FINISHED	Terminé
+STRKEY_FIRST_ENTER_CARD_INFO_COLON	Commençons par saisir les informations de la carte:
+STRKEY_FIRST_NAME	Prénom
+STRKEY_FIRST_UNLOCK_DSP_THEN_NXT_STP	Tout d’abord, déverrouillez le distributeur et retirez le capot avant. Lorsque vous déverrouillez le distributeur, cet assistant passera à l'étape suivante.
+STRKEY_FORGOT_PASSWORD	Mot de passe oublié?
+STRKEY_FRAUD_ALERT_MSG	Message d'alerte de fraude
+STRKEY_FX	F/X
+STRKEY_FX_RATE	Taux de change
+STRKEY_FX_RATE_COLON	Taux de change:
+STRKEY_GET_PACK_FORMS	Obtenez un paquet de formulaires. Entrez les numéros de série de début et de fin.
+STRKEY_GOV_ID_NUM	Numéro d'identification du gouvernement
+STRKEY_GOV_ID_NUM_COLON	Numéro d'identification du gouvernement:
+STRKEY_GOV_ID_TYPE	Type d'identification du gouvernement
+STRKEY_GOV_ID_TYPE_COLON	Type d'identification du gouvernement:
+STRKEY_GOVERNMENT_ID	ID du gouvernement
+STRKEY_GRAND_TOTAL	somme finale
+STRKEY_HARDWARE_COMMUNICATION_ERROR	Un problème est survenu lors de l'établissement d'une connexion avec le matériel hardware. Veuillez contacter MoneyGram pour obtenir de l'aide.
+STRKEY_HDS_LOCAL	Service de livraison à domicile: Paiement en monnaie locale
+STRKEY_HDS_USD	Service de livraison à domicile: Paiement en USD
+STRKEY_HELP	Aidez-moi
+STRKEY_HMM	Hmm...
+STRKEY_HOME	Accueil
+STRKEY_HOME_DELIVERY	Livraison à domicile
+STRKEY_HOW_WILL_RECEIVE	Comment l'argent sera-t-il reçu?
+STRKEY_ID_NUMBER_COLON	Numéro de la pièce d’identité
+STRKEY_ID_PROBLEM	Mauvaise ID
+STRKEY_ID_TYPE_COLON	Type de pièce d’identité
+STRKEY_IDENTIFICATION	Identification
+STRKEY_IDENTIFICATION_COLON	Identification
+STRKEY_IF_DIFF_FROM_SENDER	Si différent de l'expéditeur.
+STRKEY_IFSC_NOT_KNOWN	Si l'IFSC n'est pas connu, trouvez-le ci-dessous:
+STRKEY_IMAGE_PREVIEW	Aperçu de l'image
+STRKEY_INCL_CANC	Comprend les transactions annulées.
+STRKEY_INCL_REF_RECV_REV	Comprend les transactions remboursées et les réceptions renversées.
+STRKEY_INDICATE_INTEND_PAYOUT_TX	Indiquez comment vous avez l'intention de payer la transaction
+STRKEY_INFO_FEE_INDICATOR	Indicateur de frais d'information
+STRKEY_INFORMATION	Information
+STRKEY_INT_SERV_ERROR	Erreur Interne du Serveur. S'il vous plaît appelez le support.
+STRKEY_INTERNATIONAL_ID	ID international
+STRKEY_INVALID	Invalide
+STRKEY_INVALID_AGENT_PROFILE	Profil d'agent invalide. Contactez MoneyGram pour obtenir de l'aide.
+STRKEY_INVALID_USER_PROFILE	Profil utilisateur non valide. Contactez MoneyGram pour obtenir de l'aide.
+STRKEY_IS_AT_OR_BELOW	est égal ou inférieur
+STRKEY_IS_CUST_RECEIVING	Le client reçoit-il de l'argent au nom d'une autre personne ou organisation (tierce partie)?
+STRKEY_ISI_SETTINGS	ISI Réglages
+STRKEY_ISSUING_COUNTRY	Pays émetteur
+STRKEY_ISSUING_COUNTRY_COLON	Pays émetteur:
+STRKEY_ISSUING_STATE	État émetteur / province
+STRKEY_ISSUING_STATE_COLON	Etat d'émission
+STRKEY_ITEM_DETAIL	Détail de l'article
+STRKEY_JANUARY	janvier
+STRKEY_JULY	juillet
+STRKEY_JUNE	juin
+STRKEY_LAST_FOUR_DIGITS	Quatre derniers chiffres
+STRKEY_LAST_LOGIN	Dernière connexion
+STRKEY_LAST_NAME	Nom
+STRKEY_LATEST_NEWS	Dernières actualités
+STRKEY_LEARN_MORE_PLUS_PROGRAM	En savoir plus sur le programme Plus
+STRKEY_LETS_FIND_TRAN	D'abord, trouvons la transaction:
+STRKEY_LEVEL	Niveau
+STRKEY_LOAD_A_CARD	Charger une carte
+STRKEY_LOAD_AMOUNT	Charge quantité
+STRKEY_LOAD_DISPENSER_Q	Charger le distributeur?
+STRKEY_LOAD_FORMS	Charger des formulaires
+STRKEY_LOADFORMS	Charger des formulaires
+STRKEY_LOCATION	Emplacement
+STRKEY_LOCATION_COLON	Emplacement:
+STRKEY_LOCK_DISPENSER	Verrouiller le distributeur
+STRKEY_LOGOUT	Se déconnecter
+STRKEY_LONGER_THAN_EXPECTED	L'opération en cours prend plus de temps que prévu, souhaitez-vous annuler?
+STRKEY_LOREM_IPSUM	
+STRKEY_MANAGER_ID	ID de responsable
+STRKEY_MANAGER_NAME	Nom du responsable
+STRKEY_MARCH	Mars
+STRKEY_MASS_REGISTER_COMPUTER	Ordinateur de registre de masse
+STRKEY_MAX_LIMIT_EXCEEDED	Limite maximale dépassée
+STRKEY_MAXAMTENT_MO	Le montant saisi est supérieur au montant autorisé
+STRKEY_MAXNO_MO	Le nombre maximum de mandats pour cette transaction a été atteint
+STRKEY_MAY	Peut
+STRKEY_MG_REWARDS_NUMBER_NOT_ENTERED	Numéro de récompenses MG non saisi 
+STRKEY_MGI_REWARDS_20OFF	20% de réduction sur les frais de votre 2ème transfert d'argent après votre adhésion à Plus Rewards
+STRKEY_MGI_REWARDS_40OFF	40% sur les frais chaque cinquième transfert d'argent
+STRKEY_MGI_REWARDS_EXCLUSIVEPROMO	Promotions et offres exclusives
+STRKEY_MGI_REWARDS_JOIN_TODAY	Inscrivez-vous aujourd'hui et gagnez des récompenses chaque fois que vous envoyez de l'argent
+STRKEY_MGI_REWARDS_MEMBER_ONLY_BENEFITS_COLON	Les avantages réservés aux membres incluent
+STRKEY_MGI_REWARDS_PREMIER_STATUS	Mise à niveau du statut “Premier” après votre cinquième transfert d'argent pour obtenir encore plus d'avantages
+STRKEY_MGI_SERVICE_STATUS_CURRENT	MGI Services OK
+STRKEY_MGI_SERVICE_STATUS_DAYS_LEFT	Jours
+STRKEY_MGI_SERVICE_STATUS_DEPRECATED_CONTENT	Ne pas installer cette mise à jour causera des problèmes inattendus avec les applications MoneyGram
+STRKEY_MGI_SERVICE_STATUS_DEPRECATED_HEADER	Une mise à jour des services MGI est requise. Veuillez installer la mise à jour maintenant.
+STRKEY_MGI_SERVICE_STATUS_SUPPORTED_CONTENT	S'il vous plaît installer la mise à jour dans le prochain
+STRKEY_MGI_SERVICE_STATUS_SUPPORTED_HEADER	Une mise à jour des services MGI est disponible. 
+STRKEY_MIDDLE_NAME	Deuxième prénom
+STRKEY_MISSING_CAPABILITY	Capacité manquante
+STRKEY_MISSING_TEST_QUES	Question de test manquante
+STRKEY_MO_AGENT_ID	ID d'agent MO
+STRKEY_MO_REQUIRES_LOADING	Le distributeur de mandats nécessite un chargement. Voulez-vous faire cela maintenant?
+STRKEY_MOBILE_COUNTRY_CODE	Numéro de téléphone code du pays
+STRKEY_MOBILE_PHONE	Téléphone mobile
+STRKEY_MOBILE_WALLET	Portefeuille mobile
+STRKEY_MONEY_ORDER	Mandat-poste
+STRKEY_MONEY_ORDER_FEES	Frais de mandat
+STRKEY_MONEY_ORDER_REPORTS	Rapports de mandats
+STRKEY_MONEY_ORDERS	mandats-poste
+STRKEY_MONEYGRAM	MONEYGRAM
+STRKEY_MONEYGRAM_PLUS_NUMBER	Numéro MoneyGram Plus
+STRKEY_MONEYGRAM_PLUS_NUMBER_COLON	Numéro MoneyGram Plus:
+STRKEY_MONEYGRAM_RIGHTS_RES	MoneyGram Tous droits réservés
+STRKEY_MONEYORDER_DETAIL	Détails du mandat
+STRKEY_MONEYORDER_REPORTS	Rapports de mandats
+STRKEY_MONEYORDER_TYPE	Type
+STRKEY_MONTH	Mois
+STRKEY_MONTH_PLACEHOLDER	MM
+STRKEY_MSG	Message
+STRKEY_MULTIPLE_PROFILES_FOUND	Profils multiples retrouvés
+STRKEY_MULTIPLE_RECEIVER_PROFILES_FOUND_MSG	Plusieurs profils ont été trouvés. Sélectionner un receveur pour continuer
+STRKEY_MUST_INFORM_CANCEL_REFUND_WITHIN_30	Vous devez informer le client qu'il peut annuler la transaction pour un remboursement intégral dans les 30 minutes suivant le paiement, à moins que les fonds aient été ramassés ou déposés.
+STRKEY_MY_PROFILE	Mon profil
+STRKEY_NAME	Nom
+STRKEY_NAME_COLON	Nom:
+STRKEY_NEW_BILLER	Nouveau émetteur de factures
+STRKEY_NEW_CUSTOMER	Nouveau client
+STRKEY_NEWS	Nouvelles
+STRKEY_NEXT	Suivant
+STRKEY_NO	Non
+STRKEY_NO_AWAITING_FUNDING_TRANSACTIONS	Il n'y a pas de transactions en attente de financement pour le moment
+STRKEY_NO_FEE	Pas de frais
+STRKEY_NO_RECV_LOC	Aucun lieu de réception
+STRKEY_NO_THIRD_PARTY	Pas de tierce partie 
+STRKEY_NONREGISTERED_DEVICE	Cet appareil n'a pas été enregistré. Veuillez contacter votre administrateur pour obtenir de l'aide.
+STRKEY_NONTRANSACTIONAL_DEVICE	Cet appareil n'est pas enregistré pour effectuer des transactions. Veuillez contacter votre administrateur pour obtenir de l'aide.
+STRKEY_NOT_ALL_CURRENCIES	Toutes les devises ne sont pas disponibles dans toutes les emplacements. Le taux de change n'est qu'une approximation. Les taux de change effectifs seront les taux en vigueur au moment de la réception du transfert.
+STRKEY_NOT_ELIG_REVERSAL	Cette transaction ne peut pas être inversé. Veuillez contacter MoneyGram pour obtenir de l'aide.
+STRKEY_NOT_RIGHT_CUST	Pas le bon client? Enregistrez un nouveau client.
+STRKEY_NOVEMBER	novembre
+STRKEY_NUMBER	Nombre
+STRKEY_NUMBER_VENDOR_PAYMENTS	Nombre de paiements pour fournisseur
+STRKEY_OCCUPATION	Profession
+STRKEY_OCCUPATION_COLON	Profession:
+STRKEY_OCTOBER	octobre
+STRKEY_OF	de
+STRKEY_OK	Ok
+STRKEY_OPT_CRITERIA_COLON	critères optionnels
+STRKEY_OPTION	option
+STRKEY_OPTION_COLON	option:
+STRKEY_OPTIONAL	optionnel
+STRKEY_OR_SEARCH_FOR_BILLER	Ou recherchez un émetteur de factures:
+STRKEY_ORACLE_ACCOUNT_NO	Compte Oracle #
+STRKEY_ORG	Une organisation
+STRKEY_ORG_RECEIVE_AMOUNT	Montant de réception original
+STRKEY_ORIGINAL	Original
+STRKEY_OTHER	Appellera
+STRKEY_OTHER_COLON	Autre
+STRKEY_OUT_OF_CHECKS	Hors chèques / Hors vérification 
+STRKEY_PASSPORT	Passeport
+STRKEY_PAY_A_BILL	Payer une facture
+STRKEY_PAY_FOR_TRAN	Payer pour une transaction
+STRKEY_PAY_TO	Payer pour
+STRKEY_PAY_TO_COLON	Payer pour:
+STRKEY_PAYMENT_AMOUNT	Montant à payer
+STRKEY_PAYMENT_DETAILS	Détails du paiement
+STRKEY_PAYMENT_DUE_TO_MONEYGRAM	Paiement dû à MoneyGram
+STRKEY_PAYOUT	Paiement
+STRKEY_PHONE	Numéro de téléphone
+STRKEY_PHONE_COLON	Numéro de téléphone:
+STRKEY_PHONE_PLUS_OR_ACCOUNT_NUMBER	Téléphone, Plus, ou numéro de compte
+STRKEY_PHOTO_ID	photo d'identité
+STRKEY_PHOTO_ID_COLON	photo d'identité
+STRKEY_PHOTO_ID_NUM	Numéro d'identification avec photo
+STRKEY_PHOTO_ID_TYPE	Type de photo d'identité
+STRKEY_PHOTOCOPY_MESSAGE_PART1	Veuillez prendre une copie de toutes les pages requises du
+STRKEY_PHOTOCOPY_MESSAGE_PART2	avant de procéder.
+STRKEY_PHOTOCOPY_MESSAGE_PART3	En cliquant sur
+STRKEY_PHOTOCOPY_MESSAGE_PART4	vous reconnaissez que vous vous êtes conformés à cette condition.
+STRKEY_PHOTOCOPY_TIP	Pour faciliter la traçabilité, MoneyGram recommande d’inscrire le numéro de référence de la transaction  sur chacune des copies d’identification.
+STRKEY_PLEASE_CHECK_INPUT_TRY_AGAIN	Veuillez vérifier votre saisie et essayer à nouveau.
+STRKEY_PLEASE_SCAN	Veuillez numériser le reçu que le client a signé
+STRKEY_PLS_CONFIRM_BEFORE	Veuillez confirmer que les informations suivantes sont correctes avant de continuer.
+STRKEY_PLUS_MEMBER_COLON	Numéro Plus:
+STRKEY_PLUS_NUMBER	Numéro Plus
+STRKEY_PLZ_ENTER_USERID_PASSWORD	Veuillez saisir votre identifiant et votre mot de passe
+STRKEY_PMNT_CURRENCY	Monnaie de paiement
+STRKEY_PMNT_RECVD_AFTER	Les paiements reçus après 00h01 sont généralement affichés le jour ouvrable suivant.
+STRKEY_POS_ID	ID de point de vente
+STRKEY_POS_NUM	Numéro de point de vente
+STRKEY_PREPAID_CARD_LOAD_NOT_FOUND_MSG	Cette carte ne fait actuellement pas partie du réseau MoneyGram. Veuillez réessayer plus tard car notre réseau se développe.
+STRKEY_PREPAID_CARD_NOT_FOUND_HEADER_MSG	Aucun résultat ne correspond à cette recherche
+STRKEY_PREVIOUS_RECIPIENTS_COLON	Destinataires précédents
+STRKEY_PRINT	Impression
+STRKEY_PRINT_INCOMPL	Impression incomplète!
+STRKEY_PRINTING_DOT_DOT_DOT	Impression...
+STRKEY_PRINTING_POPUP_ERROR	Impossible d'afficher la fenêtre de réception.
+STRKEY_PRINTING_PROFILE_ERROR	Profil mal configuré pour l'impression. Contactez le support Moneygram.
+STRKEY_PRINTING_UNABLE_ERROR	Impossible d'imprimer les reçus.
+STRKEY_PRINTTESTVOID	Test d'impression vide
+STRKEY_PRODUCT_TYPE	Type de produit
+STRKEY_PROFILE_ERROR	Erreur de profil
+STRKEY_PROMO_CODE	Code promo
+STRKEY_PROMO_CODE_1	Code promo 1
+STRKEY_PROMO_CODE_2	Code promo 2
+STRKEY_PROMO_CODE_3	Code promo 3
+STRKEY_PROMO_CODE_4	Code promo 4
+STRKEY_PROMO_CODE_5	Code promo 5
+STRKEY_PROP_CONFIDENTIAL	Propriétaire et confidentiel 
+STRKEY_PROP_CONFIDENTIAL_HEADER	Propriétaire et confidentiel
+STRKEY_PROP_CONFIDENTIAL_MESSAGE	Le système Agent Portal et AgentWorks.NXT est fourni par MoneyGram à ses agents autorisés uniquement pour leur usage interne. Vous vous engagez à ne pas copier, utiliser, distribuer ou divulguer les informations qu'il contient, en tout ou en partie, sauf pour le développement des activités de MoneyGram. Votre accès à et l'utilisation de ce système est considéré comme une acceptation de ces obligations. Si vous et MoneyGram êtes parties d'un contrat d'agent ou à un autre accord couvrant ce système, votre utilisation de AgentWorks est soumise aux dispositions de cet accord relatives à la confidentialité, aux droits de propriété et aux provisions de non-divulgation. <br /> <br /> MoneyGram, le Globe et AgentWorks sont des marques de MoneyGram.
+STRKEY_PURPOSE_FUNDS	Objectif des fonds
+STRKEY_QUANTITY	Quantité
+STRKEY_REAL_TIME_CREDIT_STATUS	Statut
+STRKEY_REASON_REFUND	Raison de remboursement de la transaction:
+STRKEY_RECEIPTS_SCAN	Numérisation des reçus
+STRKEY_RECEIVE_AMT_COLON	Recevoir montant:
+STRKEY_RECEIVE_AT	Recevoir à:
+STRKEY_RECEIVE_MONEY_FOR_COLON	Recevoir de l'argent pour:
+STRKEY_RECEIVE_REVERSAL	recevoir l'inversion
+STRKEY_RECEIVE_WARNING	Vous êtes sur le point de terminer cette transaction de réception. Veuillez vérifier que les fonds sont disponibles dans la bonne devise avant de procéder.
+STRKEY_RECEIVER	Destinataire 
+STRKEY_RECEIVER_COLON	Destinataire:
+STRKEY_RECEIVER_CONTACT_INFO	Information de contact du destinataire
+STRKEY_RECEIVER_COUNTRY	Pays destinataire
+STRKEY_RECEIVER_COUNTRY_COLON	Pays destinataire:
+STRKEY_RECEIVER_DOB	Date de naissance du destinataire
+STRKEY_RECEIVER_IDENTIFICATION_PRIMARY_PHOTO_ID	Identification du destinataire - Photo d'identité principale
+STRKEY_RECEIVER_INFO	Informations du destinataire
+STRKEY_RECEIVER_INFO_COLON	Informations du destinataire:
+STRKEY_RECEIVER_LOCATION	Lieu du destinataire
+STRKEY_RECEIVER_NAME	Prénom du destinataire
+STRKEY_RECEIVER_PROFILE	Profil du destinataire
+STRKEY_RECEIVER_STATE	Etat du destinataire
+STRKEY_RECIPIENT	Bénéficiaire
+STRKEY_RECIPIENT_OR_NEW	Sélectionnez un destinataire ou le bouton Nouveau destinataire pour continuer.
+STRKEY_RECIPIENTS	Bénéficiaires
+STRKEY_RECV	Recevoir
+STRKEY_RECV_AMT	Recevoir montant 
+STRKEY_RECV_CODE_COLON	Code de réception:
+STRKEY_RECV_COUNTRY	Pays de réception
+STRKEY_RECV_CURRENCY	Devise de réception
+STRKEY_RECV_LAST_NAME	Nom du destinataire
+STRKEY_RECV_MONEY	Recevoir l'argent
+STRKEY_RECV_NAME_CHANGED_FROM	Le nom du destinataire a été changé du:
+STRKEY_RECV_OPT_CUR	Option et devise de réception
+STRKEY_RECV_REVERSAL	recevoir l'inversion
+STRKEY_RECV_TOTAL	Recevoir total
+STRKEY_REF_NUM	Numéro de référence
+STRKEY_REF_NUM_COLON	Numéro de référence:
+STRKEY_REF_POUND	Réf #
+STRKEY_REFNUM	Num Réf
+STRKEY_REFUND	Rembourser
+STRKEY_REFUND_FEE	 Rembourser les frais?
+STRKEY_REFUND_FEE_OF	Rembourser les frais de 
+STRKEY_REFUND_WARNING	Vous êtes sur le point de rembourser une transaction. S'il vous plaît vérifier qu'il y a suffisamment de fonds pour payer.
+STRKEY_REGISTER_PLUS	Inscrivez-vous pour Plus
+STRKEY_REPORT_DATE	Date du rapport
+STRKEY_REPORT_DATE_TIME	Date / heure du rapport
+STRKEY_REPORT_NAME	Nom du rapport
+STRKEY_REPORT_SOURCE	Source du rapport
+STRKEY_REPORT_WILL_INCLUDE	Le rapport inclura les transactions effectuées entre minuit et 23h59.
+STRKEY_REPORTS	Rapports 
+STRKEY_REPORTS_ACTIVITY_DATE_COLON	Date d'activité
+STRKEY_REPORTS_MO_AGENT_ID_COLON	ID d'agent MO:
+STRKEY_REPORTS_MONEYGRAM_AGENT_ID_COLON	Identifiant de l'agent MoneyGram
+STRKEY_REPORTS_NO_DETAIL_ITEMS	*******AUCUN ARTICLE DE DÉTAIL*******
+STRKEY_REPORTS_REPORT_DATE_AND_TIME_COLON	Date / heure du rapport:
+STRKEY_REPRINT	Réimprimer
+STRKEY_REPRINT_RECEIPT	Réimprimer le reçu
+STRKEY_REPRINT_RECEIPTS	Réimprimer les reçus
+STRKEY_RESET	Réinitialiser
+STRKEY_RETRY_COUNT	Nombre de tentatives
+STRKEY_REVERSAL	Renversement
+STRKEY_REVERSE_REASON	Raison du renversement de la transaction:
+STRKEY_REVERSE_WARNING	Vous êtes sur le point de renverser une transaction. Etes-vous sur de vouloir continuer?
+STRKEY_ROLE	Rôle
+STRKEY_ROTATE_LEFT	Rotation à gauche
+STRKEY_ROTATE_RIGHT	Rotation à droite
+STRKEY_RTC_WEEKDAY	Mardi - vendredi
+STRKEY_RTC_WEEKEND	Sam - lun
+STRKEY_RUN_REPORT	Exécuter le Rapport
+STRKEY_SALES_REPORT	Rapport de vente MoneyGram
+STRKEY_SALES_REPORT_NAME	Rapport de vente de transaction MoneyGram
+STRKEY_SAVE	Sauvegarder
+STRKEY_SCAN	Scan
+STRKEY_SCAN_BACK	Numériser arrière
+STRKEY_SCAN_FRONT	Numériser avant
+STRKEY_SCAN_RECEIPTS	Numérisation des reçus
+STRKEY_SCANNING_POPUP_CONNECTION_ERROR	Scanner non détecté. Veuillez connecter le scanner, assurez-vous qu'il est allumé et essayez à nouveau.
+STRKEY_SCANNING_POPUP_SCANNER_BUSY	Le scanner est occupé, veuillez patienter.
+STRKEY_SCANNING_POPUP_SCANNING_RECEIPT_FAILED	Une erreur est survenue lors du stockage de l’image du reçu. Veuillez conserver la copie signée du reçu dans vos dossiers.
+STRKEY_SCANNING_POPUP_SCANNING_RECEIPT_SUCCESS	Le reçu numérisé a été téléchargé avec succès.
+STRKEY_SEARCH_FOR_BILLER	Rechercher un émetteur de factures:
+STRKEY_SEARCH_FOR_CUSTOMER	Rechercher le client:
+STRKEY_SEC_QUESTION	question de sécurité facultative
+STRKEY_SECOND_FORM_ID_COLON	Deuxième forme d'identification:
+STRKEY_SECOND_ID	Deuxième forme d'identification
+STRKEY_SECOND_LAST_NAME	Deuxième dernier / nom de famille
+STRKEY_SECURITY_EXCEPTION	Exception de sécurité
+STRKEY_SEL_ACTIVITY_DATE_COLON	Sélectionnez la date de l'activité:
+STRKEY_SEL_THE_ACTIVITY_DATE_COLON	Sélectionnez la date de l'activité:
+STRKEY_SELECT	sélectionner
+STRKEY_SELECT_ALL	Tout sélectionner
+STRKEY_SELECT_BILLER	Sélectionnez l'émetteur de factures
+STRKEY_SELECT_COUNTRY	sélectionnez un pays
+STRKEY_SELECT_LANGUAGE	choisissez votre langue
+STRKEY_SELECT_ONE	Sélectionnez un
+STRKEY_SELECT_POS_COLON	Sélectionnez PDV(s):
+STRKEY_SELECT_PRINTER	Sélectionnez une imprimante
+STRKEY_SELECT_PRINTER_TO_USE	Sélectionnez l'imprimante que vous souhaitez utiliser avec AgentWorks.
+STRKEY_SELECT_REPORT_COLON	Sélectionnez un rapport
+STRKEY_SELECT_SCANNER	Sélectionnez un scanner
+STRKEY_SELECT_SCANNER_TO_USE	Sélectionnez le scanner que vous souhaitez utiliser avec AgentWorks
+STRKEY_SELECT_STORE_LOC_COLON	Sélectionnez un emplacement de magasin:
+STRKEY_SELECT_TRAN	Sélectionnez une transaction:
+STRKEY_SELECT_TRANS_DATE_COLON	Sélectionnez la date de transaction:
+STRKEY_SELECT_TRANS_TYPES	Sélectionnez le(s) type(s) de transaction:
+STRKEY_SELECT_VENDOR	Sélectionnez un fournisseur
+STRKEY_SEND	Envoyer
+STRKEY_SEND_AMT	Envoyer le montant:
+STRKEY_SEND_AMT_COLON	Montant à Envoyer
+STRKEY_SEND_AMT_EXCL_FEE	Envoyez le montant hors frais
+STRKEY_SEND_AMT_INCL_FEE	Envoyer le montant incluant les frais
+STRKEY_SEND_COLLECT_FUND	Collecter des fonds
+STRKEY_SEND_CURRENCY	Devise d'envoi
+STRKEY_SEND_FEE_DETAILS	Détails des frais
+STRKEY_SEND_FINAL_RECEIVE_AMOUNT	Montant final de réception
+STRKEY_SEND_FINISH_MSG	Vous devez informer le client qu'il peut annuler la transaction pour un remboursement intégral dans les 30 minutes suivant le paiement, à moins que les fonds aient été ramassés ou déposés.
+STRKEY_SEND_MONEY	Envoyer de l'argent
+STRKEY_SEND_MONEY_FROM	Envoyer l'argent de:
+STRKEY_SEND_MONEY_TO	Envoyer l'argent à:
+STRKEY_SEND_ORG_RECEIVE_AMOUNT	Montant de réception original
+STRKEY_SEND_RECEIVE_FEE	Frais de réception
+STRKEY_SEND_RECEIVE_TAX	Taxes de réception
+STRKEY_SEND_RECV_AMT_INCORRECT	Envoyer / recevoir montant incorrect
+STRKEY_SEND_TO_NEW_RECV	Envoyer à un nouveau destinataire
+STRKEY_SEND_TOTAL	Total de l'envoi 
+STRKEY_SENDER	Expéditeur
+STRKEY_SENDER_COLON	Expéditeur
+STRKEY_SENDER_CONTACT_INFO	Coordonnées de l'expéditeur
+STRKEY_SENDER_IDENTIFICATION_PRIMARY_PHOTO_ID	Identification de l'expéditeur - ID photo principale
+STRKEY_SENDER_INFO	Informations de l'expéditeur:
+STRKEY_SENDER_LOCATION	Emplacement de l'Expéditeur
+STRKEY_SENDER_LOOKUP	Correspondance de l'Expéditeur
+STRKEY_SENDER_MOBILE_NUM	Numéro de mobile de l'expéditeur
+STRKEY_SENDER_PHONE	Téléphone de l'expéditeur
+STRKEY_SENDER_PHONE_PLUS_NUM	Numéro de téléphone ou de Plus de l'expéditeur
+STRKEY_SENDER_PROFILE	Profil de l'expéditeur
+STRKEY_SENDER_SEARCH_RESULTS	Résultats de la recherche de l'expéditeur
+STRKEY_SENT_FROM	formulaire d'envoi
+STRKEY_SENT_FROM_COLON	formulaire d'envoi:
+STRKEY_SEPTEMBER	septembre
+STRKEY_SERIAL_NO	Numéro de série #
+STRKEY_SERIAL_NUM_VERIFICATION	Vérification du numéro de série
+STRKEY_SERIAL_NUMBER	Numéro de série
+STRKEY_SERVICE	Service
+STRKEY_SERVICE_LEVEL	Niveau de service
+STRKEY_SERVICE_OPT_CURRENCY	Option de service et devise
+STRKEY_SERVICE_OPTIONS	Options de service 
+STRKEY_SHOW_ITEM_DETAIL	Afficher le détail de l'article
+STRKEY_SINGLE_RECEIVER_PROFILE_FOUND_MSG	Profil du destinataire trouvé. Sélectionnez un destinataire pour continuer.
+STRKEY_SKIP_ENROLLMENT	Ignorer les inscriptions
+STRKEY_SMS_STATUS_UPDATES	SMS / texte de mises à jour du statut des transactions  par téléphone mobile
+STRKEY_SOCIAL_SECURITY_NUM	Numéro de sécurité sociale
+STRKEY_SR_NAME	Rapport des ventes
+STRKEY_STARTING_SERIAL_NUMBER	Numéro de série de départ
+STRKEY_STATE	Etat / Province
+STRKEY_STATE_ID	ID d'état
+STRKEY_STATUS_NOTIFICATION_Q	Si le client souhaite recevoir des mises à jour du statut de cette transaction, entrez les informations de contact.
+STRKEY_STEP_1	Étape 1
+STRKEY_STEP_2	Étape 2
+STRKEY_STEP_3	Étape 3
+STRKEY_STEP_3_DESCRIPTION	Placez les formulaires dans le distributeur avec le numéro de série le plus bas en haut. Le verso du document est tourné vers l'extérieur lors de l'introduction du document dans le distributeur. Introduisez ensuite le formulaire en haut dans l’imprimante comme indiqué en appuyant sur le bouton de chargement jusqu'à ce que l'imprimante s'en empare.
+STRKEY_STEP_4	Étape 4
+STRKEY_STEP_4_DESCRIPTION	Le numéro de série du premier formulaire doit être visible. Entrez les quatre derniers chiffres du numéro de série pour vérifier le chargement.
+STRKEY_STEP_4_FRONTCOVER	Une fois que l'imprimante a retiré le formulaire, replacez le capot avant, verrouillez-le et retirez la clé.
+STRKEY_STEP_4_LOCKDISP	Lorsque vous verrouillez le distributeur, cet assistant passe à l'étape suivante.
+STRKEY_STEP_5	Étape 5
+STRKEY_STEP_5_DESCRIPTION	Le numéro de série du premier formulaire doit être visible. Entrez les quatre derniers chiffres du numéro de série pour vérifier le chargement.
+STRKEY_STORE_ID	ID du magasin
+STRKEY_STORE_NAME	Nom du magasin
+STRKEY_STREET	Adresse de la rue
+STRKEY_STREET_2	Adresse de la rue 2
+STRKEY_STREET_3	Adresse de la rue 3
+STRKEY_STREET_4	Adresse de la rue 4
+STRKEY_STRKEY_CARDHOLDER_INFORMATION	Information du titulaire de carte
+STRKEY_STRKEY_CARDHOLDER_INFORMATION_COLON	Information du titulaire de carte
+STRKEY_SUB_MENU_ITEM	Élément de sous-menu
+STRKEY_SUBTOTAL	Sous-total
+STRKEY_SUCCESS	Succès
+STRKEY_SUCCESS_BANG	Succès!
+STRKEY_SUMMARY_REPORT_NAME	Rapport récapitulatif des transactions MoneyGram
+STRKEY_SUPPORT	Support
+STRKEY_SWAP	Échanger
+STRKEY_SWIPE_CARD_ENTER_NUMBER	Glissez la carte ou entrez le numéro
+STRKEY_SYSTEM_UNAVAILABLE	Système indisponible. Contactez MoneyGram pour obtenir de l'aide.
+STRKEY_TAX_ID	Numéro d'identification fiscale
+STRKEY_TERMS_COMMUNICATION	Toutes les communications, les publications et les mises en ligne sur ce site deviennent la propriété exclusive de MoneyGram. Vous ne pouvez pas reproduire, désosser, désassembler, modifier ou créer des œuvres dérivées à partir du site. Vous n'êtes pas autorisé à supprimer les droits d'auteur, marques commerciales ou autres droits de propriété intellectuelle, avis de propriété ou légende contenus sur ce site ou son contenu.
+STRKEY_TERMS_COPYRIGHT	Ce site Web est &#169;2011 MoneyGram. Tous les droits sont réservés.
+STRKEY_TERMS_HEADER	Termes d'utilisation
+STRKEY_TERMS_IMPROVEMENTS	MoneyGram peut modifier ou améliorer les informations affichées sur ce site web, ou les produits ou services décrits dans le présent contrat, à tout moment et sans préavis.
+STRKEY_TERMS_IP	Droits de propriété intellectuelle
+STRKEY_TERMS_OWNED_BY	Ce site Web est la propriété de et fourni par MoneyGram International, Inc. et ses filiales et sociétés affiliées ("MoneyGram"). En utilisant ce site Web, vous acceptez les conditions d'utilisation suivantes. Veuillez consulter cette information souvent, car elle peut changer à tout moment, sans préavis.
+STRKEY_TERMS_RESTRICTIONS	Restrictions d'utilisation
+STRKEY_TERMS_RESTRICTIONS_1	Le site Web et les informations qu'il contient ne peuvent être utilisés que pour des transactions MoneyGram, et à aucune autre fin.
+STRKEY_TERMS_RESTRICTIONS_2	Vous ne pouvez pas copier, distribuer, modifier, transmettre, réutiliser, rediffuser ou afficher de quelque manière que ce soit le contenu du site Web sans votre accord écrit préalable du service juridique de MoneyGram, autorisant l'utilisation à cette fin.
+STRKEY_TERMS_RESTRICTIONS_3	Vous ne pouvez pas copier, distribuer, modifier, transmettre, réutiliser, signaler ou utiliser de quelque manière que ce soit les données des consommateurs mises à votre disposition sur ce site Web, ou autrement, par le biais de ce site Web, sauf lors de l'exécution d'une transaction MoneyGram.
+STRKEY_TERMS_RESTRICTIONS_4	Toute copie de ces matériels ou de toute partie de ceux-ci doit inclure l'avis de copyright ci-dessous.
+STRKEY_TERMS_RESTRICTIONS_5	Vous ne pouvez pas utiliser ce site ni aucun service associé à des fins illégales ou interdites par le présent Contrat.
+STRKEY_TERMS_RESTRICTIONS_6	Vous ne pouvez utiliser aucun dispositif, logiciel ou action, y compris mais sans s'y limiter, des robots, des araignées, des virus, des vers ou des bombes à retardement, conçus pour endommager ou interférer de toute autre manière avec le site ou pour intercepter ou exproprier tout système, donnée ou information personnelle sur le site.
+STRKEY_TERMS_RESTRICTIONS_7	Vous n'utiliserez pas le site ni les services associés pour des chaînes de lettres, des courriers indésirables, des spams ou des activités illégales.
+STRKEY_TERMS_RESTRICTIONS_8	Vous acceptez de ne pas utiliser ce site pour violer les lois ou mener toute autre activité pouvant entraîner une responsabilité quelconque ou nuire de toute autre manière à la bonne volonté associée à nos marques.
+STRKEY_TERMS_RESTRICTIONS_9	MoneyGram peut suspendre ou résilier immédiatement tout ou partie de vos droits d'utiliser ce site si à tout moment et pour quelque raison que ce soit.
+STRKEY_TERMS_RESTRICTIONS_MESSAGE	L'utilisation de ce site Web est soumise aux termes et conditions générales de votre contrat avec MoneyGram. Si vous êtes un utilisateur autorisé, vous êtes autorisé à afficher et à saisir des données et, si nécessaire à des fins légales ou réglementaires, à imprimer des informations apparaissant sur ce site, sous réserve des conditions de votre contrat avec MoneyGram et des éléments suivants:
+STRKEY_TERMS_SUBHEADER	Portail de l'Agent et le travail d'Agent.NXT <sup>&trade;</sup> Conditions d'utilisation
+STRKEY_TERMS_TRADEMARKS	Les marques de commerce et marques de services sur ce site sont la propriété de MoneyGram et ne peuvent être utilisées sans l'autorisation du service juridique de MoneyGram.
+STRKEY_TERMS_VALIDATION	Validation
+STRKEY_TERMS_VALIDATION_MESSAGE	MoneyGram se réserve le droit de valider les utilisateurs autorisés de ce site Web et de refuser l'accès, à sa seule discrétion, à toute personne qui, à son avis, ne peut être correctement validée.
+STRKEY_TEST_ANSWER	Quelle est la bonne réponse à cette question?
+STRKEY_TEST_QUESTION	Quelle question souhaitez-vous poser au destinataire?
+STRKEY_THERE_BEEN_ERROR	Il y a eu une erreur
+STRKEY_THIRD_PARTY	Tierce personne
+STRKEY_THIRD_PARTY_INFORMATION	Information de la tierce partie
+STRKEY_THIRD_PARTY_ORG	Organisation de la tierce partie
+STRKEY_THRESHOLD_AMOUNT	Montant de seuil
+STRKEY_THRESHOLD_TYPE	Type de seuil
+STRKEY_TIME	Temps
+STRKEY_TIME_LOCAL	Temps (Locale)
+STRKEY_TIP_COLON	Conseil
+STRKEY_TO	à / Pour
+STRKEY_TOTAL	Total
+STRKEY_TOTAL_AMOUNT	Montant total
+STRKEY_TOTAL_COLON	Total:
+STRKEY_TOTAL_PAY_OUT	Total à payer
+STRKEY_TOTAL_PRINTED	Total imprimé
+STRKEY_TOTAL_TO_COLLECT	Total à recueillir
+STRKEY_TOUCH_TOKEN	Veuillez authentifier cette transaction en touchant le jeton MoneyGram.
+STRKEY_TRAINING	Formation
+STRKEY_TRAINING_ERROR_AMEND_REF_NUMBER	Numéro de référence invalide, veuillez utiliser le numéro de référence 77777777
+STRKEY_TRAINING_ERROR_EDIT_TRAN_REF_NUMBER	Numéro de référence invalide, veuillez utiliser les numéros de référence 55555555 ou 66666666 ou 77777777
+STRKEY_TRAINING_ERROR_RCV_REF_NUMBER	Numéro de référence invalide, veuillez utiliser les numéros de référence 11111111 ou 22222222 ou 33333333
+STRKEY_TRAINING_ERROR_SREV_REF_NUMBER	Numéro de référence invalide, veuillez utiliser le numéro de référence 55555555 ou 66666666
+STRKEY_TRAINING_QUICK_REFERENCE	Formation et référence rapide
+STRKEY_TRAN_DETAILS	Détails de la transaction
+STRKEY_TRAN_MAX_LIMIT_EXCEEDED	Limite maximale de la transaction dépassée
+STRKEY_TRAN_NOT_EDITABLE	Cette transaction ne peut pas être modifiée.
+STRKEY_TRAN_STATUS	État de la transaction
+STRKEY_TRAN_STATUS_AVAILABLE	Disponible
+STRKEY_TRAN_STATUS_AVAILABLE_FOR_REFUND	Disponible pour remboursement
+STRKEY_TRAN_STATUS_CANCELED	Annulé
+STRKEY_TRAN_STATUS_NOT_AVAILABLE	Indisponible
+STRKEY_TRAN_STATUS_PREVIOUSLY_RECEIVED	Déjà reçu
+STRKEY_TRAN_STATUS_REFUNDED	Remboursé
+STRKEY_TRAN_STATUS_UNKNOWN	Inconnu
+STRKEY_TRAN_TYPE_CANCEL	MoneyGram Annuler
+STRKEY_TRAN_TYPE_EP	ExpressPayment
+STRKEY_TRAN_TYPE_RECEIVE	MoneyGram Recevoir
+STRKEY_TRAN_TYPE_REVERSAL	MoneyGram ReceiveReversal
+STRKEY_TRAN_TYPE_SEND	MoneyGram Envoyer
+STRKEY_TRAN_TYPE_UP	Paiement d'utilité
+STRKEY_TRANEXCEED_REPORT_NAME	Transactions dépassant les limites maximales des opérateurs
+STRKEY_TRANS_DATE	Date de la transaction
+STRKEY_TRANSACT	Faire des transactions 
+STRKEY_TRANSACTION_ERROR	Une erreur de transaction est survenue! Votre transaction n'a pas été complétée. Veuillez réessayer
+STRKEY_TRANSACTION_NO_LONGER_VALID	La transaction n'est plus valide
+STRKEY_TRANSACTION_TYPE	Type de transaction
+STRKEY_TRYAGAIN	Réessayer
+STRKEY_UI	UI AgentWorks
+STRKEY_UNABLE_RETRIEVE_PRINTERS	Impossible de retrouver les imprimantes disponibles
+STRKEY_UNABLE_RETRIEVE_SCANNERS	Impossible de récupérer les scanners disponibles
+STRKEY_UNABLE_SAVE_PRINTER	Impossible d'enregistrer l'imprimante sélectionnée
+STRKEY_UNABLE_SAVE_SCANNER	Impossible d'enregistrer le scanner sélectionné
+STRKEY_UNAUTHORIZED	Accès non autorisé. S'il vous plaît appelez le support.
+STRKEY_UNCOMMITTED	Non engagé
+STRKEY_UNLOCK_DISPENSER	Déverrouiller le distributeur
+STRKEY_UNREGISTER_DEVICE	périphérique non enregistré
+STRKEY_UPGRADE_MGI_SERVICES	Veuillez mettre à jour les services MGI pour utiliser cette fonctionnalité.
+STRKEY_UPLOAD	Télécharger
+STRKEY_USD	USD
+STRKEY_USER_ID	Identifiant d'utilisateur
+STRKEY_USER_MANAGEMENT	Gestion de l'utilisateur 
+STRKEY_USER_NAME	Nom d'utilisateur
+STRKEY_USER_NOTINROLE	Accès non autorisé. S'il vous plaît appelez le support.
+STRKEY_USER_PROFILE	Profil de l'utilisateur
+STRKEY_USER_REPORT_NAME	Rapport d'utilisateur
+STRKEY_USER_THRESHOLD_EXCEEDED	Impossible de terminer la transaction car le montant dépasse les seuils de transaction de l'utilisateur.
+STRKEY_USER_UNAUTHENTICATED	Accès non authentifié. S'il vous plaît appelez le support.
+STRKEY_USER_WORKFLOW_MANAGEMENT	Gestion du flux de travail de l'utilisateur
+STRKEY_UTILITIES	Utilitaires
+STRKEY_VENDOR	Fournisseur
+STRKEY_VENDOR_LIST_COLON	Liste de fournisseur
+STRKEY_VENDOR_NAME	Nom du fournisseur
+STRKEY_VENDOR_PAYMENT	Paiement du fournisseur
+STRKEY_VENDOR_PAYMENT_COLON	Paiement du fournisseur:
+STRKEY_VENDOR_PAYMENTS	Paiements du fournisseur
+STRKEY_VERIFY_AND_EDIT_COLON	Vérifier et éditer:
+STRKEY_VERIFY_AND_EDIT_MSG	Veuillez vérifier et / ou modifier ce qui suit.
+STRKEY_VERIFY_DETAILS_HEADER	Vérifier les détails
+STRKEY_VERIFY_SERIAL_NUMBER	Vérifier le numéro de série
+STRKEY_VERIFY_TRAN_AMOUNT	Vérifier le montant de la transaction:
+STRKEY_VERSION	Version
+STRKEY_VERSION_COLON	Version:
+STRKEY_VIEW_STATUS	Voir le statut
+STRKEY_VOID_FORMS	Formulaires vides
+STRKEY_VOIDED	Annulé
+STRKEY_VOIDING_DOT_DOT_DOT	Annulant
+STRKEY_VOIDS	des vides
+STRKEY_WAIT_FOR_RESPONSE	Attendre la réponse
+STRKEY_WANTS_CASH	Le client veut de l'argent
+STRKEY_WE_DO_NOT_PLUS_MBR_ENROLL	Nous n'avons pas de numéro Plus dans le dossier pour l'expéditeur. Pensez à les inscrire maintenant. Ca prend juste une minute.
+STRKEY_WELCOME	Bienvenue
+STRKEY_WHERE_MONEY_SENT	Où l'argent sera-t-il envoyé?
+STRKEY_WILL_CALL	Service 10 minutes
+STRKEY_WISH_PROCEED	Voulez-vous procéder?
+STRKEY_WLCM_TO_MG_PARTNER_SERVICES	Bienvenue chez les services des partenaires de MoneyGram 
+STRKEY_WRONG_TRANSFER_SVC	Mauvais service de transfert
+STRKEY_WRONG_TX	Mauvaise transaction
+STRKEY_WZRD_WILL_EXPLAIN_LOAD_TO_DSP	Cet assistant va expliquer comment charger des formulaires dans le distributeur.
+STRKEY_WZRD_WILL_LOCK_DSP1	Une fois que l'imprimante a retiré le formulaire, replacez le capot avant, verrouillez-le et retirez la clé.
+STRKEY_WZRD_WILL_LOCK_DSP2	Lorsque vous verrouillez le distributeur, cet assistant passe à l'étape suivante.
+STRKEY_YEAR	Année
+STRKEY_YEAR_PLACEHOLDER	YYYY
+STRKEY_YES	Oui
+STRKEY_YES_CONTINUE	Oui, continuer
+STRKEY_YES_REFUND_AMT	Oui, le montant du remboursement est
+STRKEY_ZIP	Code postal / postal

@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0F6922D9-C782-4675-8ED2-51BBC8E1D50B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AwApi.Business</RootNamespace>
+    <AssemblyName>AwApi.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\AwApi.Business.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <Optimize>true</Optimize>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.6.3\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.IO.Compression, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AmendBusiness.cs" />
+    <Compile Include="BankBusiness.cs" />
+    <Compile Include="BillPayBusiness.cs" />
+    <Compile Include="BusinessRules\ConsumerHistoryLookup.cs" />
+    <Compile Include="BusinessRules\PurposeOfLookup.cs" />
+    <Compile Include="BusinessRules\SearchStagedTransactionsRequestBusinessRules.cs" />
+    <Compile Include="DepositBusiness.cs" />
+    <Compile Include="DocumentBusiness.cs" />
+    <Compile Include="EditTransferBusiness.cs" />
+    <Compile Include="CommonBusiness.cs" />
+    <Compile Include="EventBusiness.cs" />
+    <Compile Include="Helpers\MimeTypeEnum.cs" />
+    <Compile Include="Helpers\ReceiptHelper.cs" />
+    <Compile Include="IAmendBusiness.cs" />
+    <Compile Include="IDepositBusiness.cs" />
+    <Compile Include="IDocumentBusiness.cs" />
+    <Compile Include="IEditTransferBusiness.cs" />
+    <Compile Include="ICommonBusiness.cs" />
+    <Compile Include="IEventBusiness.cs" />
+    <Compile Include="IMoneyOrderBusiness.cs" />
+    <Compile Include="IInternalBusiness.cs" />
+    <Compile Include="InternalBusiness.cs" />
+    <Compile Include="IProfileBusiness.cs" />
+    <Compile Include="IReceiveReversalBusiness.cs" />
+    <Compile Include="ISendReversalBusiness.cs" />
+    <Compile Include="IStagedBillPayBusiness.cs" />
+    <Compile Include="IStagedSendBusiness.cs" />
+    <Compile Include="ISupportBusiness.cs" />
+    <Compile Include="MoneyOrderBusiness.cs" />
+    <Compile Include="ProfileBusiness.cs" />
+    <Compile Include="ReceiveReversalBusiness.cs" />
+    <Compile Include="Reports\Generators\BillPaymentSummaryGenerator.cs" />
+    <Compile Include="Reports\Generators\DailyTranDetailReportGenerator.cs" />
+    <Compile Include="Reports\Generators\GeneratorExtensions.cs" />
+    <Compile Include="Reports\TransactionDetailLookupResultExtensions.cs" />
+    <Compile Include="Reports\Generators\IBillPaymentSummaryGenerator.cs" />
+    <Compile Include="Reports\Generators\IDailyTranDetailReportGenerator.cs" />
+    <Compile Include="Reports\Generators\IReceiveSummaryGenerator.cs" />
+    <Compile Include="Reports\Generators\IReportSummaryGenerator.cs" />
+    <Compile Include="Reports\Generators\ISendSummaryGenerator.cs" />
+    <Compile Include="Reports\Generators\ReceiveSummaryGenerator.cs" />
+    <Compile Include="Reports\Generators\SendSummaryGenerator.cs" />
+    <Compile Include="Reports\Containers\DailyTranDetailContainer.cs" />
+    <Compile Include="Reports\Containers\DailyTranSummaryContainer.cs" />
+    <Compile Include="Reports\Containers\IDailyTranDetailContainer.cs" />
+    <Compile Include="Reports\Containers\IDailyTranSummaryContainer.cs" />
+    <Compile Include="Reports\SupplementalValuesHelper.cs" />
+    <Compile Include="Reports\ReportResponseFactory.cs" />
+    <Compile Include="Reports\ReportExtensions.cs" />
+    <Compile Include="Reports\DLSActivityTypeCode.cs" />
+    <Compile Include="Reports\ReportType.cs" />
+    <Compile Include="Reports\ReportsBusiness.cs" />
+    <Compile Include="Reports\IReportsBusiness.cs" />
+    <Compile Include="Reports\ReportConstants.cs" />
+    <Compile Include="ConsumerBusiness.cs" />
+    <Compile Include="IBankBusiness.cs" />
+    <Compile Include="IBillPayBusiness.cs" />
+    <Compile Include="IConsumerBusiness.cs" />
+    <Compile Include="ILanguageBusiness.cs" />
+    <Compile Include="IReceiveBusiness.cs" />
+    <Compile Include="ILookupBusiness.cs" />
+    <Compile Include="ISendBusiness.cs" />
+    <Compile Include="IOperatorBusiness.cs" />
+    <Compile Include="LanguageBusiness.cs" />
+    <Compile Include="LocationBusiness\ILocationBusiness.cs" />
+    <Compile Include="LocationBusiness\LocationBusiness.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReceiveBusiness.cs" />
+    <Compile Include="LookupBusiness.cs" />
+    <Compile Include="SendBusiness.cs" />
+    <Compile Include="OperatorBusiness.cs" />
+    <Compile Include="SendReversalBusiness.cs" />
+    <Compile Include="StagedBillPayBusiness.cs" />
+    <Compile Include="StagedSendBusiness.cs" />
+    <Compile Include="SupportBusiness.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AwApi.EntityMapper\AwApi.EntityMapper.csproj">
+      <Project>{0592667a-8aee-4d94-8d4b-0b42021e5513}</Project>
+      <Name>AwApi.EntityMapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AwApi.Integration\AwApi.Integration.csproj">
+      <Project>{727025f0-7908-4103-b86c-1054987e8526}</Project>
+      <Name>AwApi.Integration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AwApi.ViewModels\AwApi.ViewModels.csproj">
+      <Project>{22aaf2bb-70d0-43a3-b231-265c6c79baea}</Project>
+      <Name>AwApi.ViewModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.AgentConnect.DomainModel\MoneyGram.AgentConnect.DomainModel.csproj">
+      <Project>{ecd9abbb-5222-47cb-abb2-62f2789509eb}</Project>
+      <Name>MoneyGram.AgentConnect.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.Common.Auth\MoneyGram.Common.Auth.csproj">
+      <Project>{96E4AE8F-D2B9-4DB9-92ED-7A19D151E5D5}</Project>
+      <Name>MoneyGram.Common.Auth</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.Common.Json\MoneyGram.Common.Json.csproj">
+      <Project>{71d1d50e-d5e7-47ab-b3f9-d0039543c1be}</Project>
+      <Name>MoneyGram.Common.Json</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.Common.Localization\MoneyGram.Common.Localization.csproj">
+      <Project>{FF84CBB7-295E-4C36-8C8C-433AB309B08B}</Project>
+      <Name>MoneyGram.Common.Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.Common\MoneyGram.Common.csproj">
+      <Project>{7645bf39-6ad8-43f2-b2fc-7b599deeddb3}</Project>
+      <Name>MoneyGram.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.DLS.DomainModel\MoneyGram.DLS.DomainModel.csproj">
+      <Project>{5f0369d5-374a-4103-bc6e-d070ae54222f}</Project>
+      <Name>MoneyGram.DLS.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.OpenIDM\MoneyGram.OpenIDM.csproj">
+      <Project>{023014E7-952E-45C5-91DC-54367275C940}</Project>
+      <Name>MoneyGram.OpenIDM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.PartnerHierarchy.DomainModel\MoneyGram.PartnerHierarchy.DomainModel.csproj">
+      <Project>{F2B0FACB-C70E-4948-B23D-B3D058931622}</Project>
+      <Name>MoneyGram.PartnerHierarchy.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.PartnerService.DomainModel\MoneyGram.PartnerService.DomainModel.csproj">
+      <Project>{1fc229f6-8d93-4f36-883e-fe491a102051}</Project>
+      <Name>MoneyGram.PartnerService.DomainModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="TransactionRunner.Controls.AgentSelectorControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             Loaded="AgentSelectorControl_OnLoaded">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" x:Name="lblEnvironmentSelector" HorizontalAlignment="Stretch" Margin="0,-1,0,-1"
+               Content="Environment:" />
+            <ComboBox Grid.Row="0" Grid.Column="1" x:Name="CbxEnvironmentSelector" HorizontalAlignment="Stretch" Margin="0,1,0,1"
+                  ItemsSource="{Binding EnvironmentList}" SelectedItem="{Binding SelectedEnvironment}" />
+
+            <Label Grid.Row="1" Grid.Column="0" x:Name="lblAgentLocation" HorizontalAlignment="Stretch" Margin="0,-1,0,-1"
+               Content="Agent Location: " />
+            <ComboBox Grid.Row="1" Grid.Column="1" x:Name="CbxAgentLocation" HorizontalAlignment="Stretch" Margin="0,1,0,1"
+                  DisplayMemberPath="AgentState" ItemsSource="{Binding AgentLocationList}"
+                  SelectedItem="{Binding SelectedAgentLocation}" />
+
+            <Label Grid.Row="2" Grid.Column="0" x:Name="lblAgent" HorizontalAlignment="Stretch" Margin="0,-1,0,-1"
+               Content="Agent:" />
+            <ComboBox Grid.Row="2" Grid.Column="1" x:Name="CbxAgent" HorizontalAlignment="Stretch" Margin="0,1,0,1"
+                  DisplayMemberPath="AgentId" ItemsSource="{Binding AgentList}"
+                  SelectedItem="{Binding SelectedAgent}" />
+
+            <Label Grid.Row="3" Grid.Column="0" x:Name="LblPosNumber" HorizontalAlignment="Stretch" Margin="0,-1,0,-1"
+               Content="POS #:" />
+            <ComboBox Grid.Row="3" Grid.Column="1" x:Name="CbxPosNumber" HorizontalAlignment="Stretch" Margin="0,1,0,1"
+                  DisplayMemberPath="AgentSequence" ItemsSource="{Binding AgentPosList}"
+                  SelectedItem="{Binding SelectedAgentPos}" />
+
+            <Button Grid.Row="4" Grid.Column="1" x:Name="BtnManageAgents" Content="Manage Agents" Click="BtnManageAgents_OnClick"
+                HorizontalAlignment="Right" Width="100" Margin="0,1,0,1"></Button>
+        </Grid>
+        <Rectangle Fill="White" Opacity="0.7" Visibility="{Binding ModalVisibility}"></Rectangle>
+    </Grid>
+</UserControl>

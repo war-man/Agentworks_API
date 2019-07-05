@@ -1,0 +1,10 @@
+﻿public static SERVICE.{NAME} ToService(DOMAIN.{NAME} {NAME_CAMEL}, Agent agent)
+{
+	var serviceModel = new SERVICE.{NAME} {
+{PROPERTIES}
+	};
+
+	DomainTransformExtensions.NullifyWhiteSpaceStrings(serviceModel);
+
+	return serviceModel;
+}

@@ -1,0 +1,17 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "2.0.0",
+  "options": {
+    "inputs": [
+      "AgentConnect.wsdl"
+    ],
+    "namespaceMappings": [
+      "*, MoneyGram.AgentConnect.Service"
+    ],
+    "outputFile": "AgentConnect.cs",
+    "serializerMode": "XmlSerializer",
+    "targetFramework": "netstandard2.0",
+    "typeReuseMode": "All",
+    "wrapped": true
+  }
+}

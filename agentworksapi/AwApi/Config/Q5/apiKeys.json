@@ -1,0 +1,86 @@
+﻿{
+  "0c1ffc0e-e1fa-41eb-ad49-989da8ffaf66": {
+    "agentId": "66786449",
+    "mainOfficeId": "65684791",
+    "password": "456",
+    "pos": "06"
+  },
+  "3be828c5-5770-486c-bc29-ce5fd13de6ee": {
+    "agentId": "67642171",
+    "mainOfficeId": "67642168",
+    "password": "489263",
+    "pos": "02"
+  },
+  "455b5bc5-cd6b-408f-aa1c-cd8a6c9cbdcc": {
+    "agentId": "42543538",
+    "mainOfficeId": "41306019",
+    "password": "456",
+    "pos": "05"
+  },
+  "36e6f010-44ec-4afe-adc5-8329b097fac6": {
+    "agentId": "71529646",
+    "mainOfficeId": "71529633",
+    "password": "456",
+    "pos": "02"
+  },
+  "76967bf9-11ac-45f1-9154-238c92b2c7d4": {
+    "agentId": "71217880",
+    "mainOfficeId": "71217877",
+    "password": "456",
+    "pos": "02"
+  },
+  "93367276-1c0e-489a-8484-f1ee9c29845f": {
+    "agentId": "71225526",
+    "mainOfficeId": "71225513",
+    "password": "456",
+    "pos": "02"
+  },
+  "6d32091e-d0b1-415d-9e92-057b1e9b57ab": {
+    "agentId": "68705305",
+    "mainOfficeId": "68705295",
+    "password": "456",
+    "pos": "02"
+  },
+  "5b6a33b9-fd43-47ad-ab25-9aa892431eef": {
+    "agentId": "68832375",
+    "mainOfficeId": "68810520",
+    "password": "456",
+    "pos": "02"
+  },
+  "a1a58e67-5ed0-4633-88f5-58d25a8c3909": {
+    "agentId": "71070959",
+    "mainOfficeId": "70525188",
+    "password": "456",
+    "pos": "02"
+  },
+  "84b72251-00f7-413f-87ff-28bb96e7e893": {
+    "agentId": "66383295",
+    "mainOfficeId": "43544798",
+    "password": "456",
+    "pos": "04"
+  },
+  "56a33ff7-07e8-447e-bd79-d4300d5a9fb3": {
+    "agentId": "71587484",
+    "mainOfficeId": "43223048",
+    "password": "456",
+    "pos": "02"
+  },
+  "d7065899-b893-444f-8cef-f4db6f369b9d": {
+    "agentId": "67904178",
+    "mainOfficeId": "43207297",
+    "password": "456",
+    "pos": "05"
+  },
+  "735ce604-ec11-43d7-8211-da6197d0e909": {
+    "agentId": "70509094",
+    "mainOfficeId": "66154327",
+    "password": "456",
+    "pos": "03"
+  },
+  "785e4e29-52c3-45e7-8530-3275690a6ee1": {
+    "agentId": "71216661",
+    "mainOfficeId": "71079060",
+    "password": "456",
+    "pos": "02"
+  }
+}

@@ -1,0 +1,37 @@
+﻿{
+  "payload": {
+    "mgiSessionID": "66666666",
+    "readyForCommit": true,
+    "gafVersionNumber": "1.1.20171003",
+    "sendAmount": 200.0,
+    "sendCurrency": "USD",
+    "totalSendFees": 9.99,
+    "totalSendTaxes": 0.0,
+    "totalReversalAmount": 209.99,
+    "detailSendAmounts": [
+      {
+        "amountType": "NON_MGI_SND_TAX",
+        "amount": 0.0,
+        "amountCurrency": "USD"
+      },
+      {
+        "amountType": "TTL_AMT_TO_MGI",
+        "amount": 209.99,
+        "amountCurrency": "USD"
+      },
+      {
+        "amountType": "MGI_SND_TAX",
+        "amount": 0.0,
+        "amountCurrency": "USD"
+      }
+    ],
+    "reversalType": 1,
+    "fieldsToCollect": [],
+    "receipts": null,
+    "receiptInfo": null,
+    "doCheckIn": false,
+    "timeStamp": "2018-05-16T12:45:07.351+02:00",
+    "flags": 0
+  },
+  "errors": []
+}

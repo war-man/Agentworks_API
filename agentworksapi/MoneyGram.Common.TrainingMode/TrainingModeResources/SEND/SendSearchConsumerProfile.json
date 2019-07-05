@@ -1,0 +1,219 @@
+﻿{
+	"payload":
+	{
+		"responseGAFVersionNumber": "1.1.20180718",
+		"consumerProfileSearchInfos": [
+			{
+				"consumerProfileID": "85832051",
+				"consumerProfileIDType": "UCPID",
+				"currentValues": [
+          {
+            "infoKey": "mgiRewardsNumber",
+            "value": "185458376703"
+          },
+					{
+						"infoKey": "consumer_FirstName",
+						"value": "Manikantan"
+					},
+					{
+						"infoKey": "consumer_LastName",
+						"value": "Manidan"
+					},
+					{
+						"infoKey": "consumer_Address",
+						"value": "Building# 1234"
+					},
+					{
+						"infoKey": "consumer_City",
+						"value": "Minneapolis"
+					},
+					{
+						"infoKey": "consumer_Country_SubdivisionCode",
+						"value": "MN"
+					},
+					{
+						"infoKey": "consumer_PostalCode",
+						"value": "55426"
+					},
+					{
+						"infoKey": "consumer_Country",
+						"value": "USA"
+					},
+					{
+						"infoKey": "consumer_PrimaryPhone",
+						"value": "6128191234"
+					},
+					{
+						"infoKey": "consumer_DOB",
+						"value": "1988-01-01"
+					}
+				]
+			}
+		],
+		"infos": [
+			{
+				"infos": [
+					{
+						"display": true,
+						"dataType": 1,
+						"infoKey": "consumer_UCPID",
+						"label": "UCPID",
+						"labelStandAlone": "Consumer UCPID",
+						"displayOrder": 1
+					},
+					{
+						"display": true,
+						"dataType": 1,
+						"infoKey": "consumer_FirstName",
+						"label": "First/Given Name",
+						"labelStandAlone": "Consumer First/Given Name",
+						"displayOrder": 2,
+						"helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed"
+					},
+					{
+						"display": true,
+						"dataType": 1,
+						"infoKey": "consumer_MiddleName",
+						"label": "Middle Name",
+						"labelStandAlone": "Consumer Middle Name",
+						"displayOrder": 3,
+						"helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed"
+					},
+					{
+						"display": true,
+						"dataType": 1,
+						"infoKey": "consumer_LastName",
+						"label": "Last/Family Name",
+						"labelStandAlone": "Consumer Last/Family Name",
+						"displayOrder": 4,
+						"helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed"
+					},
+					{
+						"display": true,
+						"dataType": 1,
+						"infoKey": "consumer_LastName2",
+						"label": "Second Last/Family Name",
+						"labelStandAlone": "Second Last/Family Name",
+						"displayOrder": 5,
+						"helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed"
+					},
+					{
+						"display": true,
+						"dataType": 1,
+						"infoKey": "consumer_Address",
+						"label": "Address",
+						"labelStandAlone": "ConsumerAddress",
+						"displayOrder": 6,
+						"helpTextLong": "Only alpha, numeric and certain special characters (#./'-,()\") are allowed. Minimum 5 characters with at least one alpha character. No repeated special characters ( #### or ////). PO Box not allowed"
+					},
+					{
+						"display": true,
+						"dataType": 1,
+						"infoKey": "consumer_Address2",
+						"label": "Address Line 2",
+						"labelStandAlone": "Consumer Address Line 2",
+						"displayOrder": 7,
+						"helpTextLong": "Only alpha, numeric and certain special characters (#./'-,()\") are allowed"
+					},
+					{
+						"display": true,
+						"dataType": 1,
+						"infoKey": "consumer_Address3",
+						"label": "Address Line 3",
+						"labelStandAlone": "Consumer Address Line 3",
+						"displayOrder": 8,
+						"helpTextLong": "Only alpha, numeric and certain special characters (#./'-,()\") are allowed"
+					},
+					{
+						"display": true,
+						"dataType": 1,
+						"infoKey": "consumer_City",
+						"label": "City",
+						"labelStandAlone": "Consumer City",
+						"displayOrder": 9
+					},
+					{
+						"display": true,
+						"dataType": 1,
+						"infoKey": "consumer_Country_SubdivisionCode",
+						"label": "State/Province",
+						"labelStandAlone": "Consumer State/Province",
+						"displayOrder": 10
+					},
+					{
+						"display": true,
+						"dataType": 1,
+						"infoKey": "consumer_PostalCode",
+						"label": "Postal Code",
+						"labelStandAlone": "Consumer Postal Code",
+						"displayOrder": 11
+					},
+					{
+						"display": true,
+						"dataType": 1,
+						"infoKey": "consumer_Country",
+						"label": "Country",
+						"labelStandAlone": "Consumer Country",
+						"displayOrder": 12
+					},
+					{
+						"display": true,
+						"dataType": 1,
+						"infoKey": "mgiRewardsNumber",
+						"label": "MoneyGram Plus Number",
+						"labelStandAlone": "MoneyGram Plus Number",
+						"displayOrder": 13
+					},
+					{
+						"display": true,
+						"dataType": 1,
+						"infoKey": "consumer_PrimaryPhone",
+						"label": "Primary Phone Number",
+						"labelStandAlone": "Consumer Primary Phone Number",
+						"displayOrder": 14,
+						"helpTextLong": "Only numeric characters are allowed. Cannot contain a string of repeating numeric characters (example 8888888)"
+					},
+					{
+						"display": true,
+						"dataType": 5,
+						"infoKey": "consumer_DOB",
+						"label": "Date of birth",
+						"labelStandAlone": "Consumer Date of birth",
+						"displayOrder": 15
+					},
+					{
+						"display": true,
+						"dataType": 1,
+						"infoKey": "GAFVersionNumber",
+						"label": "GetALLFields Version Number",
+						"labelStandAlone": "GetALLFields Version Number",
+						"displayOrder": 16
+					},
+					{
+						"display": true,
+						"dataType": 1,
+						"infoKey": "consumer_ProfileID",
+						"label": "Consumer Profile ID",
+						"labelStandAlone": "Consumer Profile ID",
+						"displayOrder": 17
+					},
+					{
+						"display": true,
+						"dataType": 1,
+						"infoKey": "consumer_ProfileIDType",
+						"label": "Consumer Profile ID Type",
+						"labelStandAlone": "Consumer Profile ID Type",
+						"displayOrder": 18
+					}
+				],
+				"infoKey": "profileSearchInfoSet",
+				"label": "Consumer Profile Search",
+				"labelStandAlone": "Consumer Profile Search",
+				"displayOrder": 1
+			}
+		],
+		"doCheckIn": false,
+		"timeStamp": "2018-10-08T14:15:14.809+02:00",
+		"flags": 16
+	}
+}

@@ -1,0 +1,9 @@
+﻿public virtual {ResponseTypePascal} {MethodNamePascal}(Agent agent, {RequestTypePascal} {RequestTypeCamel})
+{
+	return AgentConnect.{MethodNamePascal}(agent, {RequestTypeCamel});
+}
+
+public virtual async Task<{ResponseTypePascal}> {MethodNamePascal}Async(Agent agent, {RequestTypePascal} {RequestTypeCamel})
+{
+	return await AgentConnect.{MethodNamePascal}Async(agent, {RequestTypeCamel});
+}

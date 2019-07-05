@@ -1,0 +1,673 @@
+﻿{
+  "payload": {
+    "gafVersionNumber": "1.1.20180223",
+    "mgiSessionID": "66666666",
+    "transactionStatus": 0,
+    "redirectInfo": null,
+    "sendAmounts": {
+      "sendAmount": 200.00,
+      "sendCurrency": "USD",
+      "totalSendFees": 9.99,
+      "totalDiscountAmount": 0.00,
+      "totalSendTaxes": 0.00,
+      "totalAmountToCollect": 209.99,
+      "detailSendAmounts": [
+        {
+          "amountType": "nonMgiSendFee",
+          "amount": 0.00,
+          "amountCurrency": "USD"
+        },
+        {
+          "amountType": "totalMgiCollectedFeesAndTaxes",
+          "amount": 9.99,
+          "amountCurrency": "USD"
+        },
+        {
+          "amountType": "discountedMgiSendFee",
+          "amount": 9.99,
+          "amountCurrency": "USD"
+        },
+        {
+          "amountType": "nonMgiSendTax",
+          "amount": 0.00,
+          "amountCurrency": "USD"
+        },
+        {
+          "amountType": "mgiNonDiscountedSendFee",
+          "amount": 9.99,
+          "amountCurrency": "USD"
+        },
+        {
+          "amountType": "mgiSendTax",
+          "amount": 0.00,
+          "amountCurrency": "USD"
+        },
+        {
+          "amountType": "totalAmountToMgi",
+          "amount": 209.99,
+          "amountCurrency": "USD"
+        },
+        {
+          "amountType": "totalNonDiscountedFees",
+          "amount": 9.99,
+          "amountCurrency": "USD"
+        },
+        {
+          "amountType": " totalNonMgiSendFeesAndTaxes",
+          "amount": 0.00,
+          "amountCurrency": "USD"
+        },
+        {
+          "amountType": "totalSendFeesAndTaxes",
+          "amount": 9.99,
+          "amountCurrency": "USD"
+        }
+      ]
+    },
+    "receiveAmounts": {
+      "receiveAmount": 200.00,
+      "receiveCurrency": "USD",
+      "validCurrencyIndicator": true,
+      "payoutCurrency": "USD",
+      "totalReceiveFees": 0.00,
+      "totalReceiveTaxes": 0.00,
+      "totalReceiveAmount": 200.00,
+      "receiveFeesAreEstimated": false,
+      "receiveTaxesAreEstimated": false,
+      "detailReceiveAmounts": [
+        {
+          "amountType": "nonMgiReceiveTax",
+          "amount": 0.00,
+          "amountCurrency": "USD"
+        },
+        {
+          "amountType": "nonMgiReceiveFee",
+          "amount": 0.00,
+          "amountCurrency": "USD"
+        },
+        {
+          "amountType": "mgiReceiveFee",
+          "amount": 0.00,
+          "amountCurrency": "USD"
+        },
+        {
+          "amountType": "mgiReceiveTax",
+          "amount": 0.00,
+          "amountCurrency": "USD"
+        }
+      ]
+    },
+    "promotionInfos": [],
+    "disclosureTexts": [],
+    "receiveFeeDisclosureTexts": [],
+    "receiveTaxDisclosureTexts": [],
+    "currentValues": [
+      {
+        "infoKey": "dateTimeSent",
+        "value": "-2"
+      },
+      {
+        "infoKey": "serviceOption",
+        "value": "WILL_CALL"
+      },
+      {
+        "infoKey": "serviceOptionDisplayName",
+        "value": "10 Minute Service"
+      },
+      {
+        "infoKey": "originatingCountry",
+        "value": "USA"
+      },
+      {
+        "infoKey": "exchangeRateApplied",
+        "value": "1.00000000000"
+      },
+      {
+        "infoKey": "feeAmount",
+        "value": "9.99"
+      },
+      {
+        "infoKey": "receive_Country",
+        "value": "USA"
+      },
+      {
+        "infoKey": "expectedDateOfDelivery",
+        "value": "2018-05-15-05:00"
+      },
+      {
+        "infoKey": "receiver_FirstName",
+        "value": "JOAN"
+      },
+      {
+        "infoKey": "receiver_LastName",
+        "value": "ANDERSON"
+      },
+      {
+        "infoKey": "sender_FirstName",
+        "value": "JAMES"
+      },
+      {
+        "infoKey": "sender_LastName",
+        "value": "JOHNSON"
+      },
+      {
+        "infoKey": "mgiSessionType",
+        "value": "1"
+      }
+    ],
+    "infos": [
+      {
+        "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.CategoryInfo, MoneyGram.AgentConnect.DomainModel",
+        "infos": [
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "receive_AgentName",
+            "label": "Receive Agent Name",
+            "labelStandAlone": "Receive Agent Name",
+            "displayOrder": 6,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          }
+        ],
+        "infoKey": "lookupSendAgentSet",
+        "label": "Agent Fields",
+        "labelStandAlone": "Agent Fields",
+        "displayOrder": 1,
+        "helpTextShort": null,
+        "helpTextLong": null,
+        "documentation": null
+      },
+      {
+        "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.CategoryInfo, MoneyGram.AgentConnect.DomainModel",
+        "infos": [
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "transactionStatus",
+            "label": "Transaction Status",
+            "labelStandAlone": "Transaction Status",
+            "displayOrder": 1,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "serviceOption",
+            "label": "Service Option",
+            "labelStandAlone": "Service Option",
+            "displayOrder": 3,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "serviceOptionDisplayName",
+            "label": "Service Option Name",
+            "labelStandAlone": "Service Option Name",
+            "displayOrder": 4,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 6,
+            "enumeration": null,
+            "infoKey": "dateTimeSent",
+            "label": "Date-Time Transaction Sent",
+            "labelStandAlone": "Date-Time Transaction Sent",
+            "displayOrder": 7,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 4,
+            "enumeration": null,
+            "infoKey": "feeAmount",
+            "label": "Fee Amount",
+            "labelStandAlone": "Fee Amount",
+            "displayOrder": 10,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "originatingCountry",
+            "label": "Originating Country",
+            "labelStandAlone": "Originating Country",
+            "displayOrder": 15,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 4,
+            "enumeration": null,
+            "infoKey": "indicativeExchangeRate",
+            "label": "Indicative Exchange Rate",
+            "labelStandAlone": "Indicative Exchange Rate",
+            "displayOrder": 18,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "exchangeRateApplied",
+            "label": "Exchange Rate Applied",
+            "labelStandAlone": "Exchange Rate Applied",
+            "displayOrder": 24,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 6,
+            "enumeration": null,
+            "infoKey": "expectedDateOfDelivery",
+            "label": "Expected Date of Delivery",
+            "labelStandAlone": "Expected Date of Delivery",
+            "displayOrder": 25,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 10,
+            "enumeration": {
+              "name": "PURPSE_OF_TRNSCTION",
+              "enumeratedItems": [
+                {
+                  "identifier": "BUSINESS_EXPENSE",
+                  "labelShort": "Business Expense",
+                  "label": "Business Expense / Employee Remittance"
+                },
+                {
+                  "identifier": "DONATION",
+                  "labelShort": "Donation or Fin Aid",
+                  "label": "Donation or Financial Aids"
+                },
+                {
+                  "identifier": "EDUCATION_TRAIN",
+                  "labelShort": "Education and Training",
+                  "label": "Education and Training"
+                },
+                {
+                  "identifier": "FAMILY_SUPPORT",
+                  "labelShort": "Family Support",
+                  "label": "Family Support"
+                },
+                {
+                  "identifier": "GIFT",
+                  "labelShort": "Gift",
+                  "label": "Gift"
+                },
+                {
+                  "identifier": "INVEST_SAVING",
+                  "labelShort": "Investment/Savings",
+                  "label": "Investment/Savings"
+                },
+                {
+                  "identifier": "LEGAL_OBLIGATION",
+                  "labelShort": "Legal Obligation",
+                  "label": "Legal Obligation (alimony, court fee, etc.)"
+                },
+                {
+                  "identifier": "LOAN",
+                  "labelShort": "Loan",
+                  "label": "Loan"
+                },
+                {
+                  "identifier": "PURCHASE_GOODS",
+                  "labelShort": "Purchase of Goods",
+                  "label": "Purchase of Goods"
+                },
+                {
+                  "identifier": "TRAVEL_EXPENSES",
+                  "labelShort": "Travel Expenses",
+                  "label": "Travel Expenses"
+                },
+                {
+                  "identifier": "OTHER",
+                  "labelShort": "Other (please specify)",
+                  "label": "Other (please specify)"
+                }
+              ]
+            },
+            "infoKey": "send_PurposeOfTransaction",
+            "label": "Sender Purpose of Transaction",
+            "labelStandAlone": "Purpose of Transaction",
+            "displayOrder": 28,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "send_PurposeOfTransactionOther",
+            "label": "Sender Other Purpose of Transaction",
+            "labelStandAlone": "Other Purpose of Transaction",
+            "displayOrder": 29,
+            "helpTextShort": null,
+            "helpTextLong": "Only alpha characters are allowed when 'Other' is selected. At least two characters must be entered",
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "receive_AgentAbbreviation",
+            "label": "Receive Agent Name Abbreviation",
+            "labelStandAlone": "Receive Agent Name Abbreviation",
+            "displayOrder": 73,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 4,
+            "enumeration": null,
+            "infoKey": "sendAmount",
+            "label": "Amount",
+            "labelStandAlone": "Send Amount",
+            "displayOrder": 78,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "sendCurrency",
+            "label": "Send Currency",
+            "labelStandAlone": "Send Currency",
+            "displayOrder": 79,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "mgiSessionType",
+            "label": "Product Type",
+            "labelStandAlone": "Product Type",
+            "displayOrder": 91,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.CategoryInfo, MoneyGram.AgentConnect.DomainModel",
+            "infos": [
+              {
+                "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+                "display": true,
+                "dataType": 1,
+                "enumeration": null,
+                "infoKey": "customerReceiveNumber",
+                "label": "Receiver Registration Number (RRN)",
+                "labelStandAlone": "Receiver Registration Number (RRN)",
+                "displayOrder": 1,
+                "helpTextShort": null,
+                "helpTextLong": null,
+                "documentation": null
+              }
+            ],
+            "infoKey": "lookupTransactionInfoAccountDepositSet",
+            "label": "Account Deposit",
+            "labelStandAlone": "Transaction Account Deposit",
+            "displayOrder": 96,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.CategoryInfo, MoneyGram.AgentConnect.DomainModel",
+            "infos": [
+              {
+                "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+                "display": true,
+                "dataType": 1,
+                "enumeration": null,
+                "infoKey": "messageField1",
+                "label": "Message Field 1",
+                "labelStandAlone": "Message Field 1",
+                "displayOrder": 1,
+                "helpTextShort": null,
+                "helpTextLong": null,
+                "documentation": null
+              },
+              {
+                "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+                "display": true,
+                "dataType": 1,
+                "enumeration": null,
+                "infoKey": "messageField2",
+                "label": "Message Field 2",
+                "labelStandAlone": "Message Field 2",
+                "displayOrder": 2,
+                "helpTextShort": null,
+                "helpTextLong": null,
+                "documentation": null
+              }
+            ],
+            "infoKey": "lookupTransactionInfoGeneralSet",
+            "label": "General Details",
+            "labelStandAlone": "Transaction General Details",
+            "displayOrder": 98,
+            "helpTextShort": null,
+            "helpTextLong": null,
+            "documentation": null
+          }
+        ],
+        "infoKey": "lookupTransactionInfoSet",
+        "label": "Transaction Information",
+        "labelStandAlone": "Transaction Information",
+        "displayOrder": 2,
+        "helpTextShort": null,
+        "helpTextLong": null,
+        "documentation": null
+      },
+      {
+        "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.CategoryInfo, MoneyGram.AgentConnect.DomainModel",
+        "infos": [
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "sender_FirstName",
+            "label": "First/Given Name",
+            "labelStandAlone": "Sender First/Given Name",
+            "displayOrder": 1,
+            "helpTextShort": null,
+            "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed",
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "sender_MiddleName",
+            "label": "Middle Name",
+            "labelStandAlone": "Sender Middle Name",
+            "displayOrder": 2,
+            "helpTextShort": null,
+            "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed",
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "sender_LastName",
+            "label": "Last/Family Name",
+            "labelStandAlone": "Sender Last/Family Name",
+            "displayOrder": 3,
+            "helpTextShort": null,
+            "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed",
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "sender_LastName2",
+            "label": "Second Last/Family Name",
+            "labelStandAlone": "Sender Second Last/Family Name",
+            "displayOrder": 4,
+            "helpTextShort": null,
+            "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed",
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "sender_PrimaryPhone",
+            "label": "Primary Phone Number",
+            "labelStandAlone": "Sender Primary Phone Number",
+            "displayOrder": 15,
+            "helpTextShort": null,
+            "helpTextLong": "Only numeric characters are allowed. Cannot contain a string of repeating numeric characters (example 8888888)",
+            "documentation": null
+          }
+        ],
+        "infoKey": "lookupSenderInformationSet",
+        "label": "Sender Information",
+        "labelStandAlone": "Sender Information",
+        "displayOrder": 4,
+        "helpTextShort": null,
+        "helpTextLong": null,
+        "documentation": null
+      },
+      {
+        "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.CategoryInfo, MoneyGram.AgentConnect.DomainModel",
+        "infos": [
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "receiver_FirstName",
+            "label": "First/Given Name",
+            "labelStandAlone": "Receiver First/Given Name",
+            "displayOrder": 1,
+            "helpTextShort": null,
+            "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed",
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "receiver_MiddleName",
+            "label": "Middle Name",
+            "labelStandAlone": "Receiver Middle Name",
+            "displayOrder": 2,
+            "helpTextShort": null,
+            "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed",
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "receiver_LastName",
+            "label": "Last/Family Name",
+            "labelStandAlone": "Receiver Last/Family Name",
+            "displayOrder": 3,
+            "helpTextShort": null,
+            "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed",
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "receiver_LastName2",
+            "label": "Second Last/Family Name",
+            "labelStandAlone": "Receiver Second Last/Family Name",
+            "displayOrder": 4,
+            "helpTextShort": null,
+            "helpTextLong": "Cannot start with special character, cannot contain number. Only alpha characters, dash (-) and apostrophe (') allowed",
+            "documentation": null
+          },
+          {
+            "$type": "MoneyGram.AgentConnect.DomainModel.Transaction.FieldInfo, MoneyGram.AgentConnect.DomainModel",
+            "display": true,
+            "dataType": 1,
+            "enumeration": null,
+            "infoKey": "receiver_PrimaryPhone",
+            "label": "Primary Phone Number",
+            "labelStandAlone": "Receiver Primary Phone Number",
+            "displayOrder": 15,
+            "helpTextShort": null,
+            "helpTextLong": "Only numeric characters are allowed. Cannot contain a string of repeating numeric characters (example 8888888)",
+            "documentation": null
+          }
+        ],
+        "infoKey": "lookupReceiverInformationSet",
+        "label": "Receiver Information",
+        "labelStandAlone": "Receiver Information",
+        "displayOrder": 6,
+        "helpTextShort": null,
+        "helpTextLong": null,
+        "documentation": null
+      }
+    ],
+    "doCheckIn": false,
+    "timeStamp": "2018-05-16T12:41:33.147+02:00",
+    "flags": 0
+  },
+  "errors": []
+}

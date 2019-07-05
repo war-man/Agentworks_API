@@ -1,0 +1,40 @@
+﻿{
+  "rangeInfos": [
+    {
+      "display": "No IDs No Third Party",
+      "code": "NoIdsNoThirdParty",
+      "min": 0.0,
+      "max": 0.0
+    },
+    {
+      "display": "Single ID",
+      "code": "SingleId",
+      "min": 0.0,
+      "max": 0.0
+    },
+    {
+      "display": "Two IDs",
+      "code": "TwoIds",
+      "min": 0.0,
+      "max": 0.0
+    },
+    {
+      "display": "Third Party",
+      "code": "ThirdParty",
+      "min": 0.0,
+      "max": 0.0
+    },
+    {
+      "display": "Above Allowed",
+      "code": "AboveAllowed",
+      "min": 0.0,
+      "max": 0.0  
+    },
+    {
+      "display": "Under One Hundred",
+      "code": "UnderOneHundred",
+      "min": 0.0,
+      "max": 0.0  
+    }
+  ]
+}

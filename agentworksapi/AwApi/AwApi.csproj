@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{64F1D8C5-E8E2-4A4D-AE52-52FC409A5C56}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AwApi</RootNamespace>
+    <AssemblyName>AwApi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <Disable_CopyWebApplication>true</Disable_CopyWebApplication>
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=8.1.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.8.1.0\lib\net461\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.2.2.0\lib\net461\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.4.0.0\lib\net451\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.HttpListener, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.HttpListener.4.0.0\lib\net451\Microsoft.Owin.Host.HttpListener.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.4.0.0\lib\net451\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Hosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Hosting.4.0.0\lib\net451\Microsoft.Owin.Hosting.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.4.0.0\lib\net451\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.6.3\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.Web.4.8.2\lib\net35\NLog.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration.ConfigurationManager, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.4.5.0\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.6\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security.AccessControl, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.4.5.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Permissions.4.5.0\lib\net461\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.4.5.1\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Http, Version=4.5.0.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Http.4.5.3\lib\net461\System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives, Version=4.5.0.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ServiceModel.Primitives.4.5.3\lib\net461\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System" />
+    <Reference Include="System.Web.Cors, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.2.6\lib\net45\System.Web.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Http, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.6\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.Cors, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.6\lib\net45\System.Web.Http.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.Owin, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Owin.5.2.6\lib\net45\System.Web.Http.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.6\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\D1\appSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\D2\appSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\D5\appSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\External\appSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Prod\appSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Q1\appSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Q2\appSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Q3\appSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Q5\appSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\D1\apiKeys.json" />
+    <Content Include="Config\D1\fakeAuthAgents.json" />
+    <Content Include="Config\D2\fakeAuthAgents.json" />
+    <Content Include="Config\D5\fakeAuthAgents.json" />
+    <Content Include="Config\Q5\fakeAuthAgents.json" />
+    <Content Include="Config\Q3\fakeAuthAgents.json" />
+    <Content Include="Config\D3\fakeAuthAgents.json" />
+    <Content Include="Config\D3\appSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Dev\appSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Dev\fakeAuthAgents.json" />
+    <Content Include="Config\QA\appSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\QA\fakeAuthAgents.json" />
+    <Content Include="Config\QA_FakeAuth\appSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\QA_FakeAuth\fakeAuthAgents.json" />
+    <Content Include="Config\D1\supportKeys.json" />
+    <Content Include="Config\D2\supportKeys.json" />
+    <Content Include="Config\D5\supportKeys.json" />
+    <Content Include="Config\Dev\supportKeys.json" />
+    <Content Include="Config\External\supportKeys.json" />
+    <Content Include="Config\Prod\supportKeys.json" />
+    <Content Include="Config\Q1\supportKeys.json" />
+    <Content Include="Config\Q2\supportKeys.json" />
+    <Content Include="Config\Q3\supportKeys.json" />
+    <Content Include="Config\Q5\supportKeys.json" />
+    <Content Include="Config\QA\supportKeys.json" />
+    <Content Include="Config\QA_FakeAuth\supportKeys.json" />
+    <Content Include="Config\D3\supportKeys.json" />
+    <Content Include="Config\Local\apiKeys.json" />
+    <Content Include="Config\Local\appSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Local\fakeAuthAgents.json" />
+    <Content Include="Config\Local\supportKeys.json" />
+    <Content Include="Config\Q2\fakeAuthAgents.json" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\rel\appSettings.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\rel\fakeAuthAgents.json" />
+    <Content Include="Config\rel\supportKeys.json" />
+    <Content Include="Config\Q1\fakeAuthAgents.json" />
+    <Content Include="Config\Prod\Couchbase\Cluster1\couchbaseConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Prod\Couchbase\Cluster2\couchbaseConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Local\Couchbase\couchbaseConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\External\Couchbase\couchbaseConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Dev\Couchbase\couchbaseConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\D5\Couchbase\couchbaseConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\D3\CouchBase\couchbaseConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\D2\Couchbase\couchbaseConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\D1\Couchbase\couchbaseConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Prod\Couchbase\couchbaseConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Local\NLog.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\NLog.common.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\D1\NLog.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\D2\NLog.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\D3\NLog.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\D5\NLog.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Dev\NLog.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\External\NLog.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Prod\NLog.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\D2\apiKeys.json" />
+    <Content Include="Config\D3\apiKeys.json" />
+    <Content Include="Config\D5\apiKeys.json" />
+    <Content Include="Config\Dev\apiKeys.json" />
+    <None Include="Config\Q1\Couchbase\Cluster1\couchbaseConfig.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Config\Q1\Couchbase\Cluster2\couchbaseConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\QA\Couchbase\couchbaseConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Q5\Couchbase\couchbaseConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Q3\Couchbase\couchbaseConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Q2\Couchbase\couchbaseConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Q1\Couchbase\couchbaseConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\rel\Couchbase\couchbaseConfig.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\QA_FakeAuth\Couchbase\couchbaseConfig.config" />
+    <Content Include="Config\Q1\NLog.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Q2\NLog.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Q3\NLog.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Q5\NLog.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\QA\NLog.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\QA_FakeAuth\NLog.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\rel\NLog.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Config\Q2\apiKeys.json" />
+    <Content Include="Config\Q3\apiKeys.json" />
+    <Content Include="Config\Q5\apiKeys.json" />
+    <Content Include="Config\QA\apiKeys.json" />
+    <Content Include="Config\QA_FakeAuth\apiKeys.json" />
+    <Content Include="Config\rel\apiKeys.json" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\AmendController.cs" />
+    <Compile Include="Controllers\BankController.cs" />
+    <Compile Include="Controllers\BillPayController.cs" />
+    <Compile Include="Controllers\ConsumerController.cs" />
+    <Compile Include="Controllers\DepositController.cs" />
+    <Compile Include="Controllers\DocumentController.cs" />
+    <Compile Include="Controllers\EventController.cs" />
+    <Compile Include="Controllers\InternalController.cs" />
+    <Compile Include="Controllers\LanguageController.cs" />
+    <Compile Include="Controllers\LocationController.cs" />
+    <Compile Include="Controllers\MoneyOrderController.cs" />
+    <Compile Include="Controllers\ProfileController.cs" />
+    <Compile Include="Controllers\ReceiveReversalController.cs" />
+    <Compile Include="Controllers\ReportController.cs" />
+    <Compile Include="Controllers\ReceiveController.cs" />
+    <Compile Include="Controllers\LookupController.cs" />
+    <Compile Include="Controllers\SendController.cs" />
+    <Compile Include="Controllers\OperatorController.cs" />
+    <Compile Include="Controllers\SendReversalController.cs" />
+    <Compile Include="Controllers\StagedBillPayController.cs" />
+    <Compile Include="Controllers\StagedReceiveController.cs" />
+    <Compile Include="Controllers\StagedSendController.cs" />
+    <Compile Include="Controllers\EditTransferController.cs" />
+    <Compile Include="Controllers\StatusController.cs" />
+    <Compile Include="Controllers\SupportController.cs" />
+    <Compile Include="Infrastructure\CorsManager.cs" />
+    <Compile Include="Infrastructure\DiagnosticsFilterAttribute.cs" />
+    <Compile Include="Infrastructure\HeaderFilter.cs" />
+    <Compile Include="Infrastructure\MgiExceptionFilter.cs" />
+    <Compile Include="Infrastructure\SerializerManager.cs" />
+    <Compile Include="Infrastructure\RequestMetadataMiddleware.cs" />
+    <Compile Include="Infrastructure\RequestTimingMiddleware.cs" />
+    <Compile Include="Infrastructure\RoutesManager.cs" />
+    <Compile Include="Infrastructure\OctetStreamMediaFormatter.cs" />
+    <Compile Include="Infrastructure\SecurityProtocolManager.cs" />
+    <Compile Include="Infrastructure\SplunkTraceWriter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AwApi.Auth\AwApi.Auth.csproj">
+      <Project>{4eeb53dc-2434-4a9e-a0ae-2bf46a82a522}</Project>
+      <Name>AwApi.Auth</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AwApi.Business\AwApi.Business.csproj">
+      <Project>{0f6922d9-c782-4675-8ed2-51bbc8e1d50b}</Project>
+      <Name>AwApi.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AwApi.Documentation\AwApi.Documentation.csproj">
+      <Project>{116E56CE-255B-4E33-91B2-0E54331F1FB0}</Project>
+      <Name>AwApi.Documentation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AwApi.EntityMapper\AwApi.EntityMapper.csproj">
+      <Project>{0592667a-8aee-4d94-8d4b-0b42021e5513}</Project>
+      <Name>AwApi.EntityMapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AwApi.Ioc\AwApi.Ioc.csproj">
+      <Project>{f0604506-7f0b-409c-9c5a-ace3ae747874}</Project>
+      <Name>AwApi.Ioc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AwApi.ViewModels\AwApi.ViewModels.csproj">
+      <Project>{22aaf2bb-70d0-43a3-b231-265c6c79baea}</Project>
+      <Name>AwApi.ViewModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.AgentConnect.DomainModel\MoneyGram.AgentConnect.DomainModel.csproj">
+      <Project>{ecd9abbb-5222-47cb-abb2-62f2789509eb}</Project>
+      <Name>MoneyGram.AgentConnect.DomainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.Common.Cache\MoneyGram.Common.Cache.csproj">
+      <Project>{8C88858F-248F-4B7A-AA51-8FA9503A5F62}</Project>
+      <Name>MoneyGram.Common.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.Common.Localization\MoneyGram.Common.Localization.csproj">
+      <Project>{FF84CBB7-295E-4C36-8C8C-433AB309B08B}</Project>
+      <Name>MoneyGram.Common.Localization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoneyGram.Common\MoneyGram.Common.csproj">
+      <Project>{7645bf39-6ad8-43f2-b2fc-7b599deeddb3}</Project>
+      <Name>MoneyGram.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <DocumentationFile>bin\AwApi.xml</DocumentationFile>
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\AwApi.XML</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v14.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52029</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:8080/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>$(SolutionDir)Languages\LangProcessor\LangProcessor.exe -s$(SolutionDir)Languages\Applications -d$(SolutionDir)Languages\Applications
+FOR /d %25%25a in ($(SolutionDir)Languages\Applications\*) DO (xcopy "$(SolutionDir)Languages\Applications\%25%25~nxa\dist" "$(TargetDir)\Languages\%25%25~nxa\" /Y /I)
+if $(ConfigurationName) == Debug (
+  IF EXIST "$(ProjectDir)Config\Local\apiKeys.json" xcopy /y "$(ProjectDir)Config\Local\apiKeys.json" "$(TargetDir)\App_Data\*"
+  IF EXIST "$(ProjectDir)Config\Local\fakeAuthAgents.json" xcopy /y "$(ProjectDir)Config\Local\fakeAuthAgents.json" "$(TargetDir)\App_Data\*"
+  IF EXIST "$(ProjectDir)Config\Local\supportKeys.json" xcopy /y "$(ProjectDir)Config\Local\supportKeys.json" "$(TargetDir)\App_Data\*"
+  IF EXIST "$(ProjectDir)Config\Local\appSettings.config" xcopy /y "$(ProjectDir)Config\Local\appSettings.config" "$(ProjectDir)\Config\*"
+  IF EXIST "$(ProjectDir)Config\Local\NLog.config" xcopy /y "$(ProjectDir)Config\Local\NLog.config" "$(ProjectDir)\Config\*"
+  IF EXIST "$(ProjectDir)Config\Local\Couchbase\couchbaseConfig.config" xcopy /y "$(ProjectDir)Config\Local\Couchbase\couchbaseConfig.config" "$(ProjectDir)\Config\*"
+)</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <CopyAllFilesToSingleFolderForPackageDependsOn>
+        PublishTranslations;
+        PublishAgents;
+        PublishXmlDocumentation;
+        $(CopyAllFilesToSingleFolderForPackageDependsOn);
+    </CopyAllFilesToSingleFolderForPackageDependsOn>
+    <CopyAllFilesToSingleFolderForMsdeployDependsOn>
+        PublishTranslations;
+        PublishAgents;
+        PublishXmlDocumentation;
+        $(CopyAllFilesToSingleFolderForPackageDependsOn);
+    </CopyAllFilesToSingleFolderForMsdeployDependsOn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <Target Name="PublishTranslations">
+    <ItemGroup>
+      <_Translations_ Include="..\Languages\AgentWorks\dist\*.json" />
+      <FilesForPackagingFromProject Include="%(_Translations_.Identity)">
+        <DestinationRelativePath>bin\Languages\%(Filename)%(Extension)</DestinationRelativePath>
+      </FilesForPackagingFromProject>
+    </ItemGroup>
+  </Target>
+  <Target Name="PublishAgents">
+    <ItemGroup>
+      <_Agents_ Include="..\AwApi.Integration\json\AgentProfiles.json" />
+      <FilesForPackagingFromProject Include="%(_Agents_.Identity)">
+        <DestinationRelativePath>bin\json\%(Filename)%(Extension)</DestinationRelativePath>
+      </FilesForPackagingFromProject>
+    </ItemGroup>
+  </Target>
+  <Target Name="PublishXmlDocumentation">
+    <ItemGroup>
+      <_XmlDocumentation_ Include="..\AwApi\bin\AwApi.ViewModels.xml" />
+      <FilesForPackagingFromProject Include="%(_XmlDocumentation_.Identity)">
+        <DestinationRelativePath>bin\%(Filename)%(Extension)</DestinationRelativePath>
+      </FilesForPackagingFromProject>
+    </ItemGroup>
+  </Target>
+</Project>
